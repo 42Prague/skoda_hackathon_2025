@@ -9,6 +9,8 @@ Before you start, please **carefully read all documents** in the `resources/` fo
 * `resources/AI_SkillCoach_IT_Guidlines.pdf`: Contains all rules, guidelines and tips.
 * `resources/AI_Skill_Coach_Hackathon_42Prague_KickOff_18.11.2025_EN.pdf`: Contains a brief description of the project, evaluation criteria.
 
+The **Data source** will be provided by Skoda thorugh email to all participants along with **api keys** for your environments which will be deleted at the end of the Hackathon.\
+⚠️ Make sure you got the email. If not, reach out to any of the Skoda staff. Thanks!
 
 ---
 
