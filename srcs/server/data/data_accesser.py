@@ -37,14 +37,15 @@ class DataAccesser:
             cache.
         """
         try:
-            from .loader import load_employees_from_excel  # local import to avoid cycles
+            from .loader import EmployeeLoader  # local import to avoid circular deps
         except ImportError as exc:
             raise ImportError("pandas + openpyxl are required for Excel loading: pip install pandas openpyxl") from exc
 
-        employees = load_employees_from_excel(file_path)
-        for emp in employees:
+        loader = EmployeeLoader()
+        employees_dict = loader.load_from_excel(file_path)
+        for emp in employees_dict.values():
             self.cache_employee(emp)
-        return len(employees)
+        return len(employees_dict)
     def get_employee_data(self, employee_id: int) -> Optional[Employee]:
         """Return the Employee record for a given *personal number*.
 
