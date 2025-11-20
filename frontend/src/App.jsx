@@ -259,7 +259,12 @@ function App() {
               </TabsList>
 
               <TabsContent value="profile">
-                <ProfileTab profile={profile} isLoading={loadingProfile} />
+                <ProfileTab 
+                  profile={profile} 
+                  isLoading={loadingProfile}
+                  selectedRoleId={selectedRole}
+                  roles={roles}
+                />
               </TabsContent>
 
               <TabsContent value="gaps">

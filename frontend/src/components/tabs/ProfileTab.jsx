@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
-export default function ProfileTab({ profile, isLoading }) {
+export default function ProfileTab({ profile, isLoading, selectedRoleId, roles = [] }) {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-64">
@@ -52,9 +52,14 @@ export default function ProfileTab({ profile, isLoading }) {
             </div>
             <div>
               <p className="text-sm font-medium text-muted-foreground">
-                Planned Position
+                {selectedRoleId ? 'Target Role' : 'Planned Position'}
               </p>
-              <p className="text-base">{employee.planned_position || 'N/A'}</p>
+              <p className="text-base">
+                {selectedRoleId 
+                  ? roles.find(r => r.role_id === selectedRoleId)?.name || 'N/A'
+                  : employee.planned_position || 'N/A'
+                }
+              </p>
             </div>
           </div>
         </CardContent>
