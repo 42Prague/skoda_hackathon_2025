@@ -133,6 +133,15 @@ def clean_course_participation(df: pd.DataFrame) -> pd.DataFrame:
     }
     _log_schema_diff(df, expected, "Course Participation")
     
+    # Map actual columns to expected names
+    column_mapping = {
+        'id_ucastnika': 'personal_number',
+        'datum_zahajeni': 'datum_zahajeni',
+        'datum_ukonceni': 'datum_ukonceni',
+        'oznaceni_typu_akce': 'oznaceni_typu_akce'
+    }
+    df = df.rename(columns=column_mapping)
+    
     # Normalize personal_number
     if 'personal_number' in df.columns:
         df['personal_number'] = df['personal_number'].astype(str).str.strip()
@@ -155,6 +164,15 @@ def clean_qualifications(df: pd.DataFrame) -> pd.DataFrame:
     """
     expected = {'personal_number', 'id_q', 'name_q', 'start_date', 'end_date'}
     _log_schema_diff(df, expected, "Qualifications")
+    
+    # Map actual columns to expected names
+    column_mapping = {
+        'id_p': 'personal_number',
+        'nazev_q': 'name_q',
+        'pocat_datum': 'start_date',
+        'koncove_datum': 'end_date'
+    }
+    df = df.rename(columns=column_mapping)
     
     # Normalize personal_number
     if 'personal_number' in df.columns:
@@ -182,6 +200,17 @@ def clean_org_structure(df: pd.DataFrame) -> pd.DataFrame:
     """
     expected = {'objid', 'paren', 'short'}
     _log_schema_diff(df, expected, "Org Structure")
+    
+    # Map actual columns to expected names
+    column_mapping = {
+        'sa_org_hierarchy_objid': 'objid',
+        'sa_org_hierarchy_paren': 'paren',
+        'sa_org_hierarchy_short': 'short',
+        'sa_org_hierarchy_stxte': 'stxte',
+        'sa_org_hierarchy_stxtc': 'stxtc',
+        'sa_org_hierarchy_stxtd': 'stxtd'
+    }
+    df = df.rename(columns=column_mapping)
     
     return df
 
@@ -219,6 +248,14 @@ def clean_skill_mapping(mapping_df: pd.DataFrame,
     if mapping_df is not None:
         expected = {'course_id', 'skill_id', 'skill_name'}
         _log_schema_diff(mapping_df, expected, "Skill Mapping (Mapping sheet)")
+        
+        # Map actual columns to expected names
+        column_mapping = {
+            'id_objektu': 'course_id',
+            'id_skillu': 'skill_id',
+            'skill_v_en': 'skill_name'
+        }
+        mapping_df = mapping_df.rename(columns=column_mapping)
         result['mapping'] = mapping_df
     
     if skills_df is not None:
@@ -243,6 +280,13 @@ def clean_role_qualifications(df: pd.DataFrame) -> pd.DataFrame:
     expected = {'planned_position_id', 'id_kvalifikace', 'kvalifikace'}
     _log_schema_diff(df, expected, "Role Qualifications")
     
+    # Map actual columns to expected names
+    column_mapping = {
+        'cislo_fm': 'planned_position_id'
+        # Keep id_kvalifikace and kvalifikace as-is if they exist
+    }
+    df = df.rename(columns=column_mapping)
+    
     return df
 
 
@@ -259,6 +303,12 @@ def clean_degreed_events(df: pd.DataFrame) -> pd.DataFrame:
         'completion_date', 'estimated_learning_minutes'
     }
     _log_schema_diff(df, expected, "Degreed Events")
+    
+    # Map actual columns to expected names
+    column_mapping = {
+        'completed_date': 'completion_date'
+    }
+    df = df.rename(columns=column_mapping)
     
     # Normalize employee_id to string
     if 'employee_id' in df.columns:
