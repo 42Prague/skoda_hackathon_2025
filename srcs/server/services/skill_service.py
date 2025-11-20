@@ -9,7 +9,7 @@ from services.employee_service import EmployeeService
 from models.employee import Employee
 import math
 from data.data_accesser import DataAccesser
-from .calculate_diagram import DiagramCalculator
+from .skill_analyzer import SkillAnalyzer
 
 class SkillService:
     """
@@ -21,7 +21,7 @@ class SkillService:
         """Initialize with employee service"""
         self.employee_service = EmployeeService()
         self.data_accesser = DataAccesser()
-        self.diagram_calculator = DiagramCalculator()
+        self.skill_analyzer = SkillAnalyzer()
         
     def get_skill_breadth(self, employee_id: int) -> Optional[int]:
         """
@@ -47,13 +47,13 @@ class SkillService:
         
         # Example diagram data (could be expanded)
         diagram_data = {
-            "breadth": self.diagram_calculator.get_breadth(employee),
-            "depth": self.diagram_calculator.get_skill_depth(employee),
-            "learning_intensity": self.diagram_calculator.get_learning_intensity(employee),
-            "qualification_strength": self.diagram_calculator.get_qualification_strength(employee),
-            "job_requirement_coverage": self.diagram_calculator.get_job_requirement_coverage(employee),
-            "skill_gap_index": self.diagram_calculator.get_skill_gap_index(employee),
-            "recent_learning_index": self.diagram_calculator.get_recent_learning_index(employee),
+            "breadth": self.skill_analyzer.get_breadth(employee),
+            "depth": self.skill_analyzer.get_skill_depth(employee),
+            "learning_intensity": self.skill_analyzer.get_learning_intensity(employee),
+            "qualification_strength": self.skill_analyzer.get_qualification_strength(employee),
+            "job_requirement_coverage": self.skill_analyzer.get_job_requirement_coverage(employee),
+            "skill_gap_index": self.skill_analyzer.get_skill_gap_index(employee),
+            "recent_learning_index": self.skill_analyzer.get_recent_learning_index(employee),
         }
         
         return diagram_data
