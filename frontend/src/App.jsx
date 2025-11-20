@@ -198,7 +198,7 @@ function App() {
                     <SelectTrigger>
                       <SelectValue placeholder="Choose employee..." />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="max-h-[300px] overflow-y-auto">
                       {employees.map((emp) => (
                         <SelectItem key={emp.personal_number} value={emp.personal_number}>
                           {emp.user_name} - {emp.profession}
@@ -223,7 +223,7 @@ function App() {
                     <SelectTrigger>
                       <SelectValue placeholder="Choose role..." />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="max-h-[300px] overflow-y-auto">
                       {currentEmployee?.planned_position_id && (
                         <SelectItem value={currentEmployee.planned_position_id}>
                           📍 {currentEmployee.planned_position || 'My Planned Position'}
