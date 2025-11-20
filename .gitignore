@@ -4,3 +4,6 @@
 data
 Data
 *.log
+persistent_data/clean_parquet
+persistent_data/raw_xlsx
+persistent_data
