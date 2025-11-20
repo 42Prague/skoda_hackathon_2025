@@ -21,6 +21,7 @@ class Employee:
     persstat_ob3: Optional[str] = None
     persstat_ob5: Optional[str] = None
     persstat_ob8: Optional[str] = None
+    coordinator_group_id: Optional[str] = None
     sa_org_hierarchy_objid: Optional[str] = None
     profession_id: Optional[str] = None
     profession: Optional[str] = None
@@ -37,4 +38,5 @@ class Employee:
     field_of_study_id: Optional[str] = None
     field_of_study_name: Optional[str] = None
     field_of_study_code_ispv: Optional[str] = None
+    user_name: Optional[str] = None
     employee_id: Optional[int] = None
