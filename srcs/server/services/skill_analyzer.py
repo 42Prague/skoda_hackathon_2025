@@ -7,6 +7,7 @@ from typing import List, Dict, Any, Optional
 from ..models.employee import Employee, create_sample_employees
 import json
 from collections import Counter
+from data.data_accesser import g_data_accesser
 
 class SkillAnalyzer:
     """
@@ -23,7 +24,10 @@ class SkillAnalyzer:
     
     def get_breadth(self, employee_id: Employee) -> float:
         """Retrieve employee data by ID"""
-        return 0.0
+        employee = g_data_accesser.get_employee_data(employee_id)
+        if not employee:
+            return 0.0
+        return len(employee.skills)
 
     def get_skill_depth(self, employee_id: Employee) -> float:
         """Retrieve employee data by ID"""
