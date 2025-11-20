@@ -4,7 +4,7 @@ Utilities for loading employee data from external sources.
 
 from __future__ import annotations
 
-from typing import List, Dict, Any
+from typing import Dict, Any, List
 
 import pandas as pd
 
@@ -58,20 +58,21 @@ def _row_to_employee(row: Dict[str, Any]) -> Employee:
     return Employee(**kwargs)  # type: ignore[arg-type]
 
 
-def load_employees_from_excel(file_path: str) -> List[Employee]:
+def load_employees_from_excel(file_path: str) -> Dict[str, Employee]:
     """Load employees from an Excel (.xlsx) file.
 
-    The sheet must contain at least a column named ``personal_number``.
-    Other columns matching `Employee` field names are mapped automatically.
-    Unknown columns are ignored.
+    The sheet must contain at least the column
+    ``persstat_start_month.personal_number``.
+
+    Returns a dictionary keyed by ``personal_number`` for easy lookup.
     """
     df = pd.read_excel(file_path, dtype=str)
-    employees: List[Employee] = []
+    result: Dict[str, Employee] = {}
     for _, row in df.iterrows():
         try:
             emp = _row_to_employee(row)
-            employees.append(emp)
+            result[emp.personal_number] = emp
         except Exception:
             # Skip invalid rows; in production you might log this.
             continue
-    return employees
+    return result
