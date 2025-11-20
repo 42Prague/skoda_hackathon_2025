@@ -25,16 +25,41 @@ fi
 # Start backend
 echo "🔧 Starting backend server..."
 cd backend
-./venv/bin/python main.py > backend.log 2>&1 &
+./venv/bin/python -u main.py > backend.log 2>&1 &
 BACKEND_PID=$!
 cd ..
-sleep 2
+echo "   Waiting for backend to initialize (this may take 2-3 minutes with large data files)..."
 
-# Check if backend started successfully
-if curl -s http://localhost:8000/health > /dev/null 2>&1; then
+# Check backend health with retries
+MAX_RETRIES=36  # 36 retries * 5 seconds = 3 minutes
+RETRY_COUNT=0
+BACKEND_READY=false
+
+while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+    sleep 5
+    RETRY_COUNT=$((RETRY_COUNT + 1))
+    
+    if curl -s http://localhost:8000/health > /dev/null 2>&1; then
+        BACKEND_READY=true
+        break
+    fi
+    
+    # Show progress indicator
+    if [ $((RETRY_COUNT % 3)) -eq 0 ]; then
+        ELAPSED=$((RETRY_COUNT * 5))
+        echo "   Still loading... (${ELAPSED}s elapsed)"
+    fi
+done
+
+if [ "$BACKEND_READY" = true ]; then
     echo "✅ Backend running on http://localhost:8000 (PID: $BACKEND_PID)"
 else
     echo "❌ Backend failed to start. Check backend/backend.log"
+    echo ""
+    echo "-- Last 20 lines of backend.log --"
+    tail -n 20 backend/backend.log
+    echo "-- end of logs --"
+    echo ""
     kill $BACKEND_PID 2>/dev/null || true
     exit 1
 fi

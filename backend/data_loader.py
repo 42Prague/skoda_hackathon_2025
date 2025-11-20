@@ -23,16 +23,18 @@ class DataLoader:
         
     def load_all(self):
         """Load all data files and build in-memory structures"""
-        print("Loading data files...")
+        import sys
+        print("Loading data files...", flush=True)
         
         # Try to load real data, fall back to mock data if files don't exist
         if self._check_data_files_exist():
+            print("✓ Data files found, loading real data...", flush=True)
             self._load_real_data()
         else:
-            print("Data files not found, using mock data for development")
+            print("Data files not found, using mock data for development", flush=True)
             self._load_mock_data()
             
-        print(f"Loaded {len(self.employees)} employees and {len(self.roles)} roles")
+        print(f"Loaded {len(self.employees)} employees and {len(self.roles)} roles", flush=True)
         
     def _check_data_files_exist(self) -> bool:
         """Check if required data files exist"""
@@ -40,55 +42,81 @@ class DataLoader:
             "ERP_SK1.Start_month - SE.xlsx",
             "ZHRPD_VZD_STA_007.xlsx",
         ]
+        # Degreed.xlsx is optional
         return all((self.data_dir / f).exists() for f in required_files)
     
     def _load_real_data(self):
         """Load real data from Excel files"""
-        self._load_employees()
-        self._load_courses()
-        self._load_skills()
-        self._load_qualifications()
-        self._load_required_qualifications()
-        self._load_degreed()
-        self._build_employee_profiles()
-        self._build_role_profiles()
+        import sys
+        try:
+            print("   Loading employees...", flush=True)
+            self._load_employees()
+            print("   Loading courses...", flush=True)
+            self._load_courses()
+            print("   Loading skills...", flush=True)
+            self._load_skills()
+            print("   Loading qualifications...", flush=True)
+            self._load_qualifications()
+            print("   Loading required qualifications...", flush=True)
+            self._load_required_qualifications()
+            print("   Loading Degreed data...", flush=True)
+            self._load_degreed()
+            print("   Building employee profiles...", flush=True)
+            self._build_employee_profiles()
+            print("   Building role profiles...", flush=True)
+            self._build_role_profiles()
+            print("✓ Real data loaded successfully", flush=True)
+        except Exception as e:
+            print(f"❌ Error loading real data: {type(e).__name__}: {e}", flush=True)
+            print(f"   Falling back to mock data", flush=True)
+            import traceback
+            traceback.print_exc()
+            sys.stdout.flush()
+            sys.stderr.flush()
+            self._load_mock_data()
     
     def _load_employees(self):
         """Load employee data from ERP_SK1.Start_month - SE.xlsx"""
-        df = pd.read_excel(self.data_dir / "ERP_SK1.Start_month - SE.xlsx")
-        
-        # Handle prefixed column names (persstat_start_month.*)
-        df.columns = [col.replace('persstat_start_month.', '') for col in df.columns]
-        
-        for _, row in df.iterrows():
-            personal_number = str(row.get("personal_number", "")).strip()
-            user_name = str(row.get("user_name", "")).strip()
+        try:
+            df = pd.read_excel(self.data_dir / "ERP_SK1.Start_month - SE.xlsx")
             
-            if not personal_number or personal_number == "nan":
-                continue
+            # Handle prefixed column names (persstat_start_month.*)
+            df.columns = [col.replace('persstat_start_month.', '') for col in df.columns]
             
-            employee = {
-                "personal_number": personal_number,
-                "user_name": user_name,
-                "profession": str(row.get("profession", "")).strip(),
-                "planned_profession": str(row.get("planned_profession", "")).strip(),
-                "planned_position_id": str(row.get("planned_position_id", "")),
-                "planned_position": str(row.get("planned_position", "")),
-            }
-            
-            self.employees[personal_number] = employee
-            
-            # Also collect unique roles from planned positions
-            planned_pos_id = str(row.get("planned_position_id", "")).strip()
-            planned_pos_name = str(row.get("planned_position", "")).strip()
-            
-            if planned_pos_id and planned_pos_id != "nan" and planned_pos_id not in self.roles:
-                self.roles[planned_pos_id] = {
-                    "role_id": planned_pos_id,
-                    "name": planned_pos_name if planned_pos_name and planned_pos_name != "nan" else f"Position {planned_pos_id}",
-                    "org_unit": "",
-                    "description": f"Target position: {planned_pos_name}" if planned_pos_name else ""
+            for _, row in df.iterrows():
+                personal_number = str(row.get("personal_number", "")).strip()
+                user_name = str(row.get("user_name", "")).strip()
+                
+                if not personal_number or personal_number == "nan":
+                    continue
+                
+                employee = {
+                    "personal_number": personal_number,
+                    "user_name": user_name,
+                    "profession": str(row.get("profession", "")).strip(),
+                    "planned_profession": str(row.get("planned_profession", "")).strip(),
+                    "planned_position_id": str(row.get("planned_position_id", "")),
+                    "planned_position": str(row.get("planned_position", "")),
                 }
+                
+                self.employees[personal_number] = employee
+                
+                # Also collect unique roles from planned positions
+                planned_pos_id = str(row.get("planned_position_id", "")).strip()
+                planned_pos_name = str(row.get("planned_position", "")).strip()
+                
+                if planned_pos_id and planned_pos_id != "nan" and planned_pos_id not in self.roles:
+                    self.roles[planned_pos_id] = {
+                        "role_id": planned_pos_id,
+                        "name": planned_pos_name if planned_pos_name and planned_pos_name != "nan" else f"Position {planned_pos_id}",
+                        "org_unit": "",
+                        "description": f"Target position: {planned_pos_name}" if planned_pos_name else ""
+                    }
+            
+            print(f"Loaded {len(self.employees)} employees from employee data file")
+        except Exception as e:
+            print(f"❌ Error loading employee data: {type(e).__name__}: {e}")
+            raise
     
     def _load_courses(self):
         """Load course attendance from ZHRPD_VZD_STA_007.xlsx"""
@@ -194,10 +222,44 @@ class DataLoader:
     
     def _load_degreed(self):
         """Load Degreed data"""
+        import sys
+        
+        degreed_path = self.data_dir / "Degreed.xlsx"
+        if not degreed_path.exists():
+            print(f"   Warning: Degreed.xlsx not found, skipping", flush=True)
+            return
+        
         try:
-            df = pd.read_excel(self.data_dir / "Degreed.xlsx")
+            print(f"      Reading Degreed.xlsx...", flush=True)
+            file_size = degreed_path.stat().st_size / (1024 * 1024)  # MB
+            print(f"      File size: {file_size:.2f} MB", flush=True)
             
-            for _, row in df.iterrows():
+            if file_size > 30:
+                print(f"      Large file detected, this may take 30-60 seconds...", flush=True)
+            
+            sys.stdout.flush()
+            sys.stderr.flush()
+            
+            # For very large files, use read_csv on the Excel file converted or skip
+            # For this hackathon, we try with openpyxl but with minimal processing
+            print(f"      Loading with openpyxl (please wait)...", flush=True)
+            sys.stdout.flush()
+            
+            df = pd.read_excel(degreed_path, engine='openpyxl')
+            
+            print(f"      ✓ File loaded: {len(df)} rows and {len(df.columns)} columns", flush=True)
+            sys.stdout.flush()
+            
+            # Process in batches for progress updates
+            row_count = 0
+            batch_size = 5000
+            
+            for idx, row in df.iterrows():
+                row_count += 1
+                if row_count % batch_size == 0:
+                    print(f"      Processed {row_count}/{len(df)} rows ({100*row_count/len(df):.1f}%)...", flush=True)
+                    sys.stdout.flush()
+                
                 employee_id = str(row.get("Employee ID", "")).strip()
                 content_id = str(row.get("Content ID", "")).strip()
                 
@@ -212,13 +274,27 @@ class DataLoader:
                         "estimated_minutes": row.get("Estimated Learning Minutes", 0)
                     })
             
-            print(f"Loaded Degreed data for {len(self.degreed_data)} employees")
+            print(f"   ✓ Loaded Degreed data for {len(self.degreed_data)} employees", flush=True)
+            sys.stdout.flush()
         except Exception as e:
-            print(f"Warning: Could not load Degreed data: {e}")
+            print(f"   ❌ Error loading Degreed data: {type(e).__name__}: {e}", flush=True)
+            import traceback
+            traceback.print_exc()
+            sys.stdout.flush()
+            sys.stderr.flush()
+            # Don't fail the entire load, just skip Degreed data
+            print(f"   Continuing without Degreed data...", flush=True)
     
     def _build_employee_profiles(self):
         """Build comprehensive employee profiles with skills and qualifications"""
-        for pn, employee in self.employees.items():
+        print(f"      Building profiles for {len(self.employees)} employees...", flush=True)
+        import sys
+        
+        for idx, (pn, employee) in enumerate(self.employees.items()):
+            if idx % 50 == 0:
+                print(f"      Processing employee {idx}/{len(self.employees)}...", flush=True)
+                sys.stdout.flush()
+            
             skills = []
             skill_counts = defaultdict(int)
             
@@ -277,6 +353,9 @@ class DataLoader:
     
     def _build_role_profiles(self):
         """Build role profiles with requirements and activities"""
+        print(f"      Building profiles for {len(self.roles)} roles...", flush=True)
+        import sys
+        
         for role_id, role in self.roles.items():
             # Get required qualifications for this role
             req_quals = self.required_qualifications.get(role_id, [])
@@ -296,6 +375,9 @@ class DataLoader:
                 "required_skills": list(required_skills),
                 "activities": []  # Could be populated from description files
             }
+        
+        print(f"   ✓ Built {len(self.role_profiles)} role profiles", flush=True)
+        sys.stdout.flush()
     
     def _load_mock_data(self):
         """Load mock data for development"""

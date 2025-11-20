@@ -24,8 +24,14 @@ print(f"   LLM_DEPLOYMENT_NAME: {os.getenv('LLM_DEPLOYMENT_NAME', 'Not set')}")
 async def lifespan(app: FastAPI):
     # Startup
     print("Starting AI Skill Coach API...")
-    get_data_loader()  # Initialize data loader
-    print("Server running on http://localhost:8000")
+    try:
+        get_data_loader()  # Initialize data loader
+        print("Server running on http://localhost:8000")
+    except Exception as e:
+        print(f"❌ FATAL ERROR during startup: {type(e).__name__}: {e}")
+        import traceback
+        traceback.print_exc()
+        raise  # Re-raise to prevent server from starting
     yield
     # Shutdown
     print("Shutting down...")
