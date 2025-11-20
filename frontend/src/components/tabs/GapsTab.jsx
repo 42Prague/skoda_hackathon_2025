@@ -126,22 +126,6 @@ export default function GapsTab({ gaps, isLoading }) {
               </div>
             </div>
           </div>
-
-          {/* Missing Qualifications Highlight */}
-          {missing_qualifications.length > 0 && (
-            <div className="mt-6 pt-6 border-t">
-              <h4 className="text-sm font-semibold mb-3 text-orange-700">
-                Missing Qualifications
-              </h4>
-              <div className="flex flex-wrap gap-2">
-                {missing_qualifications.map((qual, index) => (
-                  <Badge key={index} variant="warning">
-                    {qual.name || qual}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-          )}
         </CardContent>
       </Card>
 
