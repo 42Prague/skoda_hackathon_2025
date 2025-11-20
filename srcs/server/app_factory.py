@@ -17,15 +17,19 @@ def create_app(config_class=Config) -> Flask:
     app = Flask(__name__)
     
     # Load configuration
+    print("Loading configuration...")
     app.config.from_object(config_class)
     
     # Register all routes
+    print("Registering routes...")
     register_routes(app)
     
     # Add error handlers
+    print("Registering error handlers...")
     register_error_handlers(app)
     
     # Add middleware
+    print("Registering middleware...")
     register_middleware(app)
     
     return app
