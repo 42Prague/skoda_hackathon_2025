@@ -10,7 +10,7 @@ from models.qualification_record import (
     CZECH_TO_EN_FIELD_MAP_QUAL_REC,
 )
 
-REQUIRED_COL = "personal_number"  # minimal identifier column
+REQUIRED_COL = "ID P"  # minimal identifier column
 
 class PastQualificationLoader:
     """Loads past qualification XLSX into structured records grouped by personal_number."""

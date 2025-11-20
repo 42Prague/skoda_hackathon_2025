@@ -59,6 +59,8 @@ class EmployeeLoader:
         for _, row in df.iterrows():
             try:
                 emp = self.__row_to_employee(row)
+                # It only for now for testing purposes
+                emp.personal_number = str(int(emp.personal_number))
                 employees[emp.personal_number] = emp
             except Exception:
                 # Skip problematic rows; consider logging in real code

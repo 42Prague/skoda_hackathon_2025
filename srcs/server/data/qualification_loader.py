@@ -6,8 +6,6 @@ class QualificationLoader:
 Utilities for loading employee data from external sources.
 """
 
-from __future__ import annotations
-
 from typing import List, Dict, Any
 
 import pandas as pd
