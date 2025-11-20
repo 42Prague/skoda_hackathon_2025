@@ -3,11 +3,11 @@ Application Factory
 Creates and configures the Flask application
 """
 
-from flask import Flask
+from flask import Flask, Response
 from config.settings import Config
 from api.routes import register_routes
 
-def create_app(config_class=Config):
+def create_app(config_class=Config) -> Flask:
     """
     Application factory function
     Creates and configures Flask app with all components
@@ -30,7 +30,7 @@ def create_app(config_class=Config):
     
     return app
 
-def register_error_handlers(app):
+def register_error_handlers(app: Flask) -> None:
     """Register custom error handlers"""
     
     @app.errorhandler(404)
@@ -57,7 +57,7 @@ def register_error_handlers(app):
             "status_code": 400
         }, 400
 
-def register_middleware(app):
+def register_middleware(app: Flask) -> None:
     """Register middleware functions"""
     
     @app.before_request
@@ -67,10 +67,7 @@ def register_middleware(app):
         pass
     
     @app.after_request
-    def after_request(response):
+    def after_request(response: Response) -> Response:
         """Run after each request"""
         # Add CORS headers, logging, etc.
-        response.headers.add('Access-Control-Allow-Origin', '*')
-        response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-        response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
         return response
