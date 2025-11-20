@@ -1,14 +1,10 @@
 """
-Employee data loader utilities.
-
-Provides `EmployeeLoader` class that can import employee records from Excel
-files (.xlsx). The Excel columns are mapped to the internal `Employee`
-dataclass fields via a fixed header mapping.
+Utilities for loading employee data from external sources.
 """
 
 from __future__ import annotations
 
-from typing import Dict, Any
+from typing import List, Dict, Any
 
 import pandas as pd
 

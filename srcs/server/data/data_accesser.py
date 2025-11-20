@@ -9,43 +9,26 @@ For now this is an in-memory stub. Replace with a real data source
 from typing import Dict, Optional
 
 from models.employee import Employee
+from models.qualification import Qualification
+from .loader import EmployeeLoader
+from .qualification_loader import QualificationLoader
 
 class DataAccesser:
     """Lightweight accessor for ERP employee data."""
 
     def __init__(self) -> None:  # noqa: D401 (simple description OK)
         # Keyed by `personal_number` (string).
-        self._employees_by_personal_number: Dict[str, Employee] = {}
+        self.__employees_loader = EmployeeLoader()
+        self.__qualifications_loader = QualificationLoader()
+        self.__employees_by_personal_number: Dict[str, Employee] = {}
+        self.__qualifications_by_course_id: Dict[str, Qualification] = {}
+        self.__employees_by_personal_number = self.__employees_loader.load_from_excel(
+            "data/erp_employee_data.xlsx"
+        )
+        self.__qualifications_by_course_id = self.__qualifications_loader.load_from_excel(
+            "data/erp_qualification_data.xlsx"
+        )
 
-    # ---------------------------------------------------------------------
-    # Public API
-    # ---------------------------------------------------------------------
-
-    def load_from_excel(self, file_path: str) -> int:
-        """Load employee records from an Excel spreadsheet.
-
-        The Excel file must contain columns whose headers exactly match the
-        field names of the `Employee` dataclass (e.g. ``personal_number``,
-        ``profession``, etc.).  Extra columns are ignored; missing columns
-        default to ``None``.
-
-        Args:
-            file_path: Path to the ``.xlsx`` file.
-
-        Returns:
-            Number of employee rows successfully loaded into the in-memory
-            cache.
-        """
-        try:
-            from .loader import EmployeeLoader  # local import to avoid circular deps
-        except ImportError as exc:
-            raise ImportError("pandas + openpyxl are required for Excel loading: pip install pandas openpyxl") from exc
-
-        loader = EmployeeLoader()
-        employees_dict = loader.load_from_excel(file_path)
-        for emp in employees_dict.values():
-            self.cache_employee(emp)
-        return len(employees_dict)
     def get_employee_data(self, employee_id: int) -> Optional[Employee]:
         """Return the Employee record for a given *personal number*.
 
@@ -56,7 +39,12 @@ class DataAccesser:
             The corresponding `Employee` dataclass instance, or `None`
             if the personal number is not in the local index.
         """
-        return self._employees_by_personal_number.get(str(employee_id))
+        return self.__employees_by_personal_number.get(str(employee_id))
+
+
+    def get_qualifications(self) -> int:
+        """Return the total number of qualification records loaded."""
+        return len(self.__qualifications_by_course_id)
 
     # ------------------------------------------------------------------
     # Convenience helpers (optional; extend as needed)
