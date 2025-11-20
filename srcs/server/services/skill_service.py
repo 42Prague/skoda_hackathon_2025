@@ -10,6 +10,7 @@ from models.employee import Employee
 import math
 from data.data_accesser import DataAccesser
 from .skill_analyzer import SkillAnalyzer
+from data.data_accesser import g_data_accesser
 
 class SkillService:
     """
@@ -30,11 +31,21 @@ class SkillService:
         Args:
             employee_id: ID of the employee
         """
-        employee = self.employee_service._find_employee_by_id(employee_id)
+        employee = g_data_accesser.get_employee_data(employee_id)
         if not employee:
             return None
-        
+    
         # Example diagram data (could be expanded)
+        # diagram_data = {
+        #     "breadth": self.skill_analyzer.get_breadth(employee),
+        #     "depth": self.skill_analyzer.get_skill_depth(employee),
+        #     "learning_intensity": self.skill_analyzer.get_learning_intensity(employee),
+        #     "qualification_strength": self.skill_analyzer.get_qualification_strength(employee),
+        #     "job_requirement_coverage": self.skill_analyzer.get_job_requirement_coverage(employee),
+        #     "skill_gap_index": self.skill_analyzer.get_skill_gap_index(employee),
+        #     "recent_learning_index": self.skill_analyzer.get_recent_learning_index(employee),
+        # }
+        
         diagram_data = {
             "breadth": self.skill_analyzer.get_breadth(employee),
             "depth": self.skill_analyzer.get_skill_depth(employee),
@@ -44,5 +55,7 @@ class SkillService:
             "skill_gap_index": self.skill_analyzer.get_skill_gap_index(employee),
             "recent_learning_index": self.skill_analyzer.get_recent_learning_index(employee),
         }
+        
+        print("Diagram data for employee ID", employee_id, ":", diagram_data)
         
         return diagram_data

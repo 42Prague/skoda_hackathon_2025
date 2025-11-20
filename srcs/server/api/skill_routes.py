@@ -26,5 +26,6 @@ def get_employee_diagram(employee_id):
         )
         
     except Exception as e:
+        print("Error in get_employee_diagram:", e)
         return error_response(str(e), 500)
 

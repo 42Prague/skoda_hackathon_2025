@@ -4,7 +4,7 @@ Business logic for employee management
 """
 
 from typing import List, Dict, Any, Optional
-from models.employee import Employee, create_sample_employees
+from models.employee import Employee
 
 class EmployeeService:
     """
@@ -16,13 +16,6 @@ class EmployeeService:
         """Initialize the service with sample data"""
         self.employees: List[Employee] = []
         self.next_id = 1
-        self._load_sample_data()
-    
-    def _load_sample_data(self):
-        """Load sample employee data"""
-        sample_employees = create_sample_employees()
-        for employee in sample_employees:
-            self.create_employee_from_object(employee)
     
     def create_employee_from_object(self, employee: Employee) -> Dict[str, Any]:
         """Create employee from Employee object"""
@@ -92,13 +85,14 @@ class EmployeeService:
         
         return [emp.to_dict() for emp in filtered_employees]
     
-    def get_employee_by_id(self, employee_id: int) -> Optional[Dict[str, Any]]:
+    def get_employee_by_id(self, employee_id: str) -> Optional[Dict[str, Any]]:
         """Get employee by ID"""
         employee = self._find_employee_by_id(employee_id)
         return employee.to_dict() if employee else None
     
-    def _find_employee_by_id(self, employee_id: int) -> Optional[Employee]:
+    def _find_employee_by_id(self, employee_id: str) -> Optional[Employee]:
         """Find employee object by ID (internal use)"""
+        
         for employee in self.employees:
             if employee.employee_id == employee_id:
                 return employee
