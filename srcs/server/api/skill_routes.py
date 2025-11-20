@@ -13,17 +13,16 @@ skill_bp = Blueprint('skills', __name__)
 skill_service = SkillService()
 
 @skill_bp.route('/suggestions/<int:employee_id>', methods=['GET'])
-def get_skill_suggestions(employee_id):
-    """Get personalized skill suggestions for an employee"""
+def get_skill_breadth(employee_id):
+    """Get personalized skill breadth for an employee"""
     try:
-        suggestions = skill_service.get_skill_suggestions(employee_id)
-        
-        if not suggestions:
+        breadth = skill_service.get_skill_breadth(employee_id)
+
+        if not breadth:
             return error_response("Employee not found", 404)
             
         return success_response(
-            data=suggestions,
-            message="Skill suggestions generated successfully"
+            data=breadth,
         )
         
     except Exception as e:
