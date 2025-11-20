@@ -1,8 +1,7 @@
 """
-Models package for Employee Skills Analyzer
+Models package for Data Access
 """
 
-from .employee import Employee, create_sample_employees
-from .skill_analyzer import SkillAnalyzer
+from .data_accesser import SkillAnalyzer
 
-__all__ = ['Employee', 'SkillAnalyzer', 'create_sample_employees']
+__all__ = ['DataAccesser']
