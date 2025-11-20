@@ -101,14 +101,20 @@ function App() {
     setLearningPath(null)
     
     try {
-      const response = await fetch('/api/coach/learning-path', {
+      const response = await fetch(`/api/coach/learning-path?personal_number=${encodeURIComponent(learningPathId)}`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ personal_number: learningPathId })
+        headers: { 'Content-Type': 'application/json' }
       })
       if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.detail || 'Failed to generate learning path')
+        const errorText = await response.text()
+        let errorMsg = 'Failed to generate learning path'
+        try {
+          const errorData = JSON.parse(errorText)
+          errorMsg = errorData.detail || errorMsg
+        } catch {
+          errorMsg = errorText || errorMsg
+        }
+        throw new Error(errorMsg)
       }
       const data = await response.json()
       setLearningPath(data)
