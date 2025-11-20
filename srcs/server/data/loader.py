@@ -1,17 +1,22 @@
 """
-Utilities for loading employee data from external sources.
+Employee data loader utilities.
+
+Provides `EmployeeLoader` class that can import employee records from Excel
+files (.xlsx). The Excel columns are mapped to the internal `Employee`
+dataclass fields via a fixed header mapping.
 """
 
 from __future__ import annotations
 
-from typing import Dict, Any, List
+from typing import Dict, Any
 
 import pandas as pd
 
 from models.employee import Employee
 
-
-# Mapping from Excel column headers to Employee dataclass field names
+# ---------------------------------------------------------------------------
+# Column mapping
+# ---------------------------------------------------------------------------
 COLUMN_TO_FIELD = {
     "persstat_start_month.personal_number": "personal_number",
     "persstat_start_month.ob1": "persstat_ob1",
@@ -41,38 +46,45 @@ COLUMN_TO_FIELD = {
 REQUIRED_EXCEL_COL = "persstat_start_month.personal_number"
 
 
-def _row_to_employee(row: Dict[str, Any]) -> Employee:
-    """Convert a single DataFrame row into an Employee instance using mapping."""
-    if REQUIRED_EXCEL_COL not in row or pd.isna(row[REQUIRED_EXCEL_COL]):
-        raise ValueError("Row missing required personal number column")
+class EmployeeLoader:
+    """Loader capable of transforming Excel rows into `Employee` objects."""
 
-    kwargs: Dict[str, Any] = {}
-    for excel_col, field_name in COLUMN_TO_FIELD.items():
-        if excel_col in row:
-            kwargs[field_name] = row[excel_col]
-    # Derive simple int employee_id from personal_number if numeric
-    personal_no = str(kwargs["personal_number"])
-    if personal_no.isdigit():
-        kwargs["employee_id"] = int(personal_no)
+    def __init__(self) -> None:
+        # Precompute mapping for speed
+        self.column_to_field = COLUMN_TO_FIELD
 
-    return Employee(**kwargs)  # type: ignore[arg-type]
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
+    def load_from_excel(self, file_path: str) -> Dict[str, Employee]:
+        """Read an Excel file and return a dict keyed by personal number."""
+        df = pd.read_excel(file_path, dtype=str)
+        employees: Dict[str, Employee] = {}
+        for _, row in df.iterrows():
+            try:
+                emp = self._row_to_employee(row)
+                employees[emp.personal_number] = emp
+            except Exception:
+                # Skip problematic rows; consider logging in real code
+                continue
+        return employees
 
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
+    def _row_to_employee(self, row: Any) -> Employee:
+        """Convert a single row (Series or dict) to Employee using mapping."""
+        if REQUIRED_EXCEL_COL not in row or pd.isna(row[REQUIRED_EXCEL_COL]):
+            raise ValueError("Row missing required personal number column")
 
-def load_employees_from_excel(file_path: str) -> Dict[str, Employee]:
-    """Load employees from an Excel (.xlsx) file.
+        data: Dict[str, Any] = {}
+        for excel_col, field in self.column_to_field.items():
+            if excel_col in row and not pd.isna(row[excel_col]):
+                data[field] = row[excel_col]
 
-    The sheet must contain at least the column
-    ``persstat_start_month.personal_number``.
+        # If personal_number numeric, set employee_id too
+        personal_no = str(data["personal_number"])
+        if personal_no.isdigit():
+            data["employee_id"] = int(personal_no)
 
-    Returns a dictionary keyed by ``personal_number`` for easy lookup.
-    """
-    df = pd.read_excel(file_path, dtype=str)
-    result: Dict[str, Employee] = {}
-    for _, row in df.iterrows():
-        try:
-            emp = _row_to_employee(row)
-            result[emp.personal_number] = emp
-        except Exception:
-            # Skip invalid rows; in production you might log this.
-            continue
-    return result
+        return Employee(**data)  # type: ignore[arg-type]
