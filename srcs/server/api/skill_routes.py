@@ -61,8 +61,6 @@ def export_all_employee_diagrams():
             }
             writer.writerow(row)
         csv_data = output.getvalue()
-        with open('employee_diagrams.csv', 'w', encoding='utf-8', newline='') as f:
-            f.write(csv_data)
 
         return success_response(data={'csv': csv_data})
     except Exception as e:
