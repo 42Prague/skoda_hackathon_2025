@@ -5,3 +5,7 @@
 AGENTS.md
 opencode.jsonc
 .gitignore
+.python-version
+.venv/
+pyrightconfig.json
+test.xlsx

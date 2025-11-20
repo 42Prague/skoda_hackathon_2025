@@ -58,7 +58,7 @@ class EmployeeLoader:
         employees: Dict[str, Employee] = {}
         for _, row in df.iterrows():
             try:
-                emp = self._row_to_employee(row)
+                emp = self.__row_to_employee(row)
                 employees[emp.personal_number] = emp
             except Exception:
                 # Skip problematic rows; consider logging in real code
@@ -68,7 +68,7 @@ class EmployeeLoader:
     # ------------------------------------------------------------------
     # Internal helpers
     # ------------------------------------------------------------------
-    def _row_to_employee(self, row: Any) -> Employee:
+    def __row_to_employee(self, row: Any) -> Employee:
         """Convert a single row (Series or dict) to Employee using mapping."""
         if REQUIRED_EXCEL_COL not in row or pd.isna(row[REQUIRED_EXCEL_COL]):
             raise ValueError("Row missing required personal number column")
