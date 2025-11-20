@@ -7,15 +7,24 @@ import { Sparkles, Clock, BookOpen } from 'lucide-react';
 export default function AIPlanTab({ profile, gaps, onGeneratePlan }) {
   const [plan, setPlan] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleGeneratePlan = async () => {
     setIsGenerating(true);
+    setError(null);
+    console.log('🎯 Starting AI plan generation...');
+    const startTime = Date.now();
+    
     try {
       const result = await onGeneratePlan();
+      const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+      console.log(`✅ AI plan generated in ${duration}s`);
       setPlan(result);
     } catch (error) {
-      console.error('Error generating plan:', error);
-      alert('Failed to generate AI plan. Please try again.');
+      const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+      console.error(`❌ AI plan failed after ${duration}s:`, error);
+      setError(error.message || 'Failed to generate AI plan');
+      alert(`Failed to generate AI plan: ${error.message}\n\nCheck browser console for details.`);
     } finally {
       setIsGenerating(false);
     }

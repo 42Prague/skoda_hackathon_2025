@@ -138,28 +138,22 @@ function App() {
       throw new Error('Profile and gaps data required');
     }
 
+    console.log('🤖 Calling AI plan API...');
+    console.log('Employee profile:', profile);
+    console.log('Gaps:', gaps);
+
     try {
       const data = await apiService.generateAIPlan({
         employee_profile: profile,
         gaps: gaps,
       });
+      console.log('✅ AI plan received:', data);
       return data;
     } catch (error) {
-      console.error('Error generating AI plan:', error);
-      // Return mock data for development
-      return {
-        explanation: 'Based on your current skills and the target role requirements, here is a personalized learning path to help you achieve your career goals.',
-        learning_path: [
-          {
-            step: 1,
-            title: 'Build foundational knowledge',
-            courses: [
-              { name: 'Introduction to Advanced Topics', provider: 'Degreed', minutes: 120 },
-            ],
-          },
-        ],
-        estimated_time_to_readiness: '3-4 months',
-      };
+      console.error('❌ Error generating AI plan:', error);
+      console.error('Error details:', error.response?.data || error.message);
+      // Re-throw to show error in UI instead of silently using mock data
+      throw error;
     }
   };
 
