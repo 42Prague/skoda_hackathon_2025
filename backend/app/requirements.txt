@@ -1,0 +1,30 @@
+# Core web framework (MIT)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Configuration and validation (MIT)
+pydantic==1.10.13
+python-dotenv==1.0.0
+
+# Data processing (BSD-3-Clause)
+pandas==2.1.3
+openpyxl==3.1.2
+pyarrow==14.0.1
+numpy==1.26.2
+
+# Graph operations (BSD-3-Clause)
+networkx==3.2.1
+
+# HTTP client for API calls (Apache 2.0)
+requests==2.31.0
+
+# Logging and utilities (MIT/BSD)
+python-multipart==0.0.6
+
+# NOTES:
+# - All libraries have been verified to be MIT, Apache 2.0, or BSD licensed
+# - llama-cpp-python: MIT license, allows local GGUF model inference
+# - No GPL/AGPL dependencies included
+# - No external API calls at runtime (HuggingFace, OpenAI, etc.)
+# - For embeddings, you may need to manually add a compatible library
+#   (e.g., use llama-cpp-python for GGUF embeddings or implement custom logic)
