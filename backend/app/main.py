@@ -79,7 +79,7 @@ class EmployeeProfileResponse(BaseModel):
 async def health_check():
     """
     Health check endpoint for Azure Container Apps.
-    
+
     Returns basic system status.
     """
     return {
@@ -111,10 +111,10 @@ async def root():
 async def run_etl(background_tasks: BackgroundTasks):
     """
     Trigger ETL pipeline execution.
-    
+
     This loads Excel files from RAW_XLSX_DIR, cleans them,
     and saves Parquet files to CLEAN_PARQUET_DIR.
-    
+
     Runs in background to avoid timeout.
     """
     def etl_task():
@@ -124,9 +124,9 @@ async def run_etl(background_tasks: BackgroundTasks):
             logger.info("ETL pipeline completed")
         except Exception as e:
             logger.error(f"ETL pipeline failed: {e}")
-    
+
     background_tasks.add_task(etl_task)
-    
+
     return {
         "status": "started",
         "message": "ETL pipeline execution started in background"
@@ -137,7 +137,7 @@ async def run_etl(background_tasks: BackgroundTasks):
 async def build_graph(background_tasks: BackgroundTasks):
     """
     Build skill graph from cleaned Parquet files.
-    
+
     This should be run after ETL pipeline completes.
     """
     def graph_task():
@@ -148,9 +148,9 @@ async def build_graph(background_tasks: BackgroundTasks):
             logger.info("Skill graph built successfully")
         except Exception as e:
             logger.error(f"Graph building failed: {e}")
-    
+
     background_tasks.add_task(graph_task)
-    
+
     return {
         "status": "started",
         "message": "Graph building started in background"
@@ -162,11 +162,11 @@ async def build_graph(background_tasks: BackgroundTasks):
 async def get_employee_profile(personal_number: str):
     """
     Get employee skill profile.
-    
+
     Returns skills, qualifications, and missing qualifications.
     """
     global skill_graph
-    
+
     # Load graph if not in memory
     if skill_graph is None:
         try:
@@ -176,20 +176,20 @@ async def get_employee_profile(personal_number: str):
                 status_code=500,
                 detail=f"Failed to load skill graph: {e}"
             )
-    
+
     # Get employee data
     try:
         skills = skill_graph.get_employee_skills(personal_number)
         qualifications = skill_graph.get_employee_qualifications(personal_number)
         missing = skill_graph.get_missing_qualifications(personal_number)
-        
+
         return EmployeeProfileResponse(
             personal_number=personal_number,
             skills=skills,
             qualifications=qualifications,
             missing_qualifications=missing
         )
-    
+
     except Exception as e:
         logger.error(f"Error fetching employee profile: {e}")
         raise HTTPException(
@@ -202,7 +202,7 @@ async def get_employee_profile(personal_number: str):
 async def get_graph_stats():
     """Get skill graph statistics."""
     global skill_graph
-    
+
     if skill_graph is None:
         try:
             skill_graph = SkillGraph.load()
@@ -211,7 +211,7 @@ async def get_graph_stats():
                 status_code=500,
                 detail=f"Failed to load skill graph: {e}"
             )
-    
+
     try:
         stats = skill_graph.get_stats()
         return {"stats": stats}
@@ -227,36 +227,36 @@ async def get_graph_stats():
 async def search_skills(request: SkillSearchRequest):
     """
     Search for skills by query.
-    
+
     Uses semantic search if embedding model is available,
     otherwise falls back to basic text matching.
     """
     global skill_engine
-    
+
     # Load engine if not in memory
     if skill_engine is None:
         try:
             skill_engine = SkillEngine.load_index()
-            
+
             # If index doesn't exist, load data and build
             if skill_engine.embeddings is None:
                 skill_engine.load_skills_data()
                 skill_engine.build_skill_index()
-        
+
         except Exception as e:
             raise HTTPException(
                 status_code=500,
                 detail=f"Failed to load skill engine: {e}"
             )
-    
+
     try:
         results = skill_engine.search_similar_skills(
             request.query,
             top_k=request.top_k
         )
-        
+
         return {"results": results}
-    
+
     except Exception as e:
         logger.error(f"Skill search failed: {e}")
         raise HTTPException(
@@ -270,7 +270,7 @@ async def search_skills(request: SkillSearchRequest):
 async def ask_coach(request: CoachQuestionRequest):
     """
     Ask the AI coach a question.
-    
+
     The coach uses a local LLM to provide guidance on skill development.
     """
     try:
@@ -279,9 +279,9 @@ async def ask_coach(request: CoachQuestionRequest):
             user_input=request.question,
             context=request.context
         )
-        
+
         return CoachQuestionResponse(answer=answer)
-    
+
     except Exception as e:
         logger.error(f"Coach query failed: {e}")
         raise HTTPException(
@@ -297,11 +297,11 @@ async def generate_learning_path(
 ):
     """
     Generate a personalized learning path for an employee.
-    
+
     Combines skill graph data with AI coach to create recommendations.
     """
     global skill_graph
-    
+
     # Load graph if needed
     if skill_graph is None:
         try:
@@ -311,21 +311,21 @@ async def generate_learning_path(
                 status_code=500,
                 detail=f"Failed to load skill graph: {e}"
             )
-    
+
     try:
         # Get employee data
         skills = skill_graph.get_employee_skills(personal_number)
         skill_names = [s.get('name', '') for s in skills if s.get('name')]
-        
+
         missing = skill_graph.get_missing_qualifications(personal_number)
         missing_names = [m.get('name', '') for m in missing if m.get('name')]
-        
+
         # Get target role from graph if not provided
         if not target_role:
             emp_node = f"emp:{personal_number}"
             if emp_node in skill_graph.graph:
                 target_role = skill_graph.graph.nodes[emp_node].get('planned_position', 'Unknown')
-        
+
         # Generate learning path
         coach = get_coach()
         learning_path = coach.generate_learning_path(
@@ -333,7 +333,7 @@ async def generate_learning_path(
             target_role=target_role or "Unknown",
             missing_qualifications=missing_names
         )
-        
+
         return {
             "personal_number": personal_number,
             "target_role": target_role,
@@ -341,7 +341,7 @@ async def generate_learning_path(
             "missing_qualifications": missing_names,
             "learning_path": learning_path
         }
-    
+
     except Exception as e:
         logger.error(f"Learning path generation failed: {e}")
         raise HTTPException(
@@ -355,25 +355,43 @@ async def generate_learning_path(
 async def startup_event():
     """
     Load graph and engine on startup if available.
+    If graph state is missing, run ETL and build graph automatically.
     """
     global skill_graph, skill_engine
-    
+
     logger.info("Starting Škoda AI Skill Coach API...")
-    
-    # Try to load graph (non-blocking)
-    try:
-        skill_graph = SkillGraph.load()
-        logger.info("Skill graph loaded on startup")
-    except Exception as e:
-        logger.warning(f"Could not load skill graph on startup: {e}")
-    
+
+    # Check if graph state exists; if not, run ETL and build graph
+    if not settings.graph_state_path.exists():
+        logger.info("Graph state not found. Initiating automatic ETL and Graph Build...")
+        try:
+            # Check if raw files exist before running
+            if any(settings.raw_xlsx_dir.glob("*.xlsx")):
+                logger.info("Raw Excel files found. Running ETL pipeline...")
+                run_etl_pipeline()
+
+                logger.info("Building skill graph...")
+                skill_graph = build_graph_from_parquet()
+                logger.info("Automatic setup complete.")
+            else:
+                logger.warning(f"No Excel files found in {settings.raw_xlsx_dir}. Skipping automatic ETL. Please place .xlsx files in the persistent_data/raw_xlsx folder.")
+        except Exception as e:
+            logger.error(f"Automatic setup failed: {e}")
+    else:
+        # Try to load graph (non-blocking)
+        try:
+            skill_graph = SkillGraph.load()
+            logger.info("Skill graph loaded on startup")
+        except Exception as e:
+            logger.warning(f"Could not load skill graph on startup: {e}")
+
     # Try to load skill engine (non-blocking)
     try:
         skill_engine = SkillEngine.load_index()
         logger.info("Skill engine loaded on startup")
     except Exception as e:
         logger.warning(f"Could not load skill engine on startup: {e}")
-    
+
     logger.info("API startup complete")
 
 
@@ -386,7 +404,7 @@ async def shutdown_event():
 
 if __name__ == "__main__":
     import uvicorn
-    
+
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
