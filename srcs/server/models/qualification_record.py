@@ -4,7 +4,7 @@ from typing import Optional, Dict, Any
 
 # Czech -> English field mapping for reference
 CZECH_TO_EN_FIELD_MAP_QUAL_REC = {
-    "personal_number": "personal_number",      # already English-ish
+    "ID P": "personal_number",      # already English-ish
     "Počát.datum": "start_date",
     "Koncové datum": "end_date",
     "ID Q": "qualification_id",
