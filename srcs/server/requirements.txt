@@ -1,0 +1,16 @@
+# Python dependencies for Employee Skills Analyzer Server
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# For testing the API
+requests==2.31.0
+
+# For system monitoring in health checks
+psutil==5.9.0
+
+# Optional but useful for development
+python-dotenv==1.0.0
+
+# For future enhancements (uncomment if needed)
+# pandas==2.1.1
+# numpy==1.24.3
