@@ -48,12 +48,12 @@ class SkillService:
         
         diagram_data = {
             "breadth": self.skill_analyzer.get_breadth(employee),
-            "depth": 0.0,
-            "learning_intensity": 0.0,
-            "qualification_strength": 0.0,
-            "job_requirement_coverage": 0.0,
-            "skill_gap_index": 0.0,
-            "recent_learning_index": 0.0,
+            "depth": self.skill_analyzer.get_skill_depth(employee),
+            "learning_intensity": self.skill_analyzer.get_learning_intensity(employee),
+            "qualification_strength": self.skill_analyzer.get_qualification_strength(employee),
+            "job_requirement_coverage": self.skill_analyzer.get_job_requirement_coverage(employee),
+            "skill_gap_index": self.skill_analyzer.get_skill_gap_index(employee),
+            "recent_learning_index": self.skill_analyzer.get_recent_learning_index(employee),
         }
         
         print("Diagram data for employee ID", employee_id, ":", diagram_data)
