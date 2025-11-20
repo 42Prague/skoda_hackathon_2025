@@ -6,6 +6,7 @@ from flask import Flask
 
 from .employee_routes import employee_bp
 from .skill_routes import skill_bp
+from .position_routes import position_bp
 
 def register_routes(app: Flask):
     """
@@ -15,6 +16,7 @@ def register_routes(app: Flask):
     # Register blueprints
     app.register_blueprint(employee_bp, url_prefix='/api/v1/employees')
     app.register_blueprint(skill_bp, url_prefix='/api/v1/skills')
+    app.register_blueprint(position_bp, url_prefix='/api/v1/positions')
     
     # Register root route
     @app.route('/')
