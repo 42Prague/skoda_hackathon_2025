@@ -1,7 +1,3 @@
-class QualificationLoader:
-    pass
-
-
 """
 Utilities for loading employee data from external sources.
 """
