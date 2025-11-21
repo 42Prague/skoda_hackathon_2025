@@ -62,7 +62,7 @@ frontend/
 
 The frontend connects to the following backend endpoints:
 
-- `GET /api/v1/skills/diagrams/all` - Get all employee skill diagrams
+- `GET /api/v1/skills/diagrams/export` - Get all employee skill diagrams
 - `GET /api/v1/skills/diagram/<employee_id>` - Get skill diagram for specific employee
 - `GET /api/v1/skills/clustering/data` - Get clustering data for visualization
 - `POST /api/v1/skills/mentors/find` - Find mentors based on filters

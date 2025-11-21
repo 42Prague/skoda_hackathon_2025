@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import './EmployeeIndicatorsDashboard.css'
+import { parseCSV, downloadCSV } from '../utils/csv'
 
 const API_BASE = '/api/v1/skills'
 
@@ -20,9 +21,11 @@ function EmployeeIndicatorsDashboard() {
     try {
       setLoading(true)
       setError(null)
-      const response = await axios.get(`${API_BASE}/diagrams/all`)
+      const response = await axios.get(`${API_BASE}/diagram/export`)
       if (response.data.success) {
-        setDiagrams(response.data.data || [])
+        const csvText = response.data.data?.csv || ''
+        const parsed = parseCSV(csvText)
+        setDiagrams(parsed)
       } else {
         setError(response.data.message || 'Failed to load diagrams')
       }
@@ -114,6 +117,20 @@ function EmployeeIndicatorsDashboard() {
             {sortOrder === 'asc' ? '↑' : '↓'}
           </button>
         </div>
+        <button
+          onClick={async () => {
+            try {
+              const response = await axios.get(`${API_BASE}/diagram/export`)
+              if (response.data.success) {
+                const csvText = response.data.data?.csv || ''
+                if (csvText) downloadCSV(csvText)
+              }
+            } catch (err) {
+              console.error('Download failed', err)
+            }
+          }}
+          className="download-button"
+        >Download CSV</button>
       </div>
 
       <div className="indicators-grid">
