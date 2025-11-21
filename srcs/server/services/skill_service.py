@@ -56,6 +56,4 @@ class SkillService:
             "recent_learning_index": self.skill_analyzer.get_recent_learning_index(employee),
         }
         
-        print("Diagram data for employee ID", employee_id, ":", diagram_data)
-        
         return diagram_data

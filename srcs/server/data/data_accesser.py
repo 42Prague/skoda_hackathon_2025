@@ -90,7 +90,6 @@ class DataAccesser:
     
     def get_action_types(self) -> Dict[str, ActionTypeRecord]:
         """Return all loaded action type records."""
-        print("Length of action types data:", len(self.__action_types))
         return self.__action_types
     
     def get_employee_qualifications(self, employee_id: int) -> List[Qualification]:
