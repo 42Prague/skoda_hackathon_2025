@@ -1,0 +1,8 @@
+# Course-Skill Training Data
+# Format: course_id|course_text|skill_name
+
+C001|Python Programming Fundamentals|Python
+C001|Python Programming Fundamentals|Programming
+C002|SQL Database Management|SQL
+C003|Leadership Skills for Managers|Leadership
+C004|Project Management Professional|Project Management

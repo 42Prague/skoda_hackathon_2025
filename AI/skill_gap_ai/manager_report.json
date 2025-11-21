@@ -1,0 +1,748 @@
+{
+  "generated_at": "2025-11-21T10:35:45.727107",
+  "team_overview": {
+    "team_size": 100,
+    "avg_readiness_score": 0.2,
+    "ready_count": 0,
+    "developing_count": 0,
+    "needs_development_count": 100,
+    "total_training_hours": 0.0,
+    "avg_training_hours_per_employee": 0.0,
+    "high_performers": [
+      {
+        "employee": "DZCRS78",
+        "position": "Specialist",
+        "readiness": 5.0
+      },
+      {
+        "employee": "DZCJJ91",
+        "position": "Specialist",
+        "readiness": 5.0
+      },
+      {
+        "employee": "DZCOH3J",
+        "position": "Specialist",
+        "readiness": 5.0
+      },
+      {
+        "employee": "DZCLPT6",
+        "position": "Specialist",
+        "readiness": 5.0
+      },
+      {
+        "employee": "DZCTSCQ",
+        "position": "Specialist",
+        "readiness": 0.0
+      }
+    ],
+    "needs_support": [
+      {
+        "employee": "DZCTSCQ",
+        "position": "Specialist",
+        "readiness": 0.0,
+        "missing_skills": 2
+      },
+      {
+        "employee": "DZCTA04",
+        "position": "Specialist",
+        "readiness": 0.0,
+        "missing_skills": 2
+      },
+      {
+        "employee": "DZCJVUG",
+        "position": "Specialist",
+        "readiness": 0.0,
+        "missing_skills": 2
+      },
+      {
+        "employee": "DZCKN01",
+        "position": "Specialist",
+        "readiness": 0.0,
+        "missing_skills": 2
+      },
+      {
+        "employee": "DZCLG04",
+        "position": "Specialist",
+        "readiness": 0.0,
+        "missing_skills": 2
+      }
+    ]
+  },
+  "training_roi": {
+    "total_training_hours_needed": 0,
+    "employees_needing_training": 0,
+    "estimated_training_cost": 0,
+    "avg_hours_per_employee": 0.0,
+    "current_avg_readiness": 0.2,
+    "target_readiness": 90,
+    "expected_productivity_gain_percent": 44.9,
+    "estimated_annual_value": 2694000.0,
+    "months_to_breakeven": 0.0
+  },
+  "training_priorities": [
+    {
+      "skill": "Professional",
+      "employees_missing": 100,
+      "percentage_of_team": 100.0,
+      "priority_score": 100,
+      "priority_level": "CRITICAL",
+      "affected_employees": [
+        "DZCTSCQ",
+        "DZCTA04",
+        "DZCJVUG",
+        "DZCKN01",
+        "DZCLG04"
+      ]
+    },
+    {
+      "skill": "Education",
+      "employees_missing": 100,
+      "percentage_of_team": 100.0,
+      "priority_score": 100,
+      "priority_level": "CRITICAL",
+      "affected_employees": [
+        "DZCTSCQ",
+        "DZCTA04",
+        "DZCJVUG",
+        "DZCKN01",
+        "DZCLG04"
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_employees": 100,
+    "total_skill_gaps": 200,
+    "avg_gap_percentage": 100.0
+  },
+  "succession_risks": [
+    {
+      "position": "Specialist",
+      "current_holders": 0,
+      "potential_successors_count": 0,
+      "potential_successors": [],
+      "risk_level": "HIGH"
+    },
+    {
+      "position": "Senior Specialist",
+      "current_holders": 0,
+      "potential_successors_count": 0,
+      "potential_successors": [],
+      "risk_level": "HIGH"
+    },
+    {
+      "position": "Manager",
+      "current_holders": 0,
+      "potential_successors_count": 0,
+      "potential_successors": [],
+      "risk_level": "HIGH"
+    }
+  ],
+  "quarterly_plan": {
+    "quarter": "Q1 2025",
+    "total_budget_hours": 4000,
+    "employee_plans": [
+      {
+        "employee": "DZCTSCQ",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCTA04",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJVUG",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKN01",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCLG04",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCSB14",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCHP08",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCSK17",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJR60",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMSFE",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCLL23",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCSD10",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCHM26",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCLFBP",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCDBBZ",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJBM4",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPHD5",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKH6H",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPP1A",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMSLQ",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMDEP",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJS9A",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPS1Z",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPVZF",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKD3F",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPZW1",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCSHG5",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPK4P",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCVZBQ",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DO80XDM",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKMD6",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "TU5SULA",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "U7A3NRN",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "W2Z3FLU",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "SQ0MQZM",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "F5N7PS5",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJC84",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJM07",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPPBE",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKMBD",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCRS78",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCIV05",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCZS27",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZC0SJ4",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCAZ05",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCTA02",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKMAF",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJHCG",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCFH23",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPZ06",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJP65",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJKCJ",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPS33",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCZK18",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMH91",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCLJ22",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "SI1N0IL",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMSDE",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCDBAK",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCDL11",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMSEG",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCZS13",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKH12",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJCCR",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCFK16",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCZS16",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJH97",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCVP81",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCRB21",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJLBR",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCDN33",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCRT21",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCOZAI",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCRSD5",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJJ91",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJM19",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCIS17",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZC0MLR",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCPKAJ",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCTP7S",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJKSN",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCEV05",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCKS26",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCRV43",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCOH3J",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCMKEH",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCTHX5",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "GLCVFR4",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCLPT6",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCVK60",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCJKHY",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DZCTEAF",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "UKLXZ35",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "DBF5GGV",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "A4IVQIT",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "SYYHPBK",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "SO3LTNE",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "TRH3KNT",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "UY1THCT",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      },
+      {
+        "employee": "D5U612H",
+        "courses_this_quarter": [],
+        "hours_allocated": 0,
+        "utilization_percent": 0.0
+      }
+    ],
+    "group_training_sessions": [],
+    "overflow_to_next_quarter": []
+  }
+}
