@@ -75,7 +75,7 @@ python3 test_servers.py
 或直接测试API端点：
 ```bash
 curl http://localhost:5000/
-curl http://localhost:5000/api/v1/skills/diagrams/all
+curl http://localhost:5000/api/v1/skills/diagrams/export
 ```
 
 ## 常见问题 ❓

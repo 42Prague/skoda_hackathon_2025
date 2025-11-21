@@ -11,3 +11,4 @@ opencode.jsonc
 pyrightconfig.json
 test.xlsx
 __pycache__/
+node_modules/

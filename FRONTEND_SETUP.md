@@ -89,7 +89,7 @@ If you see CORS errors, make sure:
 - Check file paths in the backend API routes
 
 ### API Connection Issues
-- Verify backend is running: `curl http://localhost:5000/api/v1/skills/diagrams/all`
+- Verify backend is running: `curl http://localhost:5000/api/v1/skills/diagrams/export`
 - Check browser console for errors
 - Verify proxy settings in `vite.config.js`
 
@@ -121,7 +121,7 @@ frontend/
 
 ## API Endpoints Used
 
-- `GET /api/v1/skills/diagrams/all` - All employee indicators
+- `GET /api/v1/skills/diagrams/export` - All employee indicators
 - `GET /api/v1/skills/diagram/<id>` - Single employee diagram
 - `GET /api/v1/skills/clustering/data` - Clustering visualization data
 - `POST /api/v1/skills/mentors/find` - Find mentors with filters
