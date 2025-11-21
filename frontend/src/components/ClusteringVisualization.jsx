@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Plot from 'react-plotly.js'
-import axios from 'axios'
 import './ClusteringVisualization.css'
+import axios from 'axios'
 
 const API_BASE = '/api/v1/skills'
 
@@ -10,17 +10,17 @@ function ClusteringVisualization() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [selectedCluster, setSelectedCluster] = useState(null)
-  const [hoveredEmployee, setHoveredEmployee] = useState(null)
 
   useEffect(() => {
     fetchClusteringData()
   }, [])
 
-  const fetchClusteringData = async () => {
+  const fetchClusteringData = async (force = false) => {
     try {
       setLoading(true)
       setError(null)
-      const response = await axios.get(`${API_BASE}/clustering/data`)
+      const url = `${API_BASE}/clustering/data${force ? '?force_recompute=true' : ''}`
+      const response = await axios.get(url)
       if (response.data.success) {
         setClusteringData(response.data.data || [])
       } else {
@@ -34,10 +34,31 @@ function ClusteringVisualization() {
     }
   }
 
+  const extractTopSkills = (emp) => {
+    const candidate = emp.top_skills ?? emp.top_skills_tfidf
+    if (Array.isArray(candidate)) return candidate
+    if (typeof candidate === 'string') {
+      try {
+        const parsed = JSON.parse(candidate)
+        return Array.isArray(parsed) ? parsed : []
+      } catch {
+        try {
+          const parsed = JSON.parse(candidate.replace(/'/g, '"'))
+          return Array.isArray(parsed) ? parsed : []
+        } catch {
+          return []
+        }
+      }
+    }
+    return []
+  }
+
+  const extractSkillSentence = (emp) => emp.skill_sentence || emp.skill || ''
+
   // Group data by cluster
   const clusters = {}
   clusteringData.forEach(emp => {
-    const cluster = emp.cluster_kmeans || 'unknown'
+    const cluster = emp.cluster_kmeans ?? 'unknown'
     if (!clusters[cluster]) {
       clusters[cluster] = []
     }
@@ -59,10 +80,11 @@ function ClusteringVisualization() {
       mode: 'markers',
       type: 'scatter',
       name: `Cluster ${clusterId}`,
-      text: clusterEmps.map(e => 
-        `Employee: ${e.employee_id}<br>` +
-        `Skills: ${e.skill?.split(' ').slice(0, 5).join(', ') || 'N/A'}`
-      ),
+      text: clusterEmps.map(e => {
+        const skills = extractTopSkills(e).slice(0, 5).map(ts => ts[0] || ts)
+        return `Employee: ${e.employee_id}<br>` +
+          `Top skills: ${skills.length ? skills.join(', ') : 'N/A'}`
+      }),
       hovertemplate: '%{text}<extra></extra>',
       marker: {
         size: 8,
@@ -78,31 +100,39 @@ function ClusteringVisualization() {
 
   // Filter data by selected cluster
   const filteredData = selectedCluster
-    ? clusteringData.filter(e => e.cluster_kmeans === selectedCluster)
+    ? clusteringData.filter(e => String(e.cluster_kmeans) === String(selectedCluster))
     : clusteringData
 
   // Get top skills for selected cluster
   const getClusterTopSkills = (clusterId) => {
-    const clusterEmps = clusteringData.filter(e => e.cluster_kmeans === clusterId)
+    const clusterEmps = clusteringData.filter(e => String(e.cluster_kmeans) === String(clusterId))
     const skillCounts = {}
     
     clusterEmps.forEach(emp => {
-      if (emp.top_skills && Array.isArray(emp.top_skills)) {
-        emp.top_skills.forEach(([skill, score]) => {
-          if (!skillCounts[skill]) {
-            skillCounts[skill] = { count: 0, totalScore: 0 }
-          }
+      const tops = extractTopSkills(emp)
+      tops.forEach(([skill, weight]) => {
+        if (!skill) return
+        const key = skill.toLowerCase()
+        if (!skillCounts[key]) skillCounts[key] = { name: skill, count: 0, totalWeight: 0 }
+        skillCounts[key].count++
+        skillCounts[key].totalWeight += weight || 0
+      })
+      const sentence = extractSkillSentence(emp)
+      if (sentence) {
+        sentence.split(/\s+/).forEach(tok => {
+          const skill = tok.trim().toLowerCase()
+          if (!skill) return
+          if (!skillCounts[skill]) skillCounts[skill] = { name: skill, count: 0, totalWeight: 0 }
           skillCounts[skill].count++
-          skillCounts[skill].totalScore += score || 0
         })
       }
     })
 
-    return Object.entries(skillCounts)
-      .map(([skill, data]) => ({
-        skill,
-        count: data.count,
-        avgScore: data.totalScore / data.count
+    return Object.values(skillCounts)
+      .map(item => ({
+        skill: item.name,
+        count: item.count,
+        avgScore: item.totalWeight / Math.max(1, item.count)
       }))
       .sort((a, b) => b.count - a.count)
       .slice(0, 10)
@@ -142,7 +172,8 @@ function ClusteringVisualization() {
     return (
       <div className="error">
         <p>{error}</p>
-        <button onClick={fetchClusteringData}>Retry</button>
+        <button onClick={() => fetchClusteringData(false)}>Retry</button>
+        <button onClick={() => fetchClusteringData(true)}>Recompute</button>
       </div>
     )
   }
@@ -150,7 +181,8 @@ function ClusteringVisualization() {
   if (clusteringData.length === 0) {
     return (
       <div className="no-data">
-        <p>No clustering data available. Please run the employee_skill_model.py script first.</p>
+        <p>No clustering data available. Ensure source Excel/CSV files exist server-side then click "Recompute".</p>
+        <button onClick={() => fetchClusteringData(true)}>Recompute</button>
       </div>
     )
   }
@@ -232,8 +264,9 @@ function ClusteringVisualization() {
         <ul>
           <li><strong>UMAP Dimension 1 & 2:</strong> Reduced dimensional representation of skill vectors</li>
           <li><strong>Clusters:</strong> Groups of employees with similar skill profiles</li>
-          <li><strong>Hover:</strong> See employee ID and top skills</li>
-          <li><strong>Filter:</strong> Click on a cluster in the dropdown to focus on it</li>
+          <li><strong>Hover:</strong> Employee ID and top TF-IDF skills</li>
+          <li><strong>Filter:</strong> Use the dropdown to focus on a cluster</li>
+          <li><strong>Data Source:</strong> Served from backend clustering API (generated via data_scripts parity)</li>
         </ul>
       </div>
     </div>

@@ -12,7 +12,8 @@
     "react-dom": "^18.2.0",
     "plotly.js": "^2.26.0",
     "react-plotly.js": "^2.6.0",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "papaparse": "^5.4.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
