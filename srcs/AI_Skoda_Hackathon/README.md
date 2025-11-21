@@ -1,6 +1,5 @@
 # SkillBridge AI - AI Skill Coach Platform
 
-![CI Pipeline](https://github.com/ayermeko/AI_Skoda_Hackathon/workflows/CI%2FCD%20Pipeline/badge.svg)
 ![PR Checks](https://github.com/ayermeko/AI_Skoda_Hackathon/workflows/Pull%20Request%20Checks/badge.svg)
 
 Internal Career Development Platform for Škoda - AI-powered skill development and career coaching.
