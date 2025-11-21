@@ -1,0 +1,42 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CzechFabric",
+  "name_for_model": "czechfabric_mcp",
+  "description_for_human": "Czech public data APIs: transport, air quality, and more 🇨🇿",
+  "description_for_model": "Multi-domain tool suite for Czech public data using CzechFabric MCP. Supports Czech and English queries. Domains: (1) TRANSPORT - public transit departures, routing, stops, geocoding; (2) AIR QUALITY - real-time pollution monitoring, AQI, health recommendations for Prague. All parameters must be in English.",
+  "auth": {
+    "type": "bearer",
+    "authorization_type": "user_http",
+    "verification_tokens": {}
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://mcp.czechfabric.cz/.well-known/openapi.json",
+    "is_user_authenticated": true
+  },
+  "logo_url": "https://czechfabric.cz/assets/images/logos/czfb_logo.svg",
+  "contact_email": "support@czechfabric.cz",
+  "legal_info_url": "https://czechfabric.cz/pages/privacy",
+  "x-czechfabric": {
+    "llm_guidance": "This plugin supports Czech 🇨🇿 and English 🇬🇧 natural language queries. All actual tool parameters must be passed in English. Use context clues to map user queries to tool functions correctly.",
+    "query_languages": ["cs", "en"],
+    "response_language": "en",
+    "domains": ["transport", "air_quality"],
+    "available_domains": [
+      {
+        "id": "transport",
+        "name": "Transport",
+        "description": "Public transport departures, routing, stops, and geocoding",
+        "tool_count": 8
+      },
+      {
+        "id": "air_quality",
+        "name": "Air Quality",
+        "description": "Real-time air quality monitoring and pollution data",
+        "tool_count": 4
+      }
+    ],
+    "server_url": "https://mcp.czechfabric.cz",
+    "version": "3.0.0"
+  }
+}

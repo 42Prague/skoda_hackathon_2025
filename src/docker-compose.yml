@@ -1,0 +1,104 @@
+# Full-Stack Docker Compose for SKODA AI Skill Coach
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: skoda-skill-coach-db
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_INITDB_ARGS: --encoding=UTF8 --locale=C
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      - skoda-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: skoda-skill-coach-backend
+    # Load ALL environment variables from .env file - no hardcoding
+    env_file:
+      - .env
+    # Override ONLY Docker-specific variables that can't be in .env
+    environment:
+      - DOCKERIZED=true
+      - DB_HOST=db  # Docker service name (not from .env)
+
+    volumes:
+      - ./backend/data:/app/data
+      - ./backend/logs:/app/logs
+      - ./backend/swx_api:/app/swx_api
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/healthz', timeout=5)" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    networks:
+      - skoda-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: DockerFile
+      target: development
+    container_name: skoda-skill-coach-frontend
+    env_file:
+      - ./.env
+    environment:
+      VITE_API_BASE_URL: ${VITE_API_BASE_URL}
+      NODE_ENV: development
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "${FRONTEND_PORT:-5173}:5173"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - skoda-network
+    command: npm run dev -- --host 0.0.0.0
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+    depends_on:
+      - db
+    networks:
+      - skoda-network
+
+volumes:
+  pgdata:
+    driver: local
+    name: skoda-skill-coach-pgdata
+
+networks:
+  skoda-network:
+    driver: bridge
+    name: skoda-skill-coach-network

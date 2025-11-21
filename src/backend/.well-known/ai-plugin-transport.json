@@ -1,0 +1,37 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CzechFabric Transport",
+  "name_for_model": "czechfabric_transport",
+  "description_for_human": "Czech public transport data — live departures, stop search, and trip planning 🚇",
+  "description_for_model": "Public transport tools for Czech Republic using CzechFabric MCP. Supports Czech and English queries. Use for: geocoding locations, reverse geocoding coordinates, finding nearby stops, listing all stops, checking stop metadata, getting real-time departures with delays, and planning routes between locations. All parameters must be in English.",
+  "auth": {
+    "type": "bearer",
+    "authorization_type": "user_http",
+    "verification_tokens": {}
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://mcp.czechfabric.cz/.well-known/openapi-transport.json",
+    "is_user_authenticated": true
+  },
+  "logo_url": "https://czechfabric.cz/assets/images/logos/czfb_logo.svg",
+  "contact_email": "support@czechfabric.cz",
+  "legal_info_url": "https://czechfabric.cz/pages/privacy",
+  "x-czechfabric": {
+    "llm_guidance": "This plugin supports Czech 🇨🇿 and English 🇬🇧 natural language queries. All actual tool parameters must be passed in English. Use context clues to map user queries to tool functions correctly. Supports TONE format for token-efficient responses.",
+    "query_languages": ["cs", "en"],
+    "response_language": "en",
+    "domain": "transport",
+    "tool_count": 8,
+    "features": [
+      "real_time_departures",
+      "trip_planning",
+      "stop_search",
+      "geocoding",
+      "accessibility_info"
+    ],
+    "server_url": "https://mcp.czechfabric.cz",
+    "version": "3.0.0"
+  }
+}
+
