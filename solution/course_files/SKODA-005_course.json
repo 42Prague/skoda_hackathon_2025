@@ -1,0 +1,17 @@
+{
+  "course_id": "SKODA-005",
+  "title": "Customer Experience Management",
+  "description": "Training on creating exceptional customer experiences in Škoda dealerships. Covers communication skills, problem-solving, and service excellence.",
+  "duration": "2 days",
+  "level": "Intermediate",
+  "category": "Customer Service",
+  "instructor": "Anna Kovářová",
+  "topics": [
+    "Communication",
+    "Problem-solving",
+    "Service excellence",
+    "Customer retention"
+  ],
+  "formatted_text": "Course: Customer Experience Management\nCourse ID: SKODA-005\nCategory: Customer Service\nLevel: Intermediate\nDuration: 2 days\nInstructor: Anna Kovářová\n\nDescription: Training on creating exceptional customer experiences in Škoda dealerships. Covers communication skills, problem-solving, and service excellence.\n\nTopics covered: Communication, Problem-solving, Service excellence, Customer retention",
+  "content_type": "course_metadata"
+}

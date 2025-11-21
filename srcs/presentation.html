@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S³ - Škoda Smart Stream | Pitch Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #f1f5f9;
+            overflow-x: hidden;
+        }
+
+        .presentation-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .slide {
+            min-height: 100vh;
+            height: 100vh;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            page-break-after: always;
+            page-break-inside: avoid;
+            break-after: page;
+            break-inside: avoid;
+        }
+
+        .slide h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .slide h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #10b981;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .slide h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #3b82f6;
+            margin-bottom: 1.5rem;
+        }
+
+        .slide p {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            color: #cbd5e1;
+            max-width: 900px;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .slide ul {
+            font-size: 1.3rem;
+            line-height: 2;
+            color: #cbd5e1;
+            max-width: 900px;
+            list-style: none;
+        }
+
+        .slide li {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .slide li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .title-slide {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+
+        .title-slide .subtitle {
+            font-size: 1.8rem;
+            color: #94a3b8;
+            margin-top: 1rem;
+        }
+
+        .content-slide {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: rgba(16, 185, 129, 0.1);
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: left;
+        }
+
+        .feature-card h4 {
+            color: #10b981;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            text-align: left;
+            font-size: 1.1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin-top: 2rem;
+        }
+
+        .stat-card {
+            background: rgba(59, 130, 246, 0.1);
+            border: 2px solid rgba(59, 130, 246, 0.3);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #3b82f6;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            max-width: 1000px;
+            margin-top: 2rem;
+        }
+
+        .tech-badge {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid #10b981;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.1rem;
+            color: #10b981;
+        }
+
+        .architecture-diagram {
+            max-width: 1000px;
+            margin: 2rem auto;
+            background: rgba(15, 23, 42, 0.5);
+            border-radius: 16px;
+            padding: 2rem;
+        }
+
+        .slide-number {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            color: #64748b;
+            font-size: 1rem;
+        }
+
+        .highlight {
+            color: #10b981;
+            font-weight: 600;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            max-width: 1200px;
+            margin-top: 2rem;
+        }
+
+        .column {
+            text-align: left;
+        }
+
+        .column h4 {
+            color: #3b82f6;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .column ul {
+            text-align: left;
+        }
+
+        @media print {
+            body {
+                background: #0f172a;
+                margin: 0;
+                padding: 0;
+            }
+            .presentation-container {
+                display: block;
+            }
+            .slide {
+                page-break-after: always;
+                page-break-inside: avoid;
+                break-after: page;
+                break-inside: avoid;
+                min-height: 100vh;
+                height: 100vh;
+                display: flex !important;
+                margin: 0;
+                padding: 4rem;
+            }
+            .slide-number {
+                position: absolute;
+                bottom: 2rem;
+                right: 2rem;
+            }
+        }
+
+        @page {
+            size: A4 landscape;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        
+        <!-- Slide 1: Title -->
+        <div class="slide title-slide">
+            <h1>S³</h1>
+            <p class="subtitle">Škoda Smart Stream</p>
+            <p style="font-size: 2rem; margin-top: 3rem; color: #10b981;">AI-Powered Learning & Development Platform</p>
+            <p style="font-size: 1.3rem; margin-top: 2rem; color: #94a3b8;">Hackathon AI Skill Coach | 42 Prague</p>
+            <div class="slide-number">1</div>
+        </div>
+
+        <!-- Slide 2: Problem Statement -->
+        <div class="slide content-slide">
+            <h2>The Challenge</h2>
+            <div class="two-column">
+                <div class="column">
+                    <h4>For Employees</h4>
+                    <ul>
+                        <li>Overwhelming course catalogs (10,000+ courses)</li>
+                        <li>Unclear skill gaps and development paths</li>
+                        <li>No personalized learning recommendations</li>
+                        <li>Difficulty connecting skills to career goals</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>For HR Managers</h4>
+                    <ul>
+                        <li>Limited visibility into team skill levels</li>
+                        <li>No data-driven approach to L&D planning</li>
+                        <li>Difficulty identifying critical skill gaps</li>
+                        <li>Manual, time-consuming course assignment</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-number">2</div>
+        </div>
+
+        <!-- Slide 3: Solution Overview -->
+        <div class="slide content-slide">
+            <h2>Our Solution</h2>
+            <p style="font-size: 1.8rem; margin-bottom: 2rem;">
+                <span class="highlight">S³</span> connects employee skill data with job requirements and career goals using AI-powered analytics
+            </p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>🎯 Personalized Development Plans</h4>
+                    <p>AI-powered recommendations based on skill gaps, role, and career goals</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📊 Skill Gap Analysis</h4>
+                    <p>Visual "Swiss Cheese" profiles showing strengths and areas for improvement</p>
+                </div>
+                <div class="feature-card">
+                    <h4>👥 Manager Dashboard</h4>
+                    <p>Comprehensive analytics for team development planning and training optimization</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🔍 Intelligent Course Discovery</h4>
+                    <p>Semantic search across 10,000+ courses with AI-powered matching</p>
+                </div>
+            </div>
+            <div class="slide-number">3</div>
+        </div>
+
+        <!-- Slide 4: Key Features -->
+        <div class="slide content-slide">
+            <h2>Key Features</h2>
+            <div class="two-column">
+                <div class="column">
+                    <h4>For Employees</h4>
+                    <ul>
+                        <li>Personalized Learning Feed</li>
+                        <li>Skill Gap Visualization</li>
+                        <li>Course Recommendations</li>
+                        <li>Progress Tracking</li>
+                        <li>Advanced Search & Filters</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>For HR Managers</h4>
+                    <ul>
+                        <li>Employee Search with Filters</li>
+                        <li>Analytics Dashboard</li>
+                        <li>Department Overview</li>
+                        <li>Module Assignment</li>
+                        <li>Learning Analytics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-number">4</div>
+        </div>
+
+        <!-- Slide 5: Data Integration -->
+        <div class="slide content-slide">
+            <h2>Comprehensive Data Integration</h2>
+            <p style="font-size: 1.5rem; margin-bottom: 2rem;">
+                We use <span class="highlight">ALL</span> provided data sources from the Škoda ecosystem
+            </p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>📋 ERP Data</h4>
+                    <p>Employee profiles, roles, education background</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🎓 Training History</h4>
+                    <p>Course completions from Legacy LMS and extended records</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🌐 Degreed Platform</h4>
+                    <p>External learning platform data and course catalog</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🗺️ Skill Mapping</h4>
+                    <p>Course-to-skill mappings and competency data</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🏢 Org Hierarchy</h4>
+                    <p>Department structure and organizational relationships</p>
+                </div>
+                <div class="feature-card">
+                    <h4>💼 Job Descriptions</h4>
+                    <p>Role-specific responsibilities and requirements</p>
+                </div>
+            </div>
+            <div class="slide-number">5</div>
+        </div>
+
+        <!-- Slide 6: AI & Data Logic -->
+        <div class="slide content-slide">
+            <h2>AI-Powered Intelligence</h2>
+            <p style="font-size: 1.5rem; margin-bottom: 2rem;">
+                Advanced AI and data analytics at the core of our solution
+            </p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>🔍 Vector Store & Semantic Search</h4>
+                    <p>TF-IDF embeddings for intelligent course matching and recommendations</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🧠 Skill Gap Detection</h4>
+                    <p>AI-powered inference of skill levels from learning history</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🌐 Multi-Language Processing</h4>
+                    <p>Automatic Czech-to-English translation for data unification</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📊 Intelligent Categorization</h4>
+                    <p>Automatic course categorization using keyword analysis</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🎯 Personalized Recommendations</h4>
+                    <p>Scoring algorithm based on skill gaps, role, and learning history</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🛡️ Data Quality Handling</h4>
+                    <p>Robust processing of incomplete data and language variability</p>
+                </div>
+            </div>
+            <div class="slide-number">6</div>
+        </div>
+
+        <!-- Slide 7: Statistics -->
+        <div class="slide content-slide">
+            <h2>By The Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Courses Available</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">215</div>
+                    <div class="stat-label">Employees</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">296</div>
+                    <div class="stat-label">Job Descriptions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Data Sources Used</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Data Sources Integrated</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Languages Supported</div>
+                </div>
+            </div>
+            <div class="slide-number">7</div>
+        </div>
+
+        <!-- Slide 8: Architecture -->
+        <div class="slide content-slide">
+            <h2>System Architecture</h2>
+            <div class="architecture-diagram">
+                <div style="text-align: center; color: #cbd5e1; font-size: 1.2rem; line-height: 2;">
+                    <p><strong>Data Sources</strong> → <strong>Processing Pipeline</strong> → <strong>Data Storage</strong> → <strong>Web Application</strong></p>
+                    <p style="margin-top: 2rem; font-size: 1rem;">
+                        Excel/TXT Files → Loader → Translator → Chunker → Tagger → Embedder → Vector Store
+                    </p>
+                    <p style="margin-top: 1rem; font-size: 1rem;">
+                        JSON Data → Next.js Frontend → React Components → Analytics & Visualizations
+                    </p>
+                </div>
+            </div>
+            <p style="font-size: 1.2rem; margin-top: 2rem; color: #94a3b8;">
+                Modular, scalable architecture ready for production deployment
+            </p>
+            <div class="slide-number">8</div>
+        </div>
+
+        <!-- Slide 9: Technology Stack -->
+        <div class="slide content-slide">
+            <h2>Technology Stack</h2>
+            <div style="margin-top: 2rem;">
+                <h3 style="color: #3b82f6; margin-bottom: 1rem;">Frontend</h3>
+                <div class="tech-stack">
+                    <span class="tech-badge">Next.js 15</span>
+                    <span class="tech-badge">TypeScript</span>
+                    <span class="tech-badge">Tailwind CSS</span>
+                    <span class="tech-badge">Recharts</span>
+                    <span class="tech-badge">React</span>
+                </div>
+            </div>
+            <div style="margin-top: 3rem;">
+                <h3 style="color: #10b981; margin-bottom: 1rem;">Backend & Data Processing</h3>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python 3.11+</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Transformers</span>
+                    <span class="tech-badge">scikit-learn</span>
+                    <span class="tech-badge">TF-IDF</span>
+                </div>
+            </div>
+            <div class="slide-number">9</div>
+        </div>
+
+        <!-- Slide 10: Demo Highlights -->
+        <div class="slide content-slide">
+            <h2>Platform Highlights</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>🔎 Employee Search</h4>
+                    <p>Advanced filtering by skill gaps, department, and experience</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🧀 Swiss Cheese Profile</h4>
+                    <p>Unique visualization of skill strengths and gaps</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📈 Analytics Dashboard</h4>
+                    <p>Comprehensive insights with 4 specialized tabs</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📚 Learning Feed</h4>
+                    <p>10,000+ courses with category filtering and search</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🏢 Department Overview</h4>
+                    <p>Skill health tracking across organizational units</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📊 Real-Time Analytics</h4>
+                    <p>Learning trends, top learners, popular courses</p>
+                </div>
+            </div>
+            <div class="slide-number">10</div>
+        </div>
+
+        <!-- Slide 11: Impact & Value -->
+        <div class="slide content-slide">
+            <h2>Impact & Value Proposition</h2>
+            <div class="two-column">
+                <div class="column">
+                    <h4>For Employees</h4>
+                    <ul>
+                        <li>Reduced time to find relevant courses</li>
+                        <li>Clear understanding of skill gaps</li>
+                        <li>Personalized learning paths</li>
+                        <li>Career development support</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>For Organization</h4>
+                    <ul>
+                        <li>Data-driven L&D decisions</li>
+                        <li>Optimized training investments</li>
+                        <li>Skill-based workforce planning</li>
+                        <li>Continuous learning culture</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="font-size: 1.5rem; margin-top: 3rem; color: #10b981;">
+                Supporting Škoda's vision: <span class="highlight">"A culture where lifelong learning is supported and valued"</span>
+            </p>
+            <div class="slide-number">11</div>
+        </div>
+
+        <!-- Slide 12: Alignment with Goals -->
+        <div class="slide content-slide">
+            <h2>Project Goals Alignment</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>✅ Personalized Development Plans</h4>
+                    <p>AI-powered recommendations based on skill gaps and career goals</p>
+                </div>
+                <div class="feature-card">
+                    <h4>✅ Skill Analysis & Recommendations</h4>
+                    <p>Comprehensive skill gap detection and course matching</p>
+                </div>
+                <div class="feature-card">
+                    <h4>✅ Manager Support</h4>
+                    <p>Dashboard for team development planning and training optimization</p>
+                </div>
+                <div class="feature-card">
+                    <h4>✅ Continuous Learning Culture</h4>
+                    <p>Platform supporting skill-based organization transformation</p>
+                </div>
+            </div>
+            <p style="font-size: 1.3rem; margin-top: 2rem; color: #94a3b8;">
+                All project requirements from the hackathon brief are fully implemented
+            </p>
+            <div class="slide-number">12</div>
+        </div>
+
+        <!-- Slide 13: Technical Excellence -->
+        <div class="slide content-slide">
+            <h2>Technical Excellence</h2>
+            <ul style="max-width: 1000px; text-align: left;">
+                <li><strong>Production-Ready Code:</strong> TypeScript, proper error handling, clean architecture</li>
+                <li><strong>Scalable Design:</strong> Modular components, extensible data pipeline</li>
+                <li><strong>Real Data Integration:</strong> Handles actual Škoda organizational data</li>
+                <li><strong>Performance Optimized:</strong> Efficient data processing, fast UI rendering</li>
+                <li><strong>Comprehensive Documentation:</strong> README, code comments, architecture diagrams</li>
+                <li><strong>Modern UI/UX:</strong> Responsive design, dark mode, smooth animations</li>
+            </ul>
+            <div class="slide-number">13</div>
+        </div>
+
+        <!-- Slide 14: Next Steps -->
+        <div class="slide content-slide">
+            <h2>Future Enhancements</h2>
+            <div class="two-column">
+                <div class="column">
+                    <h4>Short Term</h4>
+                    <ul>
+                        <li>Enhanced skill inference algorithms</li>
+                        <li>Predictive analytics for skill needs</li>
+                        <li>Chatbot for course recommendations</li>
+                        <li>SSO integration</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Long Term</h4>
+                    <ul>
+                        <li>Integration with Degreed API</li>
+                        <li>Advanced ML models for recommendations</li>
+                        <li>Mobile application</li>
+                        <li>Real-time skill updates</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-number">14</div>
+        </div>
+
+        <!-- Slide 15: Thank You -->
+        <div class="slide title-slide">
+            <h1>Thank You</h1>
+            <p style="font-size: 2rem; margin-top: 3rem; color: #10b981;">Questions?</p>
+            <p style="font-size: 1.5rem; margin-top: 2rem; color: #94a3b8;">
+                S³ — Škoda Smart Stream
+            </p>
+            <p style="font-size: 1.2rem; margin-top: 1rem; color: #64748b;">
+                AI-Powered Learning & Development Platform
+            </p>
+            <div class="slide-number">15</div>
+        </div>
+
+    </div>
+
+    <script>
+        // Keyboard navigation
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function showSlide(n) {
+            slides[currentSlide].style.display = 'none';
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].style.display = 'flex';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+                showSlide(currentSlide + 1);
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                showSlide(currentSlide - 1);
+            } else if (e.key === 'Home') {
+                showSlide(0);
+            } else if (e.key === 'End') {
+                showSlide(totalSlides - 1);
+            }
+        });
+
+        // Initialize
+        slides.forEach((slide, index) => {
+            if (index !== 0) slide.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
+

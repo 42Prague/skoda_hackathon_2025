@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "s3"
+version = "0.1.0"
+description = "S³ — Skoda Smart Stream prototype"
+authors = ["42 Hackathon Team <team@s3.local>"]
+readme = "README.md"
+packages = [{ include = "s3", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = { extras = ["all"], version = "^0.12.5" }
+pydantic = "^2.9.2"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+numpy = "^2.1.2"
+rich = "^13.9.2"
+scipy = "^1.14.1"
+transformers = "^4.45.2"
+sentencepiece = "^0.2.0"
+torch = "^2.6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

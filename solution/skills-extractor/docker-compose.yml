@@ -1,0 +1,104 @@
+version: '3.8'
+
+services:
+  # Neo4j Graph Database - Stores jobs, skills, and relationships
+  neo4j:
+    image: neo4j:5.16-community
+    container_name: skills-taxonomy-neo4j
+    ports:
+      - "7474:7474"  # HTTP - Neo4j Browser UI
+      - "7687:7687"  # Bolt - Database connection protocol
+    environment:
+      # Authentication (username/password)
+      - NEO4J_AUTH=neo4j/skillspassword
+      # APOC plugin for extended procedures
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_apoc_import_file_use__neo4j__config=true
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      # Memory settings for better performance
+      - NEO4J_dbms_memory_heap_initial__size=512m
+      - NEO4J_dbms_memory_heap_max__size=2G
+      - NEO4J_dbms_memory_pagecache_size=1G
+    volumes:
+      - neo4j_data:/data           # Persistent database storage
+      - neo4j_logs:/logs           # Log files
+      - neo4j_import:/var/lib/neo4j/import  # Import directory
+      - neo4j_plugins:/plugins     # APOC and other plugins
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p skillspassword 'RETURN 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - skills-network
+
+  # FastAPI Web Server - Provides REST API for skill queries
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skills-taxonomy-web
+    ports:
+      - "8002:8000"  # FastAPI REST API server
+    environment:
+      # OpenRouter Configuration (for LLM skill extraction)
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OPENROUTER_BASE_URL=${OPENROUTER_BASE_URL:-https://openrouter.ai/api/v1}
+      - OPENROUTER_MODEL=${OPENROUTER_MODEL:-google/gemini-2.5-flash-exp:free}
+      # Neo4j Configuration (connects to neo4j service)
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=skillspassword
+      - NEO4J_DATABASE=neo4j
+      # LLM Settings
+      - LLM_BATCH_SIZE=${LLM_BATCH_SIZE:-50}
+      - LLM_MAX_CONCURRENT=${LLM_MAX_CONCURRENT:-50}
+      - LLM_TIMEOUT=${LLM_TIMEOUT:-30}
+      - LLM_MAX_RETRIES=${LLM_MAX_RETRIES:-3}
+      # Normalization Settings
+      - CLUSTERING_EPS=${CLUSTERING_EPS:-0.15}
+      - CLUSTERING_MIN_SAMPLES=${CLUSTERING_MIN_SAMPLES:-2}
+      - SEMANTIC_SIMILARITY_THRESHOLD=${SEMANTIC_SIMILARITY_THRESHOLD:-0.85}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-sentence-transformers/all-mpnet-base-v2}
+      # API Settings
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - API_WORKERS=${API_WORKERS:-4}
+    volumes:
+      # Mount data directory (read-write for loading prepared data)
+      - ./data:/app/data
+      # Mount source code for development (uncomment for hot-reload)
+      - ./src:/app/src
+      - ./config:/app/config
+      - ./scripts:/app/scripts
+    depends_on:
+      neo4j:
+        condition: service_healthy  # Wait for Neo4j to be ready
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s  # Allow time for app startup
+    restart: unless-stopped
+    networks:
+      - skills-network
+
+# Network for service communication
+networks:
+  skills-network:
+    driver: bridge
+
+# Persistent volumes for Neo4j data
+volumes:
+  neo4j_data:      # Main database storage
+    driver: local
+  neo4j_logs:      # Database logs
+    driver: local
+  neo4j_import:    # Import directory for bulk loading
+    driver: local
+  neo4j_plugins:   # APOC and other plugins
+    driver: local
