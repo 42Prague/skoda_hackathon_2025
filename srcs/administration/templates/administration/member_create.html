@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load tailwind_filters %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto">
+    <a class="hover:text-gray-200 text-gray-400" href="{% url 'administration:member-list' %}">Go back to members</a>
+    <hr/>
+    <div class="py-5 border-5 border-gray-200">
+        <h1 class="text-4xl text-gray-200">Create a new member</h1>
+    </div>
+
+    <form method="post" class="[&_label]:text-gray-400">
+        {% csrf_token %}
+        <!-- Scrollable box -->
+        <div class="border border-gray-300 rounded-md p-4 mb-4 overflow-y-auto">
+              
+            <!-- Basic info -->
+            <div class="grid grid-cols-2 gap-4">
+                {{ form.username|as_crispy_field }}
+                {{ form.first_name|as_crispy_field }}
+                {{ form.last_name|as_crispy_field }}
+                {{ form.email|as_crispy_field }}
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Skill info -->
+            <div class="grid grid-cols-2">
+                {{ form.target_role|as_crispy_field }}
+            </div>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="flex m-auto mb-5 mt-3 text-white bg-slate-900 border-2 border-double border-gray-200 py-2 px-24 focus:outline-none rounded">
+          Submit
+      </button>
+    </form>
+</div>
+{% endblock content %}

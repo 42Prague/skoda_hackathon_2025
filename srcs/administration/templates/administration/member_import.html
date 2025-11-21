@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load tailwind_filters %}
+
+{% block content %}
+<div class="max-w-lg mx-auto">
+  <a class="text-gray-400 hover:text-gray-300" href="{% url 'administration:member-list' %}">
+    Go back to members
+  </a>
+
+  <div class="py-4 border-t border-gray-200">
+    <h1 class="text-4xl text-gray-200">Import members</h1>
+  </div>
+
+  <form method="post" enctype="multipart/form-data" class="space-y-4">
+    {% csrf_token %}
+
+    <!-- Custom file input -->
+    <div class="relative flex items-center gap-3">
+      <label class="cursor-pointer bg-blue-100 text-blue-700 font-medium py-2 px-4 rounded-full transition">
+        Choose file
+        <input id="fileInput" type="file" name="file" class="hidden" onchange="updateFileName()" />
+      </label>
+      <span id="fileName" class="text-gray-300 text-sm">No file chosen</span>
+    </div>
+
+    <div class="py-2 border-t border-gray-200">
+      <button type="submit"
+      class="flex ml-auto mb-3 text-white bg-slaate-900 border-2 border-double border-gray-200 py-2 px-6 focus:outline-none rounded mt-1">
+      Submit
+    </button>
+    </div>
+  </form>
+</div>
+
+<script>
+  function updateFileName() {
+    const input = document.getElementById('fileInput');
+    const fileName = input.files.length ? input.files[0].name : 'No file chosen';
+    document.getElementById('fileName').textContent = fileName;
+  }
+</script>
+{% endblock content %}
