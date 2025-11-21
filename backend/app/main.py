@@ -203,16 +203,22 @@ async def search_skills(request: SkillSearchRequest):
     if skill_engine is None:
         try:
             skill_engine = SkillEngine.load_index()
-
-            # If index doesn't exist, load data and build
-            if skill_engine.embeddings is None:
-                skill_engine.load_skills_data()
-                skill_engine.build_skill_index()
-
         except Exception as e:
             raise HTTPException(
                 status_code=500,
                 detail=f"Failed to load skill engine: {e}"
+            )
+    
+    # If index doesn't exist, load data and build
+    if skill_engine.embeddings is None:
+        try:
+            skill_engine.load_skills_data()
+            skill_engine.build_skill_index()
+            skill_engine.save_index()
+        except Exception as e:
+            raise HTTPException(
+                status_code=500,
+                detail=f"Failed to build skill index: {e}"
             )
 
     try:

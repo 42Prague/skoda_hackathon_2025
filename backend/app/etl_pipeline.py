@@ -87,12 +87,12 @@ def clean_course_participation(df: pd.DataFrame) -> pd.DataFrame:
     }
     _log_schema_diff(df, expected, "Course Participation")
 
-    # Map actual columns to expected names
+    # Map actual columns to expected names (with Czech characters)
     column_mapping = {
-        'id_ucastnika': 'personal_number',
-        'datum_zahajeni': 'datum_zahajeni',
-        'datum_ukonceni': 'datum_ukonceni',
-        'oznaceni_typu_akce': 'oznaceni_typu_akce'
+        'id_účastníka': 'personal_number',
+        'datum_zahájení': 'datum_zahajeni',
+        'datum_ukončení': 'datum_ukonceni',
+        'označení_typu_akce': 'oznaceni_typu_akce'
     }
     df = df.rename(columns=column_mapping)
 
@@ -112,12 +112,12 @@ def clean_qualifications(df: pd.DataFrame) -> pd.DataFrame:
     expected = {'personal_number', 'id_q', 'name_q', 'start_date', 'end_date'}
     _log_schema_diff(df, expected, "Qualifications")
 
-    # Map actual columns to expected names
+    # Map actual columns to expected names (with Czech characters)
     column_mapping = {
         'id_p': 'personal_number',
-        'nazev_q': 'name_q',
-        'pocat_datum': 'start_date',
-        'koncove_datum': 'end_date'
+        'název_q': 'name_q',
+        'počát_datum': 'start_date',
+        'koncové_datum': 'end_date'
     }
     df = df.rename(columns=column_mapping)
 
@@ -174,8 +174,8 @@ def clean_skill_mapping(mapping_df: pd.DataFrame,
     if mapping_df is not None:
         expected = {'course_id', 'skill_id', 'skill_name'}
         _log_schema_diff(mapping_df, expected, "Skill Mapping (Mapping sheet)")
-
-        # Map actual columns to expected names
+        
+        # Map actual columns to expected names (with Czech characters)
         column_mapping = {
             'id_objektu': 'course_id',
             'id_skillu': 'skill_id',
@@ -200,9 +200,9 @@ def clean_role_qualifications(df: pd.DataFrame) -> pd.DataFrame:
     expected = {'planned_position_id', 'id_kvalifikace', 'kvalifikace'}
     _log_schema_diff(df, expected, "Role Qualifications")
 
-    # Map actual columns to expected names
+    # Map actual columns to expected names (with Czech characters)
     column_mapping = {
-        'cislo_fm': 'planned_position_id'
+        'číslo_fm': 'planned_position_id'
         # Keep id_kvalifikace and kvalifikace as-is if they exist
     }
     df = df.rename(columns=column_mapping)

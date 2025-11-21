@@ -93,16 +93,23 @@ class SkillGraph:
 
             # Add edge from employee to qualification
             emp_node = f"emp:{personal_number}"
-            if emp_node in self.graph:
-                self.graph.add_edge(
+            # Create employee node if it doesn't exist
+            if emp_node not in self.graph:
+                self.graph.add_node(
                     emp_node,
-                    qual_node,
-                    edge_type='HAS_QUALIFICATION',
-                    start_date=row.get('start_date'),
-                    end_date=row.get('end_date'),
-                    is_indefinite=row.get('is_indefinite', False)
+                    node_type='employee',
+                    personal_number=str(personal_number)
                 )
-                edge_count += 1
+            
+            self.graph.add_edge(
+                emp_node,
+                qual_node,
+                edge_type='HAS_QUALIFICATION',
+                start_date=row.get('start_date'),
+                end_date=row.get('end_date'),
+                is_indefinite=row.get('is_indefinite', False)
+            )
+            edge_count += 1
 
         logger.info(f"Added {edge_count} qualification edges")
 
@@ -131,15 +138,22 @@ class SkillGraph:
 
             # Add edge from employee to course
             emp_node = f"emp:{personal_number}"
-            if emp_node in self.graph:
-                self.graph.add_edge(
+            # Create employee node if it doesn't exist
+            if emp_node not in self.graph:
+                self.graph.add_node(
                     emp_node,
-                    course_node,
-                    edge_type='COMPLETED_COURSE',
-                    start_date=row.get('datum_zahajeni'),
-                    end_date=row.get('datum_ukonceni')
+                    node_type='employee',
+                    personal_number=str(personal_number)
                 )
-                edge_count += 1
+            
+            self.graph.add_edge(
+                emp_node,
+                course_node,
+                edge_type='COMPLETED_COURSE',
+                start_date=row.get('datum_zahajeni'),
+                end_date=row.get('datum_ukonceni')
+            )
+            edge_count += 1
 
         logger.info(f"Added {edge_count} course completion edges")
 

@@ -98,14 +98,16 @@ class AICoachAgent:
             # Support both OpenAI and Azure OpenAI response formats
             choices = response.get('choices', [])
             if not choices:
-                return "I apologize, but I couldn't generate a response. Please try again."
-
+                logger.warning("API returned no choices, using fallback")
+                return self._get_fallback_response(user_input)
+            
             message = choices[0].get('message', {})
             answer = message.get('content', '').strip()
-
+            
             if not answer:
-                return "I apologize, but I couldn't generate a response. Please try rephrasing your question."
-
+                logger.warning("API returned empty content, using fallback")
+                return self._get_fallback_response(user_input)
+            
             return answer
 
         except Exception as e:
