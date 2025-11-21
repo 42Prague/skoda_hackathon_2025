@@ -1,7 +1,7 @@
 import os
 from typing import Dict, Any
 
-from data_scripts.skill_model import generate_skill_mapping_predictions
+# from data_scripts.skill_model import generate_skill_mapping_predictions
 
 DEFAULT_DEGREE_PATH = "../data/degree_content_catalog.xlsx"
 DEFAULT_SKILL_MAP_SOURCE = "../data/skill_mapping.xlsx"
@@ -46,13 +46,13 @@ class SkillMappingService:
         out_dir = os.path.dirname(self.predicted_output_path)
         if out_dir and out_dir not in ("", "."):
             os.makedirs(out_dir, exist_ok=True)
-        generate_skill_mapping_predictions(
-            degree_catalog_path=self.degree_catalog_path,
-            skill_mapping_source_path=self.skill_mapping_source_path,
-            output_path=self.predicted_output_path,
-            model_name=self.model_name,
-            top_n=self.top_n,
-        )
+        # generate_skill_mapping_predictions(
+        #     degree_catalog_path=self.degree_catalog_path,
+        #     skill_mapping_source_path=self.skill_mapping_source_path,
+        #     output_path=self.predicted_output_path,
+        #     model_name=self.model_name,
+        #     top_n=self.top_n,
+        # )
 
 
 skill_mapping_service = SkillMappingService()

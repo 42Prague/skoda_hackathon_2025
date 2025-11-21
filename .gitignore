@@ -2,6 +2,7 @@
 .DS_Store
 *.xlsx
 *.csv
+!srcs/server/employee_skill_positions.csv
 
 AGENTS.md
 opencode.jsonc

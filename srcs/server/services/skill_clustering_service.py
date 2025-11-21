@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 
 import pandas as pd
 
-from data_scripts.employee_skill_model import generate_employee_skill_positions
+# from data_scripts.employee_skill_model import generate_employee_skill_positions
 
 # Simple in-memory cache
 _CLUST_CACHE: Dict[str, Any] = {}
@@ -51,14 +51,14 @@ class SkillClusteringService:
     def _compute_pipeline(self) -> List[Dict[str, Any]]:
         self._ensure_skill_mapping_exists()
         self._validate_source_files()
-        generate_employee_skill_positions(
-            degreed_path=self.degreed_path,
-            sap_courses_path=self.sap_courses_path,
-            sap_quals_path=self.sap_quals_path,
-            skill_map_path=self.skill_map_path,
-            output_path=self.output_path,
-            n_clusters=self.n_clusters,
-        )
+        # generate_employee_skill_positions(
+        #     degreed_path=self.degreed_path,
+        #     sap_courses_path=self.sap_courses_path,
+        #     sap_quals_path=self.sap_quals_path,
+        #     skill_map_path=self.skill_map_path,
+        #     output_path=self.output_path,
+        #     n_clusters=self.n_clusters,
+        # )
         return self._load_from_csv(self.output_path)
 
     # --------------------------- HELPERS -----------------------------

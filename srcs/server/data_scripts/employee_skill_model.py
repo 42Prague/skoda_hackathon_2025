@@ -10,10 +10,10 @@ import umap.umap_ as umap
 # 1. File paths – adjust to your actual filenames
 # --------------------------------------------------
 
-degreed_path = "Degreed.xlsx"
-sap_courses_path = "ZHRPD_VZD_STA_007.xlsx"
-sap_quals_path = "ZHRPD_VZD_STA_016_RE_RHRHAZ00.xlsx"
-skill_map_path = "skill_mapping_with_predicted_skills.csv"
+degreed_path = "../data/Degreed.xlsx"
+sap_courses_path = "../data/ZHRPD_VZD_STA_007.xlsx"
+sap_quals_path = "../data/ZHRPD_VZD_STA_016_RE_RHRHAZ00.xlsx"
+skill_map_path = "../data/skill_mapping_with_predicted_skills.csv"
 
 # --------------------------------------------------
 # 2. Load input data
