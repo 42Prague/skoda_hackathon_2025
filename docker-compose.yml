@@ -1,0 +1,80 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: skoda-ai-coach-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # CRITICAL: Mount persistent data directory
+      # This must be mapped to Azure Files or Azure Disk in production
+      - ./persistent_data:/app/persistent_data:rw
+    environment:
+      # Configuration via environment variables (read by config.py)
+      - LOG_LEVEL=INFO
+      - RAW_XLSX_DIR=/app/persistent_data/raw_xlsx
+      - CLEAN_PARQUET_DIR=/app/persistent_data/clean_parquet
+      - MODELS_DIR=/app/persistent_data/models
+      - GRAPH_STATE_PATH=/app/persistent_data/state/skill_graph.pkl
+    # Azure-compatible resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+        reservations:
+          cpus: '0.5'
+          memory: 1G
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: skoda-ai-coach-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.1'
+          memory: 128M
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+# DEPLOYMENT NOTES FOR AZURE:
+# 1. Replace ./persistent_data volume with Azure Files share or Azure Disk
+# 2. For Azure Container Apps, use:
+#    - az containerapp create --environment <env-name>
+#    - Mount Azure Files: --storage-name <storage-name> --storage-path /app/persistent_data
+# 3. Before deployment, manually populate:
+#    - /app/persistent_data/raw_xlsx/ with the Excel files
+#    - /app/persistent_data/models/ with GGUF LLM and embedding model files
+# 4. Resource limits are Azure-compatible; adjust based on actual workload

@@ -1,2 +1,11 @@
 *.env
 .DS_Store
+.vscode
+data
+Data
+*.log
+.venv
+__pycache__/
+persistent_data/clean_parquet
+persistent_data/raw_xlsx
+persistent_data

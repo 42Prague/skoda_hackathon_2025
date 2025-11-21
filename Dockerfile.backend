@@ -1,0 +1,46 @@
+# Multi-stage build for Python backend
+# Uses slim Python image for minimal attack surface
+FROM python:3.10-slim as base
+
+# Install system dependencies required for llama-cpp-python and scientific stack
+# Keep minimal for security and image size
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    cmake \
+    libopenblas-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create non-root user for security (least privilege principle)
+RUN groupadd -r appuser && useradd -r -g appuser -u 1000 appuser
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements and install Python dependencies
+# Do this before copying code to leverage Docker layer caching
+COPY backend/app/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY backend/app/ .
+
+# Create persistent data directory structure
+# Note: The actual data will be mounted from Azure volume at runtime
+RUN mkdir -p /app/persistent_data/raw_xlsx \
+    /app/persistent_data/clean_parquet \
+    /app/persistent_data/models \
+    /app/persistent_data/state \
+    && chown -R appuser:appuser /app
+
+# Switch to non-root user
+USER appuser
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Health check for Azure Container Apps
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+
+# Run FastAPI with uvicorn
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--log-level", "info"]
