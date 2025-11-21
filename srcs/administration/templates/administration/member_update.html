@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load tailwind_filters %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<section class="text-gray-600 body-font overflow-hidden">
+  <div class="container mx-auto">
+    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+      <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 max-w-lg mx-auto">
+        <h2 class="text-sm title-font text-gray-500 tracking-widest">MEMBER</h2>
+        <h1 class="text-gray-200 text-3xl title-font font-medium mb-4">{{ member.first_name }} {{ member.last_name }}</h1>
+        <div class="flex mb-4">
+          <a href="{% url 'administration:member-detail' member.pk %}" class="flex-grow border-b-2 text-gray-400 border-gray-400 py-2 text-lg px-1">
+              Overview
+          </a>
+          <a href="{% url 'administration:member-update' member.pk %}" class="flex-grow text-stone-200 border-b-2 border-stone-200 py-2 text-lg px-1">
+              Update Details
+          </a>
+        </div>
+        <form method="post" class="[&_label]:text-gray-400">
+          {% csrf_token %}
+          <!-- Scrollable box -->
+          <div class="border border-gray-300 rounded-md p-4 mb-4 overflow-y-auto">
+              
+              <!-- Basic info -->
+              <div class="grid grid-cols-2 gap-4">
+                  {{ form.username|as_crispy_field }}
+                  {{ form.first_name|as_crispy_field }}
+                  {{ form.last_name|as_crispy_field }}
+                  {{ form.email|as_crispy_field }}
+              </div>
+  
+              <hr class="my-4">
+  
+              <!-- Skill info -->
+              <div class="grid gap-4">
+                  {{ form.target_role|as_crispy_field }}
+              </div>
+          </div>
+  
+          <!-- Submit button -->
+          <button type="submit" class="flex m-auto mb-5 mt-3 text-white bg-slate-900 border-2 border-double border-gray-200 py-2 px-20 focus:outline-none rounded">
+            Submit
+        </button>
+      </form>
+            <div class="mt-5 py-5 border-t border-gray-200">
+                <a href="{% url 'administration:member-delete' member.pk %}" class="w-1/2 mt-3 text-white bg-slate-900 border-2 border-double border-gray-200 py-2 px-6 focus:outline-none rounded">
+                    Delete
+                </a>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock content %}

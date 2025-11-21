@@ -1,0 +1,95 @@
+{% load static %}
+
+<header class="text-gray-600 body-font">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Nunito";
+    background: rgb(15, 23, 42);
+  }
+  </style>
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/">
+        <img class="w-12 h-12" alt="hero" src="{% static 'images/image1.png' %}"/>
+      <span class="text-stone-100 ml-2 text-xl">Traversity</span>
+    </a>
+
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      {% if not request.user.is_authenticated %}
+        <a href="{% url 'signup' %}" class="mr-5 text-stone-200 hover:text-stone-50">Signup</a>
+      {% endif %}
+      {% if request.user.is_organizer %}
+      <a href="{% url 'administration:member-list' %}" class="mr-2.5 text-stone-200 hover:text-stone-50">Members</a>
+      <a href="{% url 'administration:member-import' %}" class="mr-4 text-stone-200 hover:text-stone-50">Import</a>
+      {% endif %}
+    </nav>
+
+    {% if request.user.is_authenticated %}
+    <div class="mr-4 text-stone-200 ">Logged as: {{ request.user.username }}</div>
+    <form method="post" action="{% url 'logout' %}" class="inline mb-2">
+        {% csrf_token %}
+        <button type="submit"
+        class="ml-3 inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-1">
+        Logout
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+    </form>
+    {% else %}
+    <a href="{% url 'login' %}" class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">
+      Login
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </a>
+    {% endif %}
+  </div>
+</header>
+
+{% load static %}
+
+<!-- <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/">
+        <img class="w-12 h-12 text-white p-2 bg-violet-100 rounded-full" alt="hero" src="{% static 'images/bug.png' %}"/>
+      <span class="text-neutral-100 ml-2 text-xl">Tracer</span>
+    </a>
+
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      {% if not request.user.is_authenticated %}
+        <a href="{% url 'signup' %}" class="mr-5 hover:text-gray-900">Signup</a>
+      {% else %}
+      <a href="{% url 'administration:member-list' %}" class="mr-2.5 text-amber-100 hover:text-stone-100">Members</a>
+      <a href="{% url 'administration:member-import' %}" class="mr-4 text-amber-100 hover:text-stone-100">Import</a>
+      {% endif %}
+    </nav>
+
+    {% if request.user.is_authenticated %}
+    <div class="mr-4 text-amber-100 ">Logged as: {{ request.user.username }}</div>
+    <form method="post" action="{% url 'logout' %}" class="inline mb-2">
+        {% csrf_token %}
+        <button type="submit"
+        class="ml-3 inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-1">
+        Logout
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+    </form>
+
+    {% else %}
+    <a href="{% url 'login' %}" class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">
+      Login
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </a>
+    {% endif %}
+  </div>
+</header> -->

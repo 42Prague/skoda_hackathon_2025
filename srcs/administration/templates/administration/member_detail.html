@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="text-gray-600 body-font overflow-hidden">
+  <div class="container mx-auto">
+    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+      <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 max-w-lg mx-auto">
+        <h2 class="text-sm title-font text-gray-500 tracking-widest">MEMBER</h2>
+        <h1 class="text-gray-200 text-3xl title-font font-medium mb-4">{{ member.first_name }} {{ member.last_name }}</h1>
+        <div class="flex mb-4">
+          <a href="{% url 'administration:member-detail' member.pk %}" class="flex-grow text-stone-200 border-b-2 border-stone-200 py-2 text-lg px-1">
+              Overview
+          </a>
+          <a href="{% url 'administration:member-update' member.pk %}" class="flex-grow border-b-2 text-gray-400 border-gray-400 py-2 text-lg px-1">
+              Update Details
+          </a>
+        </div>
+        <div class="flex border-t border-gray-300 py-2">
+                <span class="text-gray-300"><b>ID</b></span>
+                <span class="ml-auto text-gray-300">{{ member.username }}</span>
+            </div>
+            <div class="flex border-t border-gray-300 py-2">
+              <span class="text-gray-300"><b>First name</b></span>
+              <span class="ml-auto text-gray-300">{{ member.first_name }}</span>
+          </div>
+          <div class="flex border-t border-gray-300 py-2">
+            <span class="text-gray-300"><b>Last name</b></span>
+            <span class="ml-auto text-gray-300">{{ member.last_name }}</span>
+          </div>
+            <div class="flex border-t border-gray-300 py-2">
+                <span class="text-gray-300"><b>Email</b></span>
+                <span class="ml-auto text-gray-300">{{ member.email }}</span>
+            </div>
+          <div class="flex border-t border-b border-gray-300 py-2">
+                <span class="text-gray-300"><b>Target Role</b></span>
+                <span class="ml-auto text-gray-300">{{ member.member.target_role }}</span>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock content %}

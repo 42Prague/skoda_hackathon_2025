@@ -1,0 +1,704 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>
+
+/* MAIN CHAT WIDGET */
+.livechat {
+  background: white;
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+  width: 285px;
+  height: 400px;
+  max-width: 600px;
+  border-radius: 1em;
+  box-shadow: 14px 14px 38px rgba(0, 0, 0, 0.08);
+  clip-path: circle(0% at 100% 100%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 400px;
+  min-height: 400px;
+  z-index: 9999;
+}
+
+.livechat .header {
+  background: rgba(38, 21, 80, 1);
+  opacity: 0.92;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-right-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
+}
+
+.livechat h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #FFF;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.livechat .content {
+  padding: 1em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.livechat .chat {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.5em;
+  max-height: 260px;
+}
+
+.message p.name {
+  color: rgba(5, 22, 69, 0.87);
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: Inter;
+  font-size: 17px !important;   /* was 16px */
+  line-height: 1.45;
+  font-weight: 700;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+
+.message p.msg {
+  margin-bottom: 1.5em;
+  font-size: 16px;
+  color: rgba(0,0,0,0.87);
+  font-family: Inter;
+}
+
+/* remove double margin from p inside bubble */
+.message.user p.name,
+.message.user p.msg {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: right;
+}
+
+/* Input area */
+.send-container {
+  display: grid;
+  grid-template-columns: 70% auto;
+  margin-top: 0.5em;
+  border-radius: .7em;
+  box-shadow: 4px 4px 17px rgba(0,0,0,0.12);
+}
+
+.send-container input[type="text"] {
+  padding: 0.5em;
+  border-top-left-radius: .7em;
+  border-bottom-left-radius: .7em;
+  border: 1px solid gray;
+}
+
+.send-container input[type="submit"] {
+  padding: 0.5em;
+  background: rgba(57, 27, 128, 1);
+  border: none;
+  color: #F7F7F7;
+  font-family: "Bruno Ace SC";
+  font-size: 14px;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  cursor: pointer;
+}
+
+/* Floating bubble */
+svg.bubble {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+svg.exit { cursor: pointer; }
+
+/* Animation */
+.animate-chat {
+  animation: grow-circle .3s forwards ease-out;
+}
+
+/* Draggable header cursor */
+.livechat .header {
+  cursor: move;
+}
+
+/* Resizer handle */
+.resizer {
+  width: 16px;
+  height: 16px;
+  background: rgb(223, 223, 223);
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  cursor: se-resize;
+  border-radius: 3px;
+}
+
+/* Typing indicator */
+.typing-indicator {
+  font-style: italic;
+  opacity: 0.8;
+  padding: 4px;
+  animation: pulse 1.4s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: .3; }
+  50% { opacity: 1; }
+  100% { opacity: .3; }
+}
+
+@keyframes grow-circle {
+  from { clip-path: circle(0% at 100% 100%); }
+  to { clip-path: circle(100% at 50% 50%); }
+}
+</style>
+<section class="text-gray-700 body-font">
+<div class="wrapper">
+
+  <!-- CHAT TOGGLE BUBBLE -->
+  <svg class="bubble" width="69" height="69" viewBox="0 0 69 69" fill="none">
+    <circle cx="34.5" cy="34.5" r="34" fill="#9996ED" stroke="#6E6A6A"/>
+    <g opacity="0.89">
+      <rect width="43" height="36" rx="3" transform="matrix(-1 0 0 1 56 17)" fill="#1A0689" fill-opacity="0.42"/>
+      <path d="M52.4 50V23c0-.8-.35-1.5-1.05-2.1C50.65 20 49.8 20 48.8 20H20.2c-1 0-1.85.3-2.55.9-.7.6-1.05 1.3-1.05 2.1V41c0 .8.35 1.5 1.05 2.1.7.6 1.55.9 2.55.9H45.25L52.4 50Z" fill="#1B0942"/>
+    </g>
+    <circle cx="45" cy="29" r="2" fill="#D9D9D9"/>
+    <circle cx="36" cy="29" r="2" fill="#D9D9D9"/>
+    <circle cx="26" cy="29" r="2" fill="#D9D9D9"/>
+  </svg>
+
+  <!-- CHAT WINDOW -->
+  <div class="livechat" id="livechat">
+    <div class="header">
+      <h4>AI chat</h4>
+
+      <!-- Close button -->
+      <svg class="exit" width="18" height="18" viewBox="0 0 16 15" fill="none">
+        <g filter="url(#filter0_n_6_72)">
+        <rect width="16" height="15" rx="7.5" fill="#261550"/>
+        <path d="M4.26668 11.875L3.33334 11L7.06668 7.5L3.33334 4L4.26668 3.125L8.00001 6.625L11.7333 3.125L12.6667 4L8.93334 7.5L12.6667 11L11.7333 11.875L8.00001 8.375L4.26668 11.875Z" fill="#FEF7FF"/>
+        </g>
+        <defs>
+        <filter id="filter0_n_6_72" x="0" y="0" width="16" height="15" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="7805" />
+        <feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+        <feComponentTransfer in="alphaNoise" result="coloredNoise1">
+        <feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+        </feComponentTransfer>
+        <feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+        <feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
+        <feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+        <feMerge result="effect1_noise_6_72">
+        <feMergeNode in="shape" />
+        <feMergeNode in="color1" />
+        </feMerge>
+        </filter>
+        </defs>
+        </svg>
+    </div>
+
+    <div class="content">
+      <!-- Messages appear here -->
+      <div class="chat" id="chat-area"></div>
+
+      <!-- Input -->
+      <div class="send-container">
+        <input type="text" id="chat-input" placeholder="Your message">
+        <input type="submit" id="send-btn" value="Send">
+      </div>
+    </div>
+    <div class="resizer" id="chat-resizer"></div>
+  </div>
+
+</div>
+<!-- ROADMAP SECTION (unchanged) -->
+<div class="container px-5 py-16 mx-auto">
+  <div class="flex justify-between items-center mb-6 border-b border-gray-200">
+    <h1 class="text-4xl text-gray-200">Career Roadmap</h1>
+    {% if request.user.is_organizer %}
+    <a class="text-gray-400 hover:text-gray-200 mt-3" href="{% url 'administration:member-list' %}">
+      Go back to members
+    </a>
+    {% else %}
+    <a class="text-gray-400 hover:text-gray-200 mt-3" href="{% url 'roadmap:member-self-update' %}">
+      Update targets
+    </a>
+    {% endif %}
+    
+  </div>
+
+  {% if svg_url %}
+  <div 
+      x-data="{ scale: 1, originX: '50%', originY: '50%', zooming: false }"
+      x-ref="scrollContainer"
+      class="border rounded-lg bg-white p-4 shadow-md overflow-auto select-none"
+      style="max-height: 85vh;"
+      @wheel.prevent="
+        if ($event.deltaY !== 0) {
+          $refs.scrollContainer.scrollLeft += $event.deltaY;
+        }
+      "
+    >
+      <div class="flex justify-center items-center min-w-[2400px]">
+        <img
+          src="{{ svg_url }}"
+          alt="Career Roadmap"
+          class="object-contain max-h-[80vh] w-[2400px] transition-transform duration-300 ease-in-out"
+          :style="`transform: scale(${scale}); transform-origin: ${originX} ${originY};`"
+    
+          @mousemove="
+            if (zooming) {
+              const rect = $el.getBoundingClientRect();
+              const x = (($event.clientX - rect.left) / rect.width) * 100;
+              const y = (($event.clientY - rect.top) / rect.height) * 100;
+              originX = x + '%';
+              originY = y + '%';
+            }
+          "
+          @mousedown.prevent="
+            if ($event.button === 2) {  // right mouse button
+              zooming = true;
+              scale = 1.5;
+            }
+          "
+          @mouseup.window="zooming = false; scale = 1"
+          @mouseleave="zooming = false; scale = 1"
+          @contextmenu.prevent
+          style="margin: auto; cursor: default;"
+        >
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  /* CHAT OPEN/CLOSE */
+  /* ==========================
+      OPEN / CLOSE CHAT WINDOW
+  =========================== */
+  const bubble = document.querySelector('.bubble');
+  const exitBtn = document.querySelector('.exit');
+  const chatBox = document.getElementById('livechat');
+  
+  bubble.addEventListener('click', () => {
+      chatBox.classList.add('animate-chat');
+      // Ensure the initial message is loaded when chat opens
+      loadInitialMessage();
+  });
+  
+  exitBtn.addEventListener('click', () => {
+      chatBox.classList.remove('animate-chat');
+  });
+  
+  
+  /* ==========================
+      DRAGGABLE WINDOW
+  =========================== */
+  (function () {
+      const header = chatBox.querySelector(".header");
+      let offsetX = 0, offsetY = 0, isDown = false;
+  
+      header.addEventListener("mousedown", (e) => {
+          isDown = true;
+          offsetX = e.clientX - chatBox.offsetLeft;
+          offsetY = e.clientY - chatBox.offsetTop;
+      });
+  
+      document.addEventListener("mouseup", () => isDown = false);
+  
+      document.addEventListener("mousemove", (e) => {
+          if (isDown) {
+              chatBox.style.left = (e.clientX - offsetX) + "px";
+              chatBox.style.top = (e.clientY - offsetY) + "px";
+  
+              chatBox.style.right = "auto";
+              chatBox.style.bottom = "auto";
+          }
+      });
+  })();
+  
+  
+  /* ==========================
+      RESIZABLE WINDOW
+  =========================== */
+  (function () {
+      const resizer = document.getElementById("chat-resizer");
+      let isResizing = false;
+  
+      resizer.addEventListener("mousedown", (event) => {
+          isResizing = true;
+          event.preventDefault();
+      });
+  
+      document.addEventListener("mousemove", (event) => {
+          if (!isResizing) return;
+  
+          const width = event.clientX - chatBox.offsetLeft;
+          const height = event.clientY - chatBox.offsetTop;
+  
+          chatBox.style.width = Math.min(Math.max(260, width), 700) + "px";   // limit size
+          chatBox.style.height = Math.min(Math.max(280, height), 900) + "px";
+      });
+  
+      document.addEventListener("mouseup", () => isResizing = false);
+  })();
+  
+  
+  /* ==========================
+      TYPEWRITER EFFECT
+  =========================== */
+  function typeWriter(element, text, speed = 18) {
+      let index = 0;
+  
+      function type() {
+          if (index < text.length) {
+              element.textContent += text.charAt(index);
+              index++;
+              element.parentNode.scrollTop = element.parentNode.scrollHeight;
+              setTimeout(type, speed);
+          }
+      }
+      type();
+  }
+  
+  
+  /* ==========================
+      APPEND MESSAGES + TYPING…
+  =========================== */
+  const chatArea = document.getElementById("chat-area");
+  
+  function appendMessage(role, msg, typewriter = false, id = null, typingSpeed) {
+      const wrapper = document.createElement("div");
+      wrapper.className = "message " + (role === "user" ? "user" : "operator");
+      if (id) wrapper.id = id; // Add ID for the initial message
+  
+      const name = document.createElement("p");
+      name.className = "name";
+      name.textContent = role === "user" ? "You" : "AI assistant";
+  
+      const text = document.createElement("p");
+      text.className = "msg";
+  
+      wrapper.appendChild(name);
+      wrapper.appendChild(text);
+      chatArea.appendChild(wrapper);
+  
+      // Pass the custom speed to typeWriter if provided, otherwise use default
+      if (role === "user") {
+    text.textContent = msg;
+}
+// AI messages → keep typewriter
+else if (typewriter) {
+    typeWriter(text, msg, typingSpeed);
+}
+else {
+    text.textContent = msg;
+}
+  
+      chatArea.scrollTop = chatArea.scrollHeight;
+  }
+  
+  /* ==========================
+      INITIAL CHAT MESSAGE
+  =========================== */
+  const INITIAL_MESSAGE_ID = "initial-chat-prompt";
+  let hasUserSentMessage = false;
+  
+  function loadInitialMessage() {
+      // Only load if the user hasn't sent a message and the message isn't already there
+      if (!hasUserSentMessage && !document.getElementById(INITIAL_MESSAGE_ID)) {
+          const initialMsg = "Traverse your roadmap by asking me about your next steps, skill gaps, or potential career paths.";
+          appendMessage("operator", initialMsg, false, INITIAL_MESSAGE_ID);
+      }
+  }
+  
+  function clearInitialMessage() {
+      const initialMessage = document.getElementById(INITIAL_MESSAGE_ID);
+      if (initialMessage) {
+          initialMessage.remove();
+      }
+  }
+  
+  
+  /* ==========================
+      TYPING INDICATOR
+  =========================== */
+  let typingIndicator = null;
+  
+  function showTyping() {
+      typingIndicator = document.createElement("div");
+      typingIndicator.className = "typing-indicator message operator";
+      typingIndicator.textContent = "AI is thinking...";
+      chatArea.appendChild(typingIndicator);
+      chatArea.scrollTop = chatArea.scrollHeight;
+  }
+  
+  function hideTyping() {
+      if (typingIndicator) {
+          typingIndicator.remove();
+          typingIndicator = null;
+      }
+  }
+  
+  
+  /* ==========================
+      SEND MESSAGE
+  =========================== */
+  const input = document.getElementById("chat-input");
+  const sendBtn = document.getElementById("send-btn");
+  
+  function sendMessage() {
+      const text = input.value.trim();
+      if (!text) return;
+  
+      // Clear the initial message on the first send
+      if (!hasUserSentMessage) {
+          clearInitialMessage();
+          hasUserSentMessage = true;
+      }
+      
+      appendMessage("user", text);
+      input.value = "";
+  
+      showTyping();
+  
+      fetch("{% url 'roadmap:chat_ai' member.pk %}", {
+          method: "POST",
+          headers: {
+              "Content-Type": "application/json",
+              "X-CSRFToken": "{{ csrf_token }}",
+          },
+          body: JSON.stringify({ message: text })
+      })
+      .then(res => res.json())
+      .then(data => {
+          hideTyping();
+          // **KEY CHANGE HERE:** Set speed to 5 (milliseconds per character)
+          const fastSpeed = 5; 
+          appendMessage("operator", data.reply, true, null, fastSpeed); 
+      });
+  }
+  
+  sendBtn.onclick = sendMessage;
+  input.addEventListener("keyup", (e) => {
+      if (e.key === "Enter") sendMessage();
+  });
+  
+  // Load the initial message when the script loads (for persistent chat window or if it's open by default)
+  loadInitialMessage();
+  </script>
+  <script>
+    (function () {
+      // Small helper to convert a raw HTML string into a cleaned-up, styled HTML string
+      function processRenderedHTML(htmlString) {
+        // Parse to DOM so we can manipulate elements reliably
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(`<div id="__temp">${htmlString}</div>`, "text/html");
+        const root = doc.getElementById("__temp");
+    
+        if (!root) return htmlString;
+    
+        // 1) Headings — add inline styles to make levels distinct and readable in chat bubbles
+        //    (you can tune the sizes below)
+        const headingSizes = {
+          H1: "20px",
+          H2: "18px",
+          H3: "16px",
+          H4: "14px",
+          H5: "13px",
+          H6: "12px"
+        };
+        for (let i = 1; i <= 6; i++) {
+          const tag = "H" + i;
+          root.querySelectorAll(tag).forEach(h => {
+            h.style.margin = "0.35em 0 0.5em 0";
+            h.style.fontWeight = "700";
+            h.style.fontSize = headingSizes[tag];
+            h.style.lineHeight = "1.2";
+            // keep color consistent with chat bubble
+            h.style.color = "#0f172a";
+          });
+        }
+    
+        // 2) Code blocks <pre><code> — style for readability (monospace, background, padding)
+        root.querySelectorAll("pre").forEach(pre => {
+          // ensure pre contains code
+          pre.style.background = "#0f172a";        // dark background for contrast
+          pre.style.color = "#f8fafc";             // light text color
+          pre.style.padding = "10px";
+          pre.style.borderRadius = "8px";
+          pre.style.overflow = "auto";
+          pre.style.fontFamily = "SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace";
+          pre.style.fontSize = "13px";
+          pre.style.margin = "0.5em 0";
+          // keep whitespace and monospace preserved
+          const code = pre.querySelector("code");
+          if (code) {
+            code.style.whiteSpace = "pre";
+            code.style.display = "block";
+          }
+        });
+    
+        // 3) Inline code <code> that is not inside <pre> — style subtly
+        root.querySelectorAll("code").forEach(code => {
+          // skip code already inside pre (handled above)
+          if (code.closest("pre")) return;
+          code.style.background = "#f3f4f6";
+          code.style.color = "#111827";
+          code.style.padding = "0 6px";
+          code.style.borderRadius = "6px";
+          code.style.fontFamily = "SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace";
+          code.style.fontSize = "13px";
+          code.style.whiteSpace = "nowrap";
+        });
+    
+        // 4) Tables (marked generates tables) — make them compact and scrollable if wide
+        root.querySelectorAll("table").forEach(table => {
+          table.style.borderCollapse = "collapse";
+          table.style.width = "100%";
+          table.style.margin = "0.5em 0";
+          // add a container wrapper for horizontal scroll if needed
+          const wrapper = doc.createElement("div");
+          wrapper.style.overflowX = "auto";
+          wrapper.style.margin = "0.3em 0";
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+          // basic cell styling
+          table.querySelectorAll("th, td").forEach(cell => {
+            cell.style.border = "1px solid #e6e7eb";
+            cell.style.padding = "6px 8px";
+            cell.style.textAlign = "left";
+            cell.style.fontSize = "13px";
+          });
+          table.querySelectorAll("th").forEach(th => {
+            th.style.fontWeight = "700";
+            th.style.background = "#f8fafc";
+          });
+        });
+    
+        // 5) Links: open in new tab (safe) and subtle color
+        root.querySelectorAll("a").forEach(a => {
+          a.setAttribute("target", "_blank");
+          a.setAttribute("rel", "noopener noreferrer");
+          a.style.color = "#2563eb";
+          a.style.textDecoration = "underline";
+        });
+    
+        // 6) Small paragraphs spacing
+        root.querySelectorAll("p").forEach(p => {
+          p.style.margin = p.style.margin || "0.25em 0";
+          p.style.color = "#0f172a";
+          p.style.fontSize = "14px";
+          p.style.lineHeight = "1.35";
+          // allow pre-wrap so long lines break inside chat bubble
+          p.style.whiteSpace = "pre-wrap";
+          p.style.wordBreak = "break-word";
+        });
+    
+        // Serialize back to string and return inner HTML
+        return root.innerHTML;
+      }
+    
+      // Wrap the previously installed appendMessage wrapper to inject post-processing
+      // (If the user already applied the earlier wrapper, window.appendMessage exists).
+      if (typeof window.appendMessage === "function") {
+        const _wrapped = window.appendMessage;
+        window.appendMessage = function (role, msg, typewriter = false, id = null, typingSpeed) {
+          // If msg is empty, call original directly
+          if (!msg) return _wrapped(role, msg, typewriter, id, typingSpeed);
+    
+          // If marked exists, render & post-process
+          let rendered;
+          if (typeof marked !== "undefined" && typeof marked.parse === "function") {
+            try {
+              rendered = marked.parse(String(msg || ""));
+            } catch (e) {
+              rendered = String(msg || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;");
+            }
+          } else {
+            // fallback plain-escaped text
+            rendered = String(msg || "")
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;");
+            rendered = `<p>${rendered}</p>`;
+          }
+    
+          // Post-process HTML for headings/code/tables etc.
+          const processed = processRenderedHTML(rendered);
+    
+          // Call the underlying appendMessage but we need it to *not* perform
+          // its own markdown rendering. The previous wrapper expects raw msg string,
+          // so we call it with a placeholder and then replace the .msg HTML immediately.
+          // Use a unique id to identify it.
+          const uid = "msg-" + Math.random().toString(36).slice(2, 9);
+          _wrapped(role, "", typewriter ? false : false, uid); // ensure no builtin typewriter runs
+    
+          // Now replace innerHTML of the .msg element we just appended
+          const added = document.getElementById(uid);
+          if (added) {
+            const msgEl = added.querySelector(".msg");
+            if (msgEl) {
+
+// 🔥 NEW RULE: user messages = instant render, no typing
+          if (role === "user") {
+              msgEl.innerHTML = processed;
+              msgEl.parentNode.scrollTop = msgEl.parentNode.scrollHeight;
+              return;
+          }
+          
+          // AI messages follow typewriter rules
+          if (typewriter && typeof window.typeWriterHTML === "function") {
+              window.typeWriterHTML(msgEl, processed, typingSpeed || 18);
+          } else if (typewriter) {
+              // fallback HTML typewriter
+              let i = 0;
+              const full = processed;
+              const speed = typeof typingSpeed === "number" ? typingSpeed : 18;
+              msgEl.innerHTML = "";
+              (function step() {
+                  if (i <= full.length) {
+                      msgEl.innerHTML = full.slice(0, i);
+                      msgEl.parentNode.scrollTop = msgEl.parentNode.scrollHeight;
+                      i++;
+                      setTimeout(step, speed);
+                  }
+              })();
+          } else {
+              msgEl.innerHTML = processed;
+          }
+}
+          } else {
+            // Fallback: if we couldn't find element by uid, append normally (no typewriter)
+            _wrapped(role, processed, false, null, typingSpeed);
+          }
+        };
+      }
+    })();
+    </script>
+    
+    
+{% endblock content %}
