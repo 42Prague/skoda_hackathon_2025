@@ -1,72 +1,184 @@
-# 42Prague Škoda Auto Hackathon
+# AI Skill Coach - Škoda Auto Hackathon
 
-> Welcome! This is the main repository for submitting your team's solution for the Škoda Auto Hackathon at 42Prague.
+> AI-powered career development tool for Škoda Auto employees. Helps employees identify skill gaps and generate personalized learning paths for their target roles.
 
-## ⚠️ First Steps: Read the Guidelines & Get Data
+## 🎯 Project Overview
 
-Before you start, please **carefully read all documents** in the `resources/` folder. They contain the rules, guidelines, data samples, and the template you must fill out.
+The AI Skill Coach is a web application that:
+- Displays employee skill and qualification profiles
+- Analyzes gaps between current profile and target role requirements
+- Generates AI-powered personalized learning plans
+- Provides time estimates for skill development
 
-* `resources/AI_SkillCoach_IT_Guidlines.pdf`: Contains all rules, guidelines and tips.
-* `resources/AI_Skill_Coach_Hackathon_42Prague_KickOff_18.11.2025_EN.pdf`: Contains a brief description of the project, evaluation criteria.
+## 🏗️ Architecture
 
-The **Data source** will be provided by Skoda thorugh email to all participants along with **api keys** for your environments which will be deleted at the end of the Hackathon.\
-⚠️ Make sure you got the email. If not, reach out to any of the Skoda staff. Thanks!
+### Frontend
+- **Framework**: React + Vite
+- **Styling**: Tailwind CSS with Škoda green theme
+- **Components**: shadcn/ui
 
----
+### Backend
+- **Framework**: FastAPI
+- **Data Processing**: pandas + openpyxl
+- **AI Integration**: Azure GPT-4.1 compatible endpoint
+- **API**: RESTful JSON endpoints
 
-## 🚀 How to Submit Your Solution
+## 🚀 Quick Start
 
-We use the standard GitHub **Fork & Pull Request** workflow. This is the only way to submit your project. Follow these steps carefully.
+### Option 1: Docker (Recommended for Production)
 
-
-
-### Step 1: Fork This Repository
-
-Click the **"Fork"** button at the top-right corner of this page. This will create a complete copy of this repository under your personal GitHub account.
-
-### Step 2: Create Your Branch
-
-On **your forked repository**, create a new branch to hold your work. **Please name this branch after your team.**
-
-You can do this locally on your computer after cloning your fork:
-
-```bash
-# Clone your fork (replace YOUR-USERNAME)
-git clone [https://github.com/YOUR-USERNAME/42Prague_skoda_hackathon_2025.git](https://github.com/YOUR-USERNAME/42Prague_skoda_hackathon_2025.git)
-cd 42Prague_skoda_hackathon_2025
-
-# Create and switch to your new branch (replace with your team name)
-git checkout -b your-team-name
-```
-
-### Step 3: Add Your Project Files
-
-Now it's time to build! Add all your project components to your branch:
-
-1.  **Your Solution:** Add all your source code, folders, dependencies (e.g., `requirements.txt`, `package.json`), and any files needed to run your solution. You can use the `srcs/` folder or create your own structure.
-2.  **Pitch presentation:** Add your final pitch (PDF or PPTX format) to the `pitch/` folder.
-
-### Step 4: Commit & Push Your Work
-
-As you work, commit your changes and push them to your fork on GitHub.
+**Fastest way to deploy - completely cloud-agnostic**
 
 ```bash
-# After making your changes
-git add .
-git commit -m "Add project files and pitch"
+# 1. Configure environment
+cp .env.example .env
+# Edit .env with your Azure OpenAI credentials
 
-# Push your branch to your fork (replace with your team name)
-git push origin your-team-name
+# 2. Start with Docker Compose
+docker-compose up --build
+
+# Or run in detached mode (background)
+docker-compose up -d --build
 ```
 
-### Step 5: Open a Pull Request
+**Access the application:**
+- 🌐 **Frontend**: http://localhost
+- 🔌 **Backend API**: http://localhost:8000
+- 📚 **API Documentation**: http://localhost:8000/docs
 
-When your submission is complete, it's time to create the Pull Request.
+**Manage Docker containers:**
+```bash
+# View logs
+docker-compose logs -f
 
-1.  Go to your forked repository on GitHub.
-2.  You will see a green button that says **"Compare & pull request"**. Click it.
-3.  **Important:** Make sure the "base repository" is `42Prague/42Prague_skoda_hackathon_2025` and the "head repository" is `YOUR-USERNAME/42Prague_skoda_hackathon` (from your team branch).
-4.  Use your **Team Name** as the title for the Pull Request.
-5.  Click **"Create pull request"**.
+# Stop containers
+docker-compose down
 
-That's it! Your submission is now in the queue for review.
+# Restart containers
+docker-compose restart
+
+# Rebuild and restart after code changes
+docker-compose up -d --build
+```
+
+### Option 2: Local Development (For Demo)
+
+### Prerequisites
+- Node.js 18+ (for frontend)
+- Python 3.11+ (for backend)
+- npm or yarn
+
+### Easy Start
+
+Use the provided scripts to start both servers:
+
+```bash
+# First time setup
+cd backend && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt && cd ..
+cd frontend && npm install && cd ..
+
+# Start both servers
+./start.sh
+
+# To stop servers
+./stop.sh
+```
+
+### Manual Start
+
+#### 1. Start the Backend
+
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+```
+
+Backend will run on `http://localhost:8000`
+
+#### 2. Start the Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend will run on `http://localhost:5173`
+
+### Configuration
+
+#### Backend (.env)
+```bash
+cd backend
+cp .env.example .env
+# Edit .env to add LLM credentials (optional)
+```
+
+#### Frontend (.env)
+Already configured to connect to `http://localhost:8000`
+
+## 🎨 Features
+
+### Employee Profile View
+- Current skills with proficiency levels
+- Active qualifications with validity dates
+- Professional information
+
+### Gap Analysis
+- Missing skills identification
+- Missing qualifications tracking
+- Target role requirements comparison
+- Role activity descriptions
+
+### AI Learning Plan
+- Personalized multi-phase learning path
+- Course recommendations with duration
+- Time-to-readiness estimation
+- Structured progression from fundamentals to advanced
+
+## 🔌 API Endpoints
+
+- `GET /health` - Health check
+- `GET /api/employees` - List all employees
+- `GET /api/roles` - List all roles
+- `GET /api/profile?personal_number=X` - Get employee profile
+- `GET /api/gaps?personal_number=X&role_id=Y` - Get skill gaps
+- `POST /api/ai-plan` - Generate AI learning plan
+
+See `backend/README.md` for detailed API documentation.
+
+## 💾 Data
+
+The application supports real data from Excel files or mock data for development:
+
+### Required Data Files (place in `backend/data/`)
+- `ERP_SK1.Start_month - SE.xlsx` - Employee data
+- `ZHRPD_VZD_STA_007.xlsx` - Course attendance
+- `Skill_mapping.xlsx` - Skill mappings
+- `ZHRPD_VZD_STA_016_RE_RHRHAZ00.xlsx` - Qualifications
+- `ZPE_KOM_KVAL.xlsx` - Required qualifications
+- `Degreed.xlsx` + `Degreed_Content_Catalog.xlsx` - Degreed data
+
+Without data files, the app uses mock data for demonstration.
+
+## 🤖 AI Integration
+
+The application uses an Azure GPT-4.1 compatible endpoint for generating learning plans. Configure in `backend/.env`:
+
+```
+LLM_API_BASE_URL=https://your-endpoint.openai.azure.com
+LLM_API_KEY=your-key
+LLM_DEPLOYMENT_NAME=hackathon-gpt-4.1
+LLM_API_VERSION=2025-01-01-preview
+```
+
+Without LLM configuration, mock plans are generated.
+
+## 🎨 Branding
+
+- **Primary Color**: Škoda Green (#00985F / oklch(0.546 0.153 166.14))
+- **Logo**: Škoda Auto logo in header
+- **UI Theme**: Clean, professional with green accents
