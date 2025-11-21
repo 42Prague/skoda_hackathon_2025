@@ -1,0 +1,20 @@
+{
+  "positions": [
+    {
+      "id": "sap_it_professional",
+      "title": "SAP IT Professional - SAP Competence Center",
+      "description": "Škoda Auto is looking for experienced SAP IT professionals for its SAP Competence Center to deliver services for the VW Group (VW, Audi, Seat, Porsche, Bentley).\n\nLocation: Prague or Mladá Boleslav\n\nWhat will you do with us?\n- Deliver solution in SAP financial modules with focus on the entire lifecycle of SW product TranS/4m (analysis, solution design and development, testing and deployment).\n- Review business function proposals and suggest optimizations of app, systems and processes within the scope.\n- Create and maintain automated processes for deployment, testing, and monitoring of SAP systems.\n- Collaborate with other VW IT departments, Škoda IT, relevant corporate stakeholders, and external suppliers\n- Deliver, implement and manage Continuous Integrations/Continuous Deployment (CI/CD)\n- Coordinate function verifications, analyze and evaluate issues in the delivered solutions.\n\nWhat do you need to know, have, and be able to do?\n- University degree.\n- Professional experience: 3 years plus.\n- English at minimum B2 level – communicative.\n- SAP financial modules experience\n- TranS/4m lifecycle experience (analysis, design, development, testing, deployment)\n- CI/CD implementation and management\n- Automated processes for deployment, testing, and monitoring\n- Collaboration with IT departments and stakeholders"
+    },
+    {
+      "id": "data_analyst",
+      "title": "Data Analyst - Business Intelligence",
+      "description": "We are seeking a Data Analyst to join our Business Intelligence team.\n\nRequirements:\n- University degree in Mathematics, Statistics, Economics, or related field\n- Experience with data analysis tools (SQL, Python, R)\n- Experience with BI tools (Tableau, Power BI)\n- Strong analytical and problem-solving skills\n- English B2 level"
+    },
+    {
+      "id": "project_manager",
+      "title": "Project Manager - Digital Transformation",
+      "description": "Looking for an experienced Project Manager to lead digital transformation initiatives.\n\nRequirements:\n- University degree\n- 5+ years project management experience\n- PMP or PRINCE2 certification preferred\n- Experience with agile methodologies\n- Strong communication and leadership skills\n- English B2 level"
+    }
+  ]
+}
+

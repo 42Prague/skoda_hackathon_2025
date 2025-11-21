@@ -1,0 +1,13 @@
+# 1. Clone and navigate
+git clone https://github.com/ayermeko/AI_Skoda_Hackathon.git
+cd AI_Skoda_Hackathon
+
+# 2. Configure environment (first time only)
+cp backend/env.example backend/.env
+# Edit backend/.env with your Azure OpenAI credentials
+
+# 3. Start everything
+make start
+
+# 4. Open in browser
+open http://localhost:8080

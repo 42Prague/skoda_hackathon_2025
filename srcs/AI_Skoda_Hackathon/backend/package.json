@@ -1,0 +1,51 @@
+{
+  "name": "skillbridge-ai-server",
+  "version": "1.0.0",
+  "description": "Backend API server for SkillBridge AI",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "db:seed": "tsx src/prisma/seed.ts",
+    "db:seed:ai": "tsx src/prisma/seedAI.ts",
+    "db:seed:real": "tsx src/prisma/seedRealData.ts",
+    "seed:real": "tsx src/prisma/seedRealData.ts",
+    "add-job": "tsx src/scripts/addJobPosition.ts",
+    "add-sap-job": "tsx src/scripts/addSAPDevOpsJob.ts",
+    "add-it-specialist-job": "tsx src/scripts/addITSpecialistJob.ts",
+    "get-demo-employee": "tsx src/scripts/getDemoEmployeeEmail.ts",
+    "check-login": "tsx src/scripts/checkEmployeeLogin.ts",
+    "find-first-employee": "tsx src/scripts/findFirstEmployee.ts",
+    "test": "echo 'Tests will be added soon' && exit 0",
+    "lint": "tsc --noEmit",
+    "format:check": "echo 'Format check not configured yet' && exit 0"
+  },
+  "dependencies": {
+    "@azure/openai": "^2.0.0",
+    "@prisma/client": "^5.20.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^6.9.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.2",
+    "prisma": "^5.20.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  }
+}

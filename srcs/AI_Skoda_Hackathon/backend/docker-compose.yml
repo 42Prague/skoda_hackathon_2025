@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: skillbridge_postgres
+    restart: unless-stopped
+    ports:
+      - "5433:5432"  # Using 5433 to avoid conflict with local PostgreSQL
+    environment:
+      POSTGRES_USER: skillbridge_user
+      POSTGRES_PASSWORD: skillbridge_pass
+      POSTGRES_DB: skillbridge_ai
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U skillbridge_user -d skillbridge_ai"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: pgAdmin for database management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: skillbridge_pgadmin
+    restart: unless-stopped
+    ports:
+      - "5050:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@skillbridge.local
+      PGADMIN_DEFAULT_PASSWORD: admin
+    depends_on:
+      - postgres
+    profiles:
+      - tools  # Only start with: docker-compose --profile tools up
+
+volumes:
+  postgres_data:
+    driver: local
+
+# Usage:
+# Start database: docker-compose up -d
+# Stop database: docker-compose down
+# View logs: docker-compose logs -f postgres
+# Start with pgAdmin: docker-compose --profile tools up -d
+# Destroy everything: docker-compose down -v
