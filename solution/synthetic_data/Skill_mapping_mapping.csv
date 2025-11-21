@@ -1,0 +1,51 @@
+ID_Skillu,Dovednost,Název,Téma,Odbornost,Počet_denum,koncové_datum,SKILL_v_RCE
+1,Clinical research associate,Clinical research associate Certification,Business,Advanced,87,2025-12-07,RCE-9742-CLI
+2,Haematologist,Haematologist Certification,Project Management,Advanced,81,2026-05-16,RCE-8994-HAE
+3,Corporate treasurer,Corporate treasurer Certification,Security,Beginner,80,2027-05-10,RCE-2121-COR
+4,Sports administrator,Sports administrator Certification,Leadership,Advanced,30,2026-01-21,RCE-2480-SPO
+5,"Pharmacist, hospital","Pharmacist, hospital Certification",Project Management,Beginner,98,2025-12-12,RCE-2646-PHA
+6,Chief Financial Officer,Chief Financial Officer Certification,Data Science,Intermediate,89,2026-04-27,RCE-5906-CHI
+7,Risk analyst,Risk analyst Certification,Technical,Beginner,42,2027-02-01,RCE-1919-RIS
+8,"Surveyor, mining","Surveyor, mining Certification",Analytical,Advanced,48,2026-04-13,RCE-8056-SUR
+9,Sports administrator,Sports administrator Certification,Communication,Intermediate,68,2026-09-21,RCE-7751-SPO
+10,"Production assistant, radio","Production assistant, radio Certification",Cloud Computing,Intermediate,22,2027-01-23,RCE-3868-PRO
+11,Accounting technician,Accounting technician Certification,Business,Master,49,2027-05-26,RCE-4945-ACC
+12,"Designer, jewellery","Designer, jewellery Certification",Data Science,Master,19,2027-04-12,RCE-4804-DES
+13,"Librarian, public","Librarian, public Certification",Data Science,Advanced,59,2026-06-09,RCE-5183-LIB
+14,"Engineer, structural","Engineer, structural Certification",Technical,Expert,37,2027-10-18,RCE-9955-ENG
+15,Legal secretary,Legal secretary Certification,Communication,Beginner,57,2026-02-01,RCE-6661-LEG
+16,Museum/gallery conservator,Museum/gallery conservator Certification,Cloud Computing,Advanced,82,2026-01-28,RCE-7951-MUS
+17,Local government officer,Local government officer Certification,Analytical,Expert,39,2027-02-02,RCE-4263-LOC
+18,Armed forces logistics/support/administrative officer,Armed forces logistics/support/administrative officer Certification,Project Management,Expert,14,2027-05-05,RCE-4886-ARM
+19,Software engineer,Software engineer Certification,Project Management,Master,46,2026-02-18,RCE-5847-SOF
+20,Multimedia specialist,Multimedia specialist Certification,Analytical,Beginner,85,2026-01-15,RCE-7484-MUL
+21,Hospital doctor,Hospital doctor Certification,Analytical,Beginner,73,2027-07-17,RCE-1803-HOS
+22,Water engineer,Water engineer Certification,Cloud Computing,Expert,37,2027-08-27,RCE-4770-WAT
+23,Medical illustrator,Medical illustrator Certification,Cloud Computing,Advanced,29,2027-01-14,RCE-4115-MED
+24,Building control surveyor,Building control surveyor Certification,Cloud Computing,Advanced,87,2025-12-22,RCE-3240-BUI
+25,Estate agent,Estate agent Certification,Business,Beginner,40,2027-06-06,RCE-8222-EST
+26,Cartographer,Cartographer Certification,Technical,Master,47,2027-08-05,RCE-3153-CAR
+27,Chiropractor,Chiropractor Certification,Business,Advanced,42,2026-08-23,RCE-7807-CHI
+28,Professor Emeritus,Professor Emeritus Certification,Communication,Intermediate,17,2027-02-26,RCE-9837-PRO
+29,Medical sales representative,Medical sales representative Certification,Creative,Master,65,2026-03-17,RCE-5465-MED
+30,Marine scientist,Marine scientist Certification,Communication,Advanced,62,2026-04-20,RCE-5835-MAR
+31,"Geologist, engineering","Geologist, engineering Certification",Creative,Beginner,60,2027-04-15,RCE-2233-GEO
+32,Building surveyor,Building surveyor Certification,Communication,Intermediate,87,2027-02-06,RCE-7511-BUI
+33,Dramatherapist,Dramatherapist Certification,Security,Advanced,12,2026-12-13,RCE-7464-DRA
+34,Financial risk analyst,Financial risk analyst Certification,Technical,Advanced,69,2026-03-18,RCE-3024-FIN
+35,Museum education officer,Museum education officer Certification,Data Science,Advanced,87,2026-06-04,RCE-5295-MUS
+36,"Surveyor, hydrographic","Surveyor, hydrographic Certification",Cloud Computing,Expert,82,2026-04-28,RCE-7086-SUR
+37,"Journalist, broadcasting","Journalist, broadcasting Certification",Business,Intermediate,61,2027-07-27,RCE-1410-JOU
+38,Banker,Banker Certification,Cloud Computing,Master,42,2026-05-05,RCE-4626-BAN
+39,Ambulance person,Ambulance person Certification,Business,Expert,90,2027-06-29,RCE-5951-AMB
+40,Oncologist,Oncologist Certification,Project Management,Beginner,18,2026-06-02,RCE-1742-ONC
+41,"Engineer, mining","Engineer, mining Certification",Technical,Advanced,64,2027-09-16,RCE-2902-ENG
+42,Tax adviser,Tax adviser Certification,Business,Intermediate,69,2027-08-20,RCE-3222-TAX
+43,International aid/development worker,International aid/development worker Certification,Project Management,Expert,48,2026-04-23,RCE-9850-INT
+44,Restaurant manager,Restaurant manager Certification,Project Management,Master,96,2026-09-03,RCE-3531-RES
+45,Proofreader,Proofreader Certification,Project Management,Beginner,63,2026-03-03,RCE-7686-PRO
+46,Corporate treasurer,Corporate treasurer Certification,Analytical,Beginner,89,2026-05-18,RCE-7070-COR
+47,"Surveyor, mining","Surveyor, mining Certification",Leadership,Expert,57,2026-12-17,RCE-4868-SUR
+48,Television/film/video producer,Television/film/video producer Certification,Creative,Beginner,88,2026-09-27,RCE-7018-TEL
+49,Television production assistant,Television production assistant Certification,Security,Advanced,8,2026-09-06,RCE-7523-TEL
+50,English as a foreign language teacher,English as a foreign language teacher Certification,Analytical,Intermediate,16,2027-11-17,RCE-8450-ENG

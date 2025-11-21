@@ -1,0 +1,176 @@
+# Docker Compose automatically loads .env file
+# Make sure to set OPENAI_API_KEY in your .env file
+
+services:
+  # MinIO - Object Storage
+  minio:
+    image: minio/minio:latest
+    container_name: skoda-minio
+    restart: unless-stopped
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:-minioadmin}
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - skoda-network
+    healthcheck:
+      # MinIO health check - try curl first, fallback to TCP if curl not available
+      test: ["CMD-SHELL", "curl -f http://localhost:9000/minio/health/live || nc -z localhost 9000"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+      start_period: 10s
+
+  # Qdrant - Vector Database
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: skoda-qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - skoda-network
+    # Qdrant containers are minimal and don't have curl/wget/nc
+    # Health check removed - service starts quickly and backend will retry connections
+    # healthcheck:
+    #   test: ["CMD-SHELL", "true"]
+    #   interval: 30s
+    #   timeout: 10s
+    #   retries: 3
+
+  # PostgreSQL - Relational Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: skoda-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB:-skoda_user}
+      - POSTGRES_USER=${POSTGRES_USER:-skoda_user}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-skoda_password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - skoda-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-skoda_user} -d ${POSTGRES_DB:-skoda_user}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # DuckDB - Analytical Database (in-process, no separate service needed)
+  # DuckDB runs in-process with the backend, but we'll create initialization scripts
+
+  backend:
+    build:
+      context: ./backend-fastapi
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    container_name: skoda-chatbot-backend
+    restart: unless-stopped
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPEN_WEBUI_API_KEY=${OPEN_WEBUI_API_KEY:-}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+      - OPENAI_API_BASE_URL=${OPENAI_API_BASE_URL:-http://open-webui:8080/api/v1}
+      - PORT=8000
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-skoda_user}:${POSTGRES_PASSWORD:-skoda_password}@192.168.191.55:5432/${POSTGRES_DB:-skoda_user}
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_SECRET_KEY=${MINIO_ROOT_PASSWORD:-minioadmin}
+      - MINIO_USE_SSL=false
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - DUCKDB_PATH=/app/data/chatbot.db
+      - DEBUG_RAG=true
+      - USE_LOCAL_EMBEDDINGS=${USE_LOCAL_EMBEDDINGS:-false}
+      - LOCAL_EMBEDDING_MODEL=${LOCAL_EMBEDDING_MODEL:-all-mpnet-base-v2}
+    volumes:
+      - ./backend-fastapi/app:/app/app:rw
+      # Mount dataset directory for data ingestion
+      # Set DATA_DIR env var to your dataset path, e.g.: export DATA_DIR=/Users/etienneduplessix/Downloads/full_dataset_v2
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload --reload-dir /app/app
+    depends_on:
+      minio:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+      open-webui:
+        condition: service_started
+    networks:
+      - skoda-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    container_name: skoda-ui
+    restart: unless-stopped
+    environment:
+      - VITE_API_URL=http://backend:8000
+    depends_on:
+      - backend
+    networks:
+      - skoda-network
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+  # Open WebUI - Web UI for managing OpenAI API keys and LLM interactions
+  # Routes OpenAI API calls through Open WebUI proxy
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: skoda-open-webui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
+    volumes:
+      - open-webui_data:/app/backend/data
+    environment:
+      - WEBUI_SECRET_KEY=${WEBUI_SECRET_KEY:-}
+      - DEFAULT_USER_ROLE=admin
+      - ENABLE_SIGNUP=true
+      - OPENAI_API_BASE_URL=https://api.openai.com/v1
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ENABLE_OPENAI_API=true
+      - ENABLE_OPENAI_API_AUTH=false
+      - OPENAI_API_KEY_HEADER=Authorization
+    networks:
+      - skoda-network
+
+  # Adminer - Database management tool
+  adminer:
+    image: adminer:latest
+    container_name: skoda-adminer
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    environment:
+      - ADMINER_DEFAULT_SERVER=postgres
+    depends_on:
+      - postgres
+    networks:
+      - skoda-network
+
+volumes:
+  minio_data:
+  qdrant_data:
+  postgres_data:
+  duckdb_data:
+  open-webui_data:
+
+networks:
+  skoda-network:
+    driver: bridge

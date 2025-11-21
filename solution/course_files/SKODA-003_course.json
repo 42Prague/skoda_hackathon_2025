@@ -1,0 +1,17 @@
+{
+  "course_id": "SKODA-003",
+  "title": "Digital Marketing for Automotive Dealers",
+  "description": "Learn digital marketing strategies specific to automotive retail. Covers social media, online advertising, and customer relationship management systems.",
+  "duration": "2 days",
+  "level": "Beginner",
+  "category": "Marketing",
+  "instructor": "Tomáš Dvořák",
+  "topics": [
+    "Social media",
+    "Online advertising",
+    "CRM systems",
+    "Analytics"
+  ],
+  "formatted_text": "Course: Digital Marketing for Automotive Dealers\nCourse ID: SKODA-003\nCategory: Marketing\nLevel: Beginner\nDuration: 2 days\nInstructor: Tomáš Dvořák\n\nDescription: Learn digital marketing strategies specific to automotive retail. Covers social media, online advertising, and customer relationship management systems.\n\nTopics covered: Social media, Online advertising, CRM systems, Analytics",
+  "content_type": "course_metadata"
+}

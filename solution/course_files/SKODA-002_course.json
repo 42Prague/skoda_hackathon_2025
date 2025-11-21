@@ -1,0 +1,17 @@
+{
+  "course_id": "SKODA-002",
+  "title": "Škoda Sales Excellence Program",
+  "description": "Sales training focused on Škoda product knowledge, customer engagement techniques, and closing strategies. Includes hands-on practice with latest models.",
+  "duration": "3 days",
+  "level": "Intermediate",
+  "category": "Sales",
+  "instructor": "Petra Svobodová",
+  "topics": [
+    "Product knowledge",
+    "Customer service",
+    "Negotiation",
+    "Test drives"
+  ],
+  "formatted_text": "Course: Škoda Sales Excellence Program\nCourse ID: SKODA-002\nCategory: Sales\nLevel: Intermediate\nDuration: 3 days\nInstructor: Petra Svobodová\n\nDescription: Sales training focused on Škoda product knowledge, customer engagement techniques, and closing strategies. Includes hands-on practice with latest models.\n\nTopics covered: Product knowledge, Customer service, Negotiation, Test drives",
+  "content_type": "course_metadata"
+}

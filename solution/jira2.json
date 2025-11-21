@@ -1,0 +1,616 @@
+{
+    "user_id": "3c83ccb2e3606efb091e5464",
+    "projects": [
+      {
+        "project_id": "10000",
+        "project_key": "ANAL",
+        "project_name": "Analytics System",
+        "project_description": "Analytics System for enterprise software development and delivery.",
+        "stories": [
+          {
+            "story_id": "10001",
+            "story_key": "ANAL-1",
+            "story_p_id": "10000",
+            "story_p_key": "ANAL",
+            "story_description": {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "As a career management coordinator with a pedagogical background, I need to implement an interactive dashboard within the enterprise Analytics System (ANAL) that visualizes employee learning progress, skill gaps, and career path recommendations, enabling targeted development planning and effective coordination across teams. The dashboard should be developed using React for the frontend and Python (FastAPI) for the backend, with data storage in PostgreSQL and secure REST API integration to pull information from existing HRIS systems and the organization's LMS platform (e.g., Moodle or SAP SuccessFactors). The implementation must support role-based access controls, responsive design for both desktop and mobile, and modular architecture for future enhancements, such as microservices for analytics calculations. Required skills include proficiency in React, Python, RESTful API design, PostgreSQL, data visualization libraries (e.g., Chart.js or D3.js), and practical understanding of career management processes, educational assessment, and coordination workflows in corporate environments. Business context: This feature streamlines coordination between HR, team leads, and employees by providing actionable insights on training outcomes and career progression, improving talent development and organizational agility. Acceptance criteria: Delivery of a fully tested dashboard (unit and integration tests), user documentation for coordinators, secure API connectivity, and demonstration of correct data synchronization with HRIS/LMS systems before production deployment."
+                    }
+                  ]
+                }
+              ]
+            },
+            "story_description_text": "As a career management coordinator with a pedagogical background, I need to implement an interactive dashboard within the enterprise Analytics System (ANAL) that visualizes employee learning progress, skill gaps, and career path recommendations, enabling targeted development planning and effective coordination across teams. The dashboard should be developed using React for the frontend and Python (FastAPI) for the backend, with data storage in PostgreSQL and secure REST API integration to pull information from existing HRIS systems and the organization's LMS platform (e.g., Moodle or SAP SuccessFactors). The implementation must support role-based access controls, responsive design for both desktop and mobile, and modular architecture for future enhancements, such as microservices for analytics calculations. Required skills include proficiency in React, Python, RESTful API design, PostgreSQL, data visualization libraries (e.g., Chart.js or D3.js), and practical understanding of career management processes, educational assessment, and coordination workflows in corporate environments. Business context: This feature streamlines coordination between HR, team leads, and employees by providing actionable insights on training outcomes and career progression, improving talent development and organizational agility. Acceptance criteria: Delivery of a fully tested dashboard (unit and integration tests), user documentation for coordinators, secure API connectivity, and demonstration of correct data synchronization with HRIS/LMS systems before production deployment.",
+            "story_points": 1,
+            "story_assignees": [
+              {
+                "account_id": "c611127b94520ac5dacf8e21",
+                "display_name": "DZCLPT6",
+                "email_address": "dzclpt6@skoda-auto.cz"
+              }
+            ],
+            "subtasks": [
+              {
+                "subtask_id": "10002",
+                "subtask_key": "ANAL-2",
+                "subtask_p_id": "10000",
+                "subtask_p_key": "ANAL",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Develop Backend REST API Endpoint for Aggregating Employee Learning Progress Data**\n\nAs a career management coordinator with a pedagogical background, I need to implement a secure Python FastAPI backend endpoint that aggregates and normalizes employee learning progress data from both the HRIS (e.g., SAP SuccessFactors) and LMS (e.g., Moodle) platforms to support data visualization in the interactive analytics dashboard. The endpoint should extract relevant data via secure RESTful API calls, process and map learning outcomes, completion statuses, and assessment scores to standardized skill frameworks, and store the results in PostgreSQL for efficient querying. Key implementation steps include designing the API contract (OpenAPI/Swagger), orchestrating data synchronization with scheduled background jobs (using Celery or APScheduler), and ensuring compliance with role-based access controls leveraging JWT authentication. Required skills include Python programming, FastAPI for REST API development, PostgreSQL database design, secure API integration patterns, and an understanding of educational assessment standards and career development frameworks. Deliverables are the fully implemented and unit-tested API endpoint, schema documentation for coordinators, and a demonstration of accurate synchronization with HRIS and LMS systems, meeting all acceptance criteria for data integrity, access control, and documentation standards."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Develop Backend REST API Endpoint for Aggregating Employee Learning Progress Data**\n\nAs a career management coordinator with a pedagogical background, I need to implement a secure Python FastAPI backend endpoint that aggregates and normalizes employee learning progress data from both the HRIS (e.g., SAP SuccessFactors) and LMS (e.g., Moodle) platforms to support data visualization in the interactive analytics dashboard. The endpoint should extract relevant data via secure RESTful API calls, process and map learning outcomes, completion statuses, and assessment scores to standardized skill frameworks, and store the results in PostgreSQL for efficient querying. Key implementation steps include designing the API contract (OpenAPI/Swagger), orchestrating data synchronization with scheduled background jobs (using Celery or APScheduler), and ensuring compliance with role-based access controls leveraging JWT authentication. Required skills include Python programming, FastAPI for REST API development, PostgreSQL database design, secure API integration patterns, and an understanding of educational assessment standards and career development frameworks. Deliverables are the fully implemented and unit-tested API endpoint, schema documentation for coordinators, and a demonstration of accurate synchronization with HRIS and LMS systems, meeting all acceptance criteria for data integrity, access control, and documentation standards.",
+                "subtask_points": 5,
+                "subtask_assignees": [
+                  {
+                    "account_id": "c611127b94520ac5dacf8e21",
+                    "display_name": "DZCLPT6",
+                    "email_address": "dzclpt6@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10003",
+                "subtask_key": "ANAL-3",
+                "subtask_p_id": "10000",
+                "subtask_p_key": "ANAL",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Skill Gap Visualization Component in Employee Learning Progress Dashboard**\n\nAs a career management coordinator with a pedagogical background, you are to develop the Skill Gap Visualization component in the interactive dashboard, enabling coordinators and team leads to identify specific areas where employees’ current skills do not meet the requirements for targeted career paths. This component will be built as a reusable React functional component utilizing Chart.js for data visualization, fetching employee learning progress and required skill profile data via secure REST API endpoints from the backend (Python/FastAPI), which aggregates data from PostgreSQL and synchronizes with HRIS/LMS platforms (e.g., SAP SuccessFactors, Moodle). Step-by-step, design the API contract, implement the backend endpoint (e.g., `/api/skill-gaps/{employee_id}`), develop SQL queries to calculate gaps, and handle frontend state management for real-time updates and responsive display. Required skills include React (hooks, state management), Chart.js integration, Python (FastAPI endpoints), PostgreSQL (data modeling, querying), RESTful API best practices, and domain expertise in educational assessment, skill mapping, and coordination workflows typical of HR/career management environments. Deliverables: a fully functional, unit-tested React component; FastAPI endpoint with integration tests; comprehensive user documentation tailored for coordinators; and demonstration of accurate, up-to-date data synchronization with HRIS/LMS before production deployment. Acceptance criteria: skill gaps are visually clear, data is current, access controls are respected, and the component is responsive on desktop and mobile devices."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Skill Gap Visualization Component in Employee Learning Progress Dashboard**\n\nAs a career management coordinator with a pedagogical background, you are to develop the Skill Gap Visualization component in the interactive dashboard, enabling coordinators and team leads to identify specific areas where employees’ current skills do not meet the requirements for targeted career paths. This component will be built as a reusable React functional component utilizing Chart.js for data visualization, fetching employee learning progress and required skill profile data via secure REST API endpoints from the backend (Python/FastAPI), which aggregates data from PostgreSQL and synchronizes with HRIS/LMS platforms (e.g., SAP SuccessFactors, Moodle). Step-by-step, design the API contract, implement the backend endpoint (e.g., `/api/skill-gaps/{employee_id}`), develop SQL queries to calculate gaps, and handle frontend state management for real-time updates and responsive display. Required skills include React (hooks, state management), Chart.js integration, Python (FastAPI endpoints), PostgreSQL (data modeling, querying), RESTful API best practices, and domain expertise in educational assessment, skill mapping, and coordination workflows typical of HR/career management environments. Deliverables: a fully functional, unit-tested React component; FastAPI endpoint with integration tests; comprehensive user documentation tailored for coordinators; and demonstration of accurate, up-to-date data synchronization with HRIS/LMS before production deployment. Acceptance criteria: skill gaps are visually clear, data is current, access controls are respected, and the component is responsive on desktop and mobile devices.",
+                "subtask_points": 3,
+                "subtask_assignees": [
+                  {
+                    "account_id": "cc649336067d9c3eec99d6e9",
+                    "display_name": "DZCIS17",
+                    "email_address": "dzcis17@skoda-auto.cz"
+                  },
+                  {
+                    "account_id": "91991ec9a7dc08f047a200df",
+                    "display_name": "DZCHM26",
+                    "email_address": "dzchm26@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10004",
+                "subtask_key": "ANAL-4",
+                "subtask_p_id": "10000",
+                "subtask_p_key": "ANAL",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Learning Progress Visualization Component in React**\n\nAs a career management coordinator with a pedagogical background, I need to develop the \"Learning Progress Overview\" component within the interactive analytics dashboard to visually display employee training completion rates, ongoing courses, and skill development over time. This component will be built as a modular React function using Chart.js for data visualizations (e.g., bar graphs for course completion, line charts for skill acquisition trends). The component must consume secure RESTful endpoints from the FastAPI backend (using Axios for HTTP requests), retrieving synchronized learning progress data aggregated from the integrated Moodle/SAP SuccessFactors LMS and HRIS systems stored in PostgreSQL. The design should be fully responsive (leveraging CSS Grid/Flexbox and Material-UI), with role-based UI controls to ensure coordinators, HR, and team leads see only relevant data per RBAC policy. Required skills include advanced React, JavaScript, Chart.js, REST API integration, responsive web design, and UX principles rooted in educational assessment—ensuring the visualization is clear, actionable, and pedagogically sound. Deliverables: A production-ready, unit/integration-tested React component, technical/user documentation for coordinators, and evidence of correct data synchronization and display, verified using sample employee data sets before deployment."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Learning Progress Visualization Component in React**\n\nAs a career management coordinator with a pedagogical background, I need to develop the \"Learning Progress Overview\" component within the interactive analytics dashboard to visually display employee training completion rates, ongoing courses, and skill development over time. This component will be built as a modular React function using Chart.js for data visualizations (e.g., bar graphs for course completion, line charts for skill acquisition trends). The component must consume secure RESTful endpoints from the FastAPI backend (using Axios for HTTP requests), retrieving synchronized learning progress data aggregated from the integrated Moodle/SAP SuccessFactors LMS and HRIS systems stored in PostgreSQL. The design should be fully responsive (leveraging CSS Grid/Flexbox and Material-UI), with role-based UI controls to ensure coordinators, HR, and team leads see only relevant data per RBAC policy. Required skills include advanced React, JavaScript, Chart.js, REST API integration, responsive web design, and UX principles rooted in educational assessment—ensuring the visualization is clear, actionable, and pedagogically sound. Deliverables: A production-ready, unit/integration-tested React component, technical/user documentation for coordinators, and evidence of correct data synchronization and display, verified using sample employee data sets before deployment.",
+                "subtask_points": 3,
+                "subtask_assignees": [
+                  {
+                    "account_id": "c611127b94520ac5dacf8e21",
+                    "display_name": "DZCLPT6",
+                    "email_address": "dzclpt6@skoda-auto.cz"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "story_id": "10002",
+            "story_key": "ANAL-2",
+            "story_p_id": "10000",
+            "story_p_key": "ANAL",
+            "story_description": {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "As a Career Management Coordinator with an educational background in pedagogy (Učitelství pro základní školy), I need to develop a centralized dashboard for tracking and visualizing career progression and skill development of employees across departments, enabling effective coordination and personalized recommendations for professional growth. The dashboard will be built using React for the frontend to provide interactive data visualization, Python with FastAPI for the backend, and PostgreSQL for secure data storage. Integration with existing HRIS systems (e.g., SAP SuccessFactors) and LMS platforms is required to aggregate learning and performance data, leveraging REST APIs for seamless data exchange. Implementation should follow modular architecture, enabling scalable feature enhancements, and include role-based access control to protect sensitive career information. Key skills required comprise proficiency in JavaScript/TypeScript, React, Python, FastAPI, SQL, data visualization libraries (e.g., Chart.js, D3.js), API design, and familiarity with career path frameworks and educational assessment methodologies. Acceptance criteria include delivery of the dashboard with real-time analytics, end-to-end integration with HRIS/LMS, unit and integration test coverage, user documentation tailored for coordinators and HR professionals, and validation of data accuracy through user acceptance testing with career management stakeholders."
+                    }
+                  ]
+                }
+              ]
+            },
+            "story_description_text": "As a Career Management Coordinator with an educational background in pedagogy (Učitelství pro základní školy), I need to develop a centralized dashboard for tracking and visualizing career progression and skill development of employees across departments, enabling effective coordination and personalized recommendations for professional growth. The dashboard will be built using React for the frontend to provide interactive data visualization, Python with FastAPI for the backend, and PostgreSQL for secure data storage. Integration with existing HRIS systems (e.g., SAP SuccessFactors) and LMS platforms is required to aggregate learning and performance data, leveraging REST APIs for seamless data exchange. Implementation should follow modular architecture, enabling scalable feature enhancements, and include role-based access control to protect sensitive career information. Key skills required comprise proficiency in JavaScript/TypeScript, React, Python, FastAPI, SQL, data visualization libraries (e.g., Chart.js, D3.js), API design, and familiarity with career path frameworks and educational assessment methodologies. Acceptance criteria include delivery of the dashboard with real-time analytics, end-to-end integration with HRIS/LMS, unit and integration test coverage, user documentation tailored for coordinators and HR professionals, and validation of data accuracy through user acceptance testing with career management stakeholders.",
+            "story_points": 2,
+            "story_assignees": [
+              {
+                "account_id": "7174dcf2926f2cb38f7e5716",
+                "display_name": "DZCIH08",
+                "email_address": "dzcih08@skoda-auto.cz"
+              },
+              {
+                "account_id": "c611127b94520ac5dacf8e21",
+                "display_name": "DZCLPT6",
+                "email_address": "dzclpt6@skoda-auto.cz"
+              }
+            ],
+            "subtasks": [
+              {
+                "subtask_id": "10003",
+                "subtask_key": "ANAL-5",
+                "subtask_p_id": "10000",
+                "subtask_p_key": "ANAL",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Department-Wise Career Progression Visualization Component**\n\nAs a Career Management Coordinator with a background in pedagogy, I need to develop a React-based interactive component that displays department-wise career progression paths and aggregated skill development metrics for employees, enabling easy comparison and tailored recommendations for professional growth. This subtask involves designing and building a reusable React component utilizing Chart.js for data visualization, which will fetch real-time career and learning data via REST API endpoints exposed by the FastAPI backend. The backend will aggregate data from integrated HRIS (SAP SuccessFactors) and LMS systems, using optimized SQL queries in PostgreSQL to ensure efficient retrieval and role-based data filtering. Implementation requires modularization to support future enhancements (e.g., filtering by skill domain or date range), and adherence to secure coding best practices to protect sensitive staff information.\n\nTechnical skills required include proficiency in JavaScript/TypeScript, React (including hooks and context API), Chart.js for visualization, Python (FastAPI for API development), SQL for complex queries, and RESTful API integration. Domain knowledge in educational assessment, career pathway frameworks, and employee development practices is essential to accurately interpret and present HR/LMS data for actionable insights. \n\n**Acceptance criteria:**  \n- Delivery of a React component displaying clear, comparative visualizations of career progression and skill development by department, with data accurately sourced from the backend  \n- End-to-end API integration tested with mock and live data  \n- Unit tests for React logic and FastAPI endpoints, integration test scripts for data flow  \n- Role-based access verified for data security  \n- Component and API usage documented for coordinators and HR stakeholders  \n- Validation of visualization accuracy and usability through feedback from at least two career management stakeholders"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Department-Wise Career Progression Visualization Component**\n\nAs a Career Management Coordinator with a background in pedagogy, I need to develop a React-based interactive component that displays department-wise career progression paths and aggregated skill development metrics for employees, enabling easy comparison and tailored recommendations for professional growth. This subtask involves designing and building a reusable React component utilizing Chart.js for data visualization, which will fetch real-time career and learning data via REST API endpoints exposed by the FastAPI backend. The backend will aggregate data from integrated HRIS (SAP SuccessFactors) and LMS systems, using optimized SQL queries in PostgreSQL to ensure efficient retrieval and role-based data filtering. Implementation requires modularization to support future enhancements (e.g., filtering by skill domain or date range), and adherence to secure coding best practices to protect sensitive staff information.\n\nTechnical skills required include proficiency in JavaScript/TypeScript, React (including hooks and context API), Chart.js for visualization, Python (FastAPI for API development), SQL for complex queries, and RESTful API integration. Domain knowledge in educational assessment, career pathway frameworks, and employee development practices is essential to accurately interpret and present HR/LMS data for actionable insights. \n\n**Acceptance criteria:**  \n- Delivery of a React component displaying clear, comparative visualizations of career progression and skill development by department, with data accurately sourced from the backend  \n- End-to-end API integration tested with mock and live data  \n- Unit tests for React logic and FastAPI endpoints, integration test scripts for data flow  \n- Role-based access verified for data security  \n- Component and API usage documented for coordinators and HR stakeholders  \n- Validation of visualization accuracy and usability through feedback from at least two career management stakeholders",
+                "subtask_points": 2,
+                "subtask_assignees": [
+                  {
+                    "account_id": "c611127b94520ac5dacf8e21",
+                    "display_name": "DZCLPT6",
+                    "email_address": "dzclpt6@skoda-auto.cz"
+                  },
+                  {
+                    "account_id": "cc649336067d9c3eec99d6e9",
+                    "display_name": "DZCIS17",
+                    "email_address": "dzcis17@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10004",
+                "subtask_key": "ANAL-6",
+                "subtask_p_id": "10000",
+                "subtask_p_key": "ANAL",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Skill Development Timeline Visualization Component**\n\nAs a Career Management Coordinator with a background in pedagogy, you are tasked with designing and developing a “Skill Development Timeline” React component to graphically represent each employee’s skill acquisition and professional growth milestones using D3.js integrated with React. This component must fetch aggregated learning and performance data from the backend FastAPI endpoints (secured with JWT-based role controls), which aggregate data from both SAP SuccessFactors (HRIS) and the organization’s LMS via REST APIs. The component should present chronological, color-coded milestones (e.g., completed competencies, certifications, training sessions) and enable filtering by department, role, and skill category. \n\n**Technical requirements** include React (with TypeScript), D3.js for interactive data visualization, Python/FastAPI for secure API endpoints, and PostgreSQL for data storage. You must ensure modular code structure for future extensibility (e.g., additional filters or annotation features). \n\n**Required skills** are advanced JavaScript/TypeScript, React, state management (Redux or React Context), D3.js, secure API design, SQL (for custom timeline queries), and integration with HRIS/LMS APIs. Domain knowledge in career path frameworks, skill taxonomies, and educational assessment methods is essential for accurate visualization and terminology. \n\n**Acceptance criteria:** Delivery of a reusable, documented React/D3 component that dynamically displays skill development timelines for selected users, fully integrated with backend APIs; passing unit/integration tests; user documentation tailored for coordinators; and confirmation of data validity and visual clarity through acceptance testing with career management stakeholders."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Skill Development Timeline Visualization Component**\n\nAs a Career Management Coordinator with a background in pedagogy, you are tasked with designing and developing a “Skill Development Timeline” React component to graphically represent each employee’s skill acquisition and professional growth milestones using D3.js integrated with React. This component must fetch aggregated learning and performance data from the backend FastAPI endpoints (secured with JWT-based role controls), which aggregate data from both SAP SuccessFactors (HRIS) and the organization’s LMS via REST APIs. The component should present chronological, color-coded milestones (e.g., completed competencies, certifications, training sessions) and enable filtering by department, role, and skill category. \n\n**Technical requirements** include React (with TypeScript), D3.js for interactive data visualization, Python/FastAPI for secure API endpoints, and PostgreSQL for data storage. You must ensure modular code structure for future extensibility (e.g., additional filters or annotation features). \n\n**Required skills** are advanced JavaScript/TypeScript, React, state management (Redux or React Context), D3.js, secure API design, SQL (for custom timeline queries), and integration with HRIS/LMS APIs. Domain knowledge in career path frameworks, skill taxonomies, and educational assessment methods is essential for accurate visualization and terminology. \n\n**Acceptance criteria:** Delivery of a reusable, documented React/D3 component that dynamically displays skill development timelines for selected users, fully integrated with backend APIs; passing unit/integration tests; user documentation tailored for coordinators; and confirmation of data validity and visual clarity through acceptance testing with career management stakeholders.",
+                "subtask_points": 5,
+                "subtask_assignees": [
+                  {
+                    "account_id": "cc649336067d9c3eec99d6e9",
+                    "display_name": "DZCIS17",
+                    "email_address": "dzcis17@skoda-auto.cz"
+                  },
+                  {
+                    "account_id": "c611127b94520ac5dacf8e21",
+                    "display_name": "DZCLPT6",
+                    "email_address": "dzclpt6@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10005",
+                "subtask_key": "ANAL-7",
+                "subtask_p_id": "10000",
+                "subtask_p_key": "ANAL",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Skill Development Progress Visualization Component in the Centralized Career Dashboard**\n\nAs a Career Management Coordinator with pedagogical expertise, I need to develop an interactive React component that visualizes employees’ skill development trajectories across departments, enabling coordinators to identify strengths, gaps, and recommend tailored learning paths. This subtask involves creating a modular “Skill Progress” widget using React and Chart.js, which consumes RESTful API endpoints built with FastAPI in Python to fetch aggregated skill and training data from PostgreSQL, integrating data from HRIS (e.g., SAP SuccessFactors) and LMS platforms. The implementation requires designing efficient SQL queries to aggregate skill metrics, ensuring data normalization, and securing all API communications with JWT-based authentication to enforce role-based access control. Required skills include proficiency in JavaScript/TypeScript, React (with hooks and context API), Chart.js for dynamic charts, Python (FastAPI for backend), and SQL; domain expertise in career frameworks, educational assessment, and HR data structures is essential. Deliverables include a reusable React component displaying up-to-date skill progression, documented API contracts, unit tests for data aggregation logic, and user guides tailored for career management coordinators, with acceptance confirmed through integration testing and validation by HR stakeholders for data accuracy and usability."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Skill Development Progress Visualization Component in the Centralized Career Dashboard**\n\nAs a Career Management Coordinator with pedagogical expertise, I need to develop an interactive React component that visualizes employees’ skill development trajectories across departments, enabling coordinators to identify strengths, gaps, and recommend tailored learning paths. This subtask involves creating a modular “Skill Progress” widget using React and Chart.js, which consumes RESTful API endpoints built with FastAPI in Python to fetch aggregated skill and training data from PostgreSQL, integrating data from HRIS (e.g., SAP SuccessFactors) and LMS platforms. The implementation requires designing efficient SQL queries to aggregate skill metrics, ensuring data normalization, and securing all API communications with JWT-based authentication to enforce role-based access control. Required skills include proficiency in JavaScript/TypeScript, React (with hooks and context API), Chart.js for dynamic charts, Python (FastAPI for backend), and SQL; domain expertise in career frameworks, educational assessment, and HR data structures is essential. Deliverables include a reusable React component displaying up-to-date skill progression, documented API contracts, unit tests for data aggregation logic, and user guides tailored for career management coordinators, with acceptance confirmed through integration testing and validation by HR stakeholders for data accuracy and usability.",
+                "subtask_points": 3,
+                "subtask_assignees": [
+                  {
+                    "account_id": "dc35d16f1f21e67c18ea9f1f",
+                    "display_name": "DZCPS1Z",
+                    "email_address": "dzcps1z@skoda-auto.cz"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "project_id": "10001",
+        "project_key": "DIGI",
+        "project_name": "Digital Service",
+        "project_description": "Digital Service for enterprise software development and delivery.",
+        "stories": [
+          {
+            "story_id": "10002",
+            "story_key": "DIGI-1",
+            "story_p_id": "10001",
+            "story_p_key": "DIGI",
+            "story_description": {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "As a career management coordinator with a background in pedagogy and educational technology, I need a workflow automation feature within the DIGI Digital Service platform to streamline student career planning sessions, manage coordination across teaching staff, and facilitate progress tracking for individualized learning paths. This requires building a responsive web interface using React for the frontend, with a backend powered by Python (FastAPI) and PostgreSQL for robust data management. The system should support role-based access control (RBAC), integrate with existing LMS platforms (e.g., Moodle via RESTful APIs), and provide real-time notifications for session scheduling and updates. Key skills required include proficiency in JavaScript/React, Python/FastAPI, PostgreSQL database modeling, API integration, and knowledge of coordination workflows in educational and career management settings. Understanding curriculum management, student assessment, and collaborative teaching practices is essential for aligning the tool with real-world needs. Acceptance criteria: Deliver a tested, documented workflow module supporting session creation, participant assignment, notification triggers, and status tracking, with comprehensive user guides and functional test cases for major coordination scenarios. The solution must improve visibility and collaboration among coordinators and teaching staff, directly supporting personalized educational and career guidance for students."
+                    }
+                  ]
+                }
+              ]
+            },
+            "story_description_text": "As a career management coordinator with a background in pedagogy and educational technology, I need a workflow automation feature within the DIGI Digital Service platform to streamline student career planning sessions, manage coordination across teaching staff, and facilitate progress tracking for individualized learning paths. This requires building a responsive web interface using React for the frontend, with a backend powered by Python (FastAPI) and PostgreSQL for robust data management. The system should support role-based access control (RBAC), integrate with existing LMS platforms (e.g., Moodle via RESTful APIs), and provide real-time notifications for session scheduling and updates. Key skills required include proficiency in JavaScript/React, Python/FastAPI, PostgreSQL database modeling, API integration, and knowledge of coordination workflows in educational and career management settings. Understanding curriculum management, student assessment, and collaborative teaching practices is essential for aligning the tool with real-world needs. Acceptance criteria: Deliver a tested, documented workflow module supporting session creation, participant assignment, notification triggers, and status tracking, with comprehensive user guides and functional test cases for major coordination scenarios. The solution must improve visibility and collaboration among coordinators and teaching staff, directly supporting personalized educational and career guidance for students.",
+            "story_points": 3,
+            "story_assignees": [
+              {
+                "account_id": "c611127b94520ac5dacf8e21",
+                "display_name": "DZCLPT6",
+                "email_address": "dzclpt6@skoda-auto.cz"
+              },
+              {
+                "account_id": "7174dcf2926f2cb38f7e5716",
+                "display_name": "DZCIH08",
+                "email_address": "dzcih08@skoda-auto.cz"
+              },
+              {
+                "account_id": "3c83ccb2e3606efb091e5464",
+                "display_name": "DZCMF39",
+                "email_address": "dzcmf39@skoda-auto.cz"
+              }
+            ],
+            "subtasks": [
+              {
+                "subtask_id": "10003",
+                "subtask_key": "DIGI-2",
+                "subtask_p_id": "10001",
+                "subtask_p_key": "DIGI",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Session Creation and Assignment Workflow for Career Planning Coordination**\n\nAs a coordinator specializing in educational and career planning, I need a user-friendly interface within the DIGI Digital Service platform to create new student career planning sessions and assign relevant teaching staff and student participants, ensuring streamlined coordination and tracking of individualized learning pathways. This subtask involves building a React component for session creation with dynamic forms, leveraging Ant Design UI library for accessibility, and integrating with a FastAPI backend endpoint (`/api/sessions/create`) to persist session data in a PostgreSQL database. The backend should handle participant assignment logic, enforce role-based access control (RBAC) to restrict session creation/assignment to authorized coordinators, and trigger real-time notification events for assigned participants using WebSockets or server-sent events. Required skills include React/JavaScript, Python (FastAPI), PostgreSQL schema design, REST API development, and secure authentication/authorization implementation. Domain knowledge in curriculum design, student assessment, and collaborative teaching practice is essential to align workflow logic and UI with real-world coordination needs. Deliverables: a responsive session creation UI, backend API with RBAC, notification triggers, and full test coverage (unit/integration), along with documentation and a user guide for workflow usage. Acceptance criteria: Coordinators can create sessions, assign staff/students, and trigger notifications, with all actions logged and visible in the progress-tracking dashboard."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Session Creation and Assignment Workflow for Career Planning Coordination**\n\nAs a coordinator specializing in educational and career planning, I need a user-friendly interface within the DIGI Digital Service platform to create new student career planning sessions and assign relevant teaching staff and student participants, ensuring streamlined coordination and tracking of individualized learning pathways. This subtask involves building a React component for session creation with dynamic forms, leveraging Ant Design UI library for accessibility, and integrating with a FastAPI backend endpoint (`/api/sessions/create`) to persist session data in a PostgreSQL database. The backend should handle participant assignment logic, enforce role-based access control (RBAC) to restrict session creation/assignment to authorized coordinators, and trigger real-time notification events for assigned participants using WebSockets or server-sent events. Required skills include React/JavaScript, Python (FastAPI), PostgreSQL schema design, REST API development, and secure authentication/authorization implementation. Domain knowledge in curriculum design, student assessment, and collaborative teaching practice is essential to align workflow logic and UI with real-world coordination needs. Deliverables: a responsive session creation UI, backend API with RBAC, notification triggers, and full test coverage (unit/integration), along with documentation and a user guide for workflow usage. Acceptance criteria: Coordinators can create sessions, assign staff/students, and trigger notifications, with all actions logged and visible in the progress-tracking dashboard.",
+                "subtask_points": 2,
+                "subtask_assignees": [
+                  {
+                    "account_id": "3c83ccb2e3606efb091e5464",
+                    "display_name": "DZCMF39",
+                    "email_address": "dzcmf39@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10004",
+                "subtask_key": "DIGI-3",
+                "subtask_p_id": "10001",
+                "subtask_p_key": "DIGI",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Session Creation and Participant Assignment Workflow in DIGI Digital Service Platform**\n\nAs a career management coordinator with a teaching background, implement the session creation and participant assignment feature to streamline scheduling and staff-student coordination for individualized educational and career planning. This will involve building a responsive React component for session creation, featuring form validation and dynamic participant (student/teacher) selection, which communicates with a dedicated Python FastAPI backend endpoint (`/api/sessions/create`). The endpoint will validate data, handle RBAC checks, and persist session and participant assignments in PostgreSQL, using normalized tables to support many-to-many relationships. Integrate real-time notifications via Django Channels or WebSockets for immediate updates to assigned staff and students, and ensure seamless synchronization with the connected LMS (e.g., Moodle) via RESTful API calls to fetch user lists and update external calendars.\n\n**Required skills:**  \n- Technical: JavaScript (React), Python (FastAPI), SQL (PostgreSQL), RESTful API design and integration, real-time communication (WebSockets), Git  \n- Domain: Coordination workflows in educational/career management, understanding of individualized learning plans, curriculum structures, and staff-student collaboration\n\n**Deliverables & Acceptance Criteria:**  \n- A functional, tested session creation UI in React with participant assignment and error handling  \n- Backend FastAPI endpoint with validation, RBAC enforcement, and PostgreSQL integration  \n- Real-time notification mechanism for session assignment  \n- Integration with Moodle API for user validation and session sync  \n- User documentation and test cases covering creation, assignment, notification, and integration flows  \n- The feature improves coordination visibility, supports collaborative planning, and meets accessibility and usability standards for coordinators and teaching staff"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Session Creation and Participant Assignment Workflow in DIGI Digital Service Platform**\n\nAs a career management coordinator with a teaching background, implement the session creation and participant assignment feature to streamline scheduling and staff-student coordination for individualized educational and career planning. This will involve building a responsive React component for session creation, featuring form validation and dynamic participant (student/teacher) selection, which communicates with a dedicated Python FastAPI backend endpoint (`/api/sessions/create`). The endpoint will validate data, handle RBAC checks, and persist session and participant assignments in PostgreSQL, using normalized tables to support many-to-many relationships. Integrate real-time notifications via Django Channels or WebSockets for immediate updates to assigned staff and students, and ensure seamless synchronization with the connected LMS (e.g., Moodle) via RESTful API calls to fetch user lists and update external calendars.\n\n**Required skills:**  \n- Technical: JavaScript (React), Python (FastAPI), SQL (PostgreSQL), RESTful API design and integration, real-time communication (WebSockets), Git  \n- Domain: Coordination workflows in educational/career management, understanding of individualized learning plans, curriculum structures, and staff-student collaboration\n\n**Deliverables & Acceptance Criteria:**  \n- A functional, tested session creation UI in React with participant assignment and error handling  \n- Backend FastAPI endpoint with validation, RBAC enforcement, and PostgreSQL integration  \n- Real-time notification mechanism for session assignment  \n- Integration with Moodle API for user validation and session sync  \n- User documentation and test cases covering creation, assignment, notification, and integration flows  \n- The feature improves coordination visibility, supports collaborative planning, and meets accessibility and usability standards for coordinators and teaching staff",
+                "subtask_points": 5,
+                "subtask_assignees": [
+                  {
+                    "account_id": "c611127b94520ac5dacf8e21",
+                    "display_name": "DZCLPT6",
+                    "email_address": "dzclpt6@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10005",
+                "subtask_key": "DIGI-4",
+                "subtask_p_id": "10001",
+                "subtask_p_key": "DIGI",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Subtask: Implement Role-Based Access Control (RBAC) for Session Management in DIGI Digital Service Platform\n\nDescription:  \nTo ensure secure and effective coordination of student career planning sessions, implement a role-based access control (RBAC) system within the DIGI Digital Service platform’s backend using Python (FastAPI) and PostgreSQL. Define user roles—such as Coordinator, Teaching Staff, and Student—each with specific permissions for creating, assigning, viewing, and updating session records. Implement RBAC middleware and authorization checks on relevant FastAPI endpoints (e.g., `/sessions/create`, `/sessions/assign`, `/sessions/view`, `/sessions/update`), and store role-permission mappings in dedicated PostgreSQL tables. Integrate the RBAC logic with the frontend React components to conditionally render UI elements (e.g., action buttons) based on user role, and ensure seamless interoperability with session scheduling and notification features.\n\nKey technical skills required include Python with FastAPI (middleware development, API security), PostgreSQL (data modeling and queries), JavaScript/React (conditional rendering, authentication context), and REST API integration. Domain knowledge in educational workflows, curriculum management, and collaborative teaching practices is essential to align permissions with real-world school coordination needs and privacy standards.\n\nDeliverables and Acceptance Criteria:  \n- Documented RBAC implementation for all session management endpoints  \n- Secure, role-aware React frontend with appropriate UI restrictions  \n- Database schema updates for user roles and permissions  \n- Functional test cases demonstrating role-based access and restrictions  \n- User guide documenting RBAC features and scenarios  \n- Code review and validation against school coordination workflow requirements"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "Subtask: Implement Role-Based Access Control (RBAC) for Session Management in DIGI Digital Service Platform\n\nDescription:  \nTo ensure secure and effective coordination of student career planning sessions, implement a role-based access control (RBAC) system within the DIGI Digital Service platform’s backend using Python (FastAPI) and PostgreSQL. Define user roles—such as Coordinator, Teaching Staff, and Student—each with specific permissions for creating, assigning, viewing, and updating session records. Implement RBAC middleware and authorization checks on relevant FastAPI endpoints (e.g., `/sessions/create`, `/sessions/assign`, `/sessions/view`, `/sessions/update`), and store role-permission mappings in dedicated PostgreSQL tables. Integrate the RBAC logic with the frontend React components to conditionally render UI elements (e.g., action buttons) based on user role, and ensure seamless interoperability with session scheduling and notification features.\n\nKey technical skills required include Python with FastAPI (middleware development, API security), PostgreSQL (data modeling and queries), JavaScript/React (conditional rendering, authentication context), and REST API integration. Domain knowledge in educational workflows, curriculum management, and collaborative teaching practices is essential to align permissions with real-world school coordination needs and privacy standards.\n\nDeliverables and Acceptance Criteria:  \n- Documented RBAC implementation for all session management endpoints  \n- Secure, role-aware React frontend with appropriate UI restrictions  \n- Database schema updates for user roles and permissions  \n- Functional test cases demonstrating role-based access and restrictions  \n- User guide documenting RBAC features and scenarios  \n- Code review and validation against school coordination workflow requirements",
+                "subtask_points": 8,
+                "subtask_assignees": [
+                  {
+                    "account_id": "12a5c8166873a6dcc1d60c82",
+                    "display_name": "US1PWZL",
+                    "email_address": "us1pwzl@skoda-auto.cz"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "story_id": "10003",
+            "story_key": "DIGI-2",
+            "story_p_id": "10001",
+            "story_p_key": "DIGI",
+            "story_description": {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "**User Story: Career Management Workflow Dashboard for Coordinators**\n\nAs a career management coordinator with a background in pedagogy, I need an integrated workflow dashboard within our Digital Service platform to monitor, assign, and track student career development activities and collaborations between educators and career advisors. This feature will be developed using React for the frontend (to enable interactive UI components like Kanban boards and notifications), Node.js with Express for the backend (to manage workflow logic), and PostgreSQL for secure data storage and retrieval. RESTful APIs will facilitate integration with existing LMS platforms (e.g., Moodle) and HRIS systems for seamless data exchange, while Docker will be used for containerization and deployment. The implementation should support user role-based access (coordinator, teacher, advisor), automated task assignment, and progress visualization, adhering to best practices in educational workflow management and coordination.\n\nKey skills required include proficiency in JavaScript (React, Node.js), database management (PostgreSQL), API development, containerization (Docker), and knowledge of educational coordination, curriculum planning, and career guidance methodologies. Deliverables include a functional dashboard with role-based workflows, integrated data exchange with LMS/HRIS, detailed user documentation, and tested features (unit and integration tests) that ensure security, usability, and accurate activity tracking. Acceptance criteria include successful login/authentication for different roles, task assignment and progress tracking capabilities, seamless integration with external systems, and comprehensive end-user documentation aligned with educational and career management best practices."
+                    }
+                  ]
+                }
+              ]
+            },
+            "story_description_text": "**User Story: Career Management Workflow Dashboard for Coordinators**\n\nAs a career management coordinator with a background in pedagogy, I need an integrated workflow dashboard within our Digital Service platform to monitor, assign, and track student career development activities and collaborations between educators and career advisors. This feature will be developed using React for the frontend (to enable interactive UI components like Kanban boards and notifications), Node.js with Express for the backend (to manage workflow logic), and PostgreSQL for secure data storage and retrieval. RESTful APIs will facilitate integration with existing LMS platforms (e.g., Moodle) and HRIS systems for seamless data exchange, while Docker will be used for containerization and deployment. The implementation should support user role-based access (coordinator, teacher, advisor), automated task assignment, and progress visualization, adhering to best practices in educational workflow management and coordination.\n\nKey skills required include proficiency in JavaScript (React, Node.js), database management (PostgreSQL), API development, containerization (Docker), and knowledge of educational coordination, curriculum planning, and career guidance methodologies. Deliverables include a functional dashboard with role-based workflows, integrated data exchange with LMS/HRIS, detailed user documentation, and tested features (unit and integration tests) that ensure security, usability, and accurate activity tracking. Acceptance criteria include successful login/authentication for different roles, task assignment and progress tracking capabilities, seamless integration with external systems, and comprehensive end-user documentation aligned with educational and career management best practices.",
+            "story_points": 5,
+            "story_assignees": [
+              {
+                "account_id": "7174dcf2926f2cb38f7e5716",
+                "display_name": "DZCIH08",
+                "email_address": "dzcih08@skoda-auto.cz"
+              }
+            ],
+            "subtasks": [
+              {
+                "subtask_id": "10004",
+                "subtask_key": "DIGI-5",
+                "subtask_p_id": "10001",
+                "subtask_p_key": "DIGI",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Role-Based Access Control (RBAC) and Authentication for the Career Management Workflow Dashboard**\n\nTo ensure secure and differentiated access within the career management workflow dashboard, develop a robust Role-Based Access Control (RBAC) and authentication system using Node.js with Express and Passport.js for backend user authentication, and JWT (JSON Web Tokens) for secure session management. Define user roles (coordinator, teacher, advisor) in the PostgreSQL database, and implement middleware to restrict API endpoints based on these roles, ensuring that only authorized users can view, assign, or track specific student career development activities. The frontend in React should dynamically render dashboard components (e.g., task assignment, progress visualization) based on the authenticated user’s role, utilizing Redux for state management and secure API calls via Axios. Proficiency in JavaScript (React, Node.js), database schema design (PostgreSQL), and RESTful API security best practices is required. Domain expertise in educational workflow coordination, curriculum planning, and career guidance is critical to model user roles and permissions according to school organizational structures. Deliverables include fully functional authentication endpoints, role-based protected routes, frontend UI component gating, detailed technical/user documentation, and comprehensive unit/integration tests. Acceptance criteria: successful user registration/login for each role, API access restricted by role, accurate rendering of permitted dashboard features, and documentation aligned with educational and career management coordination standards."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Role-Based Access Control (RBAC) and Authentication for the Career Management Workflow Dashboard**\n\nTo ensure secure and differentiated access within the career management workflow dashboard, develop a robust Role-Based Access Control (RBAC) and authentication system using Node.js with Express and Passport.js for backend user authentication, and JWT (JSON Web Tokens) for secure session management. Define user roles (coordinator, teacher, advisor) in the PostgreSQL database, and implement middleware to restrict API endpoints based on these roles, ensuring that only authorized users can view, assign, or track specific student career development activities. The frontend in React should dynamically render dashboard components (e.g., task assignment, progress visualization) based on the authenticated user’s role, utilizing Redux for state management and secure API calls via Axios. Proficiency in JavaScript (React, Node.js), database schema design (PostgreSQL), and RESTful API security best practices is required. Domain expertise in educational workflow coordination, curriculum planning, and career guidance is critical to model user roles and permissions according to school organizational structures. Deliverables include fully functional authentication endpoints, role-based protected routes, frontend UI component gating, detailed technical/user documentation, and comprehensive unit/integration tests. Acceptance criteria: successful user registration/login for each role, API access restricted by role, accurate rendering of permitted dashboard features, and documentation aligned with educational and career management coordination standards.",
+                "subtask_points": 3,
+                "subtask_assignees": [
+                  {
+                    "account_id": "3c83ccb2e3606efb091e5464",
+                    "display_name": "DZCMF39",
+                    "email_address": "dzcmf39@skoda-auto.cz"
+                  },
+                  {
+                    "account_id": "cc649336067d9c3eec99d6e9",
+                    "display_name": "DZCIS17",
+                    "email_address": "dzcis17@skoda-auto.cz"
+                  }
+                ]
+              },
+              {
+                "subtask_id": "10005",
+                "subtask_key": "DIGI-6",
+                "subtask_p_id": "10001",
+                "subtask_p_key": "DIGI",
+                "subtask_description": {
+                  "type": "doc",
+                  "version": 1,
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "**Subtask: Implement Role-Based Task Assignment & Progress Visualization in Career Management Workflow Dashboard**\n\nTo enhance coordination of student career development activities, implement a React-based Kanban board component within the Digital Service dashboard, enabling coordinators to assign tasks to teachers and advisors based on user roles and visualize progress through drag-and-drop task management. The frontend will use React DnD for interactive Kanban functionality, while the backend (Node.js/Express) will expose REST API endpoints (`/tasks/assign`, `/tasks/update-status`) to manage task assignment and status updates; all workflow data will be stored and retrieved via PostgreSQL with tables designed for role mapping, assignments, and activity logs. Integration with Moodle (LMS) and existing HRIS will be handled by RESTful API calls, ensuring synchronization of user and task data, and Docker will be used to containerize all services for consistent deployment. Required skills include advanced JavaScript/TypeScript (React, Node.js), API development (REST), SQL database design (PostgreSQL), and experience with educational workflow coordination, curriculum mapping, and task management in school environments. Deliverables are a Kanban dashboard supporting drag-and-drop assignments, real-time progress tracking, secure role-based access (coordinator, teacher, advisor), integration scripts for LMS/HRIS synchronization, comprehensive unit/integration tests for task workflows and API security, and end-user documentation aligned with best practices in school career management. Acceptance criteria: successful login and role detection, ability to assign and update task statuses, real-time progress updates visible by all roles, seamless data exchange with external systems, tested with sample users, and clear documentation for coordinators and educators."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "subtask_description_text": "**Subtask: Implement Role-Based Task Assignment & Progress Visualization in Career Management Workflow Dashboard**\n\nTo enhance coordination of student career development activities, implement a React-based Kanban board component within the Digital Service dashboard, enabling coordinators to assign tasks to teachers and advisors based on user roles and visualize progress through drag-and-drop task management. The frontend will use React DnD for interactive Kanban functionality, while the backend (Node.js/Express) will expose REST API endpoints (`/tasks/assign`, `/tasks/update-status`) to manage task assignment and status updates; all workflow data will be stored and retrieved via PostgreSQL with tables designed for role mapping, assignments, and activity logs. Integration with Moodle (LMS) and existing HRIS will be handled by RESTful API calls, ensuring synchronization of user and task data, and Docker will be used to containerize all services for consistent deployment. Required skills include advanced JavaScript/TypeScript (React, Node.js), API development (REST), SQL database design (PostgreSQL), and experience with educational workflow coordination, curriculum mapping, and task management in school environments. Deliverables are a Kanban dashboard supporting drag-and-drop assignments, real-time progress tracking, secure role-based access (coordinator, teacher, advisor), integration scripts for LMS/HRIS synchronization, comprehensive unit/integration tests for task workflows and API security, and end-user documentation aligned with best practices in school career management. Acceptance criteria: successful login and role detection, ability to assign and update task statuses, real-time progress updates visible by all roles, seamless data exchange with external systems, tested with sample users, and clear documentation for coordinators and educators.",
+                "subtask_points": 2,
+                "subtask_assignees": [
+                  {
+                    "account_id": "12a5c8166873a6dcc1d60c82",
+                    "display_name": "US1PWZL",
+                    "email_address": "us1pwzl@skoda-auto.cz"
+                  },
+                  {
+                    "account_id": "91991ec9a7dc08f047a200df",
+                    "display_name": "DZCHM26",
+                    "email_address": "dzchm26@skoda-auto.cz"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }{
+    "subtasks": [
+      {
+        "subtask_id": "10002",
+        "description": "**Subtask: Develop Backend REST API Endpoint for Aggregating Employee Learning Progress Data**\n\nAs a career management coordinator with a pedagogical background, I need to implement a secure Python FastAPI backend endpoint that aggregates and normalizes employee learning progress data from both the HRIS (e.g., SAP SuccessFactors) and LMS (e.g., Moodle) platforms to support data visualization in the interactive analytics dashboard. The endpoint should extract relevant data via secure RESTful API calls, process and map learning outcomes, completion statuses, and assessment scores to standardized skill frameworks, and store the results in PostgreSQL for efficient querying. Key implementation steps include designing the API contract (OpenAPI/Swagger), orchestrating data synchronization with scheduled background jobs (using Celery or APScheduler), and ensuring compliance with role-based access controls leveraging JWT authentication. Required skills include Python programming, FastAPI for REST API development, PostgreSQL database design, secure API integration patterns, and an understanding of educational assessment standards and career development frameworks. Deliverables are the fully implemented and unit-tested API endpoint, schema documentation for coordinators, and a demonstration of accurate synchronization with HRIS and LMS systems, meeting all acceptance criteria for data integrity, access control, and documentation standards.",
+        "assignees": [
+          { "display_name": "DZCLPT6" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10003",
+        "description": "**Subtask: Implement Skill Gap Visualization Component in Employee Learning Progress Dashboard**\n\nAs a career management coordinator with a pedagogical background, you are to develop the Skill Gap Visualization component in the interactive dashboard, enabling coordinators and team leads to identify specific areas where employees’ current skills do not meet the requirements for targeted career paths. This component will be built as a reusable React functional component utilizing Chart.js for data visualization, fetching employee learning progress and required skill profile data via secure REST API endpoints from the backend (Python/FastAPI), which aggregates data from PostgreSQL and synchronizes with HRIS/LMS platforms (e.g., SAP SuccessFactors, Moodle). Step-by-step, design the API contract, implement the backend endpoint (e.g., `/api/skill-gaps/{employee_id}`), develop SQL queries to calculate gaps, and handle frontend state management for real-time updates and responsive display. Required skills include React (hooks, state management), Chart.js integration, Python (FastAPI endpoints), PostgreSQL (data modeling, querying), RESTful API best practices, and domain expertise in educational assessment, skill mapping, and coordination workflows typical of HR/career management environments. Deliverables: a fully functional, unit-tested React component; FastAPI endpoint with integration tests; comprehensive user documentation tailored for coordinators; and demonstration of accurate, up-to-date data synchronization with HRIS/LMS before production deployment. Acceptance criteria: skill gaps are visually clear, data is current, access controls are respected, and the component is responsive on desktop and mobile devices.",
+        "assignees": [
+          { "display_name": "DZCIS17" },
+          { "display_name": "DZCHM26" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10004",
+        "description": "**Subtask: Implement Learning Progress Visualization Component in React**\n\nAs a career management coordinator with a pedagogical background, I need to develop the \"Learning Progress Overview\" component within the interactive analytics dashboard to visually display employee training completion rates, ongoing courses, and skill development over time. This component will be built as a modular React function using Chart.js for data visualizations (e.g., bar graphs for course completion, line charts for skill acquisition trends). The component must consume secure RESTful endpoints from the FastAPI backend (using Axios for HTTP requests), retrieving synchronized learning progress data aggregated from the integrated Moodle/SAP SuccessFactors LMS and HRIS systems stored in PostgreSQL. The design should be fully responsive (leveraging CSS Grid/Flexbox and Material-UI), with role-based UI controls to ensure coordinators, HR, and team leads see only relevant data per RBAC policy. Required skills include advanced React, JavaScript, Chart.js, REST API integration, responsive web design, and UX principles rooted in educational assessment—ensuring the visualization is clear, actionable, and pedagogically sound. Deliverables: A production-ready, unit/integration-tested React component, technical/user documentation for coordinators, and evidence of correct data synchronization and display, verified using sample employee data sets before deployment.",
+        "assignees": [
+          { "display_name": "DZCLPT6" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10003",
+        "description": "**Subtask: Implement Department-Wise Career Progression Visualization Component**\n\nAs a Career Management Coordinator with a background in pedagogy, I need to develop a React-based interactive component that displays department-wise career progression paths and aggregated skill development metrics for employees, enabling easy comparison and tailored recommendations for professional growth. This subtask involves designing and building a reusable React component utilizing Chart.js for data visualization, which will fetch real-time career and learning data via REST API endpoints exposed by the FastAPI backend. The backend will aggregate data from integrated HRIS (SAP SuccessFactors) and LMS systems, using optimized SQL queries in PostgreSQL to ensure efficient retrieval and role-based data filtering. Implementation requires modularization to support future enhancements (e.g., filtering by skill domain or date range), and adherence to secure coding best practices to protect sensitive staff information.\n\nTechnical skills required include proficiency in JavaScript/TypeScript, React (including hooks and context API), Chart.js for visualization, Python (FastAPI for API development), SQL for complex queries, and RESTful API integration. Domain knowledge in educational assessment, career pathway frameworks, and employee development practices is essential to accurately interpret and present HR/LMS data for actionable insights.\n\nAcceptance criteria: delivery of a React component with accurate visualizations, complete tests, role-based filtering, and documentation.",
+        "assignees": [
+          { "display_name": "DZCLPT6" },
+          { "display_name": "DZCIS17" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10004",
+        "description": "**Subtask: Implement Skill Development Timeline Visualization Component**\n\nAs a Career Management Coordinator with a background in pedagogy, you are tasked with designing and developing a “Skill Development Timeline” React component to graphically represent each employee’s skill acquisition and professional growth milestones using D3.js integrated with React. This component must fetch aggregated learning and performance data from the backend FastAPI endpoints (secured with JWT-based role controls), which aggregate data from both SAP SuccessFactors (HRIS) and the organization’s LMS via REST APIs. The component should present chronological, color-coded milestones and allow filtering by department, role, and skill category.\n\nTechnical requirements: React + TypeScript, D3.js, FastAPI, PostgreSQL, modular architecture.\nAcceptance criteria: fully working timeline component, integration-tested, documented, validated by coordinators.",
+        "assignees": [
+          { "display_name": "DZCIS17" },
+          { "display_name": "DZCLPT6" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10005",
+        "description": "**Subtask: Implement Skill Development Progress Visualization Component in the Centralized Career Dashboard**\n\nAs a Career Management Coordinator with pedagogical expertise, I need to develop an interactive React component that visualizes employees’ skill development trajectories across departments, enabling coordinators to identify strengths, gaps, and recommend tailored learning paths. This subtask involves creating a modular “Skill Progress” widget using React and Chart.js, which consumes RESTful API endpoints built with FastAPI in Python to fetch aggregated skill and training data from PostgreSQL.\n\nAcceptance criteria: complete visualization, API integration, unit tests, coordinator documentation.",
+        "assignees": [
+          { "display_name": "DZCPS1Z" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10003",
+        "description": "**Subtask: Implement Session Creation and Assignment Workflow for Career Planning Coordination**\n\nAs a coordinator specializing in educational and career planning, I need a user-friendly interface to create new student career planning sessions and assign teaching staff and participants. The task requires building a React component using Ant Design, integrating a FastAPI endpoint `/api/sessions/create`, handling RBAC, and triggering real-time notification events.\n\nAcceptance criteria: sessions can be created, participants assigned, notifications sent, fully tested.",
+        "assignees": [
+          { "display_name": "DZCMF39" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10004",
+        "description": "**Subtask: Implement Session Creation and Participant Assignment Workflow in DIGI Digital Service Platform**\n\nAs a career management coordinator with a teaching background, implement a session creation and participant assignment feature using React, FastAPI, PostgreSQL, RBAC, and WebSockets for real-time notifications.\n\nAcceptance criteria: session creation workflow complete, RBAC functional, real-time updates, LMS sync, documented and tested.",
+        "assignees": [
+          { "display_name": "DZCLPT6" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10005",
+        "description": "Subtask: Implement Role-Based Access Control (RBAC) for Session Management in DIGI Digital Service Platform\n\nImplement RBAC in FastAPI + PostgreSQL + React for session creation, assignment, viewing, and updating. Add middleware, enforce permission mapping, and adapt frontend UI based on roles.",
+        "assignees": [
+          { "display_name": "US1PWZL" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10004",
+        "description": "**Subtask: Implement RBAC and Authentication for Workflow Dashboard**\n\nDevelop full RBAC and authentication in Node.js (Express, Passport.js) with JWT. Enforce role-based restrictions in APIs and React UI with Redux.",
+        "assignees": [
+          { "display_name": "DZCMF39" },
+          { "display_name": "DZCIS17" }
+        ],
+        "skills": ""
+      },
+      {
+        "subtask_id": "10005",
+        "description": "**Subtask: Implement Role-Based Task Assignment & Progress Visualization**\n\nCreate a React Kanban board using React DnD for drag-and-drop task assignment. Backend in Node.js/Express with PostgreSQL and role-aware workflows.",
+        "assignees": [
+          { "display_name": "US1PWZL" },
+          { "display_name": "DZCHM26" }
+        ],
+        "skills": ""
+      }
+    ]
+  }
+  

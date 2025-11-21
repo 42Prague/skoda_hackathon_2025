@@ -1,0 +1,18 @@
+[
+  {
+    "document_id": "doc-example-001",
+    "content": "This is an example document. It contains information that will be chunked and embedded into the vector database. The system will automatically split this text into chunks of approximately 512 tokens with a 50 token overlap between chunks.",
+    "type": "example"
+  },
+  {
+    "document_id": "doc-example-002",
+    "content": "Another example document. You can add as many documents as needed. Each document will be processed independently. The document_id is optional - if you don't provide it, a UUID will be automatically generated.",
+    "type": "example"
+  },
+  {
+    "content": "This document doesn't have a document_id field. The system will generate one automatically. You can also omit the 'type' field - it will default to 'document'."
+  }
+]
+
+
+
