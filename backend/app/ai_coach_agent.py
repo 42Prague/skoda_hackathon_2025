@@ -114,25 +114,80 @@ class AICoachAgent:
             logger.error(f"LLM API call failed: {e}")
             # Return helpful mock response instead of error
             user_lower = user_input.lower()
-
-            if 'software engineer' in user_lower or 'developer' in user_lower:
+            
+            if 'software engineer' in user_lower or 'developer' in user_lower or 'programming' in user_lower:
                 return (
                     "To become a better software engineer, focus on these key areas:\n\n"
-                    "1. **Core Programming Skills**: Master data structures, algorithms, and design patterns\n"
-                    "2. **Modern Technologies**: Learn cloud platforms (AWS, Azure), containers (Docker), and CI/CD\n"
-                    "3. **Software Architecture**: Understand microservices, system design, and scalability\n"
-                    "4. **Best Practices**: Version control (Git), testing, code reviews, and documentation\n"
-                    "5. **Soft Skills**: Communication, teamwork, and problem-solving\n\n"
-                    "Use the Skills Search and Employee Profile features to explore relevant courses!"
+                    "**1. Core Programming Skills**\n"
+                    "Master data structures, algorithms, and design patterns. Practice problem-solving on platforms like LeetCode or HackerRank.\n\n"
+                    "**2. Modern Technologies**\n"
+                    "Learn cloud platforms (AWS, Azure, GCP), containerization (Docker, Kubernetes), and CI/CD pipelines. These are essential for modern development.\n\n"
+                    "**3. Software Architecture**\n"
+                    "Understand microservices, system design, scalability, and distributed systems. Learn to design robust, maintainable applications.\n\n"
+                    "**4. Best Practices**\n"
+                    "Master version control (Git), write tests (unit, integration, E2E), conduct code reviews, and maintain good documentation.\n\n"
+                    "**5. Soft Skills**\n"
+                    "Develop communication, teamwork, and problem-solving abilities. Technical skills alone aren't enough for career growth.\n\n"
+                    "Use the Skills Search and Employee Profile features to explore relevant courses in the Škoda system!"
                 )
-
+            
+            if 'career' in user_lower or 'growth' in user_lower or 'promotion' in user_lower:
+                return (
+                    "For career advancement at Škoda, consider:\n\n"
+                    "**1. Skill Development**\n"
+                    "Identify skill gaps for your target role using the Employee Profile feature. Complete required qualifications systematically.\n\n"
+                    "**2. Cross-Functional Experience**\n"
+                    "Seek projects outside your current domain. This broadens your perspective and makes you more valuable.\n\n"
+                    "**3. Leadership & Mentoring**\n"
+                    "Mentor junior colleagues, lead initiatives, and demonstrate leadership potential even before promotion.\n\n"
+                    "**4. Continuous Learning**\n"
+                    "Stay updated with industry trends. Use platforms like Degreed to expand your knowledge base.\n\n"
+                    "**5. Network & Visibility**\n"
+                    "Build relationships across departments. Make your contributions visible to leadership through presentations and documentation."
+                )
+            
+            if 'learn' in user_lower or 'course' in user_lower or 'training' in user_lower:
+                return (
+                    "Here's how to approach learning effectively:\n\n"
+                    "**1. Set Clear Goals**\n"
+                    "Define what you want to achieve. Are you preparing for a new role, project, or certification?\n\n"
+                    "**2. Use the Learning Path Feature**\n"
+                    "Enter your employee ID in the Learning Path tab to get personalized recommendations based on your role and skill gaps.\n\n"
+                    "**3. Follow a Structured Approach**\n"
+                    "Start with fundamentals, then progress to advanced topics. Don't skip prerequisites.\n\n"
+                    "**4. Practice Actively**\n"
+                    "Learning by doing is far more effective than passive consumption. Apply new skills to real projects immediately.\n\n"
+                    "**5. Track Your Progress**\n"
+                    "Regularly review your skills in the Employee Profile tab to see your growth over time."
+                )
+            
+            if 'qualification' in user_lower or 'certification' in user_lower:
+                return (
+                    "Qualifications and certifications are valuable for:\n\n"
+                    "**1. Role Requirements**\n"
+                    "Many positions at Škoda require specific qualifications. Check your Employee Profile to see which ones you're missing.\n\n"
+                    "**2. Skill Validation**\n"
+                    "Certifications prove your expertise to employers and clients. They're especially important in regulated industries.\n\n"
+                    "**3. Structured Learning**\n"
+                    "Certification programs provide a structured path through complex topics with clear milestones.\n\n"
+                    "**4. Career Mobility**\n"
+                    "Having the right certifications opens doors to new roles and projects both within and outside Škoda.\n\n"
+                    "Use the Employee Profile feature to identify which qualifications are required for your target position."
+                )
+            
             return (
-                "The AI service is currently unavailable. However, you can:\n\n"
-                "• Use the **Employee Profile** tab to view skills and qualifications\n"
-                "• Try the **Skills Search** to find specific skills in the system\n"
-                "• Generate a **Learning Path** for personalized recommendations\n\n"
+                "I'm here to help with:\n\n"
+                "• Career development and growth strategies\n"
+                "• Skill development and learning recommendations\n"
+                "• Understanding qualification requirements\n"
+                "• Navigating the Škoda learning ecosystem\n\n"
+                "**Try asking:**\n"
+                '• "How can I advance my career at Škoda?"\n'
+                '• "What qualifications do I need for my role?"\n'
+                '• "How should I approach learning new skills?"\n\n'
+                "You can also use the **Employee Profile** to view your skills, **Skills Search** to explore available skills, "
+                "and **Learning Path** to get personalized recommendations."
             )
-
     def generate_learning_path(self,
                                 current_skills: list,
                                 target_role: str,
