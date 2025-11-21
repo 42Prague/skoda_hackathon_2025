@@ -1,9 +1,3 @@
-"""
-Configuration module for Škoda AI Skill Coach.
-Uses Pydantic BaseSettings for type-safe environment variable management.
-All paths point to the persistent volume mount for Azure Container Apps compatibility.
-"""
-
 import os
 from pathlib import Path
 from typing import Optional
@@ -11,13 +5,6 @@ from pydantic import BaseSettings, Field, validator
 
 
 class Settings(BaseSettings):
-    """
-    Application settings loaded from environment variables.
-
-    IMPORTANT: All data/model/state paths MUST reside under /app/persistent_data/
-    for Azure Container Apps compatibility (ephemeral root filesystem).
-    """
-
     # Logging
     log_level: str = Field(default="INFO", env="LOG_LEVEL")
 

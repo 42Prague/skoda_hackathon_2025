@@ -1,13 +1,3 @@
-"""
-FastAPI Backend for Škoda AI Skill Coach.
-
-Provides REST API for:
-- ETL pipeline execution
-- Skill graph queries
-- AI coach interactions
-- Health checks
-"""
-
 import logging
 from typing import Optional, List, Dict
 from fastapi import FastAPI, HTTPException, BackgroundTasks
@@ -109,14 +99,6 @@ async def root():
 # ETL endpoints
 @app.post("/etl/run")
 async def run_etl(background_tasks: BackgroundTasks):
-    """
-    Trigger ETL pipeline execution.
-
-    This loads Excel files from RAW_XLSX_DIR, cleans them,
-    and saves Parquet files to CLEAN_PARQUET_DIR.
-
-    Runs in background to avoid timeout.
-    """
     def etl_task():
         try:
             logger.info("Starting ETL pipeline (background task)")
@@ -135,11 +117,6 @@ async def run_etl(background_tasks: BackgroundTasks):
 
 @app.post("/etl/build-graph")
 async def build_graph(background_tasks: BackgroundTasks):
-    """
-    Build skill graph from cleaned Parquet files.
-
-    This should be run after ETL pipeline completes.
-    """
     def graph_task():
         global skill_graph
         try:
@@ -160,11 +137,6 @@ async def build_graph(background_tasks: BackgroundTasks):
 # Graph query endpoints
 @app.get("/skills/{personal_number}", response_model=EmployeeProfileResponse)
 async def get_employee_profile(personal_number: str):
-    """
-    Get employee skill profile.
-
-    Returns skills, qualifications, and missing qualifications.
-    """
     global skill_graph
 
     # Load graph if not in memory
@@ -225,12 +197,6 @@ async def get_graph_stats():
 # Skill search endpoint
 @app.post("/search/skills")
 async def search_skills(request: SkillSearchRequest):
-    """
-    Search for skills by query.
-
-    Uses semantic search if embedding model is available,
-    otherwise falls back to basic text matching.
-    """
     global skill_engine
 
     # Load engine if not in memory
@@ -268,11 +234,6 @@ async def search_skills(request: SkillSearchRequest):
 # AI Coach endpoints
 @app.post("/coach/ask", response_model=CoachQuestionResponse)
 async def ask_coach(request: CoachQuestionRequest):
-    """
-    Ask the AI coach a question.
-
-    The coach uses a local LLM to provide guidance on skill development.
-    """
     try:
         coach = get_coach()
         answer = coach.answer_question(
@@ -295,11 +256,6 @@ async def generate_learning_path(
     personal_number: str,
     target_role: Optional[str] = None
 ):
-    """
-    Generate a personalized learning path for an employee.
-
-    Combines skill graph data with AI coach to create recommendations.
-    """
     global skill_graph
 
     # Load graph if needed
@@ -353,10 +309,6 @@ async def generate_learning_path(
 # Startup event
 @app.on_event("startup")
 async def startup_event():
-    """
-    Load graph and engine on startup if available.
-    If graph state is missing, run ETL and build graph automatically.
-    """
     global skill_graph, skill_engine
 
     logger.info("Starting Škoda AI Skill Coach API...")
