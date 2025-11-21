@@ -1,0 +1,33 @@
+services:
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app:cached
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      - CHOKIDAR_USEPOLLING=1
+      - WATCHPACK_POLLING=true
+      - VITE_PORT=5173
+      - VITE_API_BASE_URL=http://localhost:3000
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "3000", "--reload"]
+    volumes:
+      - ./backend:/usr/src/app:cached
+      - ./data:/usr/src/data:ro
+      - ./volumes/talent-db:/usr/src/app/storage
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - DATA_DIR=/usr/src/data
+      - EMPLOYEES_CSV=/usr/src/data/employees_dataset.csv
+      - JOBS_CSV=/usr/src/data/jobs_dataset.csv
+      - COURSES_CSV=/usr/src/data/courses_dataset.csv
+      - DB_DIR=/usr/src/app/storage
+      - DATABASE_PATH=/usr/src/app/storage/talent_matching.db
