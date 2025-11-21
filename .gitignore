@@ -1,2 +1,15 @@
 *.env
 .DS_Store
+*.xlsx
+*.csv
+!srcs/server/employee_skill_positions.csv
+
+AGENTS.md
+opencode.jsonc
+.gitignore
+.python-version
+.venv/
+pyrightconfig.json
+test.xlsx
+__pycache__/
+node_modules/
