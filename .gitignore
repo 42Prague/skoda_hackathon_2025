@@ -1,2 +1,6 @@
 *.env
 .DS_Store
+.github/
+.vscode/
+docs/
+*.md
