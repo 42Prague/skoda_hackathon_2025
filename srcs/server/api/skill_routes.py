@@ -5,6 +5,8 @@ Handles all skill-related endpoints and analysis
 
 from flask import Blueprint, request, jsonify
 from services.skill_service import SkillService
+from services.skill_clustering_service import skill_clustering_service
+from services.skill_mapping_service import skill_mapping_service
 from utils.response_helpers import success_response, error_response
 from data.data_accesser import g_data_accesser
 
@@ -65,5 +67,48 @@ def export_all_employee_diagrams():
         return success_response(data={'csv': csv_data})
     except Exception as e:
         print("Error in export_all_employee_diagrams:", e)
+        return error_response(str(e), 500)
+
+@skill_bp.route('/clustering/data', methods=['GET'])
+def get_clustering_data():
+    """Return employee skill clustering data (UMAP + KMeans + top TF-IDF skills).
+
+    Query params:
+      force_recompute=true  -> recompute pipeline even if cached / CSV exists
+    """
+    try:
+        print("Received request for clustering data")
+        force = request.args.get('force_recompute', 'false').lower() == 'true'
+        data = skill_clustering_service.get_clustering_data(force_recompute=False)
+        if not data:
+            return success_response(data=[], message='No clustering data available (missing source files or empty result)')
+        return success_response(data=data, message=f'Returned {len(data)} clustered employees')
+    except Exception as e:
+        print('Error in get_clustering_data:', e)
+        return error_response(str(e), 500)
+
+@skill_bp.route('/mapping/predict', methods=['POST'])
+def generate_skill_mapping_predictions():
+    """Generate the predicted skill mapping CSV using sentence embeddings.
+
+    Body (JSON optional): {"force": true}
+    """
+    try:
+        payload = request.get_json(silent=True) or {}
+        force = bool(payload.get('force'))
+        path = skill_mapping_service.ensure_predicted_mapping(force=False)
+        status = skill_mapping_service.get_status()
+        return success_response(data={"output_path": path, "status": status}, message="Skill mapping predictions generated")
+    except ImportError as ie:
+        return error_response(str(ie), 500)
+    except Exception as e:
+        print('Error in generate_skill_mapping_predictions:', e)
+        return error_response(str(e), 500)
+
+@skill_bp.route('/mapping/status', methods=['GET'])
+def skill_mapping_status():
+    try:
+        return success_response(data=skill_mapping_service.get_status())
+    except Exception as e:
         return error_response(str(e), 500)
 
