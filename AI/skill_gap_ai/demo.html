@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Gap AI - Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        
+        .input-group {
+            margin-bottom: 30px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            display: none;
+        }
+        
+        .results.show {
+            display: block;
+            animation: slideIn 0.3s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .result-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .skill-name {
+            flex: 1;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1em;
+        }
+        
+        .skill-confidence {
+            margin-left: 20px;
+        }
+        
+        .confidence-bar {
+            width: 150px;
+            height: 25px;
+            background: #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            transition: width 0.6s ease-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+        
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .examples {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f0f7ff;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .examples h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        
+        .example-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .example-link {
+            padding: 8px 15px;
+            background: white;
+            border: 1px solid #667eea;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.2s;
+        }
+        
+        .example-link:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .status {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        
+        .status.online {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status.offline {
+            background: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Skill Gap AI</h1>
+        <p class="subtitle">Discover which skills a course teaches using AI</p>
+        
+        <div id="status" class="status">
+            <span id="statusText">Checking connection...</span>
+        </div>
+        
+        <div class="input-group">
+            <label for="courseInput">Enter Course Title:</label>
+            <input 
+                type="text" 
+                id="courseInput" 
+                placeholder="e.g., Python Programming for Data Science"
+                autocomplete="off"
+            />
+        </div>
+        
+        <button id="predictBtn" onclick="predictSkills()">
+            🔮 Predict Skills
+        </button>
+        
+        <div class="examples">
+            <h3>💡 Try these examples:</h3>
+            <div class="example-links">
+                <span class="example-link" onclick="setExample('Python Programming for Data Science')">Python & Data Science</span>
+                <span class="example-link" onclick="setExample('Advanced Excel and Power BI')">Excel & Power BI</span>
+                <span class="example-link" onclick="setExample('Leadership and Team Management')">Leadership</span>
+                <span class="example-link" onclick="setExample('Cloud Computing with AWS')">Cloud Computing</span>
+                <span class="example-link" onclick="setExample('Kontingenční tabulky v Excelu')">Czech: Excel</span>
+                <span class="example-link" onclick="setExample('Umělá inteligence pro začátečníky')">Czech: AI</span>
+            </div>
+        </div>
+        
+        <div id="results" class="results">
+            <div class="result-title" id="resultTitle"></div>
+            <div id="skillsList"></div>
+        </div>
+        
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000';
+        
+        // Check API status on load
+        async function checkStatus() {
+            try {
+                const response = await fetch(`${API_URL}/health`);
+                const data = await response.json();
+                
+                const statusDiv = document.getElementById('status');
+                const statusText = document.getElementById('statusText');
+                
+                if (data.status === 'healthy' && data.model_loaded) {
+                    statusDiv.className = 'status online';
+                    statusText.textContent = '✅ AI Model Online';
+                } else {
+                    statusDiv.className = 'status offline';
+                    statusText.textContent = '⚠️ AI Model Not Loaded';
+                }
+            } catch (error) {
+                const statusDiv = document.getElementById('status');
+                const statusText = document.getElementById('statusText');
+                statusDiv.className = 'status offline';
+                statusText.textContent = '❌ Cannot Connect to API';
+            }
+        }
+        
+        // Predict skills
+        async function predictSkills() {
+            const input = document.getElementById('courseInput');
+            const courseTitle = input.value.trim();
+            
+            if (!courseTitle) {
+                showError('Please enter a course title');
+                return;
+            }
+            
+            hideError();
+            hideResults();
+            
+            const btn = document.getElementById('predictBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Analyzing...';
+            
+            try {
+                const response = await fetch(`${API_URL}/predict`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        course_title: courseTitle,
+                        top_k: 5
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('API request failed');
+                }
+                
+                const data = await response.json();
+                displayResults(data);
+                
+            } catch (error) {
+                showError('Failed to connect to AI API. Make sure the server is running.');
+                console.error('Error:', error);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔮 Predict Skills';
+            }
+        }
+        
+        // Display results
+        function displayResults(data) {
+            const resultsDiv = document.getElementById('results');
+            const titleDiv = document.getElementById('resultTitle');
+            const skillsDiv = document.getElementById('skillsList');
+            
+            titleDiv.textContent = `Predicted skills for: "${data.course_title}"`;
+            
+            skillsDiv.innerHTML = '';
+            
+            data.predictions.forEach(pred => {
+                const skillItem = document.createElement('div');
+                skillItem.className = 'skill-item';
+                
+                const percentage = Math.round(pred.confidence * 100);
+                
+                skillItem.innerHTML = `
+                    <div class="skill-name">${pred.skill}</div>
+                    <div class="skill-confidence">
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${percentage}%">
+                                ${percentage}%
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                skillsDiv.appendChild(skillItem);
+            });
+            
+            resultsDiv.classList.add('show');
+        }
+        
+        // Helper functions
+        function setExample(text) {
+            document.getElementById('courseInput').value = text;
+            predictSkills();
+        }
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+        
+        function hideError() {
+            document.getElementById('error').style.display = 'none';
+        }
+        
+        function hideResults() {
+            document.getElementById('results').classList.remove('show');
+        }
+        
+        // Allow Enter key to submit
+        document.getElementById('courseInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                predictSkills();
+            }
+        });
+        
+        // Check status on load
+        checkStatus();
+    </script>
+</body>
+</html>

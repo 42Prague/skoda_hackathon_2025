@@ -1,0 +1,296 @@
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { Users, AlertTriangle, Clock, TrendingUp, Filter } from 'lucide-react';
+import ComplianceGauge from '../components/dashboard/ComplianceGauge';
+import TeamMatrixTable from '../components/manager/TeamMatrixTable';
+import ComplianceHeatmap from '../components/manager/ComplianceHeatmap';
+import RiskAlerts from '../components/manager/RiskAlerts';
+import TrainingPlanCards from '../components/manager/TrainingPlanCards';
+import { TEAM_MEMBERS, COMPLIANCE_HEATMAP_DATA, RISK_ALERTS, AI_RECOMMENDATIONS } from '../components/data/mockData';
+
+export default function ManagerDashboard() {
+  const [currentUser, setCurrentUser] = useState(null);
+  const [filterDepartment, setFilterDepartment] = useState('all');
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem('archerUser');
+    if (storedUser) {
+      setCurrentUser(JSON.parse(storedUser));
+    }
+  }, []);
+
+  if (!currentUser) {
+    return <div>Loading...</div>;
+  }
+
+  const filteredTeamMembers = filterDepartment === 'all'
+    ? TEAM_MEMBERS
+    : TEAM_MEMBERS.filter(member => member.department === filterDepartment);
+
+  const nonCompliantCount = TEAM_MEMBERS.filter(m => m.compliance < 86).length;
+  const criticalCount = TEAM_MEMBERS.filter(m => m.compliance < 66).length;
+  const expiringCount = RISK_ALERTS.filter(a => a.daysOverdue === 0).length;
+  const teamCompliance = Math.round(TEAM_MEMBERS.reduce((sum, m) => sum + m.compliance, 0) / TEAM_MEMBERS.length);
+
+  const departments = ['all', ...new Set(TEAM_MEMBERS.map(m => m.department))];
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 pb-4 border-b border-gray-200">
+        <div>
+          <h1 className="text-2xl font-normal text-[#212121]">
+            Team Dashboard
+          </h1>
+          <p className="text-[#616161] mt-1 text-sm">
+            Manage skills, compliance, and training across your team
+          </p>
+        </div>
+        <button className="px-4 py-2 bg-[#4CAF50] text-white rounded hover:bg-[#388E3C] transition-colors font-normal text-sm">
+          Export Training Plan
+        </button>
+      </div>
+
+      {/* KPI Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-10 h-10 bg-[#E8F5E9] rounded flex items-center justify-center">
+              <TrendingUp size={20} className="text-[#4CAF50]" strokeWidth={2} />
+            </div>
+          </div>
+          <h3 className="text-xs font-normal text-[#616161] mb-1 uppercase tracking-wider">Team Compliance</h3>
+          <p className="text-2xl font-normal text-[#212121]">{teamCompliance}%</p>
+          <p className="text-xs text-[#616161] mt-1">
+            Team average performance
+          </p>
+        </div>
+
+        <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-10 h-10 bg-[#FFF4E5] rounded flex items-center justify-center">
+              <Users size={20} className="text-[#FB8C00]" strokeWidth={2} />
+            </div>
+          </div>
+          <h3 className="text-xs font-normal text-[#616161] mb-1 uppercase tracking-wider">At Risk</h3>
+          <p className="text-2xl font-normal text-[#FB8C00]">{nonCompliantCount}</p>
+          <p className="text-xs text-[#616161] mt-1">
+            Below 86% compliance
+          </p>
+        </div>
+
+        <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-10 h-10 bg-[#FDECEA] rounded flex items-center justify-center">
+              <AlertTriangle size={20} className="text-[#E53935]" strokeWidth={2} />
+            </div>
+          </div>
+          <h3 className="text-xs font-normal text-[#616161] mb-1 uppercase tracking-wider">Critical Status</h3>
+          <p className="text-2xl font-normal text-[#E53935]">{criticalCount}</p>
+          <p className="text-xs text-[#616161] mt-1">
+            Requires immediate attention
+          </p>
+        </div>
+
+        <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-10 h-10 bg-[#E3F2FD] rounded flex items-center justify-center">
+              <Clock size={20} className="text-[#1976D2]" strokeWidth={2} />
+            </div>
+          </div>
+          <h3 className="text-xs font-normal text-[#616161] mb-1 uppercase tracking-wider">Expiring Soon</h3>
+          <p className="text-2xl font-normal text-[#1976D2]">{expiringCount}</p>
+          <p className="text-xs text-[#616161] mt-1">
+            Certifications expiring
+          </p>
+        </div>
+      </div>
+          <h3 className="text-sm font-medium text-[#616161] mb-1">Team Compliance</h3>
+          <p className="text-3xl font-bold text-[#4BA82E]">{teamCompliance}%</p>
+          <p className="text-xs text-[#616161] mt-2">
+            Average across {TEAM_MEMBERS.length} employees
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="automotive-card p-6"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <div className="w-12 h-12 bg-[#FFF3E0] rounded-xl flex items-center justify-center">
+              <AlertTriangle size={24} className="text-[#FFA000]" />
+            </div>
+          </div>
+          <h3 className="text-sm font-medium text-[#616161] mb-1">Non-Compliant</h3>
+          <p className="text-3xl font-bold text-[#FFA000]">{nonCompliantCount}</p>
+          <p className="text-xs text-[#616161] mt-2">
+            Employees below 86% compliance
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="automotive-card p-6"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <div className="w-12 h-12 bg-[#FFEBEE] rounded-xl flex items-center justify-center">
+              <Users size={24} className="text-[#D32F2F]" />
+            </div>
+          </div>
+          <h3 className="text-sm font-medium text-[#616161] mb-1">Critical Status</h3>
+          <p className="text-3xl font-bold text-[#D32F2F]">{criticalCount}</p>
+          <p className="text-xs text-[#616161] mt-2">
+            Requires immediate attention
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="automotive-card p-6"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <div className="w-12 h-12 bg-[#E3F2FD] rounded-xl flex items-center justify-center">
+              <Clock size={24} className="text-[#1976D2]" />
+            </div>
+          </div>
+          <h3 className="text-sm font-medium text-[#616161] mb-1">Expiring Soon</h3>
+          <p className="text-3xl font-bold text-[#1976D2]">{expiringCount}</p>
+          <p className="text-xs text-[#616161] mt-2">
+            Qualifications in next 30 days
+          </p>
+        </motion.div>
+      </div>
+
+      {/* Team Skills Matrix */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+        className="automotive-card p-6"
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+          <h2 className="text-xl font-bold text-[rgb(var(--text-primary))]">Team Skills Matrix</h2>
+          <div className="flex items-center gap-2">
+            <Filter size={18} className="text-[rgb(var(--text-secondary))]" />
+            <select
+              value={filterDepartment}
+              onChange={(e) => setFilterDepartment(e.target.value)}
+              className="px-3 py-2 rounded-lg border border-[rgb(var(--border))] text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[rgb(var(--primary))]"
+            >
+              {departments.map(dept => (
+                <option key={dept} value={dept}>
+                  {dept === 'all' ? 'All Departments' : dept}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+        <TeamMatrixTable teamMembers={filteredTeamMembers} />
+      </motion.div>
+
+      {/* Compliance Heatmap & Risk Alerts */}
+      <div className="grid lg:grid-cols-2 gap-6">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.6 }}
+          className="automotive-card p-6"
+        >
+          <h2 className="text-xl font-bold text-[rgb(var(--text-primary))] mb-6">Compliance Heatmap</h2>
+          <ComplianceHeatmap data={COMPLIANCE_HEATMAP_DATA} />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.7 }}
+          className="automotive-card p-6"
+        >
+          <h2 className="text-xl font-bold text-[rgb(var(--text-primary))] mb-6">Risk Alerts</h2>
+          <div className="space-y-3 max-h-96 overflow-y-auto">
+            {RISK_ALERTS.map((alert, index) => (
+              <motion.div
+                key={alert.id}
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.1 * index }}
+                className={`p-4 rounded-lg border-l-4 ${
+                  alert.type === 'critical'
+                    ? 'bg-[#FFEBEE] border-[#D32F2F]'
+                    : 'bg-[#FFF3E0] border-[#FFA000]'
+                }`}
+              >
+                <div className="flex items-start justify-between mb-2">
+                  <h3 className="font-semibold text-[rgb(var(--text-primary))]">{alert.employeeName}</h3>
+                  {alert.type === 'critical' && (
+                    <span className="px-2 py-1 bg-[#D32F2F] text-white text-xs font-bold rounded">
+                      CRITICAL
+                    </span>
+                  )}
+                </div>
+                <p className="text-sm text-[rgb(var(--text-secondary))] mb-3">{alert.message}</p>
+                <div className="flex gap-2">
+                  <button className="text-xs font-medium text-[rgb(var(--primary))] hover:underline">
+                    View Profile
+                  </button>
+                  <span className="text-[rgb(var(--text-secondary))]">·</span>
+                  <button className="text-xs font-medium text-[rgb(var(--primary))] hover:underline">
+                    Assign Training
+                  </button>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </div>
+
+      {/* AI Suggested Training Plan */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.8 }}
+        className="automotive-card p-6"
+      >
+        <h2 className="text-xl font-bold text-[rgb(var(--text-primary))] mb-6">AI Suggested Training Plan</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          {AI_RECOMMENDATIONS.slice(0, 4).map((rec, index) => (
+            <motion.div
+              key={rec.id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 * index }}
+              className="p-5 bg-gradient-to-br from-[#C8E6C9] to-white rounded-xl border border-[#4BA82E]"
+            >
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="font-bold text-[rgb(var(--text-primary))]">{rec.recommendedCourse.title}</h3>
+                <span className="px-2 py-1 bg-[#4BA82E] text-white text-xs font-bold rounded shrink-0">
+                  {rec.matchScore}%
+                </span>
+              </div>
+              <p className="text-sm text-[rgb(var(--text-secondary))] mb-3">
+                Addresses: <span className="font-medium">{rec.qualificationName}</span>
+              </p>
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-xs text-[rgb(var(--text-secondary))]">
+                  {rec.recommendedCourse.durationHours}h · {rec.recommendedCourse.format}
+                </span>
+                <span className="text-xs font-medium text-blue-600">
+                  {rec.applicableEmployees.length} employees
+                </span>
+              </div>
+              <button className="w-full px-4 py-2 bg-[rgb(var(--primary))] text-white rounded-lg hover:bg-[rgb(var(--primary-dark))] transition-colors text-sm font-medium">
+                Assign to Selected
+              </button>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
+    </div>
+  );
+}

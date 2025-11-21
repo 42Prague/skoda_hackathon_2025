@@ -1,0 +1,7 @@
+# Employee Readiness Scores
+# Format: employee_id|readiness_score|notes
+
+0001689|85.0|Ready for senior role
+0001690|72.5|Needs more leadership training
+0001691|90.0|Excellent candidate
+0001692|45.0|Significant skill gaps

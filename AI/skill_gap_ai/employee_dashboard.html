@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Skill Gap Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .input-section {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .input-section input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .status-READY {
+            background: #4caf50;
+            color: white;
+        }
+
+        .status-IN_PROGRESS {
+            background: #ff9800;
+            color: white;
+        }
+
+        .status-NEEDS_DEVELOPMENT {
+            background: #f44336;
+            color: white;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .metric-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .skill-tag {
+            background: #f0f0f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .skill-tag.matched {
+            background: #c8e6c9;
+            color: #2e7d32;
+        }
+
+        .skill-tag.missing {
+            background: #ffcdd2;
+            color: #c62828;
+        }
+
+        .course-card {
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        .course-card.priority-HIGH {
+            border-left-color: #f44336;
+        }
+
+        .course-card.priority-MEDIUM {
+            border-left-color: #ff9800;
+        }
+
+        .course-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .course-title {
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .priority-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .priority-HIGH {
+            background: #f44336;
+            color: white;
+        }
+
+        .priority-MEDIUM {
+            background: #ff9800;
+            color: white;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            border-radius: 8px;
+            color: #c62828;
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .next-steps {
+            list-style: none;
+            padding: 0;
+        }
+
+        .next-steps li {
+            padding: 12px;
+            margin: 8px 0;
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .input-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>👤 Employee Skill Gap Analysis</h1>
+            <p>Personalized Development Path & Career Readiness</p>
+        </div>
+
+        <div class="card">
+            <div class="input-section">
+                <input type="text" id="employeeId" placeholder="Enter your Employee ID (e.g., EMP001)" />
+                <input type="text" id="targetPosition" placeholder="Target Position (optional)" />
+                <button class="btn" onclick="analyzeEmployee()">Analyze My Skills</button>
+            </div>
+        </div>
+
+        <div id="results"></div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000';
+
+        async function analyzeEmployee() {
+            const employeeId = document.getElementById('employeeId').value.trim();
+            if (!employeeId) {
+                alert('Please enter your Employee ID');
+                return;
+            }
+
+            const targetPosition = document.getElementById('targetPosition').value.trim();
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="card loading">🔄 Analyzing your skill gap...</div>';
+
+            try {
+                const response = await fetch(`${API_URL}/employee/analyze`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        employee_id: employeeId,
+                        target_position: targetPosition || undefined
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                if (data.error) {
+                    resultsDiv.innerHTML = `<div class="card error">❌ ${data.error}</div>`;
+                    return;
+                }
+
+                displayResults(data);
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="card error">❌ Error: ${error.message}<br>Make sure the API is running on ${API_URL}</div>`;
+            }
+        }
+
+        function displayResults(data) {
+            const emp = data.employee;
+            const gap = data.skill_gap_analysis;
+            const pos = data.position_requirements;
+            const plan = data.development_plan;
+
+            const html = `
+                <!-- Employee Overview -->
+                <div class="card">
+                    <h2 class="section-title">📊 Your Profile</h2>
+                    <div class="grid-2">
+                        <div>
+                            <p><strong>Name:</strong> ${emp.name}</p>
+                            <p><strong>Current Position:</strong> ${emp.current_position}</p>
+                            <p><strong>Target Position:</strong> ${emp.target_position}</p>
+                        </div>
+                        <div>
+                            <p><strong>Completed Courses:</strong> ${emp.completed_courses}</p>
+                            <p><strong>Learning Hours:</strong> ${emp.total_learning_hours.toFixed(1)}h</p>
+                            <p><strong>Status:</strong> <span class="status-badge status-${gap.status}">${gap.status.replace('_', ' ')}</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Readiness Score -->
+                <div class="card">
+                    <h2 class="section-title">🎯 Career Readiness Score</h2>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${gap.readiness_score}%">
+                            ${gap.readiness_score.toFixed(1)}%
+                        </div>
+                    </div>
+                    <p style="margin-top: 10px; color: #666;">Gap: ${gap.gap_percentage.toFixed(1)}% skills missing</p>
+                </div>
+
+                <!-- Skills Analysis -->
+                <div class="grid-2">
+                    <div class="card">
+                        <h3 class="section-title">✅ Skills You Have</h3>
+                        <div class="skill-list">
+                            ${gap.matched_skills.map(skill => `<span class="skill-tag matched">${skill}</span>`).join('')}
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="section-title">⚠️ Skills to Develop</h3>
+                        <div class="skill-list">
+                            ${gap.missing_required_skills.map(skill => `<span class="skill-tag missing">${skill}</span>`).join('')}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Position Requirements -->
+                <div class="card">
+                    <h2 class="section-title">📋 ${pos.title} Requirements</h2>
+                    <p><strong>Required Skills:</strong></p>
+                    <div class="skill-list">
+                        ${pos.required_skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                    </div>
+                    ${pos.optional_skills.length > 0 ? `
+                        <p style="margin-top: 15px;"><strong>Optional Skills:</strong></p>
+                        <div class="skill-list">
+                            ${pos.optional_skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+
+                <!-- Recommended Learning Path -->
+                <div class="card">
+                    <h2 class="section-title">🎓 Your Personalized Learning Path</h2>
+                    <p style="margin-bottom: 20px; color: #666;">
+                        📅 Estimated time: ${plan.estimated_hours_needed.toFixed(1)} hours (${plan.estimated_completion_weeks} weeks)
+                    </p>
+                    ${data.recommended_learning_path.map(course => `
+                        <div class="course-card priority-${course.priority}">
+                            <div class="course-header">
+                                <div class="course-title">${course.title}</div>
+                                <span class="priority-badge priority-${course.priority}">${course.priority}</span>
+                            </div>
+                            <p><strong>Provider:</strong> ${course.provider}</p>
+                            <p><strong>Duration:</strong> ${course.duration_hours.toFixed(1)} hours</p>
+                            <p><strong>Skills you'll learn:</strong> ${course.skills_taught.join(', ')}</p>
+                            <p style="margin-top: 8px; color: #666;"><em>${course.reason}</em></p>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <!-- Development Plan -->
+                <div class="card">
+                    <h2 class="section-title">🚀 Next Steps</h2>
+                    <ul class="next-steps">
+                        ${plan.next_steps.map(step => `<li>✓ ${step}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="grid-2">
+                    <div class="metric-box">
+                        <div class="metric-label">Priority Skills to Learn</div>
+                        <div class="metric-value">${plan.priority_skills.length}</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-label">Recommended Courses</div>
+                        <div class="metric-value">${data.recommended_learning_path.length}</div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('results').innerHTML = html;
+        }
+
+        // Auto-fill example employee ID
+        window.addEventListener('load', () => {
+            // You can set a default employee ID for testing
+            // document.getElementById('employeeId').value = 'EMP001';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "course_id": "C001",
+    "course_text": "Python Programming Fundamentals",
+    "skill_name": "Python"
+  },
+  {
+    "course_id": "C001",
+    "course_text": "Python Programming Fundamentals",
+    "skill_name": "Programming"
+  },
+  {
+    "course_id": "C002",
+    "course_text": "SQL Database Management",
+    "skill_name": "SQL"
+  },
+  {
+    "course_id": "C003",
+    "course_text": "Leadership Skills for Managers",
+    "skill_name": "Leadership"
+  }
+]

@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Enterprise Primary Colors */
+  --primary: 76, 175, 80;        /* Škoda Green #4CAF50 */
+  --primary-dark: 56, 142, 60;   /* Darker green #388E3C */
+
+  /* Enterprise Text Colors */
+  --text-primary: 33, 33, 33;    /* #212121 */
+  --text-secondary: 97, 97, 97;  /* #616161 */
+  --text-tertiary: 158, 158, 158; /* #9E9E9E */
+
+  /* Enterprise Backgrounds */
+  --background: 248, 249, 248;    /* #F8F9F8 */
+  --surface: 255, 255, 255;       /* #FFFFFF */
+  --border: 224, 224, 224;        /* #E0E0E0 */
+
+  /* Status Colors (minimal use) */
+  --success: 76, 175, 80;         /* Green #4CAF50 */
+  --warning: 251, 140, 0;         /* Orange #FB8C00 */
+  --error: 229, 57, 53;           /* Red #E53935 */
+  --info: 66, 165, 245;           /* Blue #42A5F5 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(var(--background));
+  font-weight: 400;
+  color: rgb(var(--text-primary));
+}
+
+/* Enterprise Component Styles */
+.automotive-card {
+  @apply bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow duration-200 hover:shadow-md;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+  @apply h-2 rounded-full overflow-hidden bg-gray-200;
+}
+
+.progress-bar-fill {
+  @apply h-full rounded-full transition-all duration-500;
+}
+
+/* Enterprise Status Badge Styles */
+.status-badge {
+  @apply px-2 py-1 rounded-md text-xs font-normal border bg-white;
+}
+
+.status-badge-success {
+  @apply text-green-700 border-green-300;
+}
+
+.status-badge-warning {
+  @apply text-orange-700 border-orange-300;
+}
+
+.status-badge-error {
+  @apply text-red-700 border-red-300;
+}
+
+.status-badge-info {
+  @apply text-blue-700 border-blue-300;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
