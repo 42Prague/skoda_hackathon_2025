@@ -3,6 +3,7 @@ import './App.css'
 import EmployeeIndicatorsDashboard from './components/EmployeeIndicatorsDashboard'
 import ClusteringVisualization from './components/ClusteringVisualization'
 import MentorFinder from './components/MentorFinder'
+import CareerAdvisor from './components/CareerAdvisor'
 
 function App() {
   const [activeTab, setActiveTab] = useState('indicators')
@@ -33,12 +34,19 @@ function App() {
         >
           👥 Find Mentors
         </button>
+        <button
+          className={activeTab === 'advisor' ? 'active' : ''}
+          onClick={() => setActiveTab('advisor')}
+        >
+          🧭 Career Advisor
+        </button>
       </nav>
 
       <main className="app-main">
         {activeTab === 'indicators' && <EmployeeIndicatorsDashboard />}
         {activeTab === 'clustering' && <ClusteringVisualization />}
         {activeTab === 'mentors' && <MentorFinder />}
+        {activeTab === 'advisor' && <CareerAdvisor />}
       </main>
     </div>
   )

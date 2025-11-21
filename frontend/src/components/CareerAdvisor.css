@@ -1,1 +1,146 @@
-.career-advisor {\n  padding: 1.25rem;\n  background: #ffffff;\n  border-radius: 8px;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.08);\n  display: flex;\n  flex-direction: column;\n  gap: 1.25rem;\n}\n\n.career-advisor h2 {\n  margin: 0;\n  font-size: 1.6rem;\n  color: #223;\n}\n\n.advisor-controls {\n  display: flex;\n  gap: 0.75rem;\n  align-items: center;\n  flex-wrap: wrap;\n}\n\n.advisor-controls input {\n  padding: 0.55rem 0.75rem;\n  border: 1px solid #ccc;\n  border-radius: 6px;\n  min-width: 220px;\n  font-size: 0.95rem;\n}\n\n.advisor-controls button {\n  background: #0055aa;\n  color: #fff;\n  border: none;\n  padding: 0.55rem 1rem;\n  border-radius: 6px;\n  cursor: pointer;\n  font-weight: 600;\n  transition: background 0.2s;\n}\n\n.advisor-controls button:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n}\n\n.advisor-controls button:not(:disabled):hover {\n  background: #0066cc;\n}\n\n.loading, .error {\n  padding: 0.75rem 1rem;\n  border-radius: 6px;\n  font-size: 0.9rem;\n}\n\n.loading {\n  background: #eef6ff;\n  color: #124;\n}\n\n.error {\n  background: #ffecec;\n  color: #a11;\n  border: 1px solid #ffb5b5;\n}\n\n.advisor-report section {\n  border: 1px solid #e2e6ea;\n  background: #fafbfc;\n  padding: 1rem;\n  border-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n}\n\n.advisor-report h3 {\n  margin: 0 0 0.25rem;\n  font-size: 1.1rem;\n  color: #234;\n}\n\n.domain-block {\n  margin-top: 0.75rem;\n  padding: 0.6rem 0.75rem;\n  background: #fff;\n  border: 1px solid #ddd;\n  border-radius: 6px;\n}\n\n.domain-block h4 {\n  margin: 0 0 0.35rem;\n  font-size: 1rem;\n  color: #045;\n}\n\n.course-recs ul, .advisor-report ul {\n  list-style: none;\n  padding: 0;\n  margin: 0.4rem 0 0;\n  display: flex;\n  flex-direction: column;\n  gap: 0.35rem;\n}\n\n.course-recs li, .advisor-report li {\n  background: #f4f7fa;\n  padding: 0.4rem 0.55rem;\n  border-radius: 4px;\n  font-size: 0.85rem;\n  display: flex;\n  justify-content: space-between;\n  gap: 0.5rem;\n}\n\n.narrative-block {\n  white-space: pre-wrap;\n  background: #f6f8fa;\n  padding: 0.75rem;\n  border-radius: 6px;\n  border: 1px solid #e1e4e8;\n  font-size: 0.85rem;\n  line-height: 1.3;\n  max-height: 280px;\n  overflow-y: auto;\n}\n\n@media (max-width: 720px) {\n  .advisor-controls {\n    flex-direction: column;\n    align-items: stretch;\n  }\n  .advisor-controls input {\n    width: 100%;\n  }\n  .advisor-controls button {\n    width: 100%;\n  }\n}\n
+.career-advisor {
+  padding: 1.25rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.career-advisor h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #223;
+}
+
+.advisor-controls {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.advisor-controls input {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 220px;
+  font-size: 0.95rem;
+}
+
+.advisor-controls button {
+  background: #0055aa;
+  color: #fff;
+  border: none;
+  padding: 0.55rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.advisor-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.advisor-controls button:not(:disabled):hover {
+  background: #0066cc;
+}
+
+.loading,
+.error {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.loading {
+  background: #eef6ff;
+  color: #124;
+}
+
+.error {
+  background: #ffecec;
+  color: #a11;
+  border: 1px solid #ffb5b5;
+}
+
+.advisor-report section {
+  border: 1px solid #e2e6ea;
+  background: #fafbfc;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.advisor-report h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+  color: #234;
+}
+
+.domain-block {
+  margin-top: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.domain-block h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  color: #045;
+}
+
+.course-recs ul,
+.advisor-report ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.course-recs li,
+.advisor-report li {
+  background: #f4f7fa;
+  padding: 0.4rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.narrative-block {
+  white-space: pre-wrap;
+  background: #f6f8fa;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #e1e4e8;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+@media (max-width: 720px) {
+  .advisor-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .advisor-controls input {
+    width: 100%;
+  }
+
+  .advisor-controls button {
+    width: 100%;
+  }
+}
