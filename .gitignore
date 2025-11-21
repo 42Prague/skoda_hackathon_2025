@@ -9,3 +9,4 @@ opencode.jsonc
 .venv/
 pyrightconfig.json
 test.xlsx
+__pycache__/
