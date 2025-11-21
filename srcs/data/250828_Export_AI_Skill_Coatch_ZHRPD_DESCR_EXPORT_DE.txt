@@ -1,0 +1,1161 @@
+28.08.2025                                                                                            Dynamische Listenausgabe                                                                                                    1
+
+Testovací režim
+
+	Var.plánu	Typ obj.	ID objektu	Subtyp	Platí od	Platí do	Jazyk	Øetìzec
+
+	01	ZP	  90003176	0001	01.01.1800	31.12.9999	DE	Veranstaltungen
+	01	ZP	  90003177	0001	01.01.1800	31.12.9999	DE	Ziele und Prioritäten
+	01	ZP	  90003178	0001	01.01.1800	31.12.9999	DE	organisatorische Änderungen
+	01	ZP	  90003180	0001	01.01.1800	31.12.9999	DE	Stellenplan
+	01	ZP	  90003181	0001	01.01.1800	31.12.9999	DE	interne Unterschriftsberechtigungen
+	01	ZP	  90003188	0001	01.01.1800	31.12.9999	DE	Organisationsstruktur
+	01	ZP	  90003193	0001	01.01.1800	31.12.9999	DE	Stellenbeschreibungen
+	01	ZP	  90003254	0001	01.01.1800	31.12.9999	DE	Beziehung zu externen Institutionen und Organisationen
+	01	ZP	  90003266	0001	01.01.1800	31.12.9999	DE	Zeitmanagement
+	01	ZP	  90003272	0001	01.01.1800	31.12.9999	DE	Tätigkeit auf dem Gebiet der Schutzmarken
+	01	ZP	  90003273	0001	01.01.1800	31.12.9999	DE	Mitglieder des Projektteams
+	01	ZP	  90003276	0001	01.01.1800	31.12.9999	DE	Informierung und Motivierung der Mitarbeiter
+	01	ZP	  90003278	0001	01.01.1800	31.12.9999	DE	Einweisung der Mitarbeiter des jeweiligen Bereiches
+	01	ZP	  90003280	0001	01.01.1800	31.12.9999	DE	bereichsübergreifende Aktivitäten und Aufgaben für Auslandsprojekte
+	01	ZP	  90003281	0001	01.01.1800	31.12.9999	DE	Personaleinsatz in außerordentlichen Situationen
+	01	ZP	  90003289	0001	01.01.1800	31.12.9999	DE	Erfüllung der Aufgaben aus Tagungen
+	01	ZP	  90003291	0001	01.01.1800	31.12.9999	DE	Unterschriftsberechtigungen
+	01	ZP	  90003292	0001	01.01.1800	31.12.9999	DE	unterstellte Mitarbeiter
+	01	ZP	  90003293	0001	01.01.1800	31.12.9999	DE	den unterstellten Mitarbeitern die Arbeitsaufgaben
+	01	ZP	  90003294	0001	01.01.1800	31.12.9999	DE	Arbeit der unterstellten Mitarbeiter
+	01	ZP	  90003295	0001	01.01.1800	31.12.9999	DE	Arbeits- und technologische Disziplin
+	01	ZP	  90003303	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit externen Organisationen
+	01	ZP	  90003305	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit Entwicklungspartnern
+	01	ZP	  90003307	0001	01.01.1800	31.12.9999	DE	Arbeiterstruktur
+	01	ZP	  90003308	0001	01.01.1800	31.12.9999	DE	anvertraute Arbeitsprozesse
+	01	ZP	  90003310	0001	01.01.1800	31.12.9999	DE	Aufgaben
+	01	ZP	  90003311	0001	01.01.1800	31.12.9999	DE	Aufgaben für Projektteammitglieder
+	01	ZP	  90003321	0001	01.01.1800	31.12.9999	DE	Arbeitszeit der Mitarbeiter
+	01	ZP	  90003322	0001	01.01.1800	31.12.9999	DE	Schichtverlängerungen und Zusatzschichten
+	01	ZP	  90003328	0001	01.01.1800	31.12.9999	DE	verwaltungstechnische Agenda in Bezug auf Tätigkeiten vertraulicher 
+Beschaffenheit
+	01	ZP	  90003329	0001	01.01.1800	31.12.9999	DE	verwaltungstechnische Arbeit und Bestandsaufnahme der Bücher
+	01	ZP	  90003330	0001	01.01.1800	31.12.9999	DE	Agenda des Leiters
+	01	ZP	  90003333	0001	01.01.1800	31.12.9999	DE	Verhandlungsagenda
+	01	ZP	  90003334	0001	01.01.1800	31.12.9999	DE	Agenda, welche die Dispositionen für eine weitere Auswertung betrifft
+	01	ZP	  90003335	0001	01.01.1800	31.12.9999	DE	Agenda, die mit Niederschriften aus Besprechungen verbunden ist, und 
+Aufgabenkontrolle
+	01	ZP	  90003336	0001	01.01.1800	31.12.9999	DE	Aktivitäten zur Freigabe der Vorstandsvorlagen einschl. Protokolle
+	01	ZP	  90003338	0001	01.01.1800	31.12.9999	DE	Aktualisierung der Infotafeln des Fachbereiches
+	01	ZP	  90003339	0001	01.01.1800	31.12.9999	DE	Aktualisierung der Wandbretter
+	01	ZP	  90003342	0001	01.01.1800	31.12.9999	DE	Analysen und Statistiken der Ergebnisse
+	01	ZP	  90003345	0001	01.01.1800	31.12.9999	DE	Aufgaben des Assistenten für das Vorstandsmitglied
+	01	ZP	  90003346	0001	01.01.1800	31.12.9999	DE	Packung und Beschriftung der Bücher
+	01	ZP	  90003347	0001	01.01.1800	31.12.9999	DE	Fremdsprachenkorrespondenz
+	01	ZP	  90003350	0001	01.01.1800	31.12.9999	DE	Tätigkeiten, die sich aus Prozessen im jeweiligen Bereich mit dem 
+Vorstandsmitglied, dem Aufsichtsrat, den Konzerngremien und dem jeweiligen 
+OE-Leiter ergeben
+	01	ZP	  90003352	0001	01.01.1800	31.12.9999	DE	Lieferungen von Bürobedarf, Geschenken und Werbeartikels
+	01	ZP	  90003353	0001	01.01.1800	31.12.9999	DE	Anwesenheitserfassung der Mitarbeiter und Übersichten der Überstunden und 
+Urlaube
+	01	ZP	  90003356	0001	01.01.1800	31.12.9999	DE	Exkursionen
+	01	ZP	  90003359	0001	01.01.1800	31.12.9999	DE	Ablauf des Sekretariats
+	01	ZP	  90003361	0001	01.01.1800	31.12.9999	DE	Informationen für das Mitarbeiterportal
+	01	ZP	  90003362	0001	01.01.1800	31.12.9999	DE	interne und externe Korrespondenz
+	01	ZP	  90003366	0001	01.01.1800	31.12.9999	DE	Einstellungsuntersuchungen und Vorsorgeuntersuchungen der Studierenden
+	01	ZP	  90003367	0001	01.01.1800	31.12.9999	DE	Verpflegung für eine Geschäftsverhandlung
+	01	ZP	  90003371	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Risikominderung
+	01	ZP	  90003372	0001	01.01.1800	31.12.9999	DE	Organisation der Tagung
+	01	ZP	  90003374	0001	01.01.1800	31.12.9999	DE	Personalagenda der Studierenden
+	01	ZP	  90003375	0001	01.01.1800	31.12.9999	DE	Personaldaten der Werksangehörigen von Škoda Auto
+	01	ZP	  90003377	0001	01.01.1800	31.12.9999	DE	Zahlungen an externe Mitarbeiter
+	01	ZP	  90003378	0001	01.01.1800	31.12.9999	DE	Erfüllung von Tätigkeiten, die sich aus Bereichsprozessen ergeben
+	01	ZP	  90003379	0001	01.01.1800	31.12.9999	DE	Erfüllung von Teilprojekten
+	01	ZP	  90003380	0001	01.01.1800	31.12.9999	DE	Unterlagen
+	01	ZP	  90003381	0001	01.01.1800	31.12.9999	DE	Unterlagen und Analysen zum Studium
+	01	ZP	  90003382	0001	01.01.1800	31.12.9999	DE	Unterlagen und Informationen zur Verhandlung
+	01	ZP	  90003383	0001	01.01.1800	31.12.9999	DE	Unterlagen und Präsentationen
+	01	ZP	  90003385	0001	01.01.1800	31.12.9999	DE	Unterlagen und Aufgaben mit Sondergeheimhaltungspflicht mit Kenntnis der 
+unternehmens- und konzerninternen Zusammenhänge
+	01	ZP	  90003387	0001	01.01.1800	31.12.9999	DE	Unterlagen zum Bewilligungsantrag (BWA) und Bestellvorschlägen
+	01	ZP	  90003389	0001	01.01.1800	31.12.9999	DE	Verhandlungsunterlagen
+	01	ZP	  90003390	0001	01.01.1800	31.12.9999	DE	Unterlagen zum Stand der Verhandlungspunkte im Beratungsteam Produktion 
+und Logistik
+	01	ZP	  90003391	0001	01.01.1800	31.12.9999	DE	Unterlagen der Fachbereichen für die Verhandlung der Vorgespräche und für die 
+Verhandlung
+	01	ZP	  90003396	0001	01.01.1800	31.12.9999	DE	Unterlagen zur Verhandlung mit dem Vorstand
+	01	ZP	  90003398	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Rekrutierung von Studierenden
+	01	ZP	  90003400	0001	01.01.1800	31.12.9999	DE	Unterlagen für den Vorstand und andere Gremien
+	01	ZP	  90003402	0001	01.01.1800	31.12.9999	DE	Unterlagen für Entscheidungsgremien von Škoda Auto
+	01	ZP	  90003404	0001	01.01.1800	31.12.9999	DE	Unterlagen zur Freigabe der Einsparpotentiale
+	01	ZP	  90003405	0001	01.01.1800	31.12.9999	DE	Unterlagen für den Schulrat
+	01	ZP	  90003408	0001	01.01.1800	31.12.9999	DE	Beklebung von Büchern mit Barcode
+	01	ZP	  90003409	0001	01.01.1800	31.12.9999	DE	Studienbescheinigung, MFA-Karten
+	01	ZP	  90003412	0001	01.01.1800	31.12.9999	DE	Präsentationen
+	01	ZP	  90003413	0001	01.01.1800	31.12.9999	DE	Präsentationsmaterialien für interne und externe Nutzung
+	01	ZP	  90003417	0001	01.01.1800	31.12.9999	DE	Programm der Vorstands- und Aufsichtsratstagung
+	01	ZP	  90003419	0001	01.01.1800	31.12.9999	DE	Übergabe von Informationen an Eltern der Schüler
+	01	ZP	  90003426	0001	01.01.1800	31.12.9999	DE	Antritte und Austritte der Studierenden
+	01	ZP	  90003436	0001	01.01.1800	31.12.9999	DE	Vorbereitung von Abschlussprüfungen
+	01	ZP	  90003437	0001	01.01.1800	31.12.9999	DE	jeweilige Personalunterlagen
+	01	ZP	  90003438	0001	01.01.1800	31.12.9999	DE	Verleihe von Büchern
+	01	ZP	  90003440	0001	01.01.1800	31.12.9999	DE	Umsetzung von Personalmaßnahmen
+	01	ZP	  90003442	0001	01.01.1800	31.12.9999	DE	Aufgabenumsetzung in den jeweiligen Terminen
+	01	ZP	  90003443	0001	01.01.1800	31.12.9999	DE	Werbeinformationen für die Presse und Medien, für das Mitarbeiterportal
+	01	ZP	  90003447	0001	01.01.1800	31.12.9999	DE	Lösung von operativen und organisatorischen Aufgaben
+	01	ZP	  90003451	0001	01.01.1800	31.12.9999	DE	Skartierung von Materialien
+	01	ZP	  90003452	0001	01.01.1800	31.12.9999	DE	Verträge und Vereinbarungen für externe Mitarbeiter
+	01	ZP	  90003454	0001	01.01.1800	31.12.9999	DE	gemeinsame Termine der Vorstandsmitglieder
+	01	ZP	  90003459	0001	01.01.1800	31.12.9999	DE	Statistikunterlagen
+	01	ZP	  90003460	0001	01.01.1800	31.12.9999	DE	Zustand der Erste-Hilfe-Kästen der Schule
+	01	ZP	  90003466	0001	01.01.1800	31.12.9999	DE	Termine für die Vorstellung der Projekte in Gremien
+	01	ZP	  90003470	0001	01.01.1800	31.12.9999	DE	Sortierung und Stellung der Bücher in Regale
+	01	ZP	  90003471	0001	01.01.1800	31.12.9999	DE	Sortierung der Personalmaterialien, der Korrespondenz und der eingegangenen 
+Post
+	01	ZP	  90003472	0001	01.01.1800	31.12.9999	DE	Erstellung von Unterlagen und Vorlagen des Bereiches
+	01	ZP	  90003473	0001	01.01.1800	31.12.9999	DE	Erstellung von Unterlagen für Verhandlungen und Präsentationen auf der 
+Ebene der Vorstandssitzung und der Konzerngremien
+	01	ZP	  90003474	0001	01.01.1800	31.12.9999	DE	Erstellung von Unterlagen für die Verhandlung der Gremien
+	01	ZP	  90003477	0001	01.01.1800	31.12.9999	DE	Unterbringung und Bewirtung für Gäste und Besucher
+	01	ZP	  90003481	0001	01.01.1800	31.12.9999	DE	VIP-Vertanstaltungen
+	01	ZP	  90003483	0001	01.01.1800	31.12.9999	DE	Auszüge aus der Geschäftskreditkarte
+	01	ZP	  90003485	0001	01.01.1800	31.12.9999	DE	Erarbeitung des VIP-Programms
+	01	ZP	  90003489	0001	01.01.1800	31.12.9999	DE	Nutzung des Besprechungsraums
+	01	ZP	  90003490	0001	01.01.1800	31.12.9999	DE	Sicherstellung der Unterlagen für das integrierte Qualitäts-Management-System
+	01	ZP	  90003492	0001	01.01.1800	31.12.9999	DE	Besprechungsprotokolle
+	01	ZP	  90003494	0001	01.01.1800	31.12.9999	DE	Prüfprotokolle
+	01	ZP	  90003497	0001	01.01.1800	31.12.9999	DE	Berichte über Businessplanerfüllung
+	01	ZP	  90003504	0001	01.01.1800	31.12.9999	DE	Änderungsauftrag (ÄAf) in die Zeichungsdokumentation
+	01	ZP	  90003516	0001	01.01.1800	31.12.9999	DE	ÄA
+	01	ZP	  90003539	0001	01.01.1800	31.12.9999	DE	Berücksichtigung der Änderungen in den übrigen Steuerungssystemen
+	01	ZP	  90003543	0001	01.01.1800	31.12.9999	DE	vorbereitete technische Änderungen am Produkt
+	01	ZP	  90003546	0001	01.01.1800	31.12.9999	DE	Umsetzung von Änderungsaufträgen in der Fertigung, einschließlich der Änderung 
+der technologischen Dokumentation
+	01	ZP	  90003560	0001	01.01.1800	31.12.9999	DE	technische Änderungen
+	01	ZP	  90003573	0001	01.01.1800	31.12.9999	DE	Entstehung von Mengenabweichungen in Abrufen
+	01	ZP	  90003579	0001	01.01.1800	31.12.9999	DE	Änderungsverfahren und Anlauf von Änderungsaufträgen
+	01	ZP	  90003585	0001	01.01.1800	31.12.9999	DE	Ad-hoc-Analysen
+	01	ZP	  90003587	0001	01.01.1800	31.12.9999	DE	Marktanalyse und -prognose
+	01	ZP	  90003592	0001	01.01.1800	31.12.9999	DE	Analysen der Konkurrenz
+	01	ZP	  90003595	0001	01.01.1800	31.12.9999	DE	Benchmark
+	01	ZP	  90003596	0001	01.01.1800	31.12.9999	DE	Benchmark von Personalprozessen
+	01	ZP	  90003597	0001	01.01.1800	31.12.9999	DE	Best-Practise und Benchmark-Unterlagen aus Exportmärkten
+	01	ZP	  90003598	0001	01.01.1800	31.12.9999	DE	Businessplan
+	01	ZP	  90003619	0001	01.01.1800	31.12.9999	DE	HR-Trends
+	01	ZP	  90003621	0001	01.01.1800	31.12.9999	DE	Konzepte für Modulelemente, Plattformen und deren Varianten
+	01	ZP	  90003622	0001	01.01.1800	31.12.9999	DE	Konzepte der Projekte
+	01	ZP	  90003625	0001	01.01.1800	31.12.9999	DE	Konzepte der Ausrichtungs- und Spannelemente
+	01	ZP	  90003658	0001	01.01.1800	31.12.9999	DE	Benchmarking-Unterlagen
+	01	ZP	  90003659	0001	01.01.1800	31.12.9999	DE	Anreizen zu Einsparungspotentialen
+	01	ZP	  90003675	0001	01.01.1800	31.12.9999	DE	Werbe- und Informationsunterlagen für Motivationsveranstaltungen
+	01	ZP	  90003681	0001	01.01.1800	31.12.9999	DE	Marktforschung
+	01	ZP	  90003684	0001	01.01.1800	31.12.9999	DE	Vorbereitung der Verhandlungen
+	01	ZP	  90003730	0001	01.01.1800	31.12.9999	DE	Erarbeitung des Businessplans
+	01	ZP	  90003743	0001	01.01.1800	31.12.9999	DE	Wettbewerbsanalysen hinsichtlich der Markenstrategie
+	01	ZP	  90003745	0001	01.01.1800	31.12.9999	DE	Aktivitäten, die zur Erfüllung der Ziele des Projektes führen
+	01	ZP	  90003748	0001	01.01.1800	31.12.9999	DE	Produktentwicklung
+	01	ZP	  90003749	0001	01.01.1800	31.12.9999	DE	Aktualisierung der Projekte und Änderungsanforderung
+	01	ZP	  90003753	0001	01.01.1800	31.12.9999	DE	Projektbezogene Analysen
+	01	ZP	  90003757	0001	01.01.1800	31.12.9999	DE	HR Projekte
+	01	ZP	  90003762	0001	01.01.1800	31.12.9999	DE	Kritische Faktoren des Projektes
+	01	ZP	  90003782	0001	01.01.1800	31.12.9999	DE	Qualitätsanforderungen in den Projekt- und Anlaufteams
+	01	ZP	  90003783	0001	01.01.1800	31.12.9999	DE	Berichte über den Projektstatus
+	01	ZP	  90003791	0001	01.01.1800	31.12.9999	DE	den Projektteams
+	01	ZP	  90003797	0001	01.01.1800	31.12.9999	DE	Projekte
+	01	ZP	  90003800	0001	01.01.1800	31.12.9999	DE	Modellpflege - Projekte und Facelifts
+	01	ZP	  90003806	0001	01.01.1800	31.12.9999	DE	Ablauf der Projektumsetzung aus der Sicht des Inhaltes, der Kosten, der 
+Qualität und der Termine
+	01	ZP	  90003808	0001	01.01.1800	31.12.9999	DE	Übersicht über den Projektstatus
+	01	ZP	  90003828	0001	01.01.1800	31.12.9999	DE	strategische Projekte der Personalbetreuung
+	01	ZP	  90003830	0001	01.01.1800	31.12.9999	DE	anvertraute Projekte
+	01	ZP	  90003834	0001	01.01.1800	31.12.9999	DE	Terminpläne für Projekte
+	01	ZP	  90003835	0001	01.01.1800	31.12.9999	DE	Terminpläne der Projekte
+	01	ZP	  90003836	0001	01.01.1800	31.12.9999	DE	Terminpläne der Teileentwicklung
+	01	ZP	  90003846	0001	01.01.1800	31.12.9999	DE	Suche und Umsetzung von Einsparungspotentialen
+	01	ZP	  90003849	0001	01.01.1800	31.12.9999	DE	Projektvorgabe
+	01	ZP	  90003863	0001	01.01.1800	31.12.9999	DE	Qualitative Maßnahmen für den Anlauf neuer Fertigungen
+	01	ZP	  90003865	0001	01.01.1800	31.12.9999	DE	Anlauf der Modellreihen
+	01	ZP	  90003867	0001	01.01.1800	31.12.9999	DE	Anlauf neuer Teile
+	01	ZP	  90003874	0001	01.01.1800	31.12.9999	DE	Anläufe neuer Fahrzeuge
+	01	ZP	  90003880	0001	01.01.1800	31.12.9999	DE	neue Projekte in die Serienproduktion
+	01	ZP	  90003887	0001	01.01.1800	31.12.9999	DE	Probleme beim Anlauf neuer Fahrzeuge
+	01	ZP	  90003909	0001	01.01.1800	31.12.9999	DE	Qualitätsfreigabe aufgrund der Zwei-Tage-Produktion des Lieferanten
+	01	ZP	  90003920	0001	01.01.1800	31.12.9999	DE	Anlauf neuer Fertigungen
+	01	ZP	  90003924	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Reduzierung der Qualitäts- und Auditfehler beim Anlauf der 
+Produktion
+	01	ZP	  90003934	0001	01.01.1800	31.12.9999	DE	Vorbereitung der Produktion, des Anlaufes neuer Produktion
+	01	ZP	  90003935	0001	01.01.1800	31.12.9999	DE	Simulations-Produktionsstudie
+	01	ZP	  90003961	0001	01.01.1800	31.12.9999	DE	Dokumente zu Fahrzeugen für Mitarbeiter, Kunden und VIPs
+	01	ZP	  90003979	0001	01.01.1800	31.12.9999	DE	Konstruktionsdokumentation
+	01	ZP	  90004021	0001	01.01.1800	31.12.9999	DE	Präsentation in virtueller Realität
+	01	ZP	  90004027	0001	01.01.1800	31.12.9999	DE	Projektdokumentation
+	01	ZP	  90004030	0001	01.01.1800	31.12.9999	DE	Messprotokoll
+	01	ZP	  90004050	0001	01.01.1800	31.12.9999	DE	Teilespezifikation (technisch, logistisch, qualitativ)
+	01	ZP	  90004054	0001	01.01.1800	31.12.9999	DE	Produktionsstudie / die Projektvorbereitung der Baumaßnahme
+	01	ZP	  90004065	0001	01.01.1800	31.12.9999	DE	technische und technologische Dokumentation
+	01	ZP	  90004066	0001	01.01.1800	31.12.9999	DE	technische Dokumentation
+	01	ZP	  90004070	0001	01.01.1800	31.12.9999	DE	technologische Dokumentation
+	01	ZP	  90004086	0001	01.01.1800	31.12.9999	DE	Anpassung der technologischen Dokumentation
+	01	ZP	  90004090	0001	01.01.1800	31.12.9999	DE	Führung der Betriebsdokumentation und der technischen Dokumentation
+	01	ZP	  90004115	0001	01.01.1800	31.12.9999	DE	Änderungen der technischen und technologischen Dokumentation
+	01	ZP	  90004128	0001	01.01.1800	31.12.9999	DE	Einhaltung der POD
+	01	ZP	  90004129	0001	01.01.1800	31.12.9999	DE	Einhaltung der Prozess- und Organisationsdokumentation
+	01	ZP	  90004130	0001	01.01.1800	31.12.9999	DE	Dokumentation
+	01	ZP	  90004132	0001	01.01.1800	31.12.9999	DE	Einweisung der Mitarbeiter über die gültige POD
+	01	ZP	  90004134	0001	01.01.1800	31.12.9999	DE	fachliche, organisatorische und administrative Abläufe
+	01	ZP	  90004135	0001	01.01.1800	31.12.9999	DE	POD
+	01	ZP	  90004142	0001	01.01.1800	31.12.9999	DE	Erstellung von POD
+	01	ZP	  90004143	0001	01.01.1800	31.12.9999	DE	die Eigentümer der POD
+	01	ZP	  90004151	0001	01.01.1800	31.12.9999	DE	Archivierung
+	01	ZP	  90004152	0001	01.01.1800	31.12.9999	DE	Archivierung und Skartierung der Dokumente
+	01	ZP	  90004153	0001	01.01.1800	31.12.9999	DE	Archivierung und Aufbewahrung der Dokumente
+	01	ZP	  90004163	0001	01.01.1800	31.12.9999	DE	Dokumente nach der Schriftgutordnung
+	01	ZP	  90004168	0001	01.01.1800	31.12.9999	DE	Schriftgut und Dokumente
+	01	ZP	  90004208	0001	01.01.1800	31.12.9999	DE	Stücklisten
+	01	ZP	  90004212	0001	01.01.1800	31.12.9999	DE	neue Lösungsverfahren in der virtuellen Realität
+	01	ZP	  90004214	0001	01.01.1800	31.12.9999	DE	Abstimmung der virtuellen Modelle bis zur endgültigen Form
+	01	ZP	  90004254	0001	01.01.1800	31.12.9999	DE	Logistikprozesse
+	01	ZP	  90004255	0001	01.01.1800	31.12.9999	DE	Messung der Geschäftsprozesse
+	01	ZP	  90004256	0001	01.01.1800	31.12.9999	DE	Modellierung von Geschäftsprozessen
+	01	ZP	  90004261	0001	01.01.1800	31.12.9999	DE	Optimierung der Technologieverfahren
+	01	ZP	  90004262	0001	01.01.1800	31.12.9999	DE	Optimierungsmaßnahmen
+	01	ZP	  90004264	0001	01.01.1800	31.12.9999	DE	Personalprozesse
+	01	ZP	  90004267	0001	01.01.1800	31.12.9999	DE	Geschäftsprozesse
+	01	ZP	  90004268	0001	01.01.1800	31.12.9999	DE	Geschäftsprozesse aus Sicht der Prozessinhaberrolle
+	01	ZP	  90004283	0001	01.01.1800	31.12.9999	DE	WS KVP
+	01	ZP	  90004289	0001	01.01.1800	31.12.9999	DE	Einsatz neuer Systeme und Fertigungsmethoden zwecks Kostenoptimierung
+	01	ZP	  90004291	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Optimierung der Ergonomie und des Arbeitsaufwandes
+	01	ZP	  90004298	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Prämienauszahlung für den Nutzen aus realisierten 
+WS-Einsparungen
+	01	ZP	  90004299	0001	01.01.1800	31.12.9999	DE	praktische Ausbildung an Technologieanlagen ATC
+	01	ZP	  90004302	0001	01.01.1800	31.12.9999	DE	Ratio-Maßnahmen bei der Werkzeugherstellung und Einsatz der KVP-Maßnahmen
+	01	ZP	  90004303	0001	01.01.1800	31.12.9999	DE	Umsetzung der Maßnahmen aus WS KVP
+	01	ZP	  90004309	0001	01.01.1800	31.12.9999	DE	Auswirkungen aus den Projektteams auf den Umsetzungsprozess der Sparpotentiale
+	01	ZP	  90004314	0001	01.01.1800	31.12.9999	DE	Ansätze im E- und P-Team
+	01	ZP	  90004315	0001	01.01.1800	31.12.9999	DE	Inhalt, Kosten und Termine der Projekte
+	01	ZP	  90004316	0001	01.01.1800	31.12.9999	DE	Fachbereiche im Prozess der Findung und Realisierung von Sparpotentiale
+	01	ZP	  90004320	0001	01.01.1800	31.12.9999	DE	Optimierung der Geschäftsprozesse
+	01	ZP	  90004322	0001	01.01.1800	31.12.9999	DE	Ansätze zur Sparpotentialen mit Lieferanten
+	01	ZP	  90004323	0001	01.01.1800	31.12.9999	DE	Realisierungsgrad der Sparpotentiale
+	01	ZP	  90004333	0001	01.01.1800	31.12.9999	DE	Analysen bei Qualitätsproblemen a ergreift Systemmaßnahmen für deren 
+Verbesserung
+	01	ZP	  90004342	0001	01.01.1800	31.12.9999	DE	ZEBRA-Vorschläge
+	01	ZP	  90004348	0001	01.01.1800	31.12.9999	DE	Optimierungsvorschläge
+	01	ZP	  90004366	0001	01.01.1800	31.12.9999	DE	VV
+	01	ZP	  90004368	0001	01.01.1800	31.12.9999	DE	Aktualität und Bereitschaft der Fertigungsanlagen der Montage
+	01	ZP	  90004373	0001	01.01.1800	31.12.9999	DE	Ziele der Produktionyplanung
+	01	ZP	  90004374	0001	01.01.1800	31.12.9999	DE	Ziele der Simulationsprojekte der Fertigungsprozesse
+	01	ZP	  90004376	0001	01.01.1800	31.12.9999	DE	die mit den Kapa-Änderungen der Fertigung verbundenen Tätigkeiten  (Umtakten 
+der Montagestrassen)
+	01	ZP	  90004382	0001	01.01.1800	31.12.9999	DE	Arbeitsabläufe und Fertigungsdokumentation
+	01	ZP	  90004386	0001	01.01.1800	31.12.9999	DE	Einhaltung der technologischen Disziplin
+	01	ZP	  90004392	0001	01.01.1800	31.12.9999	DE	Einführung neuer Verfahren und Trends in der Fertigungstechnologie
+	01	ZP	  90004397	0001	01.01.1800	31.12.9999	DE	Quantität, das Sortiment und die Termine
+	01	ZP	  90004404	0001	01.01.1800	31.12.9999	DE	Einsatz der technischen Abweichungen
+	01	ZP	  90004408	0001	01.01.1800	31.12.9999	DE	Maßnahmen der Besserung der Arbeits- und Technologiedisziplin
+	01	ZP	  90004410	0001	01.01.1800	31.12.9999	DE	die aus dem Qualitätssystem sich ergebenden Maßnahmen
+	01	ZP	  90004413	0001	01.01.1800	31.12.9999	DE	Plan der Materialabsicherung
+	01	ZP	  90004414	0001	01.01.1800	31.12.9999	DE	Plan der Umbauten und Modernisierungen von AV
+	01	ZP	  90004416	0001	01.01.1800	31.12.9999	DE	Fertigungsplan der Halbfabrikate und Bauteile für Unterricht
+	01	ZP	  90004418	0001	01.01.1800	31.12.9999	DE	Planungsaktivitäten für die Projekte
+	01	ZP	  90004428	0001	01.01.1800	31.12.9999	DE	Arbeitsplatzgestaltung
+	01	ZP	  90004433	0001	01.01.1800	31.12.9999	DE	Übersicht der Änderungen der Investitionen, Kosten, Fertigungszeiten
+	01	ZP	  90004435	0001	01.01.1800	31.12.9999	DE	Realisierung (Lieferung) der Technologie, MaA, des Baus, der Reparatur oder 
+des Umbaus, der Teile
+	01	ZP	  90004446	0001	01.01.1800	31.12.9999	DE	Simulation der Verformung der  Pressteile
+	01	ZP	  90004448	0001	01.01.1800	31.12.9999	DE	Simulationsmodell des Fertigungsprozesses
+	01	ZP	  90004450	0001	01.01.1800	31.12.9999	DE	Zeitverbräuche (MTM-Analyse, Bestandsaufnahme des Mitarbeiters)
+	01	ZP	  90004454	0001	01.01.1800	31.12.9999	DE	Lastenhefte
+	01	ZP	  90004457	0001	01.01.1800	31.12.9999	DE	technisch-konstruktive Prüfungen
+	01	ZP	  90004460	0001	01.01.1800	31.12.9999	DE	Technologierisiken und Herstellbarkeit
+	01	ZP	  90004461	0001	01.01.1800	31.12.9999	DE	Technologie- / Fertigungsabläufe
+	01	ZP	  90004462	0001	01.01.1800	31.12.9999	DE	technologische und konstruktive Lösung der produktiven Tätigkeiten
+	01	ZP	  90004472	0001	01.01.1800	31.12.9999	DE	den Technologie- / Fertigungsabläufen
+	01	ZP	  90004477	0001	01.01.1800	31.12.9999	DE	Technologie der Werkzeuge
+	01	ZP	  90004480	0001	01.01.1800	31.12.9999	DE	Technologie der MuA
+	01	ZP	  90004484	0001	01.01.1800	31.12.9999	DE	Themen der praktischen Teile der Abschlussprüfungen
+	01	ZP	  90004486	0001	01.01.1800	31.12.9999	DE	der terminlichen Absicherung der Erfüllung der Produktivarbeit - Leitzentrale
+	01	ZP	  90004488	0001	01.01.1800	31.12.9999	DE	Trends in der Technologieentwicklung
+	01	ZP	  90004489	0001	01.01.1800	31.12.9999	DE	Erstellung von Langzeitkonzepte in Projekten der digitalen Planung
+	01	ZP	  90004498	0001	01.01.1800	31.12.9999	DE	Fahrzeuge und Anforderungen auf die Analyse der zelegten Fahrzeuge
+	01	ZP	  90004500	0001	01.01.1800	31.12.9999	DE	Eingangsdaten für die Simulationen
+	01	ZP	  90004503	0001	01.01.1800	31.12.9999	DE	Berechnungen der Fertigungskapazitäten
+	01	ZP	  90004509	0001	01.01.1800	31.12.9999	DE	Projektvorgabe für die Fachbereiche
+	01	ZP	  90004510	0001	01.01.1800	31.12.9999	DE	Besorgung des Materials und Vormaterials für den praktischen Unterricht
+	01	ZP	  90004514	0001	01.01.1800	31.12.9999	DE	Einordnung der Arbeitsfolgen der technologischen Abläufe nach dem 
+Richtbeispielkatalog
+	01	ZP	  90004517	0001	01.01.1800	31.12.9999	DE	Einführung neuer Technologien
+	01	ZP	  90004528	0001	01.01.1800	31.12.9999	DE	Ergonomie, verbrauchte Zeit und Zeitvorgabe
+	01	ZP	  90004532	0001	01.01.1800	31.12.9999	DE	Zeitvorgabe
+	01	ZP	  90004540	0001	01.01.1800	31.12.9999	DE	Workshopsergebnisse
+	01	ZP	  90004541	0001	01.01.1800	31.12.9999	DE	Tätigkeiten der Werkzeuglagerung und -instandhaltung
+	01	ZP	  90004542	0001	01.01.1800	31.12.9999	DE	Teile für Prüfungen
+	01	ZP	  90004543	0001	01.01.1800	31.12.9999	DE	Elektrowerkzeuge und Messgeräte
+	01	ZP	  90004544	0001	01.01.1800	31.12.9999	DE	ergonomisch geeignete Werkzeuge im Hinblick auf die Einhaltung der 
+vorgegebenen Anziehmomente
+	01	ZP	  90004547	0001	01.01.1800	31.12.9999	DE	Werkzeugreparatur
+	01	ZP	  90004549	0001	01.01.1800	31.12.9999	DE	Verwendung und Einführung der neuen Werkzeuge
+	01	ZP	  90004550	0001	01.01.1800	31.12.9999	DE	Anforderungen an Erneuerung und Modernisierung der Werkzeuge
+	01	ZP	  90004551	0001	01.01.1800	31.12.9999	DE	Instandhaltungs-, Erneuerungs- und Verbrauchsprozesse von Werkzeugen mit dem 
+Ziel, Kosten zu minimieren
+	01	ZP	  90004552	0001	01.01.1800	31.12.9999	DE	Protokoll über Werkzeugreparatur
+	01	ZP	  90004553	0001	01.01.1800	31.12.9999	DE	Jahrespläne des Bedarfs an Werkzeugen, Messgeräten und Schutzmitteln
+	01	ZP	  90004559	0001	01.01.1800	31.12.9999	DE	Eingangskontrolle und Werkzeugübernahme
+	01	ZP	  90004561	0001	01.01.1800	31.12.9999	DE	Anleihen in Ausgabestellen
+	01	ZP	  90004575	0001	01.01.1800	31.12.9999	DE	Budget für die Instandhaltung der Anlagen
+	01	ZP	  90004579	0001	01.01.1800	31.12.9999	DE	Verwaltung, Betrieb und Instandhaltung der Anlagen
+	01	ZP	  90004582	0001	01.01.1800	31.12.9999	DE	Instandhaltung und Revision von MA, Werkzeugen und Verkehrsmitteln
+	01	ZP	  90004589	0001	01.01.1800	31.12.9999	DE	den Mängeln, Störungen und Havarien des anvertrauten Vermögens
+	01	ZP	  90004590	0001	01.01.1800	31.12.9999	DE	Instandhaltungs- und Reparaturentypen
+	01	ZP	  90004611	0001	01.01.1800	31.12.9999	DE	Abnahme der Gebäude und Bauwerke durch den Nutzer
+	01	ZP	  90004628	0001	01.01.1800	31.12.9999	DE	Einhaltung der Pflege der Fertigungslinien-MaA
+	01	ZP	  90004633	0001	01.01.1800	31.12.9999	DE	Behebung der Mängel bei MaA
+	01	ZP	  90004635	0001	01.01.1800	31.12.9999	DE	Reparaturen und Untersuchungen der MaA
+	01	ZP	  90004636	0001	01.01.1800	31.12.9999	DE	Reparaturen von MaA
+	01	ZP	  90004637	0001	01.01.1800	31.12.9999	DE	Reparaturen der Anlagen
+	01	ZP	  90004641	0001	01.01.1800	31.12.9999	DE	vorbeugende und prädiktive Untersuchungen und Reparaturen
+	01	ZP	  90004642	0001	01.01.1800	31.12.9999	DE	Prozesse an Technologie-Einrichtungen
+	01	ZP	  90004644	0001	01.01.1800	31.12.9999	DE	Durchführung der Reparaturen von MaA
+	01	ZP	  90004648	0001	01.01.1800	31.12.9999	DE	Spezifizierung für den ET-Einkauf
+	01	ZP	  90004654	0001	01.01.1800	31.12.9999	DE	technischer Zustand der MaA
+	01	ZP	  90004655	0001	01.01.1800	31.12.9999	DE	Aufgaben für das Gebiet der MaA-Diagnostik
+	01	ZP	  90004656	0001	01.01.1800	31.12.9999	DE	Sortierung, Vorbereitung, Lagerung und Verschrottung der unausgenutzten und 
+unbrauchbaren MaA
+	01	ZP	  90004658	0001	01.01.1800	31.12.9999	DE	Übergabe der neuen MaA in Betrieb
+	01	ZP	  90004660	0001	01.01.1800	31.12.9999	DE	MaA-Abnahme
+	01	ZP	  90004662	0001	01.01.1800	31.12.9999	DE	Mängel, Störungen und Havarien von MaA
+	01	ZP	  90004663	0001	01.01.1800	31.12.9999	DE	Überprüfung von aMaA
+	01	ZP	  90004667	0001	01.01.1800	31.12.9999	DE	Kostenplan für Reparaturen und Erneuerungen von Energieanlagen
+	01	ZP	  90004669	0001	01.01.1800	31.12.9999	DE	Störungen und Havarien an MaA
+	01	ZP	  90004671	0001	01.01.1800	31.12.9999	DE	Präventivmaßnahmen
+	01	ZP	  90004672	0001	01.01.1800	31.12.9999	DE	Übernahme von Maschinen und Anlagen / Anlagentechnik / Bauwerken in 
+Dauerbetrieb
+	01	ZP	  90004673	0001	01.01.1800	31.12.9999	DE	Abnahmen von gelieferten Leistungen und Produkten
+	01	ZP	  90004674	0001	01.01.1800	31.12.9999	DE	Abnahmen von Werkzeugen in Probe- und Dauerbetrieb
+	01	ZP	  90004677	0001	01.01.1800	31.12.9999	DE	Revisionen und Inspektionen
+	01	ZP	  90004680	0001	01.01.1800	31.12.9999	DE	Lösung von Problemblättern
+	01	ZP	  90004684	0001	01.01.1800	31.12.9999	DE	Art und Menge von Ersatzteilen für Reparaturen der Steuereinheiten an der 
+Anlagentechnik
+	01	ZP	  90004686	0001	01.01.1800	31.12.9999	DE	neue Grundelemente des Simulationssystems
+	01	ZP	  90004687	0001	01.01.1800	31.12.9999	DE	fachliche Gutachten der Steuersysteme
+	01	ZP	  90004688	0001	01.01.1800	31.12.9999	DE	fachliche Unterweisung der Instandhaltungsmitarbeiter und externer Firmen über 
+SW und HW der elektronischen Anlagen
+	01	ZP	  90004689	0001	01.01.1800	31.12.9999	DE	Reparaturen und Instandhaltung der Steuersysteme an der Anlagentechnik
+	01	ZP	  90004690	0001	01.01.1800	31.12.9999	DE	Störungen und Stillstände der Anlagentechnik verursacht durch Steuersysteme
+	01	ZP	  90004691	0001	01.01.1800	31.12.9999	DE	Präventivkontrollen der Steuersysteme an der Anlagentechnik
+	01	ZP	  90004693	0001	01.01.1800	31.12.9999	DE	Programme der Steuersysteme
+	01	ZP	  90004694	0001	01.01.1800	31.12.9999	DE	Steuersysteme der Anlagentechnik
+	01	ZP	  90004695	0001	01.01.1800	31.12.9999	DE	SW-Ausstattung der Roboter
+	01	ZP	  90004696	0001	01.01.1800	31.12.9999	DE	Typen und Konfiguration der Steuersysteme
+	01	ZP	  90004697	0001	01.01.1800	31.12.9999	DE	benutzerdefinierte Korrekturen der Anwendungs-HW und -SW der Steuersysteme an 
+der Anlagentechnik
+	01	ZP	  90004701	0001	01.01.1800	31.12.9999	DE	Konzepte der energiesparenden Produktion
+	01	ZP	  90004716	0001	01.01.1800	31.12.9999	DE	Verbrauch von Energien, Betriebsstoffen, Materialien und Bürobedarf
+	01	ZP	  90004720	0001	01.01.1800	31.12.9999	DE	Instandhaltung und Reparaturen von Energieanlagen und -verteilungen
+	01	ZP	  90004744	0001	01.01.1800	31.12.9999	DE	den Entwürfen der Werkzeugänderungen
+	01	ZP	  90004748	0001	01.01.1800	31.12.9999	DE	Übergabe der fertiggestellten Werkzeuge
+	01	ZP	  90004766	0001	01.01.1800	31.12.9999	DE	Anforderungen an Ersatzteile
+	01	ZP	  90004779	0001	01.01.1800	31.12.9999	DE	Produktion
+	01	ZP	  90004782	0001	01.01.1800	31.12.9999	DE	Fahrzeugbau
+	01	ZP	  90004803	0001	01.01.1800	31.12.9999	DE	Fahrzeugumfänge
+	01	ZP	  90004815	0001	01.01.1800	31.12.9999	DE	Kapazitäts-, Operativ- und Terminplanung
+	01	ZP	  90004823	0001	01.01.1800	31.12.9999	DE	außerordentliches Vorgehen im Falle einer ungesicherten Produktion
+	01	ZP	  90004833	0001	01.01.1800	31.12.9999	DE	operativen Produktionsplan
+	01	ZP	  90004838	0001	01.01.1800	31.12.9999	DE	Erfüllung des Ablaufs der Produktionsaufträge
+	01	ZP	  90004842	0001	01.01.1800	31.12.9999	DE	Unterlagen für Auslagerung der Produktion
+	01	ZP	  90004854	0001	01.01.1800	31.12.9999	DE	Vorserienprogramme
+	01	ZP	  90004860	0001	01.01.1800	31.12.9999	DE	Realisierung von Verzugsteilen
+	01	ZP	  90004873	0001	01.01.1800	31.12.9999	DE	Materialfluss
+	01	ZP	  90004879	0001	01.01.1800	31.12.9999	DE	Verbrauchsprognosen und Übersicht des festgelegten Sortiments
+	01	ZP	  90004910	0001	01.01.1800	31.12.9999	DE	kritischen Stellen des Logistikflusses der Steuerung
+	01	ZP	  90004914	0001	01.01.1800	31.12.9999	DE	Erfüllung der Ziele der Produktionsplanung
+	01	ZP	  90004926	0001	01.01.1800	31.12.9999	DE	Informationsfluss über die Verladung von Material, Verpackungsmaterial
+	01	ZP	  90004931	0001	01.01.1800	31.12.9999	DE	Sicherstellung von internen und gekauften Teilen für den Fahrzeugbau
+	01	ZP	  90004954	0001	01.01.1800	31.12.9999	DE	Unterlagen für Reklamationsverfahren
+	01	ZP	  90004962	0001	01.01.1800	31.12.9999	DE	Reklamationen
+	01	ZP	  90004969	0001	01.01.1800	31.12.9999	DE	Reklamationen des Materials
+	01	ZP	  90004971	0001	01.01.1800	31.12.9999	DE	Reklamationen der Normen des Arbeitszeitverbrauchs
+	01	ZP	  90004985	0001	01.01.1800	31.12.9999	DE	Reklamationsverfahren
+	01	ZP	  90005001	0001	01.01.1800	31.12.9999	DE	Schadens- oder Verschrottungsprotokolle
+	01	ZP	  90005014	0001	01.01.1800	31.12.9999	DE	technische Berechtigung der Reklamationen
+	01	ZP	  90005043	0001	01.01.1800	31.12.9999	DE	Dispositionen und Abrufe
+	01	ZP	  90005051	0001	01.01.1800	31.12.9999	DE	Dispositionsoperativität
+	01	ZP	  90005053	0001	01.01.1800	31.12.9999	DE	Lieferanten aus der Sicht der Dispositionssicherheit
+	01	ZP	  90005065	0001	01.01.1800	31.12.9999	DE	Einhaltung des festgelegten Vorratsumschlages
+	01	ZP	  90005069	0001	01.01.1800	31.12.9999	DE	Kapazitätsprobleme
+	01	ZP	  90005070	0001	01.01.1800	31.12.9999	DE	Ersatztransport von Teilen und Material
+	01	ZP	  90005072	0001	01.01.1800	31.12.9999	DE	Bestellungen
+	01	ZP	  90005075	0001	01.01.1800	31.12.9999	DE	Lieferumfänge nach Dispositionen
+	01	ZP	  90005080	0001	01.01.1800	31.12.9999	DE	generierte Abrufe aus Dispositionssystemen für Lieferanten
+	01	ZP	  90005083	0001	01.01.1800	31.12.9999	DE	Abrufe nach reklamierten Teilemengen
+	01	ZP	  90005084	0001	01.01.1800	31.12.9999	DE	Abrufe von Waren und Dienstleistungen
+	01	ZP	  90005093	0001	01.01.1800	31.12.9999	DE	Sanktionen für Nichterfüllung von Lieferungen
+	01	ZP	  90005103	0001	01.01.1800	31.12.9999	DE	Sortierung der unbrauchbaren Vorräte
+	01	ZP	  90005105	0001	01.01.1800	31.12.9999	DE	Sicherstellung des Materials für die Ausbildung und Prüfungen der Schweißer
+	01	ZP	  90005107	0001	01.01.1800	31.12.9999	DE	Zahlungssperre für die Überschreitung der vereinbarten Menge
+	01	ZP	  90005122	0001	01.01.1800	31.12.9999	DE	Materiallieferungen zum Bestimmungsort
+	01	ZP	  90005136	0001	01.01.1800	31.12.9999	DE	Materialtransport
+	01	ZP	  90005162	0001	01.01.1800	31.12.9999	DE	Organisation von außerordentlichen Lieferungen für Montagewerke
+	01	ZP	  90005178	0001	01.01.1800	31.12.9999	DE	Transport
+	01	ZP	  90005238	0001	01.01.1800	31.12.9999	DE	Anzahl der Verpackungen und Flurförderzeugtechnik
+	01	ZP	  90005250	0001	01.01.1800	31.12.9999	DE	geeignete Materialpalettisierung
+	01	ZP	  90005267	0001	01.01.1800	31.12.9999	DE	Wareneingang und -ausgang von Material
+	01	ZP	  90005276	0001	01.01.1800	31.12.9999	DE	Materiallieferungen CKD/SKD für Auslandswerke
+	01	ZP	  90005282	0001	01.01.1800	31.12.9999	DE	Teileevidenz
+	01	ZP	  90005283	0001	01.01.1800	31.12.9999	DE	Waren- / Fahrzeugversand
+	01	ZP	  90005290	0001	01.01.1800	31.12.9999	DE	Lagerkatalog
+	01	ZP	  90005298	0001	01.01.1800	31.12.9999	DE	Handhabungsflächen
+	01	ZP	  90005299	0001	01.01.1800	31.12.9999	DE	Flurförderzeugtechnik
+	01	ZP	  90005300	0001	01.01.1800	31.12.9999	DE	Material im Lager
+	01	ZP	  90005313	0001	01.01.1800	31.12.9999	DE	inhaltliche Richtigkeit der Lieferscheine gegenüber dem tatsächlichen 
+Lieferungsumfang
+	01	ZP	  90005324	0001	01.01.1800	31.12.9999	DE	Planerfüllung der Produktion und des Warenausgangs
+	01	ZP	  90005330	0001	01.01.1800	31.12.9999	DE	Übersichten der Bestandsentwicklung und der Analyse der Lagerwirtschaft
+	01	ZP	  90005332	0001	01.01.1800	31.12.9999	DE	Materialtransport
+	01	ZP	  90005338	0001	01.01.1800	31.12.9999	DE	Wareneingang und -ausgang und dessen Einlagerung am Bestimmungsort
+	01	ZP	  90005343	0001	01.01.1800	31.12.9999	DE	Wareneingangs- und Warenausgangsdokumente
+	01	ZP	  90005352	0001	01.01.1800	31.12.9999	DE	Materialtransport
+	01	ZP	  90005353	0001	01.01.1800	31.12.9999	DE	Lagermaterialtransport
+	01	ZP	  90005364	0001	01.01.1800	31.12.9999	DE	Lagerfahrzeugbestände im Vertriebsnetz
+	01	ZP	  90005366	0001	01.01.1800	31.12.9999	DE	Lager
+	01	ZP	  90005372	0001	01.01.1800	31.12.9999	DE	tand der wirtschaftlichen Bevorratung
+	01	ZP	  90005390	0001	01.01.1800	31.12.9999	DE	Platzierung und Einlagerung von Material
+	01	ZP	  90005399	0001	01.01.1800	31.12.9999	DE	Lagerausstattung
+	01	ZP	  90005424	0001	01.01.1800	31.12.9999	DE	Beladung mit Fahrzeugen unter der Berücksichtigung des Typs der zerlegten 
+Fahrzeuge
+	01	ZP	  90005463	0001	01.01.1800	31.12.9999	DE	bestellten Fahrzeuge
+	01	ZP	  90005471	0001	01.01.1800	31.12.9999	DE	Bestellung von Fahrzeugen für Arbeitnehmer, VIP
+	01	ZP	  90005568	0001	01.01.1800	31.12.9999	DE	Richtigkeit von Preismeldungen
+	01	ZP	  90005627	0001	01.01.1800	31.12.9999	DE	tägliche, wöchentliche und monatliche Programme der Fahrzeugübergabe
+	01	ZP	  90005661	0001	01.01.1800	31.12.9999	DE	fachliche und technische Informationen hinsichtlich Fahrzeugen und 
+Kundenpreisen
+	01	ZP	  90005663	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Termineinhaltung der Fahrzeugübergabe an den Kunden
+	01	ZP	  90005688	0001	01.01.1800	31.12.9999	DE	Problembestellungen von Fahrzeugen
+	01	ZP	  90005705	0001	01.01.1800	31.12.9999	DE	Fahrzeugübergabe an Arbeitnehmer und Kunden
+	01	ZP	  90005708	0001	01.01.1800	31.12.9999	DE	Vorführfahrten für alle Kundengruppen
+	01	ZP	  90005711	0001	01.01.1800	31.12.9999	DE	Fahrzeugzulassungen bei der Zulassungsstelle des Magistrats der Stadt MB
+	01	ZP	  90005714	0001	01.01.1800	31.12.9999	DE	Annahme- und Ausgabedokumente
+	01	ZP	  90005717	0001	01.01.1800	31.12.9999	DE	Dokumentenvorbereitung zu den Fahrzeugen
+	01	ZP	  90005731	0001	01.01.1800	31.12.9999	DE	Vertriebsreporting
+	01	ZP	  90005737	0001	01.01.1800	31.12.9999	DE	Rezeptionsdienst
+	01	ZP	  90005743	0001	01.01.1800	31.12.9999	DE	Fahrzeugstatistiken
+	01	ZP	  90005751	0001	01.01.1800	31.12.9999	DE	technische und optische Verkaufsaufbereitung des Fahrzeugs
+	01	ZP	  90005772	0001	01.01.1800	31.12.9999	DE	Veröffentlichung des Fahrzeugangebots
+	01	ZP	  90005803	0001	01.01.1800	31.12.9999	DE	Beratung für Kundendienstpartner
+	01	ZP	  90005873	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Verbesserung der Dienstleistungen im Kundendienst-Netz
+	01	ZP	  90005885	0001	01.01.1800	31.12.9999	DE	Abläufe zur Lösung technischer Probleme
+	01	ZP	  90005912	0001	01.01.1800	31.12.9999	DE	technische Informationen über das Produkt
+	01	ZP	  90006156	0001	01.01.1800	31.12.9999	DE	Technikberatung
+	01	ZP	  90006214	0001	01.01.1800	31.12.9999	DE	Erstellung der Verträge und Nachträge
+	01	ZP	  90006265	0001	01.01.1800	31.12.9999	DE	Marketingkonzepte für Produkte, Ausstattungen und Preise
+	01	ZP	  90006295	0001	01.01.1800	31.12.9999	DE	Produktoptimierung
+	01	ZP	  90006356	0001	01.01.1800	31.12.9999	DE	Verfolgung von Marketingaktivitäten und Aktionen von Konkurrenzmodellen
+	01	ZP	  90006738	0001	01.01.1800	31.12.9999	DE	Kommunikationsmaterialien
+	01	ZP	  90006740	0001	01.01.1800	31.12.9999	DE	Konzepte der Aktionen
+	01	ZP	  90006747	0001	01.01.1800	31.12.9999	DE	Kulturveranstaltungen
+	01	ZP	  90006761	0001	01.01.1800	31.12.9999	DE	Motivationsprograme der Kundenloyalität
+	01	ZP	  90006794	0001	01.01.1800	31.12.9999	DE	Präsentationsaktionen
+	01	ZP	  90006805	0001	01.01.1800	31.12.9999	DE	Werbeaktionen
+	01	ZP	  90006816	0001	01.01.1800	31.12.9999	DE	Vorbereitung der neuen Präsentationsmaterialien für interne und externe 
+Verwendung der CI-Elemente
+	01	ZP	  90006868	0001	01.01.1800	31.12.9999	DE	Ergebnissen im Bereich der Kundenloyalität zur Marke ŠA
+	01	ZP	  90006895	0001	01.01.1800	31.12.9999	DE	Aktualisierung des Portalinhalts
+	01	ZP	  90006901	0001	01.01.1800	31.12.9999	DE	Informationen für unterstellte MA und OE-Leiter
+	01	ZP	  90006905	0001	01.01.1800	31.12.9999	DE	Konsultations- und Beratungstätigkeit
+	01	ZP	  90006913	0001	01.01.1800	31.12.9999	DE	Vorgespräche und Verhandlungen
+	01	ZP	  90006917	0001	01.01.1800	31.12.9999	DE	des Projektstandes durch die Mitglieder des Projektteams und des Auftraggebers 
+des Projektes
+	01	ZP	  90006932	0001	01.01.1800	31.12.9999	DE	Tätigkeit der externen Firmen
+	01	ZP	  90006945	0001	01.01.1800	31.12.9999	DE	interne und externe Verhandlungen
+	01	ZP	  90007009	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit externen Lieferanten
+	01	ZP	  90007010	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit Konzern und anderen Marken
+	01	ZP	  90007061	0001	01.01.1800	31.12.9999	DE	Besichtigungen von ŠKODA Museum und Produktionsbetriebsstätten
+	01	ZP	  90007082	0001	01.01.1800	31.12.9999	DE	Qualifizierungsprogramme für neue Projekte beim Lieferanten
+	01	ZP	  90007083	0001	01.01.1800	31.12.9999	DE	Lokalisierung der eingekauften Teile
+	01	ZP	  90007086	0001	01.01.1800	31.12.9999	DE	Einkauf des Materials
+	01	ZP	  90007107	0001	01.01.1800	31.12.9999	DE	Preisdifferenzen für Bestellungen für Vorserie und Serie, OT und für 
+Hausanfertigung OT
+	01	ZP	  90007112	0001	01.01.1800	31.12.9999	DE	externe Unterkunft
+	01	ZP	  90007114	0001	01.01.1800	31.12.9999	DE	Lieferantenbewertung
+	01	ZP	  90007119	0001	01.01.1800	31.12.9999	DE	Lieferantenangebote
+	01	ZP	  90007120	0001	01.01.1800	31.12.9999	DE	Lieferantenangebote von der technischen Seite her
+	01	ZP	  90007123	0001	01.01.1800	31.12.9999	DE	Einkaufs und Zahlungsbedingungen
+	01	ZP	  90007124	0001	01.01.1800	31.12.9999	DE	Bestellvorschläge
+	01	ZP	  90007130	0001	01.01.1800	31.12.9999	DE	Unterlagen für Preisverhandlungen
+	01	ZP	  90007134	0001	01.01.1800	31.12.9999	DE	Anfrageverfahren und Abschließen der Rahmenverträge mit Lieferanten
+	01	ZP	  90007135	0001	01.01.1800	31.12.9999	DE	Anfrageverfahren
+	01	ZP	  90007136	0001	01.01.1800	31.12.9999	DE	Anfragen beim Lieferanten
+	01	ZP	  90007139	0001	01.01.1800	31.12.9999	DE	Präsentieren der Angebote in Gremien
+	01	ZP	  90007141	0001	01.01.1800	31.12.9999	DE	Übersicht des Bedarfs des eingekauften Materials
+	01	ZP	  90007147	0001	01.01.1800	31.12.9999	DE	Lieferantenmarkt
+	01	ZP	  90007151	0001	01.01.1800	31.12.9999	DE	Sicherstellung der Ausstattung für den Unterricht
+	01	ZP	  90007154	0001	01.01.1800	31.12.9999	DE	Einordnung der Teile in den Prozess FS/GS
+	01	ZP	  90007159	0001	01.01.1800	31.12.9999	DE	Bestellungen und Verträge
+	01	ZP	  90007160	0001	01.01.1800	31.12.9999	DE	Kooperationsverträge
+	01	ZP	  90007166	0001	01.01.1800	31.12.9999	DE	Bestellvorschläge für Beschaffung des Werkzeugs
+	01	ZP	  90007167	0001	01.01.1800	31.12.9999	DE	Bestellung des Büromaterials, Geschenke und Werbegegenstände
+	01	ZP	  90007180	0001	01.01.1800	31.12.9999	DE	Unterlagen für Sanktionen für Nichterfüllung der Vertragsbedingungen
+	01	ZP	  90007182	0001	01.01.1800	31.12.9999	DE	Unterlagen für Abschließen der Rahmenverträge
+	01	ZP	  90007190	0001	01.01.1800	31.12.9999	DE	Verträge für Wartung und Verwaltung der Gebäude
+	01	ZP	  90007208	0001	01.01.1800	31.12.9999	DE	Lieferanten
+	01	ZP	  90007212	0001	01.01.1800	31.12.9999	DE	Lieferantenquellen in definierten Regionen
+	01	ZP	  90007213	0001	01.01.1800	31.12.9999	DE	Empfehlung für die Lieferantenauswahl
+	01	ZP	  90007219	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Lieferantenauswahl
+	01	ZP	  90007223	0001	01.01.1800	31.12.9999	DE	Situation auf dem Lieferantenmarkt
+	01	ZP	  90007227	0001	01.01.1800	31.12.9999	DE	Angaben über Lieferanten
+	01	ZP	  90007229	0001	01.01.1800	31.12.9999	DE	Lieferantenauswahl
+	01	ZP	  90007230	0001	01.01.1800	31.12.9999	DE	Lieferantenauswahl aus der fachlichen Sicht
+	01	ZP	  90007246	0001	01.01.1800	31.12.9999	DE	CAD-Daten der Designermodelle
+	01	ZP	  90007248	0001	01.01.1800	31.12.9999	DE	Designentwürfe
+	01	ZP	  90007271	0001	01.01.1800	31.12.9999	DE	CAD-Daten aus Konstruktion und Design
+	01	ZP	  90007274	0001	01.01.1800	31.12.9999	DE	Einhaltung der finanziellen Limits (Targets)
+	01	ZP	  90007275	0001	01.01.1800	31.12.9999	DE	Gewichte der einzelnen Fahrzeuggruppen
+	01	ZP	  90007276	0001	01.01.1800	31.12.9999	DE	Kollision der Teile
+	01	ZP	  90007277	0001	01.01.1800	31.12.9999	DE	Konstruktion der Teile
+	01	ZP	  90007278	0001	01.01.1800	31.12.9999	DE	Konstruktion der Konzernprodukte
+	01	ZP	  90007279	0001	01.01.1800	31.12.9999	DE	konstruktive und technologische Lösungen
+	01	ZP	  90007280	0001	01.01.1800	31.12.9999	DE	Konstruktionsdaten
+	01	ZP	  90007281	0001	01.01.1800	31.12.9999	DE	Konstruktionsvorschläge aufgrund Proben
+	01	ZP	  90007282	0001	01.01.1800	31.12.9999	DE	Konstruktionslösungen
+	01	ZP	  90007288	0001	01.01.1800	31.12.9999	DE	Materialien, technische Lösungen und Technologien
+	01	ZP	  90007294	0001	01.01.1800	31.12.9999	DE	Neue Trends in Verarbeitung in CAID-Daten für die Realisierung in der 
+Produktion
+	01	ZP	  90007296	0001	01.01.1800	31.12.9999	DE	Maßnahmen nach Proben
+	01	ZP	  90007297	0001	01.01.1800	31.12.9999	DE	P-, B- Freigabe der Teile
+	01	ZP	  90007300	0001	01.01.1800	31.12.9999	DE	Projekte aus der Sicht des Inhalts, der Kosten, Qualität und Termine
+	01	ZP	  90007304	0001	01.01.1800	31.12.9999	DE	Zusammensetzung der Teile in Konzept
+	01	ZP	  90007306	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit int./ext. Lieferanten
+	01	ZP	  90007308	0001	01.01.1800	31.12.9999	DE	technische Lösungen
+	01	ZP	  90007315	0001	01.01.1800	31.12.9999	DE	technische Produktbeschreibungen
+	01	ZP	  90007317	0001	01.01.1800	31.12.9999	DE	technisches Lastenheft für externe Entwicklung
+	01	ZP	  90007318	0001	01.01.1800	31.12.9999	DE	Art der Technologie der Produktion
+	01	ZP	  90007322	0001	01.01.1800	31.12.9999	DE	Freigabe des Einbaumusters
+	01	ZP	  90007324	0001	01.01.1800	31.12.9999	DE	Nutzung der Module
+	01	ZP	  90007340	0001	01.01.1800	31.12.9999	DE	Veränderungen der  CAD-Daten im Bezug auf Charakteristiken der Konzepte
+	01	ZP	  90007341	0001	01.01.1800	31.12.9999	DE	Konstruktion der Werkzeuge und Vorrichtungen
+	01	ZP	  90007357	0001	01.01.1800	31.12.9999	DE	Festigkeitsberechnungen
+	01	ZP	  90007371	0001	01.01.1800	31.12.9999	DE	Ergebnisse der FEM-Berechnungen
+	01	ZP	  90007378	0001	01.01.1800	31.12.9999	DE	CAD-Daten für Konstruktion
+	01	ZP	  90007400	0001	01.01.1800	31.12.9999	DE	Funktion des Metrologen
+	01	ZP	  90007430	0001	01.01.1800	31.12.9999	DE	Messung
+	01	ZP	  90007445	0001	01.01.1800	31.12.9999	DE	Methodik der Messung und Proben
+	01	ZP	  90007456	0001	01.01.1800	31.12.9999	DE	metrologische Durchführungsanweisungen
+	01	ZP	  90007550	0001	01.01.1800	31.12.9999	DE	Ergebnisse und Analysen des Messzentrums
+	01	ZP	  90007567	0001	01.01.1800	31.12.9999	DE	Laborproben
+	01	ZP	  90007577	0001	01.01.1800	31.12.9999	DE	Teilebemusterung
+	01	ZP	  90007583	0001	01.01.1800	31.12.9999	DE	Analysen der Proben und Messungen
+	01	ZP	  90007585	0001	01.01.1800	31.12.9999	DE	Analysen der Probefahrzeuge
+	01	ZP	  90007587	0001	01.01.1800	31.12.9999	DE	Ziele der Proben
+	01	ZP	  90007589	0001	01.01.1800	31.12.9999	DE	Daten aus Proben
+	01	ZP	  90007596	0001	01.01.1800	31.12.9999	DE	Funktionsproben
+	01	ZP	  90007602	0001	01.01.1800	31.12.9999	DE	Konzeption und Methodik der Proben
+	01	ZP	  90007604	0001	01.01.1800	31.12.9999	DE	Konzernabnahmefahrten
+	01	ZP	  90007605	0001	01.01.1800	31.12.9999	DE	Kontrollproben der Serienproduktion
+	01	ZP	  90007609	0001	01.01.1800	31.12.9999	DE	Lastenhefte zur Durchführung der Proben
+	01	ZP	  90007611	0001	01.01.1800	31.12.9999	DE	Messungen und Proben der Teile
+	01	ZP	  90007619	0001	01.01.1800	31.12.9999	DE	Korrekturmaßnahmen nach Durchführung der Proben
+	01	ZP	  90007620	0001	01.01.1800	31.12.9999	DE	Einsatz der Teile in Sonderproben
+	01	ZP	  90007624	0001	01.01.1800	31.12.9999	DE	neue Prüfmethoden
+	01	ZP	  90007626	0001	01.01.1800	31.12.9999	DE	Organisieren der Vergleichsfahrten mit Konkurrenzfahrzeugen
+	01	ZP	  90007634	0001	01.01.1800	31.12.9999	DE	Problemen aus Proben
+	01	ZP	  90007646	0001	01.01.1800	31.12.9999	DE	Betrieb der Probefahrzeuge
+	01	ZP	  90007650	0001	01.01.1800	31.12.9999	DE	Verlauf und Durchführung der Proben
+	01	ZP	  90007653	0001	01.01.1800	31.12.9999	DE	Abnahemn der Komponenten / Fahrzeuge
+	01	ZP	  90007659	0001	01.01.1800	31.12.9999	DE	Realisierung der Proben der Teile, Gruppen von Teilen, Fahrzeuge
+	01	ZP	  90007670	0001	01.01.1800	31.12.9999	DE	Vergleichs- und Testfahrten
+	01	ZP	  90007674	0001	01.01.1800	31.12.9999	DE	Zustand der Komponenten/Fahrzeuge
+	01	ZP	  90007682	0001	01.01.1800	31.12.9999	DE	technologische Prüfungen
+	01	ZP	  90007684	0001	01.01.1800	31.12.9999	DE	Prüfungstermine
+	01	ZP	  90007688	0001	01.01.1800	31.12.9999	DE	Fahrzeuge für Fahrtests
+	01	ZP	  90007689	0001	01.01.1800	31.12.9999	DE	Fahrzeuge aus Langzeitfahrtests
+	01	ZP	  90007694	0001	01.01.1800	31.12.9999	DE	Prüfungsergebnisse
+	01	ZP	  90007706	0001	01.01.1800	31.12.9999	DE	Ergebnisse der Prüfungen
+	01	ZP	  90007713	0001	01.01.1800	31.12.9999	DE	Anschluss und Diagnostik der Messgeräte
+	01	ZP	  90007720	0001	01.01.1800	31.12.9999	DE	Prüfungen
+	01	ZP	  90007725	0001	01.01.1800	31.12.9999	DE	Änderungen an Durchführung von Messungen und Einbauproben
+	01	ZP	  90007726	0001	01.01.1800	31.12.9999	DE	Änderungen im Prüfungsprozess
+	01	ZP	  90007730	0001	01.01.1800	31.12.9999	DE	Sonderprüfungen ausgewählter Teile
+	01	ZP	  90007740	0001	01.01.1800	31.12.9999	DE	Pläne für Prüfungen und Messungen von Teilen
+	01	ZP	  90007743	0001	01.01.1800	31.12.9999	DE	Anforderungen der Prüfungen
+	01	ZP	  90007745	0001	01.01.1800	31.12.9999	DE	Vorbereitung und Organisation der Prüfungen
+	01	ZP	  90007747	0001	01.01.1800	31.12.9999	DE	Vorbereitung des Fahrzeugs auf Prüfungen
+	01	ZP	  90007797	0001	01.01.1800	31.12.9999	DE	Flashen/Modifikation der SW/Steuergeräte
+	01	ZP	  90007798	0001	01.01.1800	31.12.9999	DE	Fahrzeugfunktionen
+	01	ZP	  90007816	0001	01.01.1800	31.12.9999	DE	Wagenprüfkarte
+	01	ZP	  90007834	0001	01.01.1800	31.12.9999	DE	Qualitätsabweichungen an Haus- und Kaufteilen
+	01	ZP	  90007839	0001	01.01.1800	31.12.9999	DE	Qualität der gelieferten Dienstleistungen
+	01	ZP	  90007851	0001	01.01.1800	31.12.9999	DE	Produkt- und Prozessqualität
+	01	ZP	  90007875	0001	01.01.1800	31.12.9999	DE	neue Teile beim Produktionsanlauf
+	01	ZP	  90007876	0001	01.01.1800	31.12.9999	DE	neue Methoden und Verfahren der Fehlerdiagnostik
+	01	ZP	  90007903	0001	01.01.1800	31.12.9999	DE	Qualitätsanforderungen (SET, FMEA)
+	01	ZP	  90007925	0001	01.01.1800	31.12.9999	DE	Analysen der CAD-Daten bei Analysen von Qualitätsabweichungen
+	01	ZP	  90008000	0001	01.01.1800	31.12.9999	DE	Qualität durchgeführter Reparaturen (Funktion und Lack)
+	01	ZP	  90008005	0001	01.01.1800	31.12.9999	DE	Korrekturmaßnahmen
+	01	ZP	  90008007	0001	01.01.1800	31.12.9999	DE	Korrekturmaßnahmen zu Beanstandungen
+	01	ZP	  90008018	0001	01.01.1800	31.12.9999	DE	Widerspruch zwischen Dokumenten und dem eigentlichen Fahrzeug
+	01	ZP	  90008036	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Verbesserung des Audits
+	01	ZP	  90008037	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Verbesserung der Qualität neuer Modelle
+	01	ZP	  90008074	0001	01.01.1800	31.12.9999	DE	Übereinstimmung der Produktion mit der Dokumentation
+	01	ZP	  90008075	0001	01.01.1800	31.12.9999	DE	Passung der Teile zueinander
+	01	ZP	  90008124	0001	01.01.1800	31.12.9999	DE	Audit
+	01	ZP	  90008130	0001	01.01.1800	31.12.9999	DE	regelmäßige Revisionen technischer Ausrüstungen
+	01	ZP	  90008188	0001	01.01.1800	31.12.9999	DE	Qualitätssicherheitssystem
+	01	ZP	  90008223	0001	01.01.1800	31.12.9999	DE	Metrologie-Audit
+	01	ZP	  90008265	0001	01.01.1800	31.12.9999	DE	Umsetzung der Audits  nach dem Plan der Audits der sonstigen OE
+	01	ZP	  90008288	0001	01.01.1800	31.12.9999	DE	Audit-Fehler
+	01	ZP	  90008300	0001	01.01.1800	31.12.9999	DE	qualitative Mängel
+	01	ZP	  90008315	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Störungsbeseitigung
+	01	ZP	  90008333	0001	01.01.1800	31.12.9999	DE	Probleme aus dem Audit
+	01	ZP	  90008346	0001	01.01.1800	31.12.9999	DE	Mängellösungen
+	01	ZP	  90008357	0001	01.01.1800	31.12.9999	DE	Ergebnisse der Störanfälligkeit
+	01	ZP	  90008367	0001	01.01.1800	31.12.9999	DE	Gutschriften und Lastschriften
+	01	ZP	  90008387	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Auditprüfer
+	01	ZP	  90008406	0001	01.01.1800	31.12.9999	DE	Beanstandung der Buchhaltungsunterlagen
+	01	ZP	  90008410	0001	01.01.1800	31.12.9999	DE	Richtigkeit der Buchhaltungsunterlagen
+	01	ZP	  90008420	0001	01.01.1800	31.12.9999	DE	Wirtschaftsaudits
+	01	ZP	  90008473	0001	01.01.1800	31.12.9999	DE	BWA (Genehmigung der Investition) und die Bestellungsanträge
+	01	ZP	  90008482	0001	01.01.1800	31.12.9999	DE	Inventur des Vermögens
+	01	ZP	  90008484	0001	01.01.1800	31.12.9999	DE	Investitionen
+	01	ZP	  90008495	0001	01.01.1800	31.12.9999	DE	Investitionsplan
+	01	ZP	  90008496	0001	01.01.1800	31.12.9999	DE	Investitionsplan und Gemeinkostenplan
+	01	ZP	  90008500	0001	01.01.1800	31.12.9999	DE	Unterlagen für BWA einschließlich der Spezifikationen
+	01	ZP	  90008512	0001	01.01.1800	31.12.9999	DE	Verlauf der Investitionsgenehmigungen
+	01	ZP	  90008521	0001	01.01.1800	31.12.9999	DE	Umsetzung der Technologie, MaA oder des Baus
+	01	ZP	  90008531	0001	01.01.1800	31.12.9999	DE	Sicherstellung der Investitionsaktionen des wirtschaftlichen Bildungsinventars
+	01	ZP	  90008579	0001	01.01.1800	31.12.9999	DE	Inventur
+	01	ZP	  90008587	0001	01.01.1800	31.12.9999	DE	Kurzfristige Liquidität der Gesellschaft ŠA
+	01	ZP	  90008588	0001	01.01.1800	31.12.9999	DE	Lokalisierung der Teile
+	01	ZP	  90008589	0001	01.01.1800	31.12.9999	DE	monatlicher Wirtschaftsabschluss
+	01	ZP	  90008604	0001	01.01.1800	31.12.9999	DE	Maßnahmen des Businessplans aus der finanziellen Sicht zur Budgeterreichung
+	01	ZP	  90008612	0001	01.01.1800	31.12.9999	DE	Maßnahmen bei den Abweichungen zwischen dem Plan und dem Ist-Stand
+	01	ZP	  90008623	0001	01.01.1800	31.12.9999	DE	Budgeterfüllung
+	01	ZP	  90008627	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Inventur
+	01	ZP	  90008629	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Aufstellung des Businessplans
+	01	ZP	  90008633	0001	01.01.1800	31.12.9999	DE	Unterlagen für den  Buchhaltungsabschluss
+	01	ZP	  90008636	0001	01.01.1800	31.12.9999	DE	Vergleich der Kosten und Erträge
+	01	ZP	  90008644	0001	01.01.1800	31.12.9999	DE	Inventurdurchführung
+	01	ZP	  90008657	0001	01.01.1800	31.12.9999	DE	Risikomanagement
+	01	ZP	  90008662	0001	01.01.1800	31.12.9999	DE	Aufschlüsselung des Arbeitsplans und der Kosten
+	01	ZP	  90008667	0001	01.01.1800	31.12.9999	DE	Datensammlung für die statistische Berichterstattung
+	01	ZP	  90008701	0001	01.01.1800	31.12.9999	DE	den Geschäftsbericht
+	01	ZP	  90008722	0001	01.01.1800	31.12.9999	DE	Zeitliche und persönliche Daten
+	01	ZP	  90008725	0001	01.01.1800	31.12.9999	DE	Anwesenheit
+	01	ZP	  90008765	0001	01.01.1800	31.12.9999	DE	Aktualisierung des Arbeitsaufwandes in der Kalkulation
+	01	ZP	  90008775	0001	01.01.1800	31.12.9999	DE	Preise von Zukaufteilen
+	01	ZP	  90008783	0001	01.01.1800	31.12.9999	DE	Fakturierungspläne
+	01	ZP	  90008790	0001	01.01.1800	31.12.9999	DE	interne und externe Preise für Dienstleistungen gebotene der OE
+	01	ZP	  90008815	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Preiskalkulationen der Teile
+	01	ZP	  90008830	0001	01.01.1800	31.12.9999	DE	Jahrespreise der Zukaufteile
+	01	ZP	  90008855	0001	01.01.1800	31.12.9999	DE	Preisentwicklung bei Herstellern der Konstruktionen
+	01	ZP	  90008861	0001	01.01.1800	31.12.9999	DE	Änderungen der Preise von aufteilen
+	01	ZP	  90008866	0001	01.01.1800	31.12.9999	DE	Schöpfung der Kosten
+	01	ZP	  90008868	0001	01.01.1800	31.12.9999	DE	Gemeinkosteninvestitionspläne
+	01	ZP	  90008872	0001	01.01.1800	31.12.9999	DE	Schöpfung der Kosten nach einzelnen Posten und Wirtschaftsteilen
+	01	ZP	  90008878	0001	01.01.1800	31.12.9999	DE	Budgetschöpfung
+	01	ZP	  90008882	0001	01.01.1800	31.12.9999	DE	Änderungen und Anpassungen des Teilbudges
+	01	ZP	  90008895	0001	01.01.1800	31.12.9999	DE	Konsolidierung des Budgets
+	01	ZP	  90008896	0001	01.01.1800	31.12.9999	DE	Logistikkosten
+	01	ZP	  90008899	0001	01.01.1800	31.12.9999	DE	Materialkosten von Kaufteilen
+	01	ZP	  90008903	0001	01.01.1800	31.12.9999	DE	Kostenposten
+	01	ZP	  90008922	0001	01.01.1800	31.12.9999	DE	Produktentstehungskosten
+	01	ZP	  90008935	0001	01.01.1800	31.12.9999	DE	Schätzungen der Kosten und erforderlichen Investitionen bei neuen Teilen
+	01	ZP	  90008941	0001	01.01.1800	31.12.9999	DE	Optimierung  der Kosten und Preise von Kaufteilen
+	01	ZP	  90008946	0001	01.01.1800	31.12.9999	DE	Kostenplan
+	01	ZP	  90008969	0001	01.01.1800	31.12.9999	DE	Regeln für den Umgang mit dem Budget
+	01	ZP	  90008972	0001	01.01.1800	31.12.9999	DE	Betriebskosten von Gebäuden
+	01	ZP	  90008974	0001	01.01.1800	31.12.9999	DE	Übersicht der Schöpfung von Budgets
+	01	ZP	  90008975	0001	01.01.1800	31.12.9999	DE	Übersichten der laufenden Stände der Schöpfung von Budgets
+	01	ZP	  90008980	0001	01.01.1800	31.12.9999	DE	Budget
+	01	ZP	  90008984	0001	01.01.1800	31.12.9999	DE	Budget für die Werkzeuge
+	01	ZP	  90008987	0001	01.01.1800	31.12.9999	DE	Kostenbudget
+	01	ZP	  90008988	0001	01.01.1800	31.12.9999	DE	OE Budget und die Verwendung von Finanzmitteln
+	01	ZP	  90009001	0001	01.01.1800	31.12.9999	DE	des Budgets
+	01	ZP	  90009002	0001	01.01.1800	31.12.9999	DE	Budgets
+	01	ZP	  90009006	0001	01.01.1800	31.12.9999	DE	den Verbrauch des Gemeinkostenmaterials
+	01	ZP	  90009007	0001	01.01.1800	31.12.9999	DE	Verwaltung der permanenten und außerordentliche Vorauszahlungen für den 
+Betrieb
+	01	ZP	  90009008	0001	01.01.1800	31.12.9999	DE	Targets der Kosten, Investitionen und Produktionszeiten
+	01	ZP	  90009012	0001	01.01.1800	31.12.9999	DE	Budgetanpassungen im Falle von Abweichungen von der genehmigten Fassung
+	01	ZP	  90009044	0001	01.01.1800	31.12.9999	DE	steuerliche Abzugsfähigkeit aus der Sicht der Mehrwertsteuer und der 
+Einkommensteuer
+	01	ZP	  90009053	0001	01.01.1800	31.12.9999	DE	Inventur der Lagerbestände
+	01	ZP	  90009056	0001	01.01.1800	31.12.9999	DE	Inventur der Lagerbestände
+	01	ZP	  90009060	0001	01.01.1800	31.12.9999	DE	Besserungsmaßnahmen bei den Unterschieden der Bestände
+	01	ZP	  90009062	0001	01.01.1800	31.12.9999	DE	Standards der Bestände
+	01	ZP	  90009066	0001	01.01.1800	31.12.9999	DE	Bestandsoptimierung
+	01	ZP	  90009067	0001	01.01.1800	31.12.9999	DE	optimale Bestandsmeng
+	01	ZP	  90009068	0001	01.01.1800	31.12.9999	DE	MTZ Pläne
+	01	ZP	  90009072	0001	01.01.1800	31.12.9999	DE	Bestandsübersichten und Lagerbewegungen
+	01	ZP	  90009076	0001	01.01.1800	31.12.9999	DE	Lagerbestände
+	01	ZP	  90009084	0001	01.01.1800	31.12.9999	DE	Beständestand laut der Materialarten
+	01	ZP	  90009086	0001	01.01.1800	31.12.9999	DE	Ausgaben aus den Produktionslagern
+	01	ZP	  90009123	0001	01.01.1800	31.12.9999	DE	sachliche Korrektheit und professionelle Präsentation des Businessplans
+	01	ZP	  90009125	0001	01.01.1800	31.12.9999	DE	Erstellung der Struktur, des Businessplan Umfangs
+	01	ZP	  90009129	0001	01.01.1800	31.12.9999	DE	Finanzierungsart
+	01	ZP	  90009138	0001	01.01.1800	31.12.9999	DE	Finanzdispositionen auf  Konzern Treasury
+	01	ZP	  90009149	0001	01.01.1800	31.12.9999	DE	Plan der Finanzierung
+	01	ZP	  90009150	0001	01.01.1800	31.12.9999	DE	Plan der Erträge
+	01	ZP	  90009160	0001	01.01.1800	31.12.9999	DE	Absicherung der Wechselkursschwankungen und Zinssätze
+	01	ZP	  90009163	0001	01.01.1800	31.12.9999	DE	Kontoauszüge
+	01	ZP	  90009164	0001	01.01.1800	31.12.9999	DE	Kontoauszüge und Restbestände mit Finanzplänen
+	01	ZP	  90009170	0001	01.01.1800	31.12.9999	DE	Unterschriftenmuster für Bankkonten
+	01	ZP	  90009171	0001	01.01.1800	31.12.9999	DE	Reklamation der Zahlungsflüsse mit Banken
+	01	ZP	  90009198	0001	01.01.1800	31.12.9999	DE	Zahlungsverkehr
+	01	ZP	  90009207	0001	01.01.1800	31.12.9999	DE	Einnahme- und Ausgabetransaktionen
+	01	ZP	  90009208	0001	01.01.1800	31.12.9999	DE	Einnahme- und Ausgabetransaktionen der Konzernkasse
+	01	ZP	  90009211	0001	01.01.1800	31.12.9999	DE	manuelle Überweisungsaufträge
+	01	ZP	  90009212	0001	01.01.1800	31.12.9999	DE	Daueraufträge und Lastschriften
+	01	ZP	  90009216	0001	01.01.1800	31.12.9999	DE	Zinsen, Abzüge und Gebühren auf Bankkonten
+	01	ZP	  90009269	0001	01.01.1800	31.12.9999	DE	Erstellung des Jahresberichts
+	01	ZP	  90009286	0001	01.01.1800	31.12.9999	DE	Zollabfertigung der Sendungen
+	01	ZP	  90009336	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Zollanmeldung
+	01	ZP	  90009392	0001	01.01.1800	31.12.9999	DE	Rechnungen
+	01	ZP	  90009401	0001	01.01.1800	31.12.9999	DE	Unterlagen für die Fakturierung
+	01	ZP	  90009406	0001	01.01.1800	31.12.9999	DE	Beurteilung der Sachrichtigkeit der eingegangenen Rechnungen
+	01	ZP	  90009413	0001	01.01.1800	31.12.9999	DE	Richtigkeit der Informationen bei Abwicklung von Rechnungen
+	01	ZP	  90009415	0001	01.01.1800	31.12.9999	DE	Anerkennung der Richtigkeit von Rechnungen
+	01	ZP	  90009465	0001	01.01.1800	31.12.9999	DE	Einsatz der Gesetzgebung in die Schuldokumentation
+	01	ZP	  90009485	0001	01.01.1800	31.12.9999	DE	Arbeitsverträge
+	01	ZP	  90009514	0001	01.01.1800	31.12.9999	DE	Nutzung schulischer Einrichtungen
+	01	ZP	  90009523	0001	01.01.1800	31.12.9999	DE	Reparaturen, Instandhaltung und Reinigung und der technische Zustand der 
+Gebäude
+	01	ZP	  90009536	0001	01.01.1800	31.12.9999	DE	Schadenskommission
+	01	ZP	  90009540	0001	01.01.1800	31.12.9999	DE	Ausstattung und Inventar
+	01	ZP	  90009543	0001	01.01.1800	31.12.9999	DE	Nutzung und Vermietung von Gewerberäumen
+	01	ZP	  90009638	0001	01.01.1800	31.12.9999	DE	Sauberkeit am Arbeitsplatz
+	01	ZP	  90009643	0001	01.01.1800	31.12.9999	DE	Vorgehensweisen und Methoden der Reinigungsarbeiten
+	01	ZP	  90009646	0001	01.01.1800	31.12.9999	DE	Reinigung und Aufräumung anvertrauter Räume
+	01	ZP	  90009650	0001	01.01.1800	31.12.9999	DE	Sicherstellung von Dienstreisen
+	01	ZP	  90009662	0001	01.01.1800	31.12.9999	DE	in- und ausländische Dienstreisen, einschließlich der Organisation und 
+Abrechnung
+	01	ZP	  90009679	0001	01.01.1800	31.12.9999	DE	Lizenz-, Schutzmarken-, Patentagenda
+	01	ZP	  90009680	0001	01.01.1800	31.12.9999	DE	Schutzmarkenagenda
+	01	ZP	  90009682	0001	01.01.1800	31.12.9999	DE	Vorschläge zur Benutzung der Schutzmarken, Patente, Lizenzen
+	01	ZP	  90009683	0001	01.01.1800	31.12.9999	DE	Mängelfreiheit aus Sicht der Schutzmarken, Patente, Lizenzen
+	01	ZP	  90009684	0001	01.01.1800	31.12.9999	DE	Erfüllung der Lizenzverträge
+	01	ZP	  90009685	0001	01.01.1800	31.12.9999	DE	eingereichte Patente für gegebene Lösung in der Konstruktion, Technologie, 
+Produktion
+	01	ZP	  90009686	0001	01.01.1800	31.12.9999	DE	Anmeldung von neuen Bezeichnungen der Schutzmarken
+	01	ZP	  90009687	0001	01.01.1800	31.12.9999	DE	Recherche der Schutzmarken in der Datenbank
+	01	ZP	  90009690	0001	01.01.1800	31.12.9999	DE	Verwaltung von Besitzschutzrechten
+	01	ZP	  90009693	0001	01.01.1800	31.12.9999	DE	Umsetzung von Anwendungen
+	01	ZP	  90009694	0001	01.01.1800	31.12.9999	DE	Ersatzlösung beim IS-Ausfall
+	01	ZP	  90009695	0001	01.01.1800	31.12.9999	DE	Einsatz der IT-Dienste für den Benutzer
+	01	ZP	  90009696	0001	01.01.1800	31.12.9999	DE	Anleitungen für Anwendungsoperieren
+	01	ZP	  90009697	0001	01.01.1800	31.12.9999	DE	Vorschläge der Anwendungsarchitektur
+	01	ZP	  90009700	0001	01.01.1800	31.12.9999	DE	Pläne und Politik der Anwendungsentwicklung
+	01	ZP	  90009701	0001	01.01.1800	31.12.9999	DE	Pläne des Anwendungseinsatzes
+	01	ZP	  90009702	0001	01.01.1800	31.12.9999	DE	Pläne der Anwendungsentwicklung
+	01	ZP	  90009703	0001	01.01.1800	31.12.9999	DE	Politik und Standarde für die Anwendungsumsetzung
+	01	ZP	  90009705	0001	01.01.1800	31.12.9999	DE	Beschreibung der Anwendungsentwicklung, -umsetzung und -operieren
+	01	ZP	  90009706	0001	01.01.1800	31.12.9999	DE	Anforderungen an ICT-Anwendungsinfrastruktur
+	01	ZP	  90009708	0001	01.01.1800	31.12.9999	DE	Prozeduren für Anwendungsoperieren
+	01	ZP	  90009713	0001	01.01.1800	31.12.9999	DE	Betriebsprüfungen der Anwendung
+	01	ZP	  90009715	0001	01.01.1800	31.12.9999	DE	Routineoperation zur Sicherung des alltäglichen Anwendungsbetrieb
+	01	ZP	  90009719	0001	01.01.1800	31.12.9999	DE	Verwaltung von Benutzerkontos
+	01	ZP	  90009721	0001	01.01.1800	31.12.9999	DE	Testen von IT-Systemen/Diensten bei Kunden
+	01	ZP	  90009723	0001	01.01.1800	31.12.9999	DE	Anwendungsentwicklung
+	01	ZP	  90009770	0001	01.01.1800	31.12.9999	DE	Anforderungen an Änderung der IT-Dienste
+	01	ZP	  90009839	0001	01.01.1800	31.12.9999	DE	IS-Optimierung
+	01	ZP	  90009842	0001	01.01.1800	31.12.9999	DE	Einsatz von IT-Systemen/Diensten aus Benutzersicht
+	01	ZP	  90009843	0001	01.01.1800	31.12.9999	DE	Einsatz von IT-Systemen/Diensten für den Benutzer
+	01	ZP	  90009844	0001	01.01.1800	31.12.9999	DE	Systemeinsatz, -einstellung und -wartung aus Benutzersicht
+	01	ZP	  90009845	0001	01.01.1800	31.12.9999	DE	Fehlerbeseitigung in Daten
+	01	ZP	  90009846	0001	01.01.1800	31.12.9999	DE	Parameter der IT-Dienste
+	01	ZP	  90009847	0001	01.01.1800	31.12.9999	DE	Beratungsdienst für IT-Dienste
+	01	ZP	  90009848	0001	01.01.1800	31.12.9999	DE	Benutzung von IT Systemen/Diensten
+	01	ZP	  90009849	0001	01.01.1800	31.12.9999	DE	Kundenanforderungen für die IT-Dienste
+	01	ZP	  90009850	0001	01.01.1800	31.12.9999	DE	Zugänge und Rechte ins IS (User ID, Passwort, Entblockung,...)
+	01	ZP	  90009851	0001	01.01.1800	31.12.9999	DE	Lösung der Benutzerprobleme mit IT-Systemen/Diensten
+	01	ZP	  90009852	0001	01.01.1800	31.12.9999	DE	Prüfungen der IT-Systeme/Dienste aus Benutzersicht
+	01	ZP	  90009853	0001	01.01.1800	31.12.9999	DE	Daten ins System
+	01	ZP	  90009872	0001	01.01.1800	31.12.9999	DE	Datenrichtigkeit und -qualität in IS
+	01	ZP	  90009873	0001	01.01.1800	31.12.9999	DE	Datenrichtigkeit
+	01	ZP	  90009881	0001	01.01.1800	31.12.9999	DE	Eingangsdaten
+	01	ZP	  90009884	0001	01.01.1800	31.12.9999	DE	Dateneingabe ins Sytem
+	01	ZP	  90009894	0001	01.01.1800	31.12.9999	DE	Fragebögen für Personalmarketing
+	01	ZP	  90009897	0001	01.01.1800	31.12.9999	DE	Feedback von Diplomanten/Praktikanten/Trainees/Stipendisten
+	01	ZP	  90009903	0001	01.01.1800	31.12.9999	DE	Media-Pläne
+	01	ZP	  90009908	0001	01.01.1800	31.12.9999	DE	Schülerrekrutierung
+	01	ZP	  90009909	0001	01.01.1800	31.12.9999	DE	Rekrutierungsmaßnahmen
+	01	ZP	  90009918	0001	01.01.1800	31.12.9999	DE	Maßnahmen auf Grund der Arbeitsmarktanalyse
+	01	ZP	  90009929	0001	01.01.1800	31.12.9999	DE	Unterlagen für Personalmarketing
+	01	ZP	  90009937	0001	01.01.1800	31.12.9999	DE	Anfprderungen zur Besetzung von freien Stellen
+	01	ZP	  90009938	0001	01.01.1800	31.12.9999	DE	Anforderungen für inländische und ausländische Praktikanten und Schüler
+	01	ZP	  90009939	0001	01.01.1800	31.12.9999	DE	Anforderungen im Bereich der Mitarbeiteranwerbung
+	01	ZP	  90009940	0001	01.01.1800	31.12.9999	DE	Präsentation der Programmen für Studenten und Absolventen
+	01	ZP	  90009941	0001	01.01.1800	31.12.9999	DE	Präsentationen des Personalmarketings
+	01	ZP	  90009945	0001	01.01.1800	31.12.9999	DE	Begegnung der Adaptationsprogramm-Teilnehmer
+	01	ZP	  90009958	0001	01.01.1800	31.12.9999	DE	Absolventen zur Würdigung Best Apprentice Award (der beste Absolvent des 
+Konzerns)
+	01	ZP	  90009962	0001	01.01.1800	31.12.9999	DE	Agenturpersonal am Arbeitsplatz
+	01	ZP	  90009968	0001	01.01.1800	31.12.9999	DE	Analyse des Management-Standes
+	01	ZP	  90009972	0001	01.01.1800	31.12.9999	DE	Gespräche für Schüler
+	01	ZP	  90009982	0001	01.01.1800	31.12.9999	DE	Aktivitäten im Zusammenhang mit der Arbeitskleidung und Schuhen
+	01	ZP	  90009990	0001	01.01.1800	31.12.9999	DE	Anwesenheit des Agenturpersonals
+	01	ZP	  90010001	0001	01.01.1800	31.12.9999	DE	Konzept der Pflege der Humanressourcen
+	01	ZP	  90010008	0001	01.01.1800	31.12.9999	DE	Methodik von Personalentwicklung der Studenten, Absolventen 
+(entwicklung- und Adaptationsprogramme)
+	01	ZP	  90010013	0001	01.01.1800	31.12.9999	DE	Lohnbriefe
+	01	ZP	  90010025	0001	01.01.1800	31.12.9999	DE	geleistete Arbeitsstunden des Agenturpersonals
+	01	ZP	  90010028	0001	01.01.1800	31.12.9999	DE	Optimierung und Innovation der Programme für Talente
+	01	ZP	  90010029	0001	01.01.1800	31.12.9999	DE	Personalagenda der Schüler der Berufsschule
+	01	ZP	  90010030	0001	01.01.1800	31.12.9999	DE	Personalentwicklung des Managements
+	01	ZP	  90010032	0001	01.01.1800	31.12.9999	DE	Betreuung der ehemaligen Mitarbeiter der Gesellschaft
+	01	ZP	  90010041	0001	01.01.1800	31.12.9999	DE	Personalagenda
+	01	ZP	  90010047	0001	01.01.1800	31.12.9999	DE	Personalentwicklung der Mitarbeiter
+	01	ZP	  90010049	0001	01.01.1800	31.12.9999	DE	Personaldienste für Management
+	01	ZP	  90010051	0001	01.01.1800	31.12.9999	DE	Personalangelegenheiten
+	01	ZP	  90010053	0001	01.01.1800	31.12.9999	DE	Personalprozesse
+	01	ZP	  90010059	0001	01.01.1800	31.12.9999	DE	Erfüllung der Personalziele
+	01	ZP	  90010063	0001	01.01.1800	31.12.9999	DE	Unterlagen für Management-Bonusrunde
+	01	ZP	  90010070	0001	01.01.1800	31.12.9999	DE	Unterlagen für Management-Plan-Runden
+	01	ZP	  90010071	0001	01.01.1800	31.12.9999	DE	Unterlagen für Hinzuziehung ins Management
+	01	ZP	  90010078	0001	01.01.1800	31.12.9999	DE	Beurteilung von Beschwerden und Abwicklung von sozialen Angelegenheiten der 
+Mitarbeiter
+	01	ZP	  90010079	0001	01.01.1800	31.12.9999	DE	Notwendigkeit des Agenturpersonals
+	01	ZP	  90010085	0001	01.01.1800	31.12.9999	DE	Anforderungen für die Werbung
+	01	ZP	  90010094	0001	01.01.1800	31.12.9999	DE	Betrieb von Freizeiteinrichtungen
+	01	ZP	  90010100	0001	01.01.1800	31.12.9999	DE	Vorbereitung und Umsetzung von Studentien- und Absolvententalentbank
+	01	ZP	  90010102	0001	01.01.1800	31.12.9999	DE	Vorbereitung des Einsatzes der ŠA-Mitarbeiter im Ausland
+	01	ZP	  90010107	0001	01.01.1800	31.12.9999	DE	Rahmenrichtungen in der Sozialpflege
+	01	ZP	  90010108	0001	01.01.1800	31.12.9999	DE	Umsetzung der HR-Strategie mit internen und externen Partnern
+	01	ZP	  90010129	0001	01.01.1800	31.12.9999	DE	Verträge über Praktikantenunterkunft und Diplomverträgen für Studenten
+	01	ZP	  90010134	0001	01.01.1800	31.12.9999	DE	soziale Fürsorge für die Mitarbeiter
+	01	ZP	  90010143	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit Personal-Servern
+	01	ZP	  90010144	0001	01.01.1800	31.12.9999	DE	Sport Touring Kurse, Skitouren Training
+	01	ZP	  90010156	0001	01.01.1800	31.12.9999	DE	Daten mit vertraulichem Charakter
+	01	ZP	  90010164	0001	01.01.1800	31.12.9999	DE	Eintritte des Agenturpersonals
+	01	ZP	  90010170	0001	01.01.1800	31.12.9999	DE	Auswahl von inländischen/ausländischen Diplomanten und Praktikenten und 
+Stipendisten
+	01	ZP	  90010172	0001	01.01.1800	31.12.9999	DE	Auswahl, Einstellung und Entlassung von Arbeitnehmern
+	01	ZP	  90010173	0001	01.01.1800	31.12.9999	DE	Ausschreibung für Marketing-Instrumente
+	01	ZP	  90010175	0001	01.01.1800	31.12.9999	DE	Austauschpraktikun der Studierenden
+	01	ZP	  90010186	0001	01.01.1800	31.12.9999	DE	Einteilung der Mitarbeiter in die Fachbereiche
+	01	ZP	  90010187	0001	01.01.1800	31.12.9999	DE	Einteilung der Schüler/Studenten in die Maßnahmen Off the Job und Events
+	01	ZP	  90010194	0001	01.01.1800	31.12.9999	DE	Einführung des Konzernprojektes KUBI
+	01	ZP	  90010196	0001	01.01.1800	31.12.9999	DE	"Änderungen im ""Reporting""-System "
+	01	ZP	  90010201	0001	01.01.1800	31.12.9999	DE	Erhöhung der beruflichen Qualifikation der Beschäftigten
+	01	ZP	  90010204	0001	01.01.1800	31.12.9999	DE	Absolvierung der Bildungsveranstaltungen von Mitarbeitern
+	01	ZP	  90010206	0001	01.01.1800	31.12.9999	DE	Verwaltung der Schulungsteilnehmer
+	01	ZP	  90010211	0001	01.01.1800	31.12.9999	DE	Aktualisierung von Programminhalten der elektronischen Ausbildung
+	01	ZP	  90010214	0001	01.01.1800	31.12.9999	DE	die Anwendung der Konzernmethodik der Personalentwicklung für Bedingungen der 
+Gesellschaft ŠA
+	01	ZP	  90010217	0001	01.01.1800	31.12.9999	DE	Benchmark von Bildungsprozessen
+	01	ZP	  90010225	0001	01.01.1800	31.12.9999	DE	Inanspruchnahme von finanziellen Zweckzuschüssen aus dem Schulministerium der 
+Tschechischen Republik
+	01	ZP	  90010226	0001	01.01.1800	31.12.9999	DE	Tätigleit externer Lehrer
+	01	ZP	  90010228	0001	01.01.1800	31.12.9999	DE	Lehrerteam-Tätigkeit
+	01	ZP	  90010229	0001	01.01.1800	31.12.9999	DE	Daten und Unterlagen der E-Learning-Projekte
+	01	ZP	  90010232	0001	01.01.1800	31.12.9999	DE	Datenbank der Sprachkurse
+	01	ZP	  90010236	0001	01.01.1800	31.12.9999	DE	externe Kurse
+	01	ZP	  90010240	0001	01.01.1800	31.12.9999	DE	Finanz-und Kapazitätsplan für Bildungsaktivitäten
+	01	ZP	  90010245	0001	01.01.1800	31.12.9999	DE	Implementierung von Bildungs-E-Learning-Programmen
+	01	ZP	  90010248	0001	01.01.1800	31.12.9999	DE	Innovation und Entwicklung von Plänen der Studienfächer
+	01	ZP	  90010251	0001	01.01.1800	31.12.9999	DE	Sprachkurse
+	01	ZP	  90010254	0001	01.01.1800	31.12.9999	DE	Konzept der überfachlichen Vorbereitung
+	01	ZP	  90010255	0001	01.01.1800	31.12.9999	DE	Konzept der Fachvorbereitung
+	01	ZP	  90010256	0001	01.01.1800	31.12.9999	DE	Konzept der Unterrichtsentwicklung
+	01	ZP	  90010260	0001	01.01.1800	31.12.9999	DE	Konzept der Sprachvorbereitung
+	01	ZP	  90010261	0001	01.01.1800	31.12.9999	DE	Konzept der Unterrichtsentwicklung
+	01	ZP	  90010263	0001	01.01.1800	31.12.9999	DE	Bildungskonzeption
+	01	ZP	  90010264	0001	01.01.1800	31.12.9999	DE	Konzepte der Personalentwicklung
+	01	ZP	  90010265	0001	01.01.1800	31.12.9999	DE	Mentor Coaching
+	01	ZP	  90010266	0001	01.01.1800	31.12.9999	DE	Management Coaching
+	01	ZP	  90010267	0001	01.01.1800	31.12.9999	DE	Mitarbeiter Coaching
+	01	ZP	  90010269	0001	01.01.1800	31.12.9999	DE	Lektortätigkeit
+	01	ZP	  90010272	0001	01.01.1800	31.12.9999	DE	Mentoring in der Gesellschaft
+	01	ZP	  90010277	0001	01.01.1800	31.12.9999	DE	Moderation im Rahmen der Potentialanalyse
+	01	ZP	  90010278	0001	01.01.1800	31.12.9999	DE	Moderier- und Lehrtätigkeit
+	01	ZP	  90010279	0001	01.01.1800	31.12.9999	DE	Angebote, Programme, Maßnahmen zur Personalentwicklung des Managements
+	01	ZP	  90010283	0001	01.01.1800	31.12.9999	DE	Einstiegsschulung
+	01	ZP	  90010295	0001	01.01.1800	31.12.9999	DE	Maßnahmen in der Sprachvorbereitung
+	01	ZP	  90010298	0001	01.01.1800	31.12.9999	DE	Optimierung und Innovation in Sprachkursen
+	01	ZP	  90010299	0001	01.01.1800	31.12.9999	DE	Organisation des Unterrichts der Sprachvorbereitung
+	01	ZP	  90010300	0001	01.01.1800	31.12.9999	DE	Konzepte von Kursen
+	01	ZP	  90010302	0001	01.01.1800	31.12.9999	DE	Plan der überfachlichen Bildung
+	01	ZP	  90010304	0001	01.01.1800	31.12.9999	DE	Plan der Bildungsveranstaltungen
+	01	ZP	  90010311	0001	01.01.1800	31.12.9999	DE	Dokumentation für ISO-Zertifizierung
+	01	ZP	  90010312	0001	01.01.1800	31.12.9999	DE	Unterlagen zur Vorbereitung der Bildungsaktivitäten
+	01	ZP	  90010313	0001	01.01.1800	31.12.9999	DE	Schulungsmaterialien für Moderatoren
+	01	ZP	  90010315	0001	01.01.1800	31.12.9999	DE	Materialien zur Verarbeitung des Ausbildungs- und Finanzplans
+	01	ZP	  90010318	0001	01.01.1800	31.12.9999	DE	Beratungsdienstleistungen
+	01	ZP	  90010324	0001	01.01.1800	31.12.9999	DE	Bewertung der Lieferanten von Bildungsprogrammen
+	01	ZP	  90010332	0001	01.01.1800	31.12.9999	DE	praktische Innovationsmaßnahmen für den Unterrichtsgebiet
+	01	ZP	  90010339	0001	01.01.1800	31.12.9999	DE	Human Resources Development Projekte
+	01	ZP	  90010342	0001	01.01.1800	31.12.9999	DE	Berichte über Beteiligung der Arbeitnehmer cm Unterricht und Nutzung ihrer 
+finanziellen Limits
+	01	ZP	  90010346	0001	01.01.1800	31.12.9999	DE	Vorbereitung der Schulung AuGS und BS
+	01	ZP	  90010350	0001	01.01.1800	31.12.9999	DE	Wirkung von externen Firmen und internen Lehrern in den 
+Bildungsaktivitäten
+	01	ZP	  90010351	0001	01.01.1800	31.12.9999	DE	Durchführung von Trainings QMS / IMS
+	01	ZP	  90010352	0001	01.01.1800	31.12.9999	DE	Umschulung von bisherigen Mitarbeitern
+	01	ZP	  90010359	0001	01.01.1800	31.12.9999	DE	der Entwicklung von Lehr-und neuen Trends
+	01	ZP	  90010360	0001	01.01.1800	31.12.9999	DE	Zeitplan für Ausbildungsaktivitäten
+	01	ZP	  90010361	0001	01.01.1800	31.12.9999	DE	Lösungen und Verfahren im Rahmen der Beratung
+	01	ZP	  90010362	0001	01.01.1800	31.12.9999	DE	Seminare, Konferenzen und Workshops
+	01	ZP	  90010367	0001	01.01.1800	31.12.9999	DE	Entwicklungstrends in eigener Fachkompetenz
+	01	ZP	  90010370	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit externen Firmen, Bildungsinstitutionen und Schulen
+	01	ZP	  90010372	0001	01.01.1800	31.12.9999	DE	Stellungnahmen für die Anstellung im Management
+	01	ZP	  90010373	0001	01.01.1800	31.12.9999	DE	Strategie und Konzept der Bildung
+	01	ZP	  90010374	0001	01.01.1800	31.12.9999	DE	Video-, Audioschnitt, Grafik-, Animationsbildung
+	01	ZP	  90010376	0001	01.01.1800	31.12.9999	DE	Schweißarbeiten nach Bedürfnissen von Fachbereichen
+	01	ZP	  90010377	0001	01.01.1800	31.12.9999	DE	Schweißerschule
+	01	ZP	  90010380	0001	01.01.1800	31.12.9999	DE	Schulung und Fachvorbereitung des Personals
+	01	ZP	  90010382	0001	01.01.1800	31.12.9999	DE	Schulung und Training von Methoden und Prinzipien der Lean Enterprise
+	01	ZP	  90010390	0001	01.01.1800	31.12.9999	DE	Schulung der VSŠ Elemente und Methoden und Prinzipien Lean Enterprise
+	01	ZP	  90010413	0001	01.01.1800	31.12.9999	DE	Schulung der benutzer von IT-Systemen/Dienstleistungen
+	01	ZP	  90010415	0001	01.01.1800	31.12.9999	DE	Schulung des Personals
+	01	ZP	  90010427	0001	01.01.1800	31.12.9999	DE	Schulungsunterlagen
+	01	ZP	  90010429	0001	01.01.1800	31.12.9999	DE	Schulordnung, Stundenplan, Einteilung der Lehrer für theoretischen Unterricht 
+und Fachausbildung
+	01	ZP	  90010432	0001	01.01.1800	31.12.9999	DE	technische Ausstattung der Arbeitsplätze für die Entwicklung von 
+E-Learning-und Präsentationsprogrammen
+	01	ZP	  90010435	0001	01.01.1800	31.12.9999	DE	Themen der Qualifikationsarbeiten
+	01	ZP	  90010436	0001	01.01.1800	31.12.9999	DE	Testen von E-Learning-Kursen
+	01	ZP	  90010438	0001	01.01.1800	31.12.9999	DE	Endprüfung von fachlicher und theoretischer Vorbereitung
+	01	ZP	  90010440	0001	01.01.1800	31.12.9999	DE	Trends im Bereich Humanressourcen im Konzern und in der Welt
+	01	ZP	  90010443	0001	01.01.1800	31.12.9999	DE	AC - Beobachtertraining
+	01	ZP	  90010444	0001	01.01.1800	31.12.9999	DE	Bildung und Einhaltung des Budgets des Fachbereiches
+	01	ZP	  90010445	0001	01.01.1800	31.12.9999	DE	Erstellen von E-Learning-Ausbildungsprogrammen
+	01	ZP	  90010451	0001	01.01.1800	31.12.9999	DE	Bildung von Unterrichtsprogrammen für Sprachkurse
+	01	ZP	  90010463	0001	01.01.1800	31.12.9999	DE	Ausschreibung für Lieferanten der überfachlichen Vorbereitung
+	01	ZP	  90010464	0001	01.01.1800	31.12.9999	DE	Auswertung von Fragebögen von Sprachkursen
+	01	ZP	  90010471	0001	01.01.1800	31.12.9999	DE	Entwicklung, Einsatz und Betrieb von Bildungs-E-Learning-Programmen
+	01	ZP	  90010474	0001	01.01.1800	31.12.9999	DE	Bildungsprojekte
+	01	ZP	  90010477	0001	01.01.1800	31.12.9999	DE	Erwachsenenbildung
+	01	ZP	  90010479	0001	01.01.1800	31.12.9999	DE	Ausbildung für neue Technologien und Einlauf von neuen Produktionen
+	01	ZP	  90010481	0001	01.01.1800	31.12.9999	DE	Ausbildung im Bereich der überfachlichen Vorbereitung
+	01	ZP	  90010483	0001	01.01.1800	31.12.9999	DE	Ausbildung der Mitarbeiter
+	01	ZP	  90010490	0001	01.01.1800	31.12.9999	DE	Aufträge im Rahmen des Unterrichts durch eine andere OI der Gesellschaft
+	01	ZP	  90010496	0001	01.01.1800	31.12.9999	DE	Feedback der Teilnehmer an Bildungsaktivitäten
+	01	ZP	  90010497	0001	01.01.1800	31.12.9999	DE	Feedback im Bereich der Sprachkursen
+	01	ZP	  90010499	0001	01.01.1800	31.12.9999	DE	Verarbeitung der Analyse Bildungsbedarf in den einzelnen OI
+	01	ZP	  90010500	0001	01.01.1800	31.12.9999	DE	Programmverarbeitung für Workshops
+	01	ZP	  90010534	0001	01.01.1800	31.12.9999	DE	neue Arbeitsplätze und Technologien mit Rücksicht auf die 
+Gesundheitsauswirkung
+	01	ZP	  90010637	0001	01.01.1800	31.12.9999	DE	Personalangelegenheiten mit den Gewerkschaften
+	01	ZP	  90010649	0001	01.01.1800	31.12.9999	DE	Bonusbriege für Mitarbeiter
+	01	ZP	  90010666	0001	01.01.1800	31.12.9999	DE	Mitarbeitervergütung nach geltenden Regeln
+	01	ZP	  90010667	0001	01.01.1800	31.12.9999	DE	Schülerbelohnung
+	01	ZP	  90010673	0001	01.01.1800	31.12.9999	DE	Unterlagen für Festlegen der Belohnungen der Schüler
+	01	ZP	  90010676	0001	01.01.1800	31.12.9999	DE	primäre Personalagenda und Unterlagen für Mitarbeiterbelohnung
+	01	ZP	  90010690	0001	01.01.1800	31.12.9999	DE	Analyse des Agenturpersonals
+	01	ZP	  90010692	0001	01.01.1800	31.12.9999	DE	Analyse von Personalangaben
+	01	ZP	  90010694	0001	01.01.1800	31.12.9999	DE	Analysen und Unterlagen zur Präsentation der Personalstrategie und Konzeption
+	01	ZP	  90010696	0001	01.01.1800	31.12.9999	DE	Analysen der HR Statistik
+	01	ZP	  90010699	0001	01.01.1800	31.12.9999	DE	Analysen der Personalprozesse
+	01	ZP	  90010708	0001	01.01.1800	31.12.9999	DE	Personaldaten der Studenten
+	01	ZP	  90010709	0001	01.01.1800	31.12.9999	DE	Personalstatistik
+	01	ZP	  90010719	0001	01.01.1800	31.12.9999	DE	Arbeitseinsatz und Leistung untergeordneter Mitarbeiter
+	01	ZP	  90010724	0001	01.01.1800	31.12.9999	DE	Kundenzufriedenheit von Sicht der Personalpflege, der Benefits, usw.
+	01	ZP	  90010725	0001	01.01.1800	31.12.9999	DE	Verwaltung von Personalangaben
+	01	ZP	  90010727	0001	01.01.1800	31.12.9999	DE	Personalstatistiken
+	01	ZP	  90010730	0001	01.01.1800	31.12.9999	DE	Angaben über Ausbildung der Mitarbeiter von ŠA
+	01	ZP	  90010747	0001	01.01.1800	31.12.9999	DE	Verarbeiten der Berichte und Reporte einzelner HR BP
+	01	ZP	  90010748	0001	01.01.1800	31.12.9999	DE	Verarbeiten der Berichte und Reporte der Bereichsleiter und -koordinatoren
+	01	ZP	  90010749	0001	01.01.1800	31.12.9999	DE	Agenda für Studenten
+	01	ZP	  90010751	0001	01.01.1800	31.12.9999	DE	Ergebnisse des Aufnahmeverfahrens
+	01	ZP	  90010754	0001	01.01.1800	31.12.9999	DE	Tätigkeit methodischer Kommissionen in praktischem Unterricht der Berufsschule 
+Škoda
+	01	ZP	  90010755	0001	01.01.1800	31.12.9999	DE	Tätigkeit pädagogischer Räte der Schule
+	01	ZP	  90010756	0001	01.01.1800	31.12.9999	DE	Tätigkeit der Staatsverwaltung und Selbstverwaltung in Schuleinrichtung nach 
+Schulgesetz
+	01	ZP	  90010760	0001	01.01.1800	31.12.9999	DE	Didaktische Vorgänge für Unterricht
+	01	ZP	  90010763	0001	01.01.1800	31.12.9999	DE	Aufsicht in bestimmten Schulräumen
+	01	ZP	  90010764	0001	01.01.1800	31.12.9999	DE	Schulbewertung
+	01	ZP	  90010765	0001	01.01.1800	31.12.9999	DE	Bewertung der Studentenkenntnisse
+	01	ZP	  90010766	0001	01.01.1800	31.12.9999	DE	Hospitation
+	01	ZP	  90010767	0001	01.01.1800	31.12.9999	DE	Inspektion im Unterricht
+	01	ZP	  90010768	0001	01.01.1800	31.12.9999	DE	Klassifizierung bei Abitur- und Abschlussprüfung
+	01	ZP	  90010771	0001	01.01.1800	31.12.9999	DE	Konsultationstätigkeit für Studenten
+	01	ZP	  90010772	0001	01.01.1800	31.12.9999	DE	Qualifikations- und Requalifikationskurse in Berufsschule Škoda
+	01	ZP	  90010773	0001	01.01.1800	31.12.9999	DE	Methodische und pädagogische Leitung der Lehrer der Berufsbildung
+	01	ZP	  90010774	0001	01.01.1800	31.12.9999	DE	Methodische Vorgänge praktischen Unterrichts
+	01	ZP	  90010775	0001	01.01.1800	31.12.9999	DE	Unterrichtsmethodik
+	01	ZP	  90010776	0001	01.01.1800	31.12.9999	DE	Möglichkeit des Studiums an Berufsschule Škoda
+	01	ZP	  90010777	0001	01.01.1800	31.12.9999	DE	Inhalt und Methodik des Unterrichts in Fachsektion
+	01	ZP	  90010778	0001	01.01.1800	31.12.9999	DE	Inhalt von Aufnahme-, Abitur und Abschlussprüfungen
+	01	ZP	  90010780	0001	01.01.1800	31.12.9999	DE	Inhalts- und Organisationssicherstellung der Prüfungen
+	01	ZP	  90010782	0001	01.01.1800	31.12.9999	DE	Fachvorbereitung der Lehrer
+	01	ZP	  90010783	0001	01.01.1800	31.12.9999	DE	Berufsbildung der Schüler
+	01	ZP	  90010787	0001	01.01.1800	31.12.9999	DE	Anlagen des Unterrichtes
+	01	ZP	  90010789	0001	01.01.1800	31.12.9999	DE	pädagogische Dokumentation
+	01	ZP	  90010790	0001	01.01.1800	31.12.9999	DE	Personaldaten und Abschlussbewertung der Ergebnisse des Studentenstudiums
+	01	ZP	  90010796	0001	01.01.1800	31.12.9999	DE	Beratung des Lehrerkollegiums
+	01	ZP	  90010797	0001	01.01.1800	31.12.9999	DE	Beratung des Bereiches praktischen Unterrichtes
+	01	ZP	  90010798	0001	01.01.1800	31.12.9999	DE	Beurteilungen der Schüler von Sonderklassen
+	01	ZP	  90010800	0001	01.01.1800	31.12.9999	DE	Arbeitsplatz für Vertiefung von Angewohnheiten und Gewandtheiten der Schüler
+	01	ZP	  90010803	0001	01.01.1800	31.12.9999	DE	Praktikanten im Rahmen des Anschlusses in langfristigen Projekten
+	01	ZP	  90010809	0001	01.01.1800	31.12.9999	DE	Verlauf des Aufnahmeverlaufes
+	01	ZP	  90010813	0001	01.01.1800	31.12.9999	DE	Aufnahme und Auswahl von Schülern in Berufsschule Škoda hinsichtlich der 
+Kenntnisse
+	01	ZP	  90010816	0001	01.01.1800	31.12.9999	DE	Vorbereitung für Unterricht
+	01	ZP	  90010822	0001	01.01.1800	31.12.9999	DE	Stundenplan
+	01	ZP	  90010825	0001	01.01.1800	31.12.9999	DE	Wettbewerbe der Schüler im Bereich praktischen Unterrichtes
+	01	ZP	  90010826	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit bei Erstellung von Ausbildungsprojekten
+	01	ZP	  90010828	0001	01.01.1800	31.12.9999	DE	Wechseln der Schüler in Betriebsarbeitsplätzen nach Umlegungsplänen
+	01	ZP	  90010830	0001	01.01.1800	31.12.9999	DE	Studienplan und Anlagen
+	01	ZP	  90010832	0001	01.01.1800	31.12.9999	DE	Studium
+	01	ZP	  90010834	0001	01.01.1800	31.12.9999	DE	Supplieren des abwesenden Lehrers
+	01	ZP	  90010835	0001	01.01.1800	31.12.9999	DE	Schulung der Meister, Lehrer und Lektoren
+	01	ZP	  90010836	0001	01.01.1800	31.12.9999	DE	Technikausstattung der Fachlehrräume
+	01	ZP	  90010837	0001	01.01.1800	31.12.9999	DE	Technikausstattung der Unterrichtsräume
+	01	ZP	  90010838	0001	01.01.1800	31.12.9999	DE	thematischer Inhalt der Studienaufenthalte im Ausland
+	01	ZP	  90010839	0001	01.01.1800	31.12.9999	DE	theoretischer Unterricht und praktische Ausbildung
+	01	ZP	  90010840	0001	01.01.1800	31.12.9999	DE	theoretische Vorbereitung der Schüler von Berufsschule Škoda
+	01	ZP	  90010841	0001	01.01.1800	31.12.9999	DE	Klassenleitung inklusive Zusammenarbeit mit Eltern
+	01	ZP	  90010843	0001	01.01.1800	31.12.9999	DE	Erstellung und Anpassungen der Fächer mittlerer Ausbildung und ihrer Anlagen
+	01	ZP	  90010847	0001	01.01.1800	31.12.9999	DE	Teilahme der Schüler in Wettbewerben, Olympiaden
+	01	ZP	  90010848	0001	01.01.1800	31.12.9999	DE	Unterrichtsdokumente
+	01	ZP	  90010849	0001	01.01.1800	31.12.9999	DE	Lehrmittel und sonstige Einrichtung
+	01	ZP	  90010855	0001	01.01.1800	31.12.9999	DE	Lehrerauswahl
+	01	ZP	  90010856	0001	01.01.1800	31.12.9999	DE	Schülerauswahl für Studienaufenthalte im Ausland
+	01	ZP	  90010862	0001	01.01.1800	31.12.9999	DE	Erziehungs-ausbildungsarbeiten
+	01	ZP	  90010863	0001	01.01.1800	31.12.9999	DE	Erziehung und praktischen Unterricht der Schüler
+	01	ZP	  90010864	0001	01.01.1800	31.12.9999	DE	Erziehung und theoretischen Unterricht der Schüler
+	01	ZP	  90010866	0001	01.01.1800	31.12.9999	DE	Ausschließung der Schüler der Berufsschule Škoda
+	01	ZP	  90010868	0001	01.01.1800	31.12.9999	DE	Hospitationsergebnisse
+	01	ZP	  90010870	0001	01.01.1800	31.12.9999	DE	Ergebnisse des Schülerunterrichtes
+	01	ZP	  90010871	0001	01.01.1800	31.12.9999	DE	Unterrichtsprogramme
+	01	ZP	  90010872	0001	01.01.1800	31.12.9999	DE	Unterrichtsräume
+	01	ZP	  90010873	0001	01.01.1800	31.12.9999	DE	Unterrichtstätigkeit
+	01	ZP	  90010874	0001	01.01.1800	31.12.9999	DE	Unterrichtsdokumentation
+	01	ZP	  90010878	0001	01.01.1800	31.12.9999	DE	Lehrerausbildung
+	01	ZP	  90010888	0001	01.01.1800	31.12.9999	DE	Prüffragen für Durchlauf-, Abschluß- und Abiturprüfungen
+	01	ZP	  90010890	0001	01.01.1800	31.12.9999	DE	Verarbeiten der Vorschläge der Lehrpläne und Anlagen
+	01	ZP	  90010893	0001	01.01.1800	31.12.9999	DE	Sicherheit von IT
+	01	ZP	  90010913	0001	01.01.1800	31.12.9999	DE	Tätigkeiten des Bevollmächtigten für Umwelt
+	01	ZP	  90010915	0001	01.01.1800	31.12.9999	DE	Art und Weise der Liquidierung unbrauchbarer Vorräte
+	01	ZP	  90010918	0001	01.01.1800	31.12.9999	DE	Einhalten von Ökologievorschriften
+	01	ZP	  90010930	0001	01.01.1800	31.12.9999	DE	Liquidierung der Teile / Materialien
+	01	ZP	  90010932	0001	01.01.1800	31.12.9999	DE	Liquidierung unbrauchbarer Vorräte
+	01	ZP	  90010969	0001	01.01.1800	31.12.9999	DE	Verschrottung
+	01	ZP	  90010983	0001	01.01.1800	31.12.9999	DE	Arbeitssicherheit und Gesundheitsschutz bei Arbeit
+	01	ZP	  90010984	0001	01.01.1800	31.12.9999	DE	sicherer Betrieb von Flaschenbatterie für Schweißgase
+	01	ZP	  90010985	0001	01.01.1800	31.12.9999	DE	Anmerkungen über Studentenunfälle
+	01	ZP	  90010987	0001	01.01.1800	31.12.9999	DE	Einhaltung von AuGS und BS
+	01	ZP	  90010996	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Verbesserung des Arbeitsschutzes und des Arbeitsmilieus
+	01	ZP	  90010997	0001	01.01.1800	31.12.9999	DE	für Arbeit notwendige Berechtigungen
+	01	ZP	  90011050	0001	01.01.1800	31.12.9999	DE	Feuerschutztechnik von GuB
+	01	ZP	  90011093	0001	01.01.1800	31.12.9999	DE	Arbeitsschutz, Umwelt- und Feuerwehrschutz
+	01	ZP	  90011107	0001	01.01.1800	31.12.9999	DE	Daten bezüglich Objektsicherstellung
+	01	ZP	  90011142	0001	01.01.1800	31.12.9999	DE	Reparaturen und Instandahltung von Objekten
+	01	ZP	  90011197	0001	01.01.1800	31.12.9999	DE	Spezifizierung für Auswahlverfahren technischer Sicherstellung
+	01	ZP	  90011204	0001	01.01.1800	31.12.9999	DE	Systeme für technische Objektsicherung
+	01	ZP	  90011877	0001	01.01.1800	31.12.9999	DE	Lösung von reaktiven Problemen in IT-Dienstleistungen
+	01	ZP	  90011882	0001	01.01.1800	31.12.9999	DE	Funktionsbewertung
+	01	ZP	  90011909	0001	01.01.1800	31.12.9999	DE	Prozesse und Vorgehensweisen
+	01	ZP	  90011938	0001	01.01.1800	31.12.9999	DE	Teileproduktion
+	01	ZP	  90011941	0001	01.01.1800	31.12.9999	DE	Umfang der Arbeit für den Unterricht der einzelnen Fachrichtungen
+	01	ZP	  90011975	0001	01.01.1800	31.12.9999	DE	Benutzerdokumentation
+	01	ZP	  90011984	0001	01.01.1800	31.12.9999	DE	Darlegung des Tarifvertrags
+	01	ZP	  90012022	0001	01.01.1800	31.12.9999	DE	Dokumentation für Reparaturen, Instandhaltungen und Reinigung der Gebäude
+	01	ZP	  90012023	0001	01.01.1800	31.12.9999	DE	Protokolle über Reparaturen, Instandhaltungen und Reinigungen der Gebäude
+	01	ZP	  90012034	0001	01.01.1800	31.12.9999	DE	Lastenheft für MaA
+	01	ZP	  90012036	0001	01.01.1800	31.12.9999	DE	Unterstützung und Kontrolle von MaA-Lieferanten und -Nutzern
+	01	ZP	  90012038	0001	01.01.1800	31.12.9999	DE	Einführung von MaA-Konzernstandards
+	01	ZP	  90012039	0001	01.01.1800	31.12.9999	DE	MaA-Komponenten (Freigabeliste)
+	01	ZP	  90012040	0001	01.01.1800	31.12.9999	DE	Liste von BEMI-Komponenten
+	01	ZP	  90012041	0001	01.01.1800	31.12.9999	DE	HW-Workshops für MaA
+	01	ZP	  90012060	0001	01.01.1800	31.12.9999	DE	Maßnahmen zur Prozessoptimierung
+	01	ZP	  90012061	0001	01.01.1800	31.12.9999	DE	Kapazitätsauslastung
+	01	ZP	  90012063	0001	01.01.1800	31.12.9999	DE	Fokusthemen der HR-Strategie
+	01	ZP	  90012064	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit zwischen der Stadt Mladá Boleslav und der Gesellschaft ŠA
+	01	ZP	  90012074	0001	01.01.1800	31.12.9999	DE	Implementierung der Wachstumsstrategie
+	01	ZP	  90012225	0001	01.01.1800	31.12.9999	DE	Anforderungen der Importeure
+	01	ZP	  90012249	0001	01.01.1800	31.12.9999	DE	Durchgang des Teils durch die Pressenlinie
+	01	ZP	  90012275	0001	01.01.1800	31.12.9999	DE	Simulierung des Ziehens
+	01	ZP	  90012276	0001	01.01.1800	31.12.9999	DE	Änderungen der CAD-Daten für Maßkorrekturen
+	01	ZP	  90012277	0001	01.01.1800	31.12.9999	DE	methodische Pläne des Pressens
+	01	ZP	  90012278	0001	01.01.1800	31.12.9999	DE	Flächenmodellierung
+	01	ZP	  90012279	0001	01.01.1800	31.12.9999	DE	theoretischer Abdruck des Werkzeugs
+	01	ZP	  90012280	0001	01.01.1800	31.12.9999	DE	Vorbereitung der Prozess-FMEA
+	01	ZP	  90012401	0001	01.01.1800	31.12.9999	DE	konzerninterne technische Standards
+	01	ZP	  90012403	0001	01.01.1800	31.12.9999	DE	Pläne der Kampagne
+	01	ZP	  90012420	0001	01.01.1800	31.12.9999	DE	technische, Homologations- und gesetzliche Abhängigkeiten
+	01	ZP	  90012580	0001	01.01.1800	31.12.9999	DE	Anzeige- Umseztzung der HR Kampagne
+	01	ZP	  90012581	0001	01.01.1800	31.12.9999	DE	Überblick der Kampagne und Auswertung von KPIœ
+	01	ZP	  90012582	0001	01.01.1800	31.12.9999	DE	Einhaltung der Kosten für Medien
+	01	ZP	  90012587	0001	01.01.1800	31.12.9999	DE	Prospektion der Arbeitsquellen
+	01	ZP	  90012588	0001	01.01.1800	31.12.9999	DE	Konzepten und Umsetzung der online Marketinginstrummenten
+	01	ZP	  90012589	0001	01.01.1800	31.12.9999	DE	Methodik von Auswahlverfahren und Personalentwicklungsprogramme
+	01	ZP	  90012590	0001	01.01.1800	31.12.9999	DE	Strategie und neue Instrumente des Personalmarketings
+	01	ZP	  90012592	0001	01.01.1800	31.12.9999	DE	Datenbank der Studenten und Absolventen
+	01	ZP	  90012593	0001	01.01.1800	31.12.9999	DE	Auswahl von Studenten und Absolventen
+	01	ZP	  90012594	0001	01.01.1800	31.12.9999	DE	Vereinbarungen über Trainee Programm
+	01	ZP	  90012595	0001	01.01.1800	31.12.9999	DE	Zusammenfassung von Anforderungen der Fachbereichen
+	01	ZP	  90012596	0001	01.01.1800	31.12.9999	DE	Veröffentlichung von Angeboten der Fachbereichen an der externen Medien
+	01	ZP	  90012597	0001	01.01.1800	31.12.9999	DE	potenziell Kandidaten für Entwicklungs- und Adaptationsprogramme 
+(Stipendium, Auslandspraktika usw.)
+	01	ZP	  90012598	0001	01.01.1800	31.12.9999	DE	Programmsicherung und Konzeptumsetzung
+	01	ZP	  90012625	0001	01.01.1800	31.12.9999	DE	individuelle Personalangelegenheiten
+	01	ZP	  90012626	0001	01.01.1800	31.12.9999	DE	Auswahlverfahren der internen Mitarbeiter für die Führungspositionen
+	01	ZP	  90012627	0001	01.01.1800	31.12.9999	DE	Karierreberatung
+	01	ZP	  90012628	0001	01.01.1800	31.12.9999	DE	Prozesse der Auswahlverfahren
+	01	ZP	  90012629	0001	01.01.1800	31.12.9999	DE	Umsetzung der diagnostischen Instrumente
+	01	ZP	  90012630	0001	01.01.1800	31.12.9999	DE	Analysen und Statistik zu diagnostischen Instrumenten
+	01	ZP	  90012631	0001	01.01.1800	31.12.9999	DE	Teilnehmer der diagnostischen Instrumente und externe Mitarbeiter
+	01	ZP	  90012632	0001	01.01.1800	31.12.9999	DE	Einhaltung der Konzernmethodik
+	01	ZP	  90012633	0001	01.01.1800	31.12.9999	DE	Terminkalender der AC
+	01	ZP	  90012634	0001	01.01.1800	31.12.9999	DE	die mit Potenzialanalyse verbundene Prozesse
+	01	ZP	  90012635	0001	01.01.1800	31.12.9999	DE	Auswahlverfahren für Personalentwicklung (Development Center)
+	01	ZP	  90012636	0001	01.01.1800	31.12.9999	DE	Fachliche Bewertung der Lieferanten
+	01	ZP	  90012637	0001	01.01.1800	31.12.9999	DE	AC - Methodik
+	01	ZP	  90012638	0001	01.01.1800	31.12.9999	DE	AC Beobachterdatenbank
+	01	ZP	  90012639	0001	01.01.1800	31.12.9999	DE	Angaben über die Teilnehmer und Ergebnisse der diagnostischen 
+Instrumenten
+	01	ZP	  90012640	0001	01.01.1800	31.12.9999	DE	Feedback von Fachbereichen
+	01	ZP	  90012641	0001	01.01.1800	31.12.9999	DE	Zusammenarbeit mit den Fachbereichen hinsichtlich AC
+	01	ZP	  90012642	0001	01.01.1800	31.12.9999	DE	Konzeptpläne der Potenzialanalyse
+	01	ZP	  90012857	0001	01.01.1800	31.12.9999	DE	Leistungszulage
+	01	ZP	  90012858	0001	01.01.1800	31.12.9999	DE	Suche neuen Lieferanten
+	01	ZP	  90012868	0001	01.01.1800	31.12.9999	DE	Erfolg der Veranstaltungen
+	01	ZP	  90012869	0001	01.01.1800	31.12.9999	DE	Änderungs- und Verbesserungsmaßnahmen
+	01	ZP	  90012870	0001	01.01.1800	31.12.9999	DE	Planung von Veranstaltungen
+	01	ZP	  90013087	0001	01.01.1800	31.12.9999	DE	An- und Abnahme von Sendungen
+	01	ZP	  90013094	0001	01.01.1800	31.12.9999	DE	Konzept des Talent Relationsip Managementes
+	01	ZP	  90013095	0001	01.01.1800	31.12.9999	DE	Konzept  der Betreeung über Bewerberpools
+	01	ZP	  90013096	0001	01.01.1800	31.12.9999	DE	Vorschläge und Konzepte von Boardingprogramme
+	01	ZP	  90013132	0001	01.01.1800	31.12.9999	DE	CAD-Daten für die Erarbeitung von NC-Programmen
+	01	ZP	  90013144	0001	01.01.1800	31.12.9999	DE	Einführung neuer Technologien, Rationalisierungsmaßnahmen mit dem Ziel, den Arbeitsaufwand der Fertigung und den Material- und 
+Werkzeugsverbrauch zu senken
+	01	ZP	  90013215	0001	01.01.1800	31.12.9999	DE	Kommunikation zu den neuen HR Produkten
+	01	ZP	  90013256	0001	01.01.1800	31.12.9999	DE	Schulung von neueinzustellenden und zuversetzenden Mitarbeitern
+	01	ZP	  90013626	0001	01.01.1800	31.12.9999	DE	Best Practice aus KVP Kaskade
+	01	ZP	  90013629	0001	01.01.1800	31.12.9999	DE	Abschlusspräsentation aus KVP WS
+	01	ZP	  90013679	0001	01.01.1800	31.12.9999	DE	Kollision in Bezug auf Markenschutzrecht
+	01	ZP	  90013680	0001	01.01.1800	31.12.9999	DE	Verfahren in Bezug auf Markenschutzrecht
+	01	ZP	  90013690	0001	01.01.1800	31.12.9999	DE	Implementierung von Umsetzungstrategien
+	01	ZP	  90013740	0001	01.01.1800	31.12.9999	DE	Disposition
+	01	ZP	  90013808	0001	01.01.1800	31.12.9999	DE	Informationen den Fachabteilungen
+	01	ZP	  90013858	0001	01.01.1800	31.12.9999	DE	HW- und SW-Tests
+	01	ZP	  90013869	0001	01.01.1800	31.12.9999	DE	Verursacher der Ausfallzeiten der technologischen Anlagen
+	01	ZP	  90013893	0001	01.01.1800	31.12.9999	DE	Workshops
+	01	ZP	  90013897	0001	01.01.1800	31.12.9999	DE	Inovationsworshop
+	01	ZP	  90013945	0001	01.01.1800	31.12.9999	DE	Betrieb und Instandhaltung der Systeme
+	01	ZP	  90014054	0001	01.01.1800	31.12.9999	DE	Ergonomiemaßnahmen zur Arbeitetsplatzoptimierung
+	01	ZP	  90014065	0001	01.01.1800	31.12.9999	DE	methodische Unterlagen und Vorschläge für Programmierung der Berichten
+	01	ZP	  90014096	0001	01.01.1800	31.12.9999	DE	Engpässe der Fertigung
+	01	ZP	  90014097	0001	01.01.1800	31.12.9999	DE	statistische Daten über die fertigung
+	01	ZP	  90014098	0001	01.01.1800	31.12.9999	DE	die Eignung der produktiven Arbeit im Einklang mit dem Lehrplan
+	01	ZP	  90014150	0001	01.01.1800	31.12.9999	DE	Erarbeitung von technischen Vorschriften, Standards und Regelungen
+	01	ZP	  90014410	0001	01.01.1800	31.12.9999	DE	Implementierung des Projektes Nachfolgeplanung
+	01	ZP	  90014519	0001	01.01.1800	31.12.9999	DE	Weiterentwicklung von Kommunikationskanälen
+	01	ZP	  90014736	0001	01.01.1800	31.12.9999	DE	Audit und seine Ziele
+	01	ZP	  90014737	0001	01.01.1800	31.12.9999	DE	Dokumentation zu Audits
+	01	ZP	  90014738	0001	01.01.1800	31.12.9999	DE	Inhalt und Termine der Maßnahmen/der Empfehlungen zur Feststellung im 
+Rahmen des Audits
+	01	ZP	  90014739	0001	01.01.1800	31.12.9999	DE	Erfüllung der Maßnahmen/der Empfehlungen zur Feststellung im Rahmen der 
+Audits
+	01	ZP	  90014740	0001	01.01.1800	31.12.9999	DE	selbständiges oder gemeinsames Audit
+	01	ZP	  90014741	0001	01.01.1800	31.12.9999	DE	Auditthemen
+	01	ZP	  90014742	0001	01.01.1800	31.12.9999	DE	Berichte aus dem internen Audit
+	01	ZP	  90014743	0001	01.01.1800	31.12.9999	DE	gesetzliche Vorschriften und Normen
+	01	ZP	  90014745	0001	01.01.1800	31.12.9999	DE	Einhaltung vorgeschriebener Verfahren
+	01	ZP	  90014746	0001	01.01.1800	31.12.9999	DE	Risiken in Prozessen und Verfahren
+	01	ZP	  90014782	0001	01.01.1800	31.12.9999	DE	Liefertermine
+	01	ZP	  90014783	0001	01.01.1800	31.12.9999	DE	den Lieferterminen
+	01	ZP	  90014784	0001	01.01.1800	31.12.9999	DE	Rückgabe der OT an Lieferanten im Falle von Reklamationen
+	01	ZP	  90014785	0001	01.01.1800	31.12.9999	DE	minimale Pack- und Bestellmenge
+	01	ZP	  90014786	0001	01.01.1800	31.12.9999	DE	Mahnung der Lieferung
+	01	ZP	  90014787	0001	01.01.1800	31.12.9999	DE	OT, die für Marketing- und Service-Aktionen bestimmt sind
+	01	ZP	  90014791	0001	01.01.1800	31.12.9999	DE	Verkaufsregelung kritischer Teile nach der Klassifikation
+	01	ZP	  90014792	0001	01.01.1800	31.12.9999	DE	kritische Gleichteile
+	01	ZP	  90014798	0001	01.01.1800	31.12.9999	DE	Genehmigung von TPI (Technische Produktinformationen)

@@ -1,0 +1,17 @@
+{
+  "course_id": "SKODA-001",
+  "title": "Advanced Electric Vehicle Technology",
+  "description": "Comprehensive training on Škoda's electric vehicle lineup including the Enyaq iV. Covers battery technology, charging infrastructure, and maintenance procedures.",
+  "duration": "5 days",
+  "level": "Advanced",
+  "category": "Technical",
+  "instructor": "Dr. Jan Novák",
+  "topics": [
+    "Battery systems",
+    "Charging technology",
+    "Maintenance",
+    "Diagnostics"
+  ],
+  "formatted_text": "Course: Advanced Electric Vehicle Technology\nCourse ID: SKODA-001\nCategory: Technical\nLevel: Advanced\nDuration: 5 days\nInstructor: Dr. Jan Novák\n\nDescription: Comprehensive training on Škoda's electric vehicle lineup including the Enyaq iV. Covers battery technology, charging infrastructure, and maintenance procedures.\n\nTopics covered: Battery systems, Charging technology, Maintenance, Diagnostics",
+  "content_type": "course_metadata"
+}

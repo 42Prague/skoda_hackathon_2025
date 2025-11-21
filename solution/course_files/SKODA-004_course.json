@@ -1,0 +1,17 @@
+{
+  "course_id": "SKODA-004",
+  "title": "Hybrid Vehicle Service and Repair",
+  "description": "Technical course on servicing and repairing Škoda hybrid vehicles. Includes safety procedures, diagnostic tools, and repair techniques.",
+  "duration": "4 days",
+  "level": "Advanced",
+  "category": "Technical",
+  "instructor": "Ing. Martin Procházka",
+  "topics": [
+    "Hybrid systems",
+    "Safety procedures",
+    "Diagnostics",
+    "Repair techniques"
+  ],
+  "formatted_text": "Course: Hybrid Vehicle Service and Repair\nCourse ID: SKODA-004\nCategory: Technical\nLevel: Advanced\nDuration: 4 days\nInstructor: Ing. Martin Procházka\n\nDescription: Technical course on servicing and repairing Škoda hybrid vehicles. Includes safety procedures, diagnostic tools, and repair techniques.\n\nTopics covered: Hybrid systems, Safety procedures, Diagnostics, Repair techniques",
+  "content_type": "course_metadata"
+}

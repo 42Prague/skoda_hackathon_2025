@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-0-cab56bc0",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "28.08.2025 Dynamische Listenausgabe 1 Testovac reim Var.plnu Typ obj. ID objektu Subtyp Plat od Plat do Jazyk etzec 01 ZP 90003176 0001 01.01.1800 31.12.9999 EN Special offers... campiagns... events??? 01 ZP 90003177 0001 01.01.1800 31.12.9999 EN Goals and priorities 01 ZP 90003178 0001 01.01.1800 31.12.9999 EN Organisational changes 01 ZP 90003180 0001 01.01.1800 31.12.9999 EN Functionality diagram 01 ZP 90003181 0001 01.01.1800 31.12.9999 EN Internal signing authorisations 01 ZP 90003188 0001 01.01.1800 31.12.9999 EN Organisational structure 01 ZP 90003193 0001 01.01.1800 31.12.9999 EN FM job descriptions 01 ZP 90003254 0001 01.01.1800 31.12.9999 EN Communication with third-party institutions and organisations 01 ZP 90003266 0001 01.01.1800 31.12.9999 EN Time management 01 ZP 90003272 0001 01.01.1800 31.12.9999 EN Trademark operations 01 ZP 90003273",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "communication",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-1-2f8d006a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Communication with third-party institutions and organisations 01 ZP 90003266 0001 01.01.1800 31.12.9999 EN Time management 01 ZP 90003272 0001 01.01.1800 31.12.9999 EN Trademark operations 01 ZP 90003273 0001 01.01.1800 31.12.9999 EN Project team members 01 ZP 90003276 0001 01.01.1800 31.12.9999 EN Informing and motivating employees 01 ZP 90003278 0001 01.01.1800 31.12.9999 EN Instructions to staff in the area concerned 01 ZP 90003280 0001 01.01.1800 31.12.9999 EN Inter-departmental activities and tasks for international projects 01 ZP 90003281 0001 01.01.1800 31.12.9999 EN Use of staff in emergencies 01 ZP 90003289 0001 01.01.1800 31.12.9999 EN Tasks arising from meetings 01 ZP 90003291 0001 01.01.1800 31.12.9999 EN Signing authorisations 01 ZP 90003292 0001 01.01.1800 31.12.9999 EN Subordinate staff 01 ZP 90003293",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "communication",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-2-339edfec",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90003289 0001 01.01.1800 31.12.9999 EN Tasks arising from meetings 01 ZP 90003291 0001 01.01.1800 31.12.9999 EN Signing authorisations 01 ZP 90003292 0001 01.01.1800 31.12.9999 EN Subordinate staff 01 ZP 90003293 0001 01.01.1800 31.12.9999 EN Tasks to subordinate staff 01 ZP 90003294 0001 01.01.1800 31.12.9999 EN Work by subordinate staff 01 ZP 90003295 0001 01.01.1800 31.12.9999 EN Operational and technological compliance 01 ZP 90003303 0001 01.01.1800 31.12.9999 EN Cooperation with third-party organisations 01 ZP 90003305 0001 01.01.1800 31.12.9999 EN Cooperation with development partners 01 ZP 90003307 0001 01.01.1800 31.12.9999 EN Blue collar staff structure 01 ZP 90003308 0001 01.01.1800 31.12.9999 EN Delegated work processes 01 ZP 90003310 0001 01.01.1800 31.12.9999 EN Tasks 01 ZP 90003311 0001 01.01.1800 31.12.9999 EN Tasks to",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-3-f6603b0a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "collar staff structure 01 ZP 90003308 0001 01.01.1800 31.12.9999 EN Delegated work processes 01 ZP 90003310 0001 01.01.1800 31.12.9999 EN Tasks 01 ZP 90003311 0001 01.01.1800 31.12.9999 EN Tasks to project team members 01 ZP 90003321 0001 01.01.1800 31.12.9999 EN Employee working time 01 ZP 90003322 0001 01.01.1800 31.12.9999 EN Extended and additional shifts 01 ZP 90003328 0001 01.01.1800 31.12.9999 EN Administrative agenda with regard to confidential operations 01 ZP 90003329 0001 01.01.1800 31.12.9999 EN Administrative work and book inventory checks 01 ZP 90003330 0001 01.01.1800 31.12.9999 EN Managers administrative work 01 ZP 90003333 0001 01.01.1800 31.12.9999 EN Meeting agenda 01 ZP 90003334 0001 01.01.1800 31.12.9999 EN Agenda regarding instructions for further assessments 01 ZP 90003335 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-4-c0630a29",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "work 01 ZP 90003333 0001 01.01.1800 31.12.9999 EN Meeting agenda 01 ZP 90003334 0001 01.01.1800 31.12.9999 EN Agenda regarding instructions for further assessments 01 ZP 90003335 0001 01.01.1800 31.12.9999 EN Meeting reports and task complet. check agenda 01 ZP 90003336 0001 01.01.1800 31.12.9999 EN Activities relevant to approvals of proposals for Board meetings, including protocols 01 ZP 90003338 0001 01.01.1800 31.12.9999 EN Dept. info panel updates 01 ZP 90003339 0001 01.01.1800 31.12.9999 EN Notice board updates 01 ZP 90003342 0001 01.01.1800 31.12.9999 EN Result analyses and statistics 01 ZP 90003345 0001 01.01.1800 31.12.9999 EN Assistant tasks for a Board Member 01 ZP 90003346 0001 01.01.1800 31.12.9999 EN Book packing and identification 01 ZP 90003347 0001 01.01.1800 31.12.9999 EN Foreign lang.",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-5-4515f390",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Assistant tasks for a Board Member 01 ZP 90003346 0001 01.01.1800 31.12.9999 EN Book packing and identification 01 ZP 90003347 0001 01.01.1800 31.12.9999 EN Foreign lang. correspondence 01 ZP 90003350 0001 01.01.1800 31.12.9999 EN Operations arising from processes in the Division concerned - with the Board Member, the Supervisory Board, Group expert teams and Head of the OUs concerned 01 ZP 90003352 0001 01.01.1800 31.12.9999 EN Deliveries of office supplies, gifts and promotional objects 01 ZP 90003353 0001 01.01.1800 31.12.9999 EN Staff attendance and overtime work/time-off overviews 01 ZP 90003356 0001 01.01.1800 31.12.9999 EN Excursions 01 ZP 90003359 0001 01.01.1800 31.12.9999 EN Secretariat operation 01 ZP 90003361 0001 01.01.1800 31.12.9999 EN Info for Employee Portal 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-6-8a80cf82",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "overviews 01 ZP 90003356 0001 01.01.1800 31.12.9999 EN Excursions 01 ZP 90003359 0001 01.01.1800 31.12.9999 EN Secretariat operation 01 ZP 90003361 0001 01.01.1800 31.12.9999 EN Info for Employee Portal 01 ZP 90003362 0001 01.01.1800 31.12.9999 EN Inter. and exter. correspondence 01 ZP 90003366 0001 01.01.1800 31.12.9999 EN Onboarding and preventive check-ups of students 01 ZP 90003367 0001 01.01.1800 31.12.9999 EN Refreshments for meetings 01 ZP 90003371 0001 01.01.1800 31.12.9999 EN Risk reduct. and elimin. measures 01 ZP 90003372 0001 01.01.1800 31.12.9999 EN Organisation of meetings 01 ZP 90003374 0001 01.01.1800 31.12.9999 EN Student HR agenda 01 ZP 90003375 0001 01.01.1800 31.12.9999 EN A staff HR data 01 ZP 90003377 0001 01.01.1800 31.12.9999 EN Payments to third-party staff 01 ZP 90003378",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-7-7d8f47a0",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Student HR agenda 01 ZP 90003375 0001 01.01.1800 31.12.9999 EN A staff HR data 01 ZP 90003377 0001 01.01.1800 31.12.9999 EN Payments to third-party staff 01 ZP 90003378 0001 01.01.1800 31.12.9999 EN Responsibilities arising from the Divisions processes 01 ZP 90003379 0001 01.01.1800 31.12.9999 EN Work on of sub-projects 01 ZP 90003380 0001 01.01.1800 31.12.9999 EN Inputs 01 ZP 90003381 0001 01.01.1800 31.12.9999 EN Studies-related inputs and analyses 01 ZP 90003382 0001 01.01.1800 31.12.9999 EN Inputs and info for meetings 01 ZP 90003383 0001 01.01.1800 31.12.9999 EN Inputs and presentations 01 ZP 90003385 0001 01.01.1800 31.12.9999 EN Confidential inputs and responsibilities involving familiarity with internal and Group-wide contexts 01 ZP 90003387 0001 01.01.1800 31.12.9999 EN Inputs for investment",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-8-7e18266e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "and presentations 01 ZP 90003385 0001 01.01.1800 31.12.9999 EN Confidential inputs and responsibilities involving familiarity with internal and Group-wide contexts 01 ZP 90003387 0001 01.01.1800 31.12.9999 EN Inputs for investment decisions (BWA) and ON 01 ZP 90003389 0001 01.01.1800 31.12.9999 EN Inputs for meetings 01 ZP 90003390 0001 01.01.1800 31.12.9999 EN Inputs regarding the status of agendas items discussed within the team for Production & Logistics meetings 01 ZP 90003391 0001 01.01.1800 31.12.9999 EN Departments inputs for pre-interviews and meetings 01 ZP 90003396 0001 01.01.1800 31.12.9999 EN Inputs for meetings with the Board 01 ZP 90003398 0001 01.01.1800 31.12.9999 EN Student recruitment inputs 01 ZP 90003400 0001 01.01.1800 31.12.9999 EN Inputs for the Board and other expert team meetings 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-9-3d3aecd0",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "with the Board 01 ZP 90003398 0001 01.01.1800 31.12.9999 EN Student recruitment inputs 01 ZP 90003400 0001 01.01.1800 31.12.9999 EN Inputs for the Board and other expert team meetings 01 ZP 90003402 0001 01.01.1800 31.12.9999 EN Inputs for decision-making meetings of A expert teams 01 ZP 90003404 0001 01.01.1800 31.12.9999 EN Inputs for approvals of cost reduction potential 01 ZP 90003405 0001 01.01.1800 31.12.9999 EN Inputs for the School Council 01 ZP 90003408 0001 01.01.1800 31.12.9999 EN Fitting books with bar codes 01 ZP 90003409 0001 01.01.1800 31.12.9999 EN Student status certif., MFA cards 01 ZP 90003412 0001 01.01.1800 31.12.9999 EN Presentations 01 ZP 90003413 0001 01.01.1800 31.12.9999 EN Presentation materials for internal and external use 01 ZP 90003417 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-10-ccbb0988",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "status certif., MFA cards 01 ZP 90003412 0001 01.01.1800 31.12.9999 EN Presentations 01 ZP 90003413 0001 01.01.1800 31.12.9999 EN Presentation materials for internal and external use 01 ZP 90003417 0001 01.01.1800 31.12.9999 EN Board of Directors and Supervisory Board meeting agendas 01 ZP 90003419 0001 01.01.1800 31.12.9999 EN Providing info to SOU students par. 01 ZP 90003426 0001 01.01.1800 31.12.9999 EN Students starting and leaving 01 ZP 90003436 0001 01.01.1800 31.12.9999 EN Prep. of final exams 01 ZP 90003437 0001 01.01.1800 31.12.9999 EN Relevant HR inputs 01 ZP 90003438 0001 01.01.1800 31.12.9999 EN Book lending 01 ZP 90003440 0001 01.01.1800 31.12.9999 EN Implementation of HT measures 01 ZP 90003442 0001 01.01.1800 31.12.9999 EN Completion of tasks by deadlines 01 ZP",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-11-d7bef548",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Book lending 01 ZP 90003440 0001 01.01.1800 31.12.9999 EN Implementation of HT measures 01 ZP 90003442 0001 01.01.1800 31.12.9999 EN Completion of tasks by deadlines 01 ZP 90003443 0001 01.01.1800 31.12.9999 EN Advertising info for press and media, Employee Portal 01 ZP 90003447 0001 01.01.1800 31.12.9999 EN Operational and organisational tasks 01 ZP 90003451 0001 01.01.1800 31.12.9999 EN Document shredding 01 ZP 90003452 0001 01.01.1800 31.12.9999 EN Contr. and agreem. for third-party staff 01 ZP 90003454 0001 01.01.1800 31.12.9999 EN Board Member meetings 01 ZP 90003459 0001 01.01.1800 31.12.9999 EN Statistical inputs 01 ZP 90003460 0001 01.01.1800 31.12.9999 EN Condition of school first aid kits 01 ZP 90003466 0001 01.01.1800 31.12.9999 EN Dates for project presentations at",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-12-ea21c0d2",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Statistical inputs 01 ZP 90003460 0001 01.01.1800 31.12.9999 EN Condition of school first aid kits 01 ZP 90003466 0001 01.01.1800 31.12.9999 EN Dates for project presentations at expert team meetings 01 ZP 90003470 0001 01.01.1800 31.12.9999 EN Book sorting and shelving 01 ZP 90003471 0001 01.01.1800 31.12.9999 EN Sorting of HR materials, correspondence and received mail 01 ZP 90003472 0001 01.01.1800 31.12.9999 EN Prod. of Divis. inputs and templates 01 ZP 90003473 0001 01.01.1800 31.12.9999 EN Producing inputs for interactions and presentations at Board and Group expert team-level meetings 01 ZP 90003474 0001 01.01.1800 31.12.9999 EN Prod. of inputs for exp. meet. 01 ZP 90003477 0001 01.01.1800 31.12.9999 EN Accommodation and food for guests and visitors 01",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-13-bc0c0122",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "team-level meetings 01 ZP 90003474 0001 01.01.1800 31.12.9999 EN Prod. of inputs for exp. meet. 01 ZP 90003477 0001 01.01.1800 31.12.9999 EN Accommodation and food for guests and visitors 01 ZP 90003481 0001 01.01.1800 31.12.9999 EN VIP events 01 ZP 90003483 0001 01.01.1800 31.12.9999 EN Company credit card statements 01 ZP 90003485 0001 01.01.1800 31.12.9999 EN Designing programmes for VIPs 01 ZP 90003489 0001 01.01.1800 31.12.9999 EN Conference room utilisation 01 ZP 90003490 0001 01.01.1800 31.12.9999 EN Providing inputs for the integrated quality management system 01 ZP 90003492 0001 01.01.1800 31.12.9999 EN Minutes of meetings 01 ZP 90003494 0001 01.01.1800 31.12.9999 EN Test reports 01 ZP 90003497 0001 01.01.1800 31.12.9999 EN Business plan accomplish. reports 01 ZP 90003504 0001 01.01.1800",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-14-1c7595d8",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Minutes of meetings 01 ZP 90003494 0001 01.01.1800 31.12.9999 EN Test reports 01 ZP 90003497 0001 01.01.1800 31.12.9999 EN Business plan accomplish. reports 01 ZP 90003504 0001 01.01.1800 31.12.9999 EN Change Order to drawings 01 ZP 90003516 0001 01.01.1800 31.12.9999 EN NZ 01 ZP 90003539 0001 01.01.1800 31.12.9999 EN Reflecting changes to other mgmt systems 01 ZP 90003543 0001 01.01.1800 31.12.9999 EN Tech. prod. changes under preparation 01 ZP 90003546 0001 01.01.1800 31.12.9999 EN Implementation of production change orders, including changes to technical documents 01 ZP 90003560 0001 01.01.1800 31.12.9999 EN Technical changes 01 ZP 90003573 0001 01.01.1800 31.12.9999 EN Occurrence of quantity deviations in releases 01 ZP 90003579 0001 01.01.1800 31.12.9999 EN Change procedure and launch of",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-15-6ffde74a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Technical changes 01 ZP 90003573 0001 01.01.1800 31.12.9999 EN Occurrence of quantity deviations in releases 01 ZP 90003579 0001 01.01.1800 31.12.9999 EN Change procedure and launch of change orders 01 ZP 90003585 0001 01.01.1800 31.12.9999 EN Ad-hoc analyses 01 ZP 90003587 0001 01.01.1800 31.12.9999 EN Market analysis and forecast 01 ZP 90003592 0001 01.01.1800 31.12.9999 EN Competition analyses 01 ZP 90003595 0001 01.01.1800 31.12.9999 EN Benchmark 01 ZP 90003596 0001 01.01.1800 31.12.9999 EN HR processes benchmark 01 ZP 90003597 0001 01.01.1800 31.12.9999 EN Best practices and benchmarking inputs from export markets 01 ZP 90003598 0001 01.01.1800 31.12.9999 EN Business plan 01 ZP 90003619 0001 01.01.1800 31.12.9999 EN HR trends 01 ZP 90003621 0001 01.01.1800 31.12.9999 EN Concepts",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-16-0a2d0a2d",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "inputs from export markets 01 ZP 90003598 0001 01.01.1800 31.12.9999 EN Business plan 01 ZP 90003619 0001 01.01.1800 31.12.9999 EN HR trends 01 ZP 90003621 0001 01.01.1800 31.12.9999 EN Concepts for module elements, platforms and their variants 01 ZP 90003622 0001 01.01.1800 31.12.9999 EN Project concepts 01 ZP 90003625 0001 01.01.1800 31.12.9999 EN Fixing and fastening elements solution concept 01 ZP 90003658 0001 01.01.1800 31.12.9999 EN Benchmarking-based inputs 01 ZP 90003659 0001 01.01.1800 31.12.9999 EN Saving potential suggestions 01 ZP 90003675 0001 01.01.1800 31.12.9999 EN Promotional and information inputs for motivational campaigns/events 01 ZP 90003681 0001 01.01.1800 31.12.9999 EN Market research 01 ZP 90003684 0001 01.01.1800 31.12.9999 EN Meeting preparations 01 ZP 90003730 0001 01.01.1800 31.12.9999 EN Business plan drafting",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-17-d8cc661e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "motivational campaigns/events 01 ZP 90003681 0001 01.01.1800 31.12.9999 EN Market research 01 ZP 90003684 0001 01.01.1800 31.12.9999 EN Meeting preparations 01 ZP 90003730 0001 01.01.1800 31.12.9999 EN Business plan drafting 01 ZP 90003743 0001 01.01.1800 31.12.9999 EN Competitor analyses relevant to the Brands strategy 01 ZP 90003745 0001 01.01.1800 31.12.9999 EN Activities aimed at meeting project goals 01 ZP 90003748 0001 01.01.1800 31.12.9999 EN Product development 01 ZP 90003749 0001 01.01.1800 31.12.9999 EN Updates of projects including change requirements 01 ZP 90003753 0001 01.01.1800 31.12.9999 EN Project-related analyses 01 ZP 90003757 0001 01.01.1800 31.12.9999 EN HR projects 01 ZP 90003762 0001 01.01.1800 31.12.9999 EN Critical project factors 01 ZP 90003782 0001 01.01.1800 31.12.9999 EN Quality requirements in project and launch",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-18-f48c4eea",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90003757 0001 01.01.1800 31.12.9999 EN HR projects 01 ZP 90003762 0001 01.01.1800 31.12.9999 EN Critical project factors 01 ZP 90003782 0001 01.01.1800 31.12.9999 EN Quality requirements in project and launch teams 01 ZP 90003783 0001 01.01.1800 31.12.9999 EN Project status reports 01 ZP 90003791 0001 01.01.1800 31.12.9999 EN Project teams 01 ZP 90003797 0001 01.01.1800 31.12.9999 EN projects 01 ZP 90003800 0001 01.01.1800 31.12.9999 EN Model Care projects and facelifts 01 ZP 90003806 0001 01.01.1800 31.12.9999 EN Project implementation progress in terms of content, costs, quality and deadlines 01 ZP 90003808 0001 01.01.1800 31.12.9999 EN Project status info 01 ZP 90003828 0001 01.01.1800 31.12.9999 EN Strategic HR care projects 01 ZP 90003830 0001 01.01.1800 31.12.9999 EN Projects assigned 01 ZP",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-19-b2e7771c",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90003808 0001 01.01.1800 31.12.9999 EN Project status info 01 ZP 90003828 0001 01.01.1800 31.12.9999 EN Strategic HR care projects 01 ZP 90003830 0001 01.01.1800 31.12.9999 EN Projects assigned 01 ZP 90003834 0001 01.01.1800 31.12.9999 EN Project schedules 01 ZP 90003835 0001 01.01.1800 31.12.9999 EN Project schedules 01 ZP 90003836 0001 01.01.1800 31.12.9999 EN Part development schedules 01 ZP 90003846 0001 01.01.1800 31.12.9999 EN Identification and exploitation of cost reduction potentials 01 ZP 90003849 0001 01.01.1800 31.12.9999 EN Project brief (requirements) 01 ZP 90003863 0001 01.01.1800 31.12.9999 EN Quality mgmt measures for new production launches 01 ZP 90003865 0001 01.01.1800 31.12.9999 EN Model line launches 01 ZP 90003867 0001 01.01.1800 31.12.9999 EN New part launches 01 ZP 90003874 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-20-4a73f72f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "for new production launches 01 ZP 90003865 0001 01.01.1800 31.12.9999 EN Model line launches 01 ZP 90003867 0001 01.01.1800 31.12.9999 EN New part launches 01 ZP 90003874 0001 01.01.1800 31.12.9999 EN New vehicle launches 01 ZP 90003880 0001 01.01.1800 31.12.9999 EN New projects for series production 01 ZP 90003887 0001 01.01.1800 31.12.9999 EN New vehicle launch problems 01 ZP 90003909 0001 01.01.1800 31.12.9999 EN Quality releases based on suppliers two day production 01 ZP 90003920 0001 01.01.1800 31.12.9999 EN New production launches 01 ZP 90003924 0001 01.01.1800 31.12.9999 EN Measures to reduce quality and audit-identified deficiencies in production launches 01 ZP 90003934 0001 01.01.1800 31.12.9999 EN New production launch preparation 01 ZP 90003935 0001 01.01.1800 31.12.9999 EN production simulation studies",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-21-6e0fa944",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "to reduce quality and audit-identified deficiencies in production launches 01 ZP 90003934 0001 01.01.1800 31.12.9999 EN New production launch preparation 01 ZP 90003935 0001 01.01.1800 31.12.9999 EN production simulation studies 01 ZP 90003961 0001 01.01.1800 31.12.9999 EN Documents to vehicles for employees, customers and VIPs 01 ZP 90003979 0001 01.01.1800 31.12.9999 EN Engineering design documentation 01 ZP 90004021 0001 01.01.1800 31.12.9999 EN Virtual Reality presentations 01 ZP 90004027 0001 01.01.1800 31.12.9999 EN Project documentation 01 ZP 90004030 0001 01.01.1800 31.12.9999 EN Measurement report 01 ZP 90004050 0001 01.01.1800 31.12.9999 EN Part specifications (technical, logistics, quality) 01 ZP 90004054 0001 01.01.1800 31.12.9999 EN Production study / construction project plan 01 ZP 90004065 0001 01.01.1800 31.12.9999 EN Technical and technological documentation 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-22-7fcdb540",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Part specifications (technical, logistics, quality) 01 ZP 90004054 0001 01.01.1800 31.12.9999 EN Production study / construction project plan 01 ZP 90004065 0001 01.01.1800 31.12.9999 EN Technical and technological documentation 01 ZP 90004066 0001 01.01.1800 31.12.9999 EN Technical documentation 01 ZP 90004070 0001 01.01.1800 31.12.9999 EN Technological documentation 01 ZP 90004086 0001 01.01.1800 31.12.9999 EN Technological documentation updates 01 ZP 90004090 0001 01.01.1800 31.12.9999 EN Operational and tech. documentation mgmt 01 ZP 90004115 0001 01.01.1800 31.12.9999 EN Changes in technical and technological documentation 01 ZP 90004128 0001 01.01.1800 31.12.9999 EN POD compliance 01 ZP 90004129 0001 01.01.1800 31.12.9999 EN Compliance with procedural and organisational documentation 01 ZP 90004130 0001 01.01.1800 31.12.9999 EN Documentation 01 ZP 90004132 0001 01.01.1800 31.12.9999 EN Employee",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-23-7ba01eaf",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "compliance 01 ZP 90004129 0001 01.01.1800 31.12.9999 EN Compliance with procedural and organisational documentation 01 ZP 90004130 0001 01.01.1800 31.12.9999 EN Documentation 01 ZP 90004132 0001 01.01.1800 31.12.9999 EN Employee instructions with relevant POD 01 ZP 90004134 0001 01.01.1800 31.12.9999 EN Professional, organisational and administrative processes 01 ZP 90004135 0001 01.01.1800 31.12.9999 EN PODs 01 ZP 90004142 0001 01.01.1800 31.12.9999 EN POD production 01 ZP 90004143 0001 01.01.1800 31.12.9999 EN POD owners 01 ZP 90004151 0001 01.01.1800 31.12.9999 EN Archiving 01 ZP 90004152 0001 01.01.1800 31.12.9999 EN Document archiving and shredding 01 ZP 90004153 0001 01.01.1800 31.12.9999 EN Document archiving and storage 01 ZP 90004163 0001 01.01.1800 31.12.9999 EN Documents under the Document Management Rules 01 ZP 90004168 0001 01.01.1800",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-24-29bacec6",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "shredding 01 ZP 90004153 0001 01.01.1800 31.12.9999 EN Document archiving and storage 01 ZP 90004163 0001 01.01.1800 31.12.9999 EN Documents under the Document Management Rules 01 ZP 90004168 0001 01.01.1800 31.12.9999 EN Documents 01 ZP 90004208 0001 01.01.1800 31.12.9999 EN Bills of Material 01 ZP 90004212 0001 01.01.1800 31.12.9999 EN New methods for Virtual Reality solutions 01 ZP 90004214 0001 01.01.1800 31.12.9999 EN Fine-tuning of virtual models 01 ZP 90004254 0001 01.01.1800 31.12.9999 EN Logistics processes 01 ZP 90004255 0001 01.01.1800 31.12.9999 EN Work process measurements 01 ZP 90004256 0001 01.01.1800 31.12.9999 EN Work process modelling 01 ZP 90004261 0001 01.01.1800 31.12.9999 EN Optimisation of technological methods 01 ZP 90004262 0001 01.01.1800 31.12.9999 EN Optimisation measures 01 ZP 90004264 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-25-c4d524fe",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Work process modelling 01 ZP 90004261 0001 01.01.1800 31.12.9999 EN Optimisation of technological methods 01 ZP 90004262 0001 01.01.1800 31.12.9999 EN Optimisation measures 01 ZP 90004264 0001 01.01.1800 31.12.9999 EN HR processes 01 ZP 90004267 0001 01.01.1800 31.12.9999 EN Work processes 01 ZP 90004268 0001 01.01.1800 31.12.9999 EN Work processes in the owner role 01 ZP 90004283 0001 01.01.1800 31.12.9999 EN KVP WS 01 ZP 90004289 0001 01.01.1800 31.12.9999 EN Employment of new systems and production methods with the objective of optimising costs 01 ZP 90004291 0001 01.01.1800 31.12.9999 EN Measures to optimise ergonomics and work intensiveness 01 ZP 90004298 0001 01.01.1800 31.12.9999 EN Inputs for payments of bonuses for benefits arising from workshop-based cost reductions 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-26-85233e6d",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Measures to optimise ergonomics and work intensiveness 01 ZP 90004298 0001 01.01.1800 31.12.9999 EN Inputs for payments of bonuses for benefits arising from workshop-based cost reductions 01 ZP 90004299 0001 01.01.1800 31.12.9999 EN Hands-on training on ATC tech. equipment 01 ZP 90004302 0001 01.01.1800 31.12.9999 EN Rationalisation measures in tool production and implementation of KVP measures 01 ZP 90004303 0001 01.01.1800 31.12.9999 EN Implementation of KVP WS measures 01 ZP 90004309 0001 01.01.1800 31.12.9999 EN Project team-based impacts on the process of implementing cost reduction potentials 01 ZP 90004314 0001 01.01.1800 31.12.9999 EN Proposals in E-team and P-team 01 ZP 90004315 0001 01.01.1800 31.12.9999 EN Project content, costs and schedules 01 ZP 90004316 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-27-bc15d148",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90004314 0001 01.01.1800 31.12.9999 EN Proposals in E-team and P-team 01 ZP 90004315 0001 01.01.1800 31.12.9999 EN Project content, costs and schedules 01 ZP 90004316 0001 01.01.1800 31.12.9999 EN Departments in the process of identifying and implementing cost reduction potentials 01 ZP 90004320 0001 01.01.1800 31.12.9999 EN Work process optimisation 01 ZP 90004322 0001 01.01.1800 31.12.9999 EN Proposals regarding supplier-context cost reduction potentials 01 ZP 90004323 0001 01.01.1800 31.12.9999 EN Implementation of cost reduction potentials 01 ZP 90004333 0001 01.01.1800 31.12.9999 EN Analyses of quality problems and system measures taken to mitigate such problems 01 ZP 90004342 0001 01.01.1800 31.12.9999 EN ZEBRA proposals 01 ZP 90004348 0001 01.01.1800 31.12.9999 EN Optimisation proposals 01 ZP 90004366 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-28-6af47d70",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "taken to mitigate such problems 01 ZP 90004342 0001 01.01.1800 31.12.9999 EN ZEBRA proposals 01 ZP 90004348 0001 01.01.1800 31.12.9999 EN Optimisation proposals 01 ZP 90004366 0001 01.01.1800 31.12.9999 EN IP 01 ZP 90004368 0001 01.01.1800 31.12.9999 EN Relevance of preparedness of production technologies 01 ZP 90004373 0001 01.01.1800 31.12.9999 EN Production planning targets 01 ZP 90004374 0001 01.01.1800 31.12.9999 EN Goals of production process simulation projects 01 ZP 90004376 0001 01.01.1800 31.12.9999 EN Activities relevant to production capacity changes (assembly line re-takting) 01 ZP 90004382 0001 01.01.1800 31.12.9999 EN Compliance with production workflows and documentation 01 ZP 90004386 0001 01.01.1800 31.12.9999 EN Technological compliance 01 ZP 90004392 0001 01.01.1800 31.12.9999 EN Implementation of new methods and trends into production",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-29-08452e8d",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Compliance with production workflows and documentation 01 ZP 90004386 0001 01.01.1800 31.12.9999 EN Technological compliance 01 ZP 90004392 0001 01.01.1800 31.12.9999 EN Implementation of new methods and trends into production technologies 01 ZP 90004397 0001 01.01.1800 31.12.9999 EN Quantity, product range and deadlines 01 ZP 90004404 0001 01.01.1800 31.12.9999 EN Application of technical deviations 01 ZP 90004408 0001 01.01.1800 31.12.9999 EN Workflow and technology compliance measures 01 ZP 90004410 0001 01.01.1800 31.12.9999 EN Measures arising from the quality system 01 ZP 90004413 0001 01.01.1800 31.12.9999 EN Material management plan 01 ZP 90004414 0001 01.01.1800 31.12.9999 EN DM reconstruction and modernisation plan 01 ZP 90004416 0001 01.01.1800 31.12.9999 EN Plan for production of semi-finished products and components for training 01 ZP",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-30-289120c7",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90004414 0001 01.01.1800 31.12.9999 EN DM reconstruction and modernisation plan 01 ZP 90004416 0001 01.01.1800 31.12.9999 EN Plan for production of semi-finished products and components for training 01 ZP 90004418 0001 01.01.1800 31.12.9999 EN Project planning activities 01 ZP 90004428 0001 01.01.1800 31.12.9999 EN Workplace layouts 01 ZP 90004433 0001 01.01.1800 31.12.9999 EN Overview of investment, cost and production time changes 01 ZP 90004435 0001 01.01.1800 31.12.9999 EN Deliveries of technological equipment, machinery, constructions, repairs or reconstructions, parts 01 ZP 90004446 0001 01.01.1800 31.12.9999 EN Pressing shaping simulations 01 ZP 90004448 0001 01.01.1800 31.12.9999 EN Production process simulation model 01 ZP 90004450 0001 01.01.1800 31.12.9999 EN Times required (MTM analysis, staff time frame) 01 ZP 90004454 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-31-7c9a98e3",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90004448 0001 01.01.1800 31.12.9999 EN Production process simulation model 01 ZP 90004450 0001 01.01.1800 31.12.9999 EN Times required (MTM analysis, staff time frame) 01 ZP 90004454 0001 01.01.1800 31.12.9999 EN Technical Briefs (Lastenhefte) 01 ZP 90004457 0001 01.01.1800 31.12.9999 EN Technical and engineering checks 01 ZP 90004460 0001 01.01.1800 31.12.9999 EN Technological risks and producibility 01 ZP 90004461 0001 01.01.1800 31.12.9999 EN Technological/ production methods 01 ZP 90004462 0001 01.01.1800 31.12.9999 EN Technological and engineering solutions for productive operations 01 ZP 90004472 0001 01.01.1800 31.12.9999 EN Technological / production methods 01 ZP 90004477 0001 01.01.1800 31.12.9999 EN Tooling technology 01 ZP 90004480 0001 01.01.1800 31.12.9999 EN Machinery technology 01 ZP 90004484 0001 01.01.1800 31.12.9999 EN Topics for practical parts",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-32-3acfcc9f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "methods 01 ZP 90004477 0001 01.01.1800 31.12.9999 EN Tooling technology 01 ZP 90004480 0001 01.01.1800 31.12.9999 EN Machinery technology 01 ZP 90004484 0001 01.01.1800 31.12.9999 EN Topics for practical parts of final exams 01 ZP 90004486 0001 01.01.1800 31.12.9999 EN Schedule for productive work performed by dispatch staff 01 ZP 90004488 0001 01.01.1800 31.12.9999 EN Technology development trends 01 ZP 90004489 0001 01.01.1800 31.12.9999 EN Production of long-term strategies in digital planning projects 01 ZP 90004498 0001 01.01.1800 31.12.9999 EN Vehicles and requirements for knocked-down vehicle analyses 01 ZP 90004500 0001 01.01.1800 31.12.9999 EN Input data for simulations 01 ZP 90004503 0001 01.01.1800 31.12.9999 EN Production capacity calculations 01 ZP 90004509 0001 01.01.1800 31.12.9999 EN Briefs for projects under responsibility",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-33-08de4cad",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Input data for simulations 01 ZP 90004503 0001 01.01.1800 31.12.9999 EN Production capacity calculations 01 ZP 90004509 0001 01.01.1800 31.12.9999 EN Briefs for projects under responsibility of indiv. departments 01 ZP 90004510 0001 01.01.1800 31.12.9999 EN Responsibility for material and semi-finished products for practical training 01 ZP 90004514 0001 01.01.1800 31.12.9999 EN Classification of technological operations according to the standard examples catalogue 01 ZP 90004517 0001 01.01.1800 31.12.9999 EN Implementation of new technologies 01 ZP 90004528 0001 01.01.1800 31.12.9999 EN Ergonomics, time consumption and oper. staff standard 01 ZP 90004532 0001 01.01.1800 31.12.9999 EN Operator staff standard 01 ZP 90004540 0001 01.01.1800 31.12.9999 EN Workshop outcomes 01 ZP 90004541 0001 01.01.1800 31.12.9999 EN Tool warehousing and",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-34-c02dd1bd",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "standard 01 ZP 90004532 0001 01.01.1800 31.12.9999 EN Operator staff standard 01 ZP 90004540 0001 01.01.1800 31.12.9999 EN Workshop outcomes 01 ZP 90004541 0001 01.01.1800 31.12.9999 EN Tool warehousing and maintenance responsibilities 01 ZP 90004542 0001 01.01.1800 31.12.9999 EN Parts for checking 01 ZP 90004543 0001 01.01.1800 31.12.9999 EN Electric tools and measurement devices 01 ZP 90004544 0001 01.01.1800 31.12.9999 EN Ergonomically suitable tools with regard to tightening torque compliance 01 ZP 90004547 0001 01.01.1800 31.12.9999 EN Tool repairs 01 ZP 90004549 0001 01.01.1800 31.12.9999 EN Use and implementation of new tools 01 ZP 90004550 0001 01.01.1800 31.12.9999 EN Tool replacement and modernisation requirements 01 ZP 90004551 0001 01.01.1800 31.12.9999 EN Tool maintenance, renovation and consumption process with the objective",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-35-c773c31a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "new tools 01 ZP 90004550 0001 01.01.1800 31.12.9999 EN Tool replacement and modernisation requirements 01 ZP 90004551 0001 01.01.1800 31.12.9999 EN Tool maintenance, renovation and consumption process with the objective of minimising costs 01 ZP 90004552 0001 01.01.1800 31.12.9999 EN Tool repair report 01 ZP 90004553 0001 01.01.1800 31.12.9999 EN Annual plans of required tools, measurement devices and protective equipment 01 ZP 90004559 0001 01.01.1800 31.12.9999 EN Tool check-in and takeover 01 ZP 90004561 0001 01.01.1800 31.12.9999 EN Tool lending/provision at distribution points 01 ZP 90004575 0001 01.01.1800 31.12.9999 EN Equipment maintenance budget 01 ZP 90004579 0001 01.01.1800 31.12.9999 EN Equipment management, operation and maintenance 01 ZP 90004582 0001 01.01.1800 31.12.9999 EN Maintenance and inspections of machinery, tools and vehicles",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-36-bb4bd72f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Equipment maintenance budget 01 ZP 90004579 0001 01.01.1800 31.12.9999 EN Equipment management, operation and maintenance 01 ZP 90004582 0001 01.01.1800 31.12.9999 EN Maintenance and inspections of machinery, tools and vehicles 01 ZP 90004589 0001 01.01.1800 31.12.9999 EN Defects, failures and breakdowns of provided (entrusted) assets 01 ZP 90004590 0001 01.01.1800 31.12.9999 EN Maintenance and repair methods 01 ZP 90004611 0001 01.01.1800 31.12.9999 EN User takeovers of buildings and structures 01 ZP 90004628 0001 01.01.1800 31.12.9999 EN Compliance with prod. line machinery care rules 01 ZP 90004633 0001 01.01.1800 31.12.9999 EN Elimination of machinery defects 01 ZP 90004635 0001 01.01.1800 31.12.9999 EN Machinery repairs and inspections 01 ZP 90004636 0001 01.01.1800 31.12.9999 EN Repairs of machinery 01 ZP 90004637 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-37-e0a49af5",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Elimination of machinery defects 01 ZP 90004635 0001 01.01.1800 31.12.9999 EN Machinery repairs and inspections 01 ZP 90004636 0001 01.01.1800 31.12.9999 EN Repairs of machinery 01 ZP 90004637 0001 01.01.1800 31.12.9999 EN Equipment repairs 01 ZP 90004641 0001 01.01.1800 31.12.9999 EN Preventative and predictive inspections and repairs 01 ZP 90004642 0001 01.01.1800 31.12.9999 EN Proceses on technol. equipment 01 ZP 90004644 0001 01.01.1800 31.12.9999 EN Repairs of machinery 01 ZP 90004648 0001 01.01.1800 31.12.9999 EN Specification of purchases of spare parts 01 ZP 90004654 0001 01.01.1800 31.12.9999 EN Technical condition of machinery 01 ZP 90004655 0001 01.01.1800 31.12.9999 EN Machinery diagnostics responsibiliies 01 ZP 90004656 0001 01.01.1800 31.12.9999 EN Sorting, preparation, storage and disposal of unused and unneeded machinery 01",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-38-3d697399",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "of machinery 01 ZP 90004655 0001 01.01.1800 31.12.9999 EN Machinery diagnostics responsibiliies 01 ZP 90004656 0001 01.01.1800 31.12.9999 EN Sorting, preparation, storage and disposal of unused and unneeded machinery 01 ZP 90004658 0001 01.01.1800 31.12.9999 EN Hand-overs of new machinery for use 01 ZP 90004660 0001 01.01.1800 31.12.9999 EN Machinery takeover 01 ZP 90004662 0001 01.01.1800 31.12.9999 EN Machinery defects, failures and breakdowns 01 ZP 90004663 0001 01.01.1800 31.12.9999 EN Machinery tests 01 ZP 90004667 0001 01.01.1800 31.12.9999 EN Plan of energy equipment repair and renovation costs 01 ZP 90004669 0001 01.01.1800 31.12.9999 EN Machinery failures and breakdowns 01 ZP 90004671 0001 01.01.1800 31.12.9999 EN Preventative measures 01 ZP 90004672 0001 01.01.1800 31.12.9999 EN Takeovers of machinery/technological equipment/construction sites for",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-39-327b6d76",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Machinery failures and breakdowns 01 ZP 90004671 0001 01.01.1800 31.12.9999 EN Preventative measures 01 ZP 90004672 0001 01.01.1800 31.12.9999 EN Takeovers of machinery/technological equipment/construction sites for permanent use 01 ZP 90004673 0001 01.01.1800 31.12.9999 EN Takeovers of delivered services and products 01 ZP 90004674 0001 01.01.1800 31.12.9999 EN Takeovers of tools for test/permanent use 01 ZP 90004677 0001 01.01.1800 31.12.9999 EN Tech. inspections 01 ZP 90004680 0001 01.01.1800 31.12.9999 EN Problematic sheets management 01 ZP 90004684 0001 01.01.1800 31.12.9999 EN Type and quantity of spare parts for repairs of control systems of technological systems 01 ZP 90004686 0001 01.01.1800 31.12.9999 EN New basic components of the simul. system 01 ZP 90004687 0001 01.01.1800 31.12.9999 EN Control",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-40-b3391146",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "for repairs of control systems of technological systems 01 ZP 90004686 0001 01.01.1800 31.12.9999 EN New basic components of the simul. system 01 ZP 90004687 0001 01.01.1800 31.12.9999 EN Control system expert reports 01 ZP 90004688 0001 01.01.1800 31.12.9999 EN Professional instructions to maintenance staff and third parties in the area of SW and HW of electronic systems 01 ZP 90004689 0001 01.01.1800 31.12.9999 EN Repairs and maintenance of control systems of technological equipment 01 ZP 90004690 0001 01.01.1800 31.12.9999 EN Failures and downtimes of technological equipment caused by control systems 01 ZP 90004691 0001 01.01.1800 31.12.9999 EN Preventative check-ups of control systems of technological equipment 01 ZP 90004693 0001 01.01.1800 31.12.9999 EN Control systems programmes 01 ZP 90004694 0001",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-41-af1bda5c",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "systems 01 ZP 90004691 0001 01.01.1800 31.12.9999 EN Preventative check-ups of control systems of technological equipment 01 ZP 90004693 0001 01.01.1800 31.12.9999 EN Control systems programmes 01 ZP 90004694 0001 01.01.1800 31.12.9999 EN Technological equipment control systems 01 ZP 90004695 0001 01.01.1800 31.12.9999 EN Robot SW 01 ZP 90004696 0001 01.01.1800 31.12.9999 EN Types and configurations of control systems 01 ZP 90004697 0001 01.01.1800 31.12.9999 EN User repairs of application HW and SW of control systems of technological equipment 01 ZP 90004701 0001 01.01.1800 31.12.9999 EN Energy-efficient production concepts 01 ZP 90004716 0001 01.01.1800 31.12.9999 EN Consumption of energy, consumables, materials and office supplies 01 ZP 90004720 0001 01.01.1800 31.12.9999 EN Maintenance and repairs of energy equipment and distribution networks",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-42-d79a983e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90004716 0001 01.01.1800 31.12.9999 EN Consumption of energy, consumables, materials and office supplies 01 ZP 90004720 0001 01.01.1800 31.12.9999 EN Maintenance and repairs of energy equipment and distribution networks 01 ZP 90004744 0001 01.01.1800 31.12.9999 EN Tool adaptation proposals 01 ZP 90004748 0001 01.01.1800 31.12.9999 EN Hand-overs of produced tools 01 ZP 90004766 0001 01.01.1800 31.12.9999 EN Spare part requirements 01 ZP 90004779 0001 01.01.1800 31.12.9999 EN Production 01 ZP 90004782 0001 01.01.1800 31.12.9999 EN Vehicle production 01 ZP 90004803 0001 01.01.1800 31.12.9999 EN Vehicle volumes 01 ZP 90004815 0001 01.01.1800 31.12.9999 EN Capacity and operational planning and scheduling 01 ZP 90004823 0001 01.01.1800 31.12.9999 EN Special process in the event of unprovided-for production 01 ZP 90004833 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-43-c5885f6a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Capacity and operational planning and scheduling 01 ZP 90004823 0001 01.01.1800 31.12.9999 EN Special process in the event of unprovided-for production 01 ZP 90004833 0001 01.01.1800 31.12.9999 EN Operating production plan 01 ZP 90004838 0001 01.01.1800 31.12.9999 EN Production contracts performance/compliance 01 ZP 90004842 0001 01.01.1800 31.12.9999 EN Inputs for exclusion of production projects 01 ZP 90004854 0001 01.01.1800 31.12.9999 EN Pre-series programmes 01 ZP 90004860 0001 01.01.1800 31.12.9999 EN Implementation of delayed parts 01 ZP 90004873 0001 01.01.1800 31.12.9999 EN Material flow 01 ZP 90004879 0001 01.01.1800 31.12.9999 EN Consumption outlooks and overviews of defined product ranges 01 ZP 90004910 0001 01.01.1800 31.12.9999 EN Critical logistics-flow-control points 01 ZP 90004914 0001 01.01.1800 31.12.9999 EN Production",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-44-c5bdb783",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Consumption outlooks and overviews of defined product ranges 01 ZP 90004910 0001 01.01.1800 31.12.9999 EN Critical logistics-flow-control points 01 ZP 90004914 0001 01.01.1800 31.12.9999 EN Production planning targets accomplishment 01 ZP 90004926 0001 01.01.1800 31.12.9999 EN Material/packaging material loading information flow 01 ZP 90004931 0001 01.01.1800 31.12.9999 EN Management of local and purchased parts for vehicle production 01 ZP 90004954 0001 01.01.1800 31.12.9999 EN Complaint process documents 01 ZP 90004962 0001 01.01.1800 31.12.9999 EN Complaints/defect claims 01 ZP 90004969 0001 01.01.1800 31.12.9999 EN Material complaints 01 ZP 90004971 0001 01.01.1800 31.12.9999 EN Labour time complaints 01 ZP 90004985 0001 01.01.1800 31.12.9999 EN Complaint/defect claim procedure 01 ZP 90005001 0001 01.01.1800 31.12.9999 EN Damage and/or scrap reports",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-45-ce015a69",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90004971 0001 01.01.1800 31.12.9999 EN Labour time complaints 01 ZP 90004985 0001 01.01.1800 31.12.9999 EN Complaint/defect claim procedure 01 ZP 90005001 0001 01.01.1800 31.12.9999 EN Damage and/or scrap reports 01 ZP 90005014 0001 01.01.1800 31.12.9999 EN Technical rightfulness of defect claims/complaints 01 ZP 90005043 0001 01.01.1800 31.12.9999 EN Dispatching and releases 01 ZP 90005051 0001 01.01.1800 31.12.9999 EN Suppliers flexibility in terms of product availability 01 ZP 90005053 0001 01.01.1800 31.12.9999 EN suppliers in terms of prearrangements management 01 ZP 90005065 0001 01.01.1800 31.12.9999 EN Stock turn rate compliance 01 ZP 90005069 0001 01.01.1800 31.12.9999 EN Capacity problems 01 ZP 90005070 0001 01.01.1800 31.12.9999 EN Substitute method for transportation of parts and material 01 ZP 90005072 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-46-196d313a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90005069 0001 01.01.1800 31.12.9999 EN Capacity problems 01 ZP 90005070 0001 01.01.1800 31.12.9999 EN Substitute method for transportation of parts and material 01 ZP 90005072 0001 01.01.1800 31.12.9999 EN Orders 01 ZP 90005075 0001 01.01.1800 31.12.9999 EN Delivery volumes according to dispatch instructions 01 ZP 90005080 0001 01.01.1800 31.12.9999 EN Releases generated by dispatch systems to suppliers 01 ZP 90005083 0001 01.01.1800 31.12.9999 EN Releases according to quantities of parts claimed to be defective 01 ZP 90005084 0001 01.01.1800 31.12.9999 EN Releases of goods and services 01 ZP 90005093 0001 01.01.1800 31.12.9999 EN Penalties for failed deliveries 01 ZP 90005103 0001 01.01.1800 31.12.9999 EN Sorting redundant stock 01 ZP 90005105 0001 01.01.1800 31.12.9999 EN Providing material for welder",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-47-a2acb355",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90005093 0001 01.01.1800 31.12.9999 EN Penalties for failed deliveries 01 ZP 90005103 0001 01.01.1800 31.12.9999 EN Sorting redundant stock 01 ZP 90005105 0001 01.01.1800 31.12.9999 EN Providing material for welder training and test 01 ZP 90005107 0001 01.01.1800 31.12.9999 EN Payment ban for exceeding an agreed quantity 01 ZP 90005122 0001 01.01.1800 31.12.9999 EN Deliveries of material to destinations 01 ZP 90005136 0001 01.01.1800 31.12.9999 EN Transport of material 01 ZP 90005162 0001 01.01.1800 31.12.9999 EN Organising special deliveries to assembly plants 01 ZP 90005178 0001 01.01.1800 31.12.9999 EN Transport 01 ZP 90005238 0001 01.01.1800 31.12.9999 EN Quantities of packaging and handling equipment 01 ZP 90005250 0001 01.01.1800 31.12.9999 EN Suitable material palletisations 01 ZP 90005267 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-48-ec41ef71",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90005238 0001 01.01.1800 31.12.9999 EN Quantities of packaging and handling equipment 01 ZP 90005250 0001 01.01.1800 31.12.9999 EN Suitable material palletisations 01 ZP 90005267 0001 01.01.1800 31.12.9999 EN Material inbounds and outbounds 01 ZP 90005276 0001 01.01.1800 31.12.9999 EN CKD/SKD material deliveries to foreign-based plants 01 ZP 90005282 0001 01.01.1800 31.12.9999 EN Part/components records 01 ZP 90005283 0001 01.01.1800 31.12.9999 EN Part/vehicle shipping 01 ZP 90005290 0001 01.01.1800 31.12.9999 EN Warehouse catalogue 01 ZP 90005298 0001 01.01.1800 31.12.9999 EN Handling areas 01 ZP 90005299 0001 01.01.1800 31.12.9999 EN Handling equipment 01 ZP 90005300 0001 01.01.1800 31.12.9999 EN In-stock material 01 ZP 90005313 0001 01.01.1800 31.12.9999 EN Delivery note correctness (actual delivery content) 01 ZP 90005324 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-49-f2ca48fc",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Handling equipment 01 ZP 90005300 0001 01.01.1800 31.12.9999 EN In-stock material 01 ZP 90005313 0001 01.01.1800 31.12.9999 EN Delivery note correctness (actual delivery content) 01 ZP 90005324 0001 01.01.1800 31.12.9999 EN Production and shipping plan accomplishment 01 ZP 90005330 0001 01.01.1800 31.12.9999 EN Overviews of stock level trends and storage management analyses 01 ZP 90005332 0001 01.01.1800 31.12.9999 EN Transport of material 01 ZP 90005338 0001 01.01.1800 31.12.9999 EN Material inbound, shelving and outbound flows 01 ZP 90005343 0001 01.01.1800 31.12.9999 EN Inbound and outbound documents 01 ZP 90005352 0001 01.01.1800 31.12.9999 EN Material distribution 01 ZP 90005353 0001 01.01.1800 31.12.9999 EN Warehouse material distribution 01 ZP 90005364 0001 01.01.1800 31.12.9999 EN Stock car levels in the dealership network 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-50-561908af",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Material distribution 01 ZP 90005353 0001 01.01.1800 31.12.9999 EN Warehouse material distribution 01 ZP 90005364 0001 01.01.1800 31.12.9999 EN Stock car levels in the dealership network 01 ZP 90005366 0001 01.01.1800 31.12.9999 EN Warehouses/storerooms 01 ZP 90005372 0001 01.01.1800 31.12.9999 EN Pre-stocking status 01 ZP 90005390 0001 01.01.1800 31.12.9999 EN Material placement and storage 01 ZP 90005399 0001 01.01.1800 31.12.9999 EN Warehouse equipment 01 ZP 90005424 0001 01.01.1800 31.12.9999 EN Vehicle loading with regard to the knock-down car type 01 ZP 90005463 0001 01.01.1800 31.12.9999 EN Ordered vehicles 01 ZP 90005471 0001 01.01.1800 31.12.9999 EN Ordering vehicles for employees, VIPs 01 ZP 90005568 0001 01.01.1800 31.12.9999 EN Correctness of pricing reports 01 ZP 90005627 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-51-71cd3a42",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "vehicles 01 ZP 90005471 0001 01.01.1800 31.12.9999 EN Ordering vehicles for employees, VIPs 01 ZP 90005568 0001 01.01.1800 31.12.9999 EN Correctness of pricing reports 01 ZP 90005627 0001 01.01.1800 31.12.9999 EN Daily, weekly and monthly vehicle handover programmes 01 ZP 90005661 0001 01.01.1800 31.12.9999 EN Vehicles- and prices-related expert and technical information to customers 01 ZP 90005663 0001 01.01.1800 31.12.9999 EN Measures to comply with deadlines for vehicle deliveries to customers 01 ZP 90005705 0001 01.01.1800 31.12.9999 EN Vehicle hand-overs to employees and customers 01 ZP 90005708 0001 01.01.1800 31.12.9999 EN Demo drives for all customer groups 01 ZP 90005711 0001 01.01.1800 31.12.9999 EN Registrations of vehicles at the MB Town Hall Transport Department 01 ZP 90005714 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-52-e61b0cfe",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Demo drives for all customer groups 01 ZP 90005711 0001 01.01.1800 31.12.9999 EN Registrations of vehicles at the MB Town Hall Transport Department 01 ZP 90005714 0001 01.01.1800 31.12.9999 EN Check-in and release documents 01 ZP 90005717 0001 01.01.1800 31.12.9999 EN Preparation of vehicle documents 01 ZP 90005731 0001 01.01.1800 31.12.9999 EN Sales reporting 01 ZP 90005737 0001 01.01.1800 31.12.9999 EN Reception desk work 01 ZP 90005743 0001 01.01.1800 31.12.9999 EN Vehicle statistics 01 ZP 90005751 0001 01.01.1800 31.12.9999 EN Technical and visual preparation of vehicles for sale 01 ZP 90005772 0001 01.01.1800 31.12.9999 EN Publishing a vehicle portfolio 01 ZP 90005803 0001 01.01.1800 31.12.9999 EN Consulting services for service partners 01 ZP 90005873 0001 01.01.1800 31.12.9999 EN Measures",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-53-964fe6eb",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90005772 0001 01.01.1800 31.12.9999 EN Publishing a vehicle portfolio 01 ZP 90005803 0001 01.01.1800 31.12.9999 EN Consulting services for service partners 01 ZP 90005873 0001 01.01.1800 31.12.9999 EN Measures to improve aftersales network services 01 ZP 90005885 0001 01.01.1800 31.12.9999 EN Methods to handle technical issues 01 ZP 90005912 0001 01.01.1800 31.12.9999 EN Technical Product Information 01 ZP 90006156 0001 01.01.1800 31.12.9999 EN Technical consulting services 01 ZP 90006214 0001 01.01.1800 31.12.9999 EN Drafting of agreements and addenda 01 ZP 90006265 0001 01.01.1800 31.12.9999 EN Marketing concepts for products and accessory configurations and prices 01 ZP 90006295 0001 01.01.1800 31.12.9999 EN Product optimisation 01 ZP 90006356 0001 01.01.1800 31.12.9999 EN Monitoring marketing activities and campaigns/events regarding competitor models 01",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-54-58be5711",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "and accessory configurations and prices 01 ZP 90006295 0001 01.01.1800 31.12.9999 EN Product optimisation 01 ZP 90006356 0001 01.01.1800 31.12.9999 EN Monitoring marketing activities and campaigns/events regarding competitor models 01 ZP 90006738 0001 01.01.1800 31.12.9999 EN Communication materials 01 ZP 90006740 0001 01.01.1800 31.12.9999 EN Event concepts 01 ZP 90006747 0001 01.01.1800 31.12.9999 EN Cultural/entertainment events 01 ZP 90006761 0001 01.01.1800 31.12.9999 EN Customer loyalty motivation programmes 01 ZP 90006794 0001 01.01.1800 31.12.9999 EN Presentation events 01 ZP 90006805 0001 01.01.1800 31.12.9999 EN Promotional events 01 ZP 90006816 0001 01.01.1800 31.12.9999 EN Preparing new presentation materials for internal and external use of CI elements 01 ZP 90006868 0001 01.01.1800 31.12.9999 EN A customer loyalty results 01 ZP 90006895 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-55-165b16f4",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Preparing new presentation materials for internal and external use of CI elements 01 ZP 90006868 0001 01.01.1800 31.12.9999 EN A customer loyalty results 01 ZP 90006895 0001 01.01.1800 31.12.9999 EN Portal content update 01 ZP 90006901 0001 01.01.1800 31.12.9999 EN Information to subordinates and the Head of BU 01 ZP 90006905 0001 01.01.1800 31.12.9999 EN Consulting operations 01 ZP 90006913 0001 01.01.1800 31.12.9999 EN Pre-interviews and meetings 01 ZP 90006917 0001 01.01.1800 31.12.9999 EN project status by project team members and the project ordering party 01 ZP 90006932 0001 01.01.1800 31.12.9999 EN Contractor operations 01 ZP 90006945 0001 01.01.1800 31.12.9999 EN Inter. and exter. meetings 01 ZP 90007009 0001 01.01.1800 31.12.9999 EN Cooperation with third-party contractors 01 ZP",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-56-ad0d8690",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Contractor operations 01 ZP 90006945 0001 01.01.1800 31.12.9999 EN Inter. and exter. meetings 01 ZP 90007009 0001 01.01.1800 31.12.9999 EN Cooperation with third-party contractors 01 ZP 90007010 0001 01.01.1800 31.12.9999 EN Cooperation with the Group and other brands 01 ZP 90007061 0001 01.01.1800 31.12.9999 EN Excursions to the KODA Museum and production sites 01 ZP 90007082 0001 01.01.1800 31.12.9999 EN Qualification programmes for new projects at contractors 01 ZP 90007083 0001 01.01.1800 31.12.9999 EN Purchased parts localisation 01 ZP 90007086 0001 01.01.1800 31.12.9999 EN Procurement of material 01 ZP 90007107 0001 01.01.1800 31.12.9999 EN Price differences for orders regarding pre-series and series products, GP and domestic production of GP 01 ZP 90007112 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-57-1eff67d6",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "material 01 ZP 90007107 0001 01.01.1800 31.12.9999 EN Price differences for orders regarding pre-series and series products, GP and domestic production of GP 01 ZP 90007112 0001 01.01.1800 31.12.9999 EN Third-party accommodation 01 ZP 90007114 0001 01.01.1800 31.12.9999 EN Contractor rating/evaluation 01 ZP 90007119 0001 01.01.1800 31.12.9999 EN Contractors offers 01 ZP 90007120 0001 01.01.1800 31.12.9999 EN Contractors offers in terms of technical aspects 01 ZP 90007123 0001 01.01.1800 31.12.9999 EN Purchase and payment terms 01 ZP 90007124 0001 01.01.1800 31.12.9999 EN Order proposals 01 ZP 90007130 0001 01.01.1800 31.12.9999 EN Price negotiation inputs 01 ZP 90007134 0001 01.01.1800 31.12.9999 EN Tendering procedures and execution of framework contracts with contractors 01 ZP 90007135 0001 01.01.1800 31.12.9999 EN Tendering process 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-58-3fbacc3a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Price negotiation inputs 01 ZP 90007134 0001 01.01.1800 31.12.9999 EN Tendering procedures and execution of framework contracts with contractors 01 ZP 90007135 0001 01.01.1800 31.12.9999 EN Tendering process 01 ZP 90007136 0001 01.01.1800 31.12.9999 EN Inquiries to contractors 01 ZP 90007139 0001 01.01.1800 31.12.9999 EN Presenting offers to expert boards/teams 01 ZP 90007141 0001 01.01.1800 31.12.9999 EN Procured material needs overview 01 ZP 90007147 0001 01.01.1800 31.12.9999 EN Contractors market 01 ZP 90007151 0001 01.01.1800 31.12.9999 EN Providing training/teaching equipment 01 ZP 90007154 0001 01.01.1800 31.12.9999 EN Integration of parts into the FS/GS process 01 ZP 90007159 0001 01.01.1800 31.12.9999 EN Orders and contracts (agreements) 01 ZP 90007160 0001 01.01.1800 31.12.9999 EN Cooperation agreements 01 ZP 90007166 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-59-7d3fc396",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "parts into the FS/GS process 01 ZP 90007159 0001 01.01.1800 31.12.9999 EN Orders and contracts (agreements) 01 ZP 90007160 0001 01.01.1800 31.12.9999 EN Cooperation agreements 01 ZP 90007166 0001 01.01.1800 31.12.9999 EN Tooling order proposals 01 ZP 90007167 0001 01.01.1800 31.12.9999 EN Ordering office supplies, gifts and promotional items 01 ZP 90007180 0001 01.01.1800 31.12.9999 EN Inputs for penalties for failures to comply with contractual terms 01 ZP 90007182 0001 01.01.1800 31.12.9999 EN Inputs for execution of framework agreements 01 ZP 90007190 0001 01.01.1800 31.12.9999 EN Facility management contracts 01 ZP 90007208 0001 01.01.1800 31.12.9999 EN Contractors 01 ZP 90007212 0001 01.01.1800 31.12.9999 EN Contractor resources in defined regions 01 ZP 90007213 0001 01.01.1800 31.12.9999 EN Contractor selection recommendations 01",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-60-83c3a175",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90007208 0001 01.01.1800 31.12.9999 EN Contractors 01 ZP 90007212 0001 01.01.1800 31.12.9999 EN Contractor resources in defined regions 01 ZP 90007213 0001 01.01.1800 31.12.9999 EN Contractor selection recommendations 01 ZP 90007219 0001 01.01.1800 31.12.9999 EN Contractor selection inputs 01 ZP 90007223 0001 01.01.1800 31.12.9999 EN Contractors market situation 01 ZP 90007227 0001 01.01.1800 31.12.9999 EN Contractor data 01 ZP 90007229 0001 01.01.1800 31.12.9999 EN Contractor selection 01 ZP 90007230 0001 01.01.1800 31.12.9999 EN Contractor selection from the expert perspective 01 ZP 90007246 0001 01.01.1800 31.12.9999 EN CAD data for designer models 01 ZP 90007248 0001 01.01.1800 31.12.9999 EN Draft designs 01 ZP 90007271 0001 01.01.1800 31.12.9999 EN Engineering/styling design CAD data 01 ZP 90007274 0001 01.01.1800 31.12.9999 EN Compliance",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-61-6030af07",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "designer models 01 ZP 90007248 0001 01.01.1800 31.12.9999 EN Draft designs 01 ZP 90007271 0001 01.01.1800 31.12.9999 EN Engineering/styling design CAD data 01 ZP 90007274 0001 01.01.1800 31.12.9999 EN Compliance with financial limits (targets) 01 ZP 90007275 0001 01.01.1800 31.12.9999 EN Weights of individual vehicle groups 01 ZP 90007276 0001 01.01.1800 31.12.9999 EN Parts collision 01 ZP 90007277 0001 01.01.1800 31.12.9999 EN Engineering design of parts/components 01 ZP 90007278 0001 01.01.1800 31.12.9999 EN Engineering design of group products 01 ZP 90007279 0001 01.01.1800 31.12.9999 EN Engineering design and technological solutions 01 ZP 90007280 0001 01.01.1800 31.12.9999 EN Engineering design data 01 ZP 90007281 0001 01.01.1800 31.12.9999 EN Test-based draft engineering designs 01 ZP 90007282 0001 01.01.1800 31.12.9999 EN Engineering design",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-62-3343fc09",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90007280 0001 01.01.1800 31.12.9999 EN Engineering design data 01 ZP 90007281 0001 01.01.1800 31.12.9999 EN Test-based draft engineering designs 01 ZP 90007282 0001 01.01.1800 31.12.9999 EN Engineering design solutions 01 ZP 90007288 0001 01.01.1800 31.12.9999 EN Materials, technical solutions and technologies 01 ZP 90007294 0001 01.01.1800 31.12.9999 EN New trends in CAID data processing for use in production 01 ZP 90007296 0001 01.01.1800 31.12.9999 EN Post-test measures 01 ZP 90007297 0001 01.01.1800 31.12.9999 EN P- and B-releases of parts/components 01 ZP 90007300 0001 01.01.1800 31.12.9999 EN Projects in terms of content, costs, quality and deadlines 01 ZP 90007304 0001 01.01.1800 31.12.9999 EN Concept-based parts composition 01 ZP 90007306 0001 01.01.1800 31.12.9999 EN Cooperation with int./ext. suppliers 01 ZP",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-63-26d970d2",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "terms of content, costs, quality and deadlines 01 ZP 90007304 0001 01.01.1800 31.12.9999 EN Concept-based parts composition 01 ZP 90007306 0001 01.01.1800 31.12.9999 EN Cooperation with int./ext. suppliers 01 ZP 90007308 0001 01.01.1800 31.12.9999 EN Technical solutions 01 ZP 90007315 0001 01.01.1800 31.12.9999 EN Technical product descriptions 01 ZP 90007317 0001 01.01.1800 31.12.9999 EN Technical Brief for third-party development 01 ZP 90007318 0001 01.01.1800 31.12.9999 EN Technological efficiency of production 01 ZP 90007322 0001 01.01.1800 31.12.9999 EN Fitting sample release 01 ZP 90007324 0001 01.01.1800 31.12.9999 EN Utilisation of modules 01 ZP 90007340 0001 01.01.1800 31.12.9999 EN Changes in CAD data regarding concept product characteristics 01 ZP 90007341 0001 01.01.1800 31.12.9999 EN Eng. design of tools and jigs 01 ZP",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-64-16e1f74f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90007340 0001 01.01.1800 31.12.9999 EN Changes in CAD data regarding concept product characteristics 01 ZP 90007341 0001 01.01.1800 31.12.9999 EN Eng. design of tools and jigs 01 ZP 90007357 0001 01.01.1800 31.12.9999 EN Strength calculations 01 ZP 90007371 0001 01.01.1800 31.12.9999 EN FEM calculation results 01 ZP 90007378 0001 01.01.1800 31.12.9999 EN CAD data for eng. design 01 ZP 90007400 0001 01.01.1800 31.12.9999 EN Metrologist position 01 ZP 90007430 0001 01.01.1800 31.12.9999 EN Measurement 01 ZP 90007445 0001 01.01.1800 31.12.9999 EN Measurement and testing methodology 01 ZP 90007456 0001 01.01.1800 31.12.9999 EN Metrology instructions 01 ZP 90007550 0001 01.01.1800 31.12.9999 EN Metrology Centre-provided results and analysis 01 ZP 90007567 0001 01.01.1800 31.12.9999 EN Lab tests 01 ZP 90007577",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-65-80d5bb4e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Metrology instructions 01 ZP 90007550 0001 01.01.1800 31.12.9999 EN Metrology Centre-provided results and analysis 01 ZP 90007567 0001 01.01.1800 31.12.9999 EN Lab tests 01 ZP 90007577 0001 01.01.1800 31.12.9999 EN Part/component sampling 01 ZP 90007583 0001 01.01.1800 31.12.9999 EN Analyses of tests & measurements 01 ZP 90007585 0001 01.01.1800 31.12.9999 EN Test vehicle analyses 01 ZP 90007587 0001 01.01.1800 31.12.9999 EN Test goals 01 ZP 90007589 0001 01.01.1800 31.12.9999 EN Data from completed tests 01 ZP 90007596 0001 01.01.1800 31.12.9999 EN Functionality tests 01 ZP 90007602 0001 01.01.1800 31.12.9999 EN Testing policy and methodology 01 ZP 90007604 0001 01.01.1800 31.12.9999 EN Group takeover drives 01 ZP 90007605 0001 01.01.1800 31.12.9999 EN Series production tests 01 ZP",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-66-eebce08c",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Testing policy and methodology 01 ZP 90007604 0001 01.01.1800 31.12.9999 EN Group takeover drives 01 ZP 90007605 0001 01.01.1800 31.12.9999 EN Series production tests 01 ZP 90007609 0001 01.01.1800 31.12.9999 EN Technical briefs (Lastenhefts) for test processes 01 ZP 90007611 0001 01.01.1800 31.12.9999 EN Part/component measurements and tests 01 ZP 90007619 0001 01.01.1800 31.12.9999 EN Post-test corrective measures 01 ZP 90007620 0001 01.01.1800 31.12.9999 EN Use of parts in special tests 01 ZP 90007624 0001 01.01.1800 31.12.9999 EN New test methods 01 ZP 90007626 0001 01.01.1800 31.12.9999 EN Organising competitor model comparison drives 01 ZP 90007634 0001 01.01.1800 31.12.9999 EN Problems arising from tests 01 ZP 90007646 0001 01.01.1800 31.12.9999 EN Operation of test vehicles 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-67-7d827d32",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Organising competitor model comparison drives 01 ZP 90007634 0001 01.01.1800 31.12.9999 EN Problems arising from tests 01 ZP 90007646 0001 01.01.1800 31.12.9999 EN Operation of test vehicles 01 ZP 90007650 0001 01.01.1800 31.12.9999 EN Testing process and conduct of tests 01 ZP 90007653 0001 01.01.1800 31.12.9999 EN Component / vehicle takeovers 01 ZP 90007659 0001 01.01.1800 31.12.9999 EN Conducting tests of parts, part groups and vehicles 01 ZP 90007670 0001 01.01.1800 31.12.9999 EN Comparative and test drives 01 ZP 90007674 0001 01.01.1800 31.12.9999 EN Condition of components/vehicles 01 ZP 90007682 0001 01.01.1800 31.12.9999 EN Technology tests 01 ZP 90007684 0001 01.01.1800 31.12.9999 EN Testing schedules 01 ZP 90007688 0001 01.01.1800 31.12.9999 EN Road test vehicles 01 ZP 90007689",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-68-1ba0da71",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90007682 0001 01.01.1800 31.12.9999 EN Technology tests 01 ZP 90007684 0001 01.01.1800 31.12.9999 EN Testing schedules 01 ZP 90007688 0001 01.01.1800 31.12.9999 EN Road test vehicles 01 ZP 90007689 0001 01.01.1800 31.12.9999 EN Long-term test vehicles 01 ZP 90007694 0001 01.01.1800 31.12.9999 EN Test results 01 ZP 90007706 0001 01.01.1800 31.12.9999 EN Test results 01 ZP 90007713 0001 01.01.1800 31.12.9999 EN Connection and diagnostics of measurement devices 01 ZP 90007720 0001 01.01.1800 31.12.9999 EN Tests 01 ZP 90007725 0001 01.01.1800 31.12.9999 EN Changes to measurements and installation tests 01 ZP 90007726 0001 01.01.1800 31.12.9999 EN Test process changes 01 ZP 90007730 0001 01.01.1800 31.12.9999 EN Special tests of selected parts 01 ZP 90007740 0001 01.01.1800 31.12.9999 EN Testing and",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-69-54f6fe77",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90007726 0001 01.01.1800 31.12.9999 EN Test process changes 01 ZP 90007730 0001 01.01.1800 31.12.9999 EN Special tests of selected parts 01 ZP 90007740 0001 01.01.1800 31.12.9999 EN Testing and part/component measurement plans 01 ZP 90007743 0001 01.01.1800 31.12.9999 EN Test requirements 01 ZP 90007745 0001 01.01.1800 31.12.9999 EN Prep. and organisation of tests 01 ZP 90007747 0001 01.01.1800 31.12.9999 EN Prep. of vehicles for tests 01 ZP 90007797 0001 01.01.1800 31.12.9999 EN Flashing/SW updates/control units 01 ZP 90007798 0001 01.01.1800 31.12.9999 EN Vehicle functions 01 ZP 90007816 0001 01.01.1800 31.12.9999 EN Vehicle check card 01 ZP 90007834 0001 01.01.1800 31.12.9999 EN Quality deviations on produced and supplied parts 01 ZP 90007839 0001 01.01.1800 31.12.9999 EN Quality of provided services",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-70-793a4b8a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Vehicle check card 01 ZP 90007834 0001 01.01.1800 31.12.9999 EN Quality deviations on produced and supplied parts 01 ZP 90007839 0001 01.01.1800 31.12.9999 EN Quality of provided services 01 ZP 90007851 0001 01.01.1800 31.12.9999 EN Product and process quality 01 ZP 90007875 0001 01.01.1800 31.12.9999 EN New parts in production launch 01 ZP 90007876 0001 01.01.1800 31.12.9999 EN New defect diagnostics methods and workflows 01 ZP 90007903 0001 01.01.1800 31.12.9999 EN Quality requirements (SET, FMEA) 01 ZP 90007925 0001 01.01.1800 31.12.9999 EN CAD data analyses in quality deviation analyses 01 ZP 90008000 0001 01.01.1800 31.12.9999 EN Quality of performed repairs (functionality and paint repairs) 01 ZP 90008005 0001 01.01.1800 31.12.9999 EN Corrective measures 01 ZP 90008007 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-71-a3ed341c",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "analyses 01 ZP 90008000 0001 01.01.1800 31.12.9999 EN Quality of performed repairs (functionality and paint repairs) 01 ZP 90008005 0001 01.01.1800 31.12.9999 EN Corrective measures 01 ZP 90008007 0001 01.01.1800 31.12.9999 EN Corrective measures in response to defects 01 ZP 90008018 0001 01.01.1800 31.12.9999 EN Vehicle vs. documents inconsistency 01 ZP 90008036 0001 01.01.1800 31.12.9999 EN Audit improvement measures 01 ZP 90008037 0001 01.01.1800 31.12.9999 EN Measures to improve the quality of new models 01 ZP 90008074 0001 01.01.1800 31.12.9999 EN Production-documentation consistency 01 ZP 90008075 0001 01.01.1800 31.12.9999 EN Parts fit performance 01 ZP 90008124 0001 01.01.1800 31.12.9999 EN Audit 01 ZP 90008130 0001 01.01.1800 31.12.9999 EN Regular inspections of tech. equipment 01 ZP 90008188 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-72-29c5c8c4",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Parts fit performance 01 ZP 90008124 0001 01.01.1800 31.12.9999 EN Audit 01 ZP 90008130 0001 01.01.1800 31.12.9999 EN Regular inspections of tech. equipment 01 ZP 90008188 0001 01.01.1800 31.12.9999 EN Quality system 01 ZP 90008223 0001 01.01.1800 31.12.9999 EN Metrology audits 01 ZP 90008265 0001 01.01.1800 31.12.9999 EN Performing audits according to the audit plan for other BUs 01 ZP 90008288 0001 01.01.1800 31.12.9999 EN Audit deficiencies 01 ZP 90008300 0001 01.01.1800 31.12.9999 EN Quality shortcomings 01 ZP 90008315 0001 01.01.1800 31.12.9999 EN Measures to eliminate defects 01 ZP 90008333 0001 01.01.1800 31.12.9999 EN Audit-identified problems 01 ZP 90008346 0001 01.01.1800 31.12.9999 EN Addressing defects 01 ZP 90008357 0001 01.01.1800 31.12.9999 EN Defect rate trend 01 ZP 90008367 0001 01.01.1800",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-73-a8fd020e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Audit-identified problems 01 ZP 90008346 0001 01.01.1800 31.12.9999 EN Addressing defects 01 ZP 90008357 0001 01.01.1800 31.12.9999 EN Defect rate trend 01 ZP 90008367 0001 01.01.1800 31.12.9999 EN Credit notes and debit notes 01 ZP 90008387 0001 01.01.1800 31.12.9999 EN Inputs for auditors 01 ZP 90008406 0001 01.01.1800 31.12.9999 EN Invoice complaints 01 ZP 90008410 0001 01.01.1800 31.12.9999 EN Correctness of accounting documents 01 ZP 90008420 0001 01.01.1800 31.12.9999 EN Accounting documents 01 ZP 90008473 0001 01.01.1800 31.12.9999 EN BWA (investment go-ahead) and order-level proposals 01 ZP 90008482 0001 01.01.1800 31.12.9999 EN Assets inventory 01 ZP 90008484 0001 01.01.1800 31.12.9999 EN Investments 01 ZP 90008495 0001 01.01.1800 31.12.9999 EN Investment plan 01 ZP 90008496 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-74-87059a44",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90008482 0001 01.01.1800 31.12.9999 EN Assets inventory 01 ZP 90008484 0001 01.01.1800 31.12.9999 EN Investments 01 ZP 90008495 0001 01.01.1800 31.12.9999 EN Investment plan 01 ZP 90008496 0001 01.01.1800 31.12.9999 EN Investment and overhead cost plan 01 ZP 90008500 0001 01.01.1800 31.12.9999 EN BWA inputs incl. specifications 01 ZP 90008512 0001 01.01.1800 31.12.9999 EN Investment approval process 01 ZP 90008521 0001 01.01.1800 31.12.9999 EN Technology, machinery or construction project implementation 01 ZP 90008531 0001 01.01.1800 31.12.9999 EN Responsibility for investment projects under the Education Fund 01 ZP 90008579 0001 01.01.1800 31.12.9999 EN Inventory 01 ZP 90008587 0001 01.01.1800 31.12.9999 EN Short term outlook of As liquidity 01 ZP 90008588 0001 01.01.1800 31.12.9999 EN Parts localisation 01 ZP 90008589 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-75-e1a769dd",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Inventory 01 ZP 90008587 0001 01.01.1800 31.12.9999 EN Short term outlook of As liquidity 01 ZP 90008588 0001 01.01.1800 31.12.9999 EN Parts localisation 01 ZP 90008589 0001 01.01.1800 31.12.9999 EN Monthly final accounts 01 ZP 90008604 0001 01.01.1800 31.12.9999 EN Business plan measures to meet the budget in terms of financial aspects 01 ZP 90008612 0001 01.01.1800 31.12.9999 EN Measures in response to plan vs. reality differences 01 ZP 90008623 0001 01.01.1800 31.12.9999 EN Budget accomplishment 01 ZP 90008627 0001 01.01.1800 31.12.9999 EN Inventory inputs 01 ZP 90008629 0001 01.01.1800 31.12.9999 EN Business plan inputs 01 ZP 90008633 0001 01.01.1800 31.12.9999 EN Final accounts inputs 01 ZP 90008636 0001 01.01.1800 31.12.9999 EN Costs and revenues comparison 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-76-e440d59a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90008629 0001 01.01.1800 31.12.9999 EN Business plan inputs 01 ZP 90008633 0001 01.01.1800 31.12.9999 EN Final accounts inputs 01 ZP 90008636 0001 01.01.1800 31.12.9999 EN Costs and revenues comparison 01 ZP 90008644 0001 01.01.1800 31.12.9999 EN Conducting an inventory 01 ZP 90008657 0001 01.01.1800 31.12.9999 EN Risk assessment and management 01 ZP 90008662 0001 01.01.1800 31.12.9999 EN Work and costs plan 01 ZP 90008667 0001 01.01.1800 31.12.9999 EN Collection of data for statistical reports 01 ZP 90008701 0001 01.01.1800 31.12.9999 EN Annual Report 01 ZP 90008722 0001 01.01.1800 31.12.9999 EN Time data and personal data 01 ZP 90008725 0001 01.01.1800 31.12.9999 EN Attendance 01 ZP 90008765 0001 01.01.1800 31.12.9999 EN Calculation work-intensiveness updates 01 ZP 90008775 0001 01.01.1800 31.12.9999 EN",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-77-e39ba30a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Time data and personal data 01 ZP 90008725 0001 01.01.1800 31.12.9999 EN Attendance 01 ZP 90008765 0001 01.01.1800 31.12.9999 EN Calculation work-intensiveness updates 01 ZP 90008775 0001 01.01.1800 31.12.9999 EN Prices of purchased parts 01 ZP 90008783 0001 01.01.1800 31.12.9999 EN Billing plans 01 ZP 90008790 0001 01.01.1800 31.12.9999 EN Internal and external prices of BU- provided services 01 ZP 90008815 0001 01.01.1800 31.12.9999 EN Inputs for part price calculations 01 ZP 90008830 0001 01.01.1800 31.12.9999 EN Annual prices of purchased parts 01 ZP 90008855 0001 01.01.1800 31.12.9999 EN Price trends at competing manufacturers 01 ZP 90008861 0001 01.01.1800 31.12.9999 EN Changes in prices of purchased parts 01 ZP 90008866 0001 01.01.1800 31.12.9999 EN Use of costs 01 ZP 90008868",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-78-8650218d",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "trends at competing manufacturers 01 ZP 90008861 0001 01.01.1800 31.12.9999 EN Changes in prices of purchased parts 01 ZP 90008866 0001 01.01.1800 31.12.9999 EN Use of costs 01 ZP 90008868 0001 01.01.1800 31.12.9999 EN Overheads and investment plans 01 ZP 90008872 0001 01.01.1800 31.12.9999 EN Use of costs by individual item and cost centre 01 ZP 90008878 0001 01.01.1800 31.12.9999 EN Using a budget 01 ZP 90008882 0001 01.01.1800 31.12.9999 EN Partial budget changes and updates 01 ZP 90008895 0001 01.01.1800 31.12.9999 EN Budget consolidation 01 ZP 90008896 0001 01.01.1800 31.12.9999 EN Logistics costs 01 ZP 90008899 0001 01.01.1800 31.12.9999 EN Material costs of purchased parts 01 ZP 90008903 0001 01.01.1800 31.12.9999 EN Cost items 01 ZP 90008922 0001 01.01.1800",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-79-d2448af1",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Logistics costs 01 ZP 90008899 0001 01.01.1800 31.12.9999 EN Material costs of purchased parts 01 ZP 90008903 0001 01.01.1800 31.12.9999 EN Cost items 01 ZP 90008922 0001 01.01.1800 31.12.9999 EN Product production costs 01 ZP 90008935 0001 01.01.1800 31.12.9999 EN Estimates of costs and investments needed for new parts 01 ZP 90008941 0001 01.01.1800 31.12.9999 EN Optimisation of costs and prices of procured parts 01 ZP 90008946 0001 01.01.1800 31.12.9999 EN Cost plan 01 ZP 90008969 0001 01.01.1800 31.12.9999 EN Budget management rules 01 ZP 90008972 0001 01.01.1800 31.12.9999 EN Building operation costs 01 ZP 90008974 0001 01.01.1800 31.12.9999 EN Budget use overviews 01 ZP 90008975 0001 01.01.1800 31.12.9999 EN Continuous budget use status overviews 01 ZP 90008980",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-80-63989b09",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Building operation costs 01 ZP 90008974 0001 01.01.1800 31.12.9999 EN Budget use overviews 01 ZP 90008975 0001 01.01.1800 31.12.9999 EN Continuous budget use status overviews 01 ZP 90008980 0001 01.01.1800 31.12.9999 EN Budget 01 ZP 90008984 0001 01.01.1800 31.12.9999 EN Tooling budget 01 ZP 90008987 0001 01.01.1800 31.12.9999 EN Costs budget 01 ZP 90008988 0001 01.01.1800 31.12.9999 EN BU budget and use of funds 01 ZP 90009001 0001 01.01.1800 31.12.9999 EN Budget 01 ZP 90009002 0001 01.01.1800 31.12.9999 EN Budgets 01 ZP 90009006 0001 01.01.1800 31.12.9999 EN Disposable material consumption 01 ZP 90009007 0001 01.01.1800 31.12.9999 EN Administering standing and special advances for operation 01 ZP 90009008 0001 01.01.1800 31.12.9999 EN Cost, investment and production time targets 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-81-07c9f519",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "material consumption 01 ZP 90009007 0001 01.01.1800 31.12.9999 EN Administering standing and special advances for operation 01 ZP 90009008 0001 01.01.1800 31.12.9999 EN Cost, investment and production time targets 01 ZP 90009012 0001 01.01.1800 31.12.9999 EN Budget adjustments in cases of deviations from the approved version 01 ZP 90009044 0001 01.01.1800 31.12.9999 EN VAT and income tax acceptability 01 ZP 90009053 0001 01.01.1800 31.12.9999 EN Stock level inventory 01 ZP 90009056 0001 01.01.1800 31.12.9999 EN Stock level inventory 01 ZP 90009060 0001 01.01.1800 31.12.9999 EN Corrective measures in response to stock level differences 01 ZP 90009062 0001 01.01.1800 31.12.9999 EN Stock standards 01 ZP 90009066 0001 01.01.1800 31.12.9999 EN Stock optimisation 01 ZP 90009067 0001 01.01.1800 31.12.9999 EN Optimum stock",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-82-959c8f73",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "stock level differences 01 ZP 90009062 0001 01.01.1800 31.12.9999 EN Stock standards 01 ZP 90009066 0001 01.01.1800 31.12.9999 EN Stock optimisation 01 ZP 90009067 0001 01.01.1800 31.12.9999 EN Optimum stock quantity 01 ZP 90009068 0001 01.01.1800 31.12.9999 EN MTZ plans 01 ZP 90009072 0001 01.01.1800 31.12.9999 EN Stock overviews and traffic 01 ZP 90009076 0001 01.01.1800 31.12.9999 EN Stock levels 01 ZP 90009084 0001 01.01.1800 31.12.9999 EN Stock level by type of material 01 ZP 90009086 0001 01.01.1800 31.12.9999 EN Releases from production warehouses 01 ZP 90009123 0001 01.01.1800 31.12.9999 EN Factual correctness and professional presentation of the Business Plan 01 ZP 90009125 0001 01.01.1800 31.12.9999 EN Creating the Business Plan structure and setting its scope 01 ZP 90009129 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-83-458cb91a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Factual correctness and professional presentation of the Business Plan 01 ZP 90009125 0001 01.01.1800 31.12.9999 EN Creating the Business Plan structure and setting its scope 01 ZP 90009129 0001 01.01.1800 31.12.9999 EN Financing method 01 ZP 90009138 0001 01.01.1800 31.12.9999 EN Financial instructions to Group Treasury 01 ZP 90009149 0001 01.01.1800 31.12.9999 EN Financing plan 01 ZP 90009150 0001 01.01.1800 31.12.9999 EN Revenues plan 01 ZP 90009160 0001 01.01.1800 31.12.9999 EN Hedging risks posed by exchange rate and interest rate changes 01 ZP 90009163 0001 01.01.1800 31.12.9999 EN Bank account statements 01 ZP 90009164 0001 01.01.1800 31.12.9999 EN Bank account statements and balances with financial plans 01 ZP 90009170 0001 01.01.1800 31.12.9999 EN Specimen signatures for bank accounts 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "presentation_creation",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-84-508db64f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "account statements 01 ZP 90009164 0001 01.01.1800 31.12.9999 EN Bank account statements and balances with financial plans 01 ZP 90009170 0001 01.01.1800 31.12.9999 EN Specimen signatures for bank accounts 01 ZP 90009171 0001 01.01.1800 31.12.9999 EN Bank payment flows complaints 01 ZP 90009198 0001 01.01.1800 31.12.9999 EN Payments 01 ZP 90009207 0001 01.01.1800 31.12.9999 EN Cash-in and cash-out transactions 01 ZP 90009208 0001 01.01.1800 31.12.9999 EN Group Treasury cash-in and cash-out transactions 01 ZP 90009211 0001 01.01.1800 31.12.9999 EN Manual payment orders 01 ZP 90009212 0001 01.01.1800 31.12.9999 EN Permanent payment and collection orders 01 ZP 90009216 0001 01.01.1800 31.12.9999 EN Interest, deductions and fees in bank accounts 01 ZP 90009269 0001 01.01.1800 31.12.9999 EN Annual Report preparation 01 ZP",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-85-659715f8",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "payment and collection orders 01 ZP 90009216 0001 01.01.1800 31.12.9999 EN Interest, deductions and fees in bank accounts 01 ZP 90009269 0001 01.01.1800 31.12.9999 EN Annual Report preparation 01 ZP 90009286 0001 01.01.1800 31.12.9999 EN Customs clearance of consignments 01 ZP 90009336 0001 01.01.1800 31.12.9999 EN Customs clearance inputs 01 ZP 90009392 0001 01.01.1800 31.12.9999 EN Invoices 01 ZP 90009401 0001 01.01.1800 31.12.9999 EN Invoicing inputs 01 ZP 90009406 0001 01.01.1800 31.12.9999 EN Assessing factual correctness of incoming invoices 01 ZP 90009413 0001 01.01.1800 31.12.9999 EN Correctness of data in invoice clearance 01 ZP 90009415 0001 01.01.1800 31.12.9999 EN Invoice correctness confirmation 01 ZP 90009465 0001 01.01.1800 31.12.9999 EN Application of legislation to school documents 01 ZP 90009485 0001 01.01.1800",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-86-263943cc",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "invoice clearance 01 ZP 90009415 0001 01.01.1800 31.12.9999 EN Invoice correctness confirmation 01 ZP 90009465 0001 01.01.1800 31.12.9999 EN Application of legislation to school documents 01 ZP 90009485 0001 01.01.1800 31.12.9999 EN Employment agreements 01 ZP 90009514 0001 01.01.1800 31.12.9999 EN Utilisation of school facilities 01 ZP 90009523 0001 01.01.1800 31.12.9999 EN Repairs, maintenance and cleaning and technical condition of buildings 01 ZP 90009536 0001 01.01.1800 31.12.9999 EN Damage Committee 01 ZP 90009540 0001 01.01.1800 31.12.9999 EN Equipment and fixtures & fittings 01 ZP 90009543 0001 01.01.1800 31.12.9999 EN Utilisation and lease of non-residential premises 01 ZP 90009638 0001 01.01.1800 31.12.9999 EN Workplace cleanliness 01 ZP 90009643 0001 01.01.1800 31.12.9999 EN Cleaning processes and methods 01 ZP 90009646 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-87-77333858",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "and lease of non-residential premises 01 ZP 90009638 0001 01.01.1800 31.12.9999 EN Workplace cleanliness 01 ZP 90009643 0001 01.01.1800 31.12.9999 EN Cleaning processes and methods 01 ZP 90009646 0001 01.01.1800 31.12.9999 EN Cleaning and cleansing of assigned sites 01 ZP 90009650 0001 01.01.1800 31.12.9999 EN Business trips management 01 ZP 90009662 0001 01.01.1800 31.12.9999 EN Local and cross-border business trips, including organisation and accounting clearance 01 ZP 90009679 0001 01.01.1800 31.12.9999 EN Licences, trademarks and patents agenda 01 ZP 90009680 0001 01.01.1800 31.12.9999 EN Trademarks agenda 01 ZP 90009682 0001 01.01.1800 31.12.9999 EN Trademark/patent/licence application proposals 01 ZP 90009683 0001 01.01.1800 31.12.9999 EN Trademark/patent/licence compliance 01 ZP 90009684 0001 01.01.1800 31.12.9999 EN Performance of licence agreements 01 ZP 90009685 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-88-ea3537d8",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01.01.1800 31.12.9999 EN Trademark/patent/licence application proposals 01 ZP 90009683 0001 01.01.1800 31.12.9999 EN Trademark/patent/licence compliance 01 ZP 90009684 0001 01.01.1800 31.12.9999 EN Performance of licence agreements 01 ZP 90009685 0001 01.01.1800 31.12.9999 EN Patent applications regarding engineering, technology and production solutions 01 ZP 90009686 0001 01.01.1800 31.12.9999 EN Registration of new trademark names 01 ZP 90009687 0001 01.01.1800 31.12.9999 EN Trademark database search 01 ZP 90009690 0001 01.01.1800 31.12.9999 EN Ownership protection rights administration 01 ZP 90009693 0001 01.01.1800 31.12.9999 EN Implementation of applications 01 ZP 90009694 0001 01.01.1800 31.12.9999 EN Back-up solution in case of an IS outage 01 ZP 90009695 0001 01.01.1800 31.12.9999 EN nasazovn IT slueb za uivatele? 01 ZP 90009696 0001 01.01.1800 31.12.9999 EN App operation",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-89-8328eb9f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Back-up solution in case of an IS outage 01 ZP 90009695 0001 01.01.1800 31.12.9999 EN nasazovn IT slueb za uivatele? 01 ZP 90009696 0001 01.01.1800 31.12.9999 EN App operation manuals 01 ZP 90009697 0001 01.01.1800 31.12.9999 EN App architecture proposals 01 ZP 90009700 0001 01.01.1800 31.12.9999 EN Application development plans and policies 01 ZP 90009701 0001 01.01.1800 31.12.9999 EN App implementation plans 01 ZP 90009702 0001 01.01.1800 31.12.9999 EN App development plans 01 ZP 90009703 0001 01.01.1800 31.12.9999 EN Application implementation policies and standards 01 ZP 90009705 0001 01.01.1800 31.12.9999 EN Describing application development, implementation and operation 01 ZP 90009706 0001 01.01.1800 31.12.9999 EN App ICT infrastructure requirements 01 ZP 90009708 0001 01.01.1800 31.12.9999 EN App operation procedures 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-90-13d69494",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Describing application development, implementation and operation 01 ZP 90009706 0001 01.01.1800 31.12.9999 EN App ICT infrastructure requirements 01 ZP 90009708 0001 01.01.1800 31.12.9999 EN App operation procedures 01 ZP 90009713 0001 01.01.1800 31.12.9999 EN App operation tests 01 ZP 90009715 0001 01.01.1800 31.12.9999 EN Routine operations for everyday app operation 01 ZP 90009719 0001 01.01.1800 31.12.9999 EN User account administration (user ID, passwords, unblocking) 01 ZP 90009721 0001 01.01.1800 31.12.9999 EN Testing of IT systems/services at customers 01 ZP 90009723 0001 01.01.1800 31.12.9999 EN Application development 01 ZP 90009770 0001 01.01.1800 31.12.9999 EN IT service change requirements 01 ZP 90009839 0001 01.01.1800 31.12.9999 EN IS optimisation 01 ZP 90009842 0001 01.01.1800 31.12.9999 EN IT system/service deployment from the",
+    "tags": {
+      "skill": "word_formatting",
+      "level": "intermediate",
+      "use_case": "documentation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-91-bda6638e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90009770 0001 01.01.1800 31.12.9999 EN IT service change requirements 01 ZP 90009839 0001 01.01.1800 31.12.9999 EN IS optimisation 01 ZP 90009842 0001 01.01.1800 31.12.9999 EN IT system/service deployment from the user perspective 01 ZP 90009843 0001 01.01.1800 31.12.9999 EN IT system/service deployment for users 01 ZP 90009844 0001 01.01.1800 31.12.9999 EN System deployment, setting and maintenance from the user perspective 01 ZP 90009845 0001 01.01.1800 31.12.9999 EN Elimination of data errors 01 ZP 90009846 0001 01.01.1800 31.12.9999 EN IT service parameters 01 ZP 90009847 0001 01.01.1800 31.12.9999 EN IT service consulting work 01 ZP 90009848 0001 01.01.1800 31.12.9999 EN Use of IT systems/services 01 ZP 90009849 0001 01.01.1800 31.12.9999 EN Customers IT service requirements 01 ZP 90009850 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-92-8e70c972",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "consulting work 01 ZP 90009848 0001 01.01.1800 31.12.9999 EN Use of IT systems/services 01 ZP 90009849 0001 01.01.1800 31.12.9999 EN Customers IT service requirements 01 ZP 90009850 0001 01.01.1800 31.12.9999 EN IS access rights (user ID, passwords, unblocking) 01 ZP 90009851 0001 01.01.1800 31.12.9999 EN Addressing users problems with IT systems/services 01 ZP 90009852 0001 01.01.1800 31.12.9999 EN IT system/service testing from the user perspective 01 ZP 90009853 0001 01.01.1800 31.12.9999 EN System data 01 ZP 90009872 0001 01.01.1800 31.12.9999 EN Correctness and quality of data in IS 01 ZP 90009873 0001 01.01.1800 31.12.9999 EN Data correctness 01 ZP 90009881 0001 01.01.1800 31.12.9999 EN Input data 01 ZP 90009884 0001 01.01.1800 31.12.9999 EN Entering data to the system 01 ZP",
+    "tags": {
+      "skill": "word_formatting",
+      "level": "intermediate",
+      "use_case": "documentation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-93-a70ad24e",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90009873 0001 01.01.1800 31.12.9999 EN Data correctness 01 ZP 90009881 0001 01.01.1800 31.12.9999 EN Input data 01 ZP 90009884 0001 01.01.1800 31.12.9999 EN Entering data to the system 01 ZP 90009894 0001 01.01.1800 31.12.9999 EN HR marketing questionnaires 01 ZP 90009897 0001 01.01.1800 31.12.9999 EN Feedback from diploma students/interns/trainees/scholarship holders/PhD students 01 ZP 90009903 0001 01.01.1800 31.12.9999 EN Media plans 01 ZP 90009908 0001 01.01.1800 31.12.9999 EN Student recruitment 01 ZP 90009909 0001 01.01.1800 31.12.9999 EN Recruitment measures 01 ZP 90009918 0001 01.01.1800 31.12.9999 EN Labour market analysis-based measures 01 ZP 90009929 0001 01.01.1800 31.12.9999 EN HR marketing inputs 01 ZP 90009937 0001 01.01.1800 31.12.9999 EN Vacancy staffing requirements 01 ZP 90009938 0001 01.01.1800 31.12.9999 EN Requirements for local and",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-94-0a274732",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90009929 0001 01.01.1800 31.12.9999 EN HR marketing inputs 01 ZP 90009937 0001 01.01.1800 31.12.9999 EN Vacancy staffing requirements 01 ZP 90009938 0001 01.01.1800 31.12.9999 EN Requirements for local and foreign-based interns and students 01 ZP 90009939 0001 01.01.1800 31.12.9999 EN Staff recruitment requirements 01 ZP 90009940 0001 01.01.1800 31.12.9999 EN Presenting programmes for students and graduates 01 ZP 90009941 0001 01.01.1800 31.12.9999 EN HR marketing presentation events 01 ZP 90009945 0001 01.01.1800 31.12.9999 EN Adaptation programme participants get-together 01 ZP 90009958 0001 01.01.1800 31.12.9999 EN Graduates for the Best Apprentice Award (Groups best graduate) 01 ZP 90009962 0001 01.01.1800 31.12.9999 EN Agency staff in workplaces 01 ZP 90009968 0001 01.01.1800 31.12.9999 EN Management status analysis 01 ZP 90009972 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-95-1927e17a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Apprentice Award (Groups best graduate) 01 ZP 90009962 0001 01.01.1800 31.12.9999 EN Agency staff in workplaces 01 ZP 90009968 0001 01.01.1800 31.12.9999 EN Management status analysis 01 ZP 90009972 0001 01.01.1800 31.12.9999 EN Guided discussions for students 01 ZP 90009982 0001 01.01.1800 31.12.9999 EN Work clothes and footwear-related responsibilities 01 ZP 90009990 0001 01.01.1800 31.12.9999 EN Agency staff attendance 01 ZP 90010001 0001 01.01.1800 31.12.9999 EN HR care concept 01 ZP 90010008 0001 01.01.1800 31.12.9999 EN Career development methodology for students and graduates (development and stabilisation programmes) 01 ZP 90010013 0001 01.01.1800 31.12.9999 EN Payroll letters 01 ZP 90010025 0001 01.01.1800 31.12.9999 EN Hours worked by agency staff 01 ZP 90010028 0001 01.01.1800 31.12.9999 EN Optimisation and innovation of talent",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-96-4c84c23f",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Payroll letters 01 ZP 90010025 0001 01.01.1800 31.12.9999 EN Hours worked by agency staff 01 ZP 90010028 0001 01.01.1800 31.12.9999 EN Optimisation and innovation of talent programmes 01 ZP 90010029 0001 01.01.1800 31.12.9999 EN Apprenticeship Centre student HR agenda 01 ZP 90010030 0001 01.01.1800 31.12.9999 EN Personal development for management 01 ZP 90010032 0001 01.01.1800 31.12.9999 EN Ex-employee care 01 ZP 90010041 0001 01.01.1800 31.12.9999 EN HR agenda 01 ZP 90010047 0001 01.01.1800 31.12.9999 EN Employee career development 01 ZP 90010049 0001 01.01.1800 31.12.9999 EN HR services for management 01 ZP 90010051 0001 01.01.1800 31.12.9999 EN HR matters 01 ZP 90010053 0001 01.01.1800 31.12.9999 EN HR processes 01 ZP 90010059 0001 01.01.1800 31.12.9999 EN HR goals",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-97-46a95fa8",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "services for management 01 ZP 90010051 0001 01.01.1800 31.12.9999 EN HR matters 01 ZP 90010053 0001 01.01.1800 31.12.9999 EN HR processes 01 ZP 90010059 0001 01.01.1800 31.12.9999 EN HR goals accomplishment 01 ZP 90010063 0001 01.01.1800 31.12.9999 EN Management bonus round inputs 01 ZP 90010070 0001 01.01.1800 31.12.9999 EN Management planning round inputs 01 ZP 90010071 0001 01.01.1800 31.12.9999 EN Management appointment inputs 01 ZP 90010078 0001 01.01.1800 31.12.9999 EN Assessing complaints and handling employees social affairs 01 ZP 90010079 0001 01.01.1800 31.12.9999 EN Agency staff needs 01 ZP 90010085 0001 01.01.1800 31.12.9999 EN Advertising requirements 01 ZP 90010094 0001 01.01.1800 31.12.9999 EN Operation of recreational facilities 01 ZP 90010100 0001 01.01.1800 31.12.9999 EN Preparing and implementing concepts of student",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-98-fb6a2de1",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Advertising requirements 01 ZP 90010094 0001 01.01.1800 31.12.9999 EN Operation of recreational facilities 01 ZP 90010100 0001 01.01.1800 31.12.9999 EN Preparing and implementing concepts of student and graduate talent banks 01 ZP 90010102 0001 01.01.1800 31.12.9999 EN Preparing A employee assignments abroad 01 ZP 90010107 0001 01.01.1800 31.12.9999 EN Framework social care directions 01 ZP 90010108 0001 01.01.1800 31.12.9999 EN Accomplishing the HR strategy with internal and external partners 01 ZP 90010129 0001 01.01.1800 31.12.9999 EN Project and work agreements 01 ZP 90010134 0001 01.01.1800 31.12.9999 EN Social care for employees 01 ZP 90010143 0001 01.01.1800 31.12.9999 EN Cooperation with HR servers 01 ZP 90010144 0001 01.01.1800 31.12.9999 EN Sports and tourism courses, ski training package",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-99-f88f6964",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Social care for employees 01 ZP 90010143 0001 01.01.1800 31.12.9999 EN Cooperation with HR servers 01 ZP 90010144 0001 01.01.1800 31.12.9999 EN Sports and tourism courses, ski training package trips 01 ZP 90010156 0001 01.01.1800 31.12.9999 EN Confidential data 01 ZP 90010164 0001 01.01.1800 31.12.9999 EN Agency staff inputs 01 ZP 90010170 0001 01.01.1800 31.12.9999 EN Selection of local/expat diploma students, interns and graduates 01 ZP 90010172 0001 01.01.1800 31.12.9999 EN Employee selection, hiring and dismissals 01 ZP 90010173 0001 01.01.1800 31.12.9999 EN Marketing instrument tendering process 01 ZP 90010175 0001 01.01.1800 31.12.9999 EN Student internship exchanges 01 ZP 90010186 0001 01.01.1800 31.12.9999 EN Assignment of employees to departments 01 ZP 90010187 0001 01.01.1800 31.12.9999 EN Assigning students to",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-100-1d3e83f7",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90010175 0001 01.01.1800 31.12.9999 EN Student internship exchanges 01 ZP 90010186 0001 01.01.1800 31.12.9999 EN Assignment of employees to departments 01 ZP 90010187 0001 01.01.1800 31.12.9999 EN Assigning students to off-the-job actions and events 01 ZP 90010194 0001 01.01.1800 31.12.9999 EN Implementation of the Groups KUBI project 01 ZP 90010196 0001 01.01.1800 31.12.9999 EN Changes in the reporting system 01 ZP 90010201 0001 01.01.1800 31.12.9999 EN Enhancement of employee qualifications and expertise 01 ZP 90010204 0001 01.01.1800 31.12.9999 EN Completing employee training programmes 01 ZP 90010206 0001 01.01.1800 31.12.9999 EN Training participants administration 01 ZP 90010211 0001 01.01.1800 31.12.9999 EN Updating the contents of electronic training programmes 01 ZP 90010214 0001 01.01.1800 31.12.9999 EN Application of the Groups HR development",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-101-20500a2b",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Training participants administration 01 ZP 90010211 0001 01.01.1800 31.12.9999 EN Updating the contents of electronic training programmes 01 ZP 90010214 0001 01.01.1800 31.12.9999 EN Application of the Groups HR development methodology in As context 01 ZP 90010217 0001 01.01.1800 31.12.9999 EN Training processes benchmark 01 ZP 90010225 0001 01.01.1800 31.12.9999 EN use of purpose-specific subsidies from the CZE Ministry of Education 01 ZP 90010226 0001 01.01.1800 31.12.9999 EN Third-party trainer responsibilities 01 ZP 90010228 0001 01.01.1800 31.12.9999 EN Trainer team responsibilities 01 ZP 90010229 0001 01.01.1800 31.12.9999 EN E-learning project data and inputs 01 ZP 90010232 0001 01.01.1800 31.12.9999 EN Language courses database 01 ZP 90010236 0001 01.01.1800 31.12.9999 EN Third-party courses 01 ZP 90010240 0001 01.01.1800 31.12.9999 EN Finance",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-102-c665894b",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "data and inputs 01 ZP 90010232 0001 01.01.1800 31.12.9999 EN Language courses database 01 ZP 90010236 0001 01.01.1800 31.12.9999 EN Third-party courses 01 ZP 90010240 0001 01.01.1800 31.12.9999 EN Finance and capacity plan for educational activities 01 ZP 90010245 0001 01.01.1800 31.12.9999 EN Implementation of e-learning programmes 01 ZP 90010248 0001 01.01.1800 31.12.9999 EN Innovation and development of training course plans 01 ZP 90010251 0001 01.01.1800 31.12.9999 EN Language courses 01 ZP 90010254 0001 01.01.1800 31.12.9999 EN Advanced training concept 01 ZP 90010255 0001 01.01.1800 31.12.9999 EN Vocational training concept 01 ZP 90010256 0001 01.01.1800 31.12.9999 EN Training development concept 01 ZP 90010260 0001 01.01.1800 31.12.9999 EN Language training concept 01 ZP 90010261 0001 01.01.1800 31.12.9999 EN Training development concept",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-103-096182b5",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90010256 0001 01.01.1800 31.12.9999 EN Training development concept 01 ZP 90010260 0001 01.01.1800 31.12.9999 EN Language training concept 01 ZP 90010261 0001 01.01.1800 31.12.9999 EN Training development concept 01 ZP 90010263 0001 01.01.1800 31.12.9999 EN Training concept 01 ZP 90010264 0001 01.01.1800 31.12.9999 EN HR development concepts 01 ZP 90010265 0001 01.01.1800 31.12.9999 EN Mentor coaching 01 ZP 90010266 0001 01.01.1800 31.12.9999 EN Management coaching 01 ZP 90010267 0001 01.01.1800 31.12.9999 EN Employee coaching 01 ZP 90010269 0001 01.01.1800 31.12.9999 EN Training work 01 ZP 90010272 0001 01.01.1800 31.12.9999 EN Internal mentoring 01 ZP 90010277 0001 01.01.1800 31.12.9999 EN Potential-analysis discussion hosting 01 ZP 90010278 0001 01.01.1800 31.12.9999 EN Discussion hosting and training work 01 ZP 90010279 0001",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-104-7324e668",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Internal mentoring 01 ZP 90010277 0001 01.01.1800 31.12.9999 EN Potential-analysis discussion hosting 01 ZP 90010278 0001 01.01.1800 31.12.9999 EN Discussion hosting and training work 01 ZP 90010279 0001 01.01.1800 31.12.9999 EN Mgmt career development offers, programmes and measures 01 ZP 90010283 0001 01.01.1800 31.12.9999 EN Induction training 01 ZP 90010295 0001 01.01.1800 31.12.9999 EN Language training measures 01 ZP 90010298 0001 01.01.1800 31.12.9999 EN Language training optimisations and innovations 01 ZP 90010299 0001 01.01.1800 31.12.9999 EN Language training organisation 01 ZP 90010300 0001 01.01.1800 31.12.9999 EN Course syllabuses 01 ZP 90010302 0001 01.01.1800 31.12.9999 EN Advanced training plan 01 ZP 90010304 0001 01.01.1800 31.12.9999 EN Training activities plan 01 ZP 90010311 0001 01.01.1800 31.12.9999 EN ISO certification inputs",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-105-c6b748fb",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90010302 0001 01.01.1800 31.12.9999 EN Advanced training plan 01 ZP 90010304 0001 01.01.1800 31.12.9999 EN Training activities plan 01 ZP 90010311 0001 01.01.1800 31.12.9999 EN ISO certification inputs 01 ZP 90010312 0001 01.01.1800 31.12.9999 EN Inputs for preparation of educational activities 01 ZP 90010313 0001 01.01.1800 31.12.9999 EN Discussion host training inputs 01 ZP 90010315 0001 01.01.1800 31.12.9999 EN Training plan and finance mgmt plan inputs 01 ZP 90010318 0001 01.01.1800 31.12.9999 EN Consulting services 01 ZP 90010324 0001 01.01.1800 31.12.9999 EN Assessing training programme providers 01 ZP 90010332 0001 01.01.1800 31.12.9999 EN Practical innovation measures in training 01 ZP 90010339 0001 01.01.1800 31.12.9999 EN HR development projects 01 ZP 90010342 0001 01.01.1800 31.12.9999 EN Information about training",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-106-6904b400",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90010332 0001 01.01.1800 31.12.9999 EN Practical innovation measures in training 01 ZP 90010339 0001 01.01.1800 31.12.9999 EN HR development projects 01 ZP 90010342 0001 01.01.1800 31.12.9999 EN Information about training taken by employees and their financial limit statuses 01 ZP 90010346 0001 01.01.1800 31.12.9999 EN OHS and fire protection training preparation 01 ZP 90010350 0001 01.01.1800 31.12.9999 EN Use of third-party companies and in-house trainers in trainig/educational activities 01 ZP 90010351 0001 01.01.1800 31.12.9999 EN QMS/IMS training process 01 ZP 90010352 0001 01.01.1800 31.12.9999 EN Requalifications for existing staff 01 ZP 90010359 0001 01.01.1800 31.12.9999 EN Training and new trends development 01 ZP 90010360 0001 01.01.1800 31.12.9999 EN Training activities schedule 01 ZP 90010361 0001 01.01.1800 31.12.9999 EN Solutions and",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-107-a3bf89cf",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90010359 0001 01.01.1800 31.12.9999 EN Training and new trends development 01 ZP 90010360 0001 01.01.1800 31.12.9999 EN Training activities schedule 01 ZP 90010361 0001 01.01.1800 31.12.9999 EN Solutions and processes in consultation services 01 ZP 90010362 0001 01.01.1800 31.12.9999 EN Seminars, conferences and workshops 01 ZP 90010367 0001 01.01.1800 31.12.9999 EN Development directions in their areas of expertise 01 ZP 90010370 0001 01.01.1800 31.12.9999 EN Cooperation with third-party companies, educational institutions and schools 01 ZP 90010372 0001 01.01.1800 31.12.9999 EN Management appointment opinion statements 01 ZP 90010373 0001 01.01.1800 31.12.9999 EN Training strategy and concept 01 ZP 90010374 0001 01.01.1800 31.12.9999 EN Video and sound editing, production of graphics and animations 01 ZP 90010376 0001 01.01.1800 31.12.9999 EN Welding",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-108-83162456",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Training strategy and concept 01 ZP 90010374 0001 01.01.1800 31.12.9999 EN Video and sound editing, production of graphics and animations 01 ZP 90010376 0001 01.01.1800 31.12.9999 EN Welding work as needed by individual departments 01 ZP 90010377 0001 01.01.1800 31.12.9999 EN Welding school 01 ZP 90010380 0001 01.01.1800 31.12.9999 EN Staff training 01 ZP 90010382 0001 01.01.1800 31.12.9999 EN Lean methods and principles training 01 ZP 90010390 0001 01.01.1800 31.12.9999 EN Training in VS elements, methods and principles 01 ZP 90010413 0001 01.01.1800 31.12.9999 EN IT systems/services user training 01 ZP 90010415 0001 01.01.1800 31.12.9999 EN Staff training 01 ZP 90010427 0001 01.01.1800 31.12.9999 EN Training inputs 01 ZP 90010429 0001 01.01.1800 31.12.9999 EN School rules, classes schedule,",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-109-a828782c",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "training 01 ZP 90010415 0001 01.01.1800 31.12.9999 EN Staff training 01 ZP 90010427 0001 01.01.1800 31.12.9999 EN Training inputs 01 ZP 90010429 0001 01.01.1800 31.12.9999 EN School rules, classes schedule, theory and practical traiing teachers 01 ZP 90010432 0001 01.01.1800 31.12.9999 EN Technological equipment on worksites for development of e-learning and presentation programmes 01 ZP 90010435 0001 01.01.1800 31.12.9999 EN Qualification thesis topics 01 ZP 90010436 0001 01.01.1800 31.12.9999 EN E-learning course testing 01 ZP 90010438 0001 01.01.1800 31.12.9999 EN Test in final theoretical and practical training 01 ZP 90010440 0001 01.01.1800 31.12.9999 EN HR development trends within the group and in the rest of the world 01 ZP 90010443 0001 01.01.1800 31.12.9999 EN AC observer training 01 ZP 90010444",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-110-f8c1fecd",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN HR development trends within the group and in the rest of the world 01 ZP 90010443 0001 01.01.1800 31.12.9999 EN AC observer training 01 ZP 90010444 0001 01.01.1800 31.12.9999 EN Departmental budget production of and compliance 01 ZP 90010445 0001 01.01.1800 31.12.9999 EN Developing e-learning programmes 01 ZP 90010451 0001 01.01.1800 31.12.9999 EN Developing language course syllabuses 01 ZP 90010463 0001 01.01.1800 31.12.9999 EN Advanced training provider tendering 01 ZP 90010464 0001 01.01.1800 31.12.9999 EN Language course questionnaire evaluation 01 ZP 90010471 0001 01.01.1800 31.12.9999 EN Development, implementation and operation of e-learning programmes 01 ZP 90010474 0001 01.01.1800 31.12.9999 EN Training projects 01 ZP 90010477 0001 01.01.1800 31.12.9999 EN Adult education/training 01 ZP 90010479 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-111-d9364a05",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Development, implementation and operation of e-learning programmes 01 ZP 90010474 0001 01.01.1800 31.12.9999 EN Training projects 01 ZP 90010477 0001 01.01.1800 31.12.9999 EN Adult education/training 01 ZP 90010479 0001 01.01.1800 31.12.9999 EN New technology and new production launch training 01 ZP 90010481 0001 01.01.1800 31.12.9999 EN Advanced training 01 ZP 90010483 0001 01.01.1800 31.12.9999 EN Staff training 01 ZP 90010490 0001 01.01.1800 31.12.9999 EN Contracts on training provided by some other BU 01 ZP 90010496 0001 01.01.1800 31.12.9999 EN Feedback from training programme participants 01 ZP 90010497 0001 01.01.1800 31.12.9999 EN Language training feedback 01 ZP 90010499 0001 01.01.1800 31.12.9999 EN Drafting an analysis of training needs in individual BUs 01 ZP 90010500 0001 01.01.1800 31.12.9999 EN Producing programmes for",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-112-217783af",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Language training feedback 01 ZP 90010499 0001 01.01.1800 31.12.9999 EN Drafting an analysis of training needs in individual BUs 01 ZP 90010500 0001 01.01.1800 31.12.9999 EN Producing programmes for workshops 01 ZP 90010534 0001 01.01.1800 31.12.9999 EN New worksites and technologies with regard to human health 01 ZP 90010637 0001 01.01.1800 31.12.9999 EN HR matters with the Trade Union 01 ZP 90010649 0001 01.01.1800 31.12.9999 EN Employee bonus letters 01 ZP 90010666 0001 01.01.1800 31.12.9999 EN Staff remuneration under applicable rules 01 ZP 90010667 0001 01.01.1800 31.12.9999 EN Student bonuses 01 ZP 90010673 0001 01.01.1800 31.12.9999 EN Student bonus-setting inputs 01 ZP 90010676 0001 01.01.1800 31.12.9999 EN Primary HR agenda and staff remuneration inputs 01 ZP 90010690 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-113-2afe36ad",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "bonuses 01 ZP 90010673 0001 01.01.1800 31.12.9999 EN Student bonus-setting inputs 01 ZP 90010676 0001 01.01.1800 31.12.9999 EN Primary HR agenda and staff remuneration inputs 01 ZP 90010690 0001 01.01.1800 31.12.9999 EN Agency staff analysis 01 ZP 90010692 0001 01.01.1800 31.12.9999 EN HR data analysis 01 ZP 90010694 0001 01.01.1800 31.12.9999 EN Analyses and inputs for presentation of the HR strategy and concept 01 ZP 90010696 0001 01.01.1800 31.12.9999 EN HR statistics analyses 01 ZP 90010699 0001 01.01.1800 31.12.9999 EN HR process analyses 01 ZP 90010708 0001 01.01.1800 31.12.9999 EN Student HR data 01 ZP 90010709 0001 01.01.1800 31.12.9999 EN HR statistics 01 ZP 90010719 0001 01.01.1800 31.12.9999 EN Subordinates work commitment and performance 01 ZP 90010724 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-114-2d291226",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Student HR data 01 ZP 90010709 0001 01.01.1800 31.12.9999 EN HR statistics 01 ZP 90010719 0001 01.01.1800 31.12.9999 EN Subordinates work commitment and performance 01 ZP 90010724 0001 01.01.1800 31.12.9999 EN Employee satisfaction in terms HR care, benefits, etc. 01 ZP 90010725 0001 01.01.1800 31.12.9999 EN HR data administration 01 ZP 90010727 0001 01.01.1800 31.12.9999 EN Staff statistics 01 ZP 90010730 0001 01.01.1800 31.12.9999 EN A staff education data 01 ZP 90010747 0001 01.01.1800 31.12.9999 EN Drafting reports regarding individual HR BPs 01 ZP 90010748 0001 01.01.1800 31.12.9999 EN Drafting reports regarding department heads and coordinators 01 ZP 90010749 0001 01.01.1800 31.12.9999 EN Agenda for students 01 ZP 90010751 0001 01.01.1800 31.12.9999 EN Admission procedure results 01 ZP 90010754 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-115-f8d3087d",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "reports regarding department heads and coordinators 01 ZP 90010749 0001 01.01.1800 31.12.9999 EN Agenda for students 01 ZP 90010751 0001 01.01.1800 31.12.9999 EN Admission procedure results 01 ZP 90010754 0001 01.01.1800 31.12.9999 EN Responsibilities of methodical committees in SOUs practical training 01 ZP 90010755 0001 01.01.1800 31.12.9999 EN Operation of school teacher councils 01 ZP 90010756 0001 01.01.1800 31.12.9999 EN Responsibilities of government and local authorities in schools and educational centres under the Education Act 01 ZP 90010760 0001 01.01.1800 31.12.9999 EN Didactic/teaching methods 01 ZP 90010763 0001 01.01.1800 31.12.9999 EN Supervision on pre-defined school sites 01 ZP 90010764 0001 01.01.1800 31.12.9999 EN School performance appraisals 01 ZP 90010765 0001 01.01.1800 31.12.9999 EN Student knowledge/performance appraisals 01 ZP 90010766 0001",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-116-a6d881bd",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "EN Supervision on pre-defined school sites 01 ZP 90010764 0001 01.01.1800 31.12.9999 EN School performance appraisals 01 ZP 90010765 0001 01.01.1800 31.12.9999 EN Student knowledge/performance appraisals 01 ZP 90010766 0001 01.01.1800 31.12.9999 EN Inspection 01 ZP 90010767 0001 01.01.1800 31.12.9999 EN In-class inspection 01 ZP 90010768 0001 01.01.1800 31.12.9999 EN Grading at matriculation and final exams 01 ZP 90010771 0001 01.01.1800 31.12.9999 EN Consulting services for students 01 ZP 90010772 0001 01.01.1800 31.12.9999 EN Qualification and retraining courses at SOU 01 ZP 90010773 0001 01.01.1800 31.12.9999 EN Methodical and pedagogical leadership of practical training teachers 01 ZP 90010774 0001 01.01.1800 31.12.9999 EN Practical classes methodology 01 ZP 90010775 0001 01.01.1800 31.12.9999 EN Teaching methodology 01 ZP 90010776 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-117-f6b01e83",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "leadership of practical training teachers 01 ZP 90010774 0001 01.01.1800 31.12.9999 EN Practical classes methodology 01 ZP 90010775 0001 01.01.1800 31.12.9999 EN Teaching methodology 01 ZP 90010776 0001 01.01.1800 31.12.9999 EN SOU attendance possibilities 01 ZP 90010777 0001 01.01.1800 31.12.9999 EN Technical section tuition content and methodology 01 ZP 90010778 0001 01.01.1800 31.12.9999 EN Entrance, matriculation and final exam content 01 ZP 90010780 0001 01.01.1800 31.12.9999 EN Content-related and organisational exam management 01 ZP 90010782 0001 01.01.1800 31.12.9999 EN Teacher training 01 ZP 90010783 0001 01.01.1800 31.12.9999 EN Practical training for students 01 ZP 90010787 0001 01.01.1800 31.12.9999 EN Curricula/syllabuses 01 ZP 90010789 0001 01.01.1800 31.12.9999 EN Teaching documentation 01 ZP 90010790 0001 01.01.1800 31.12.9999 EN HR data and final",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-118-68277ba2",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "for students 01 ZP 90010787 0001 01.01.1800 31.12.9999 EN Curricula/syllabuses 01 ZP 90010789 0001 01.01.1800 31.12.9999 EN Teaching documentation 01 ZP 90010790 0001 01.01.1800 31.12.9999 EN HR data and final assessment of students performance 01 ZP 90010796 0001 01.01.1800 31.12.9999 EN Teaching team meeting 01 ZP 90010797 0001 01.01.1800 31.12.9999 EN Practical training team meeting 01 ZP 90010798 0001 01.01.1800 31.12.9999 EN Special class student appraisal reports 01 ZP 90010800 0001 01.01.1800 31.12.9999 EN Worksite for reinforcement of students habits and skills 01 ZP 90010803 0001 01.01.1800 31.12.9999 EN Interns involvement in long-term projects 01 ZP 90010809 0001 01.01.1800 31.12.9999 EN Admission procedure 01 ZP 90010813 0001 01.01.1800 31.12.9999 EN Knowledge-oriented admission and selection of SOU students 01 ZP 90010816",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-119-483b0819",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "involvement in long-term projects 01 ZP 90010809 0001 01.01.1800 31.12.9999 EN Admission procedure 01 ZP 90010813 0001 01.01.1800 31.12.9999 EN Knowledge-oriented admission and selection of SOU students 01 ZP 90010816 0001 01.01.1800 31.12.9999 EN Teaching prep 01 ZP 90010822 0001 01.01.1800 31.12.9999 EN Classes timetable 01 ZP 90010825 0001 01.01.1800 31.12.9999 EN Student competitions as part of practical training 01 ZP 90010826 0001 01.01.1800 31.12.9999 EN Cooperation on production of educational projects 01 ZP 90010828 0001 01.01.1800 31.12.9999 EN Rotation of students on operating sites according to transfer plans 01 ZP 90010830 0001 01.01.1800 31.12.9999 EN Study plan and syllabus 01 ZP 90010832 0001 01.01.1800 31.12.9999 EN Studies 01 ZP 90010834 0001 01.01.1800 31.12.9999 EN Supply teaching 01 ZP 90010835",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-120-7c82feda",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90010830 0001 01.01.1800 31.12.9999 EN Study plan and syllabus 01 ZP 90010832 0001 01.01.1800 31.12.9999 EN Studies 01 ZP 90010834 0001 01.01.1800 31.12.9999 EN Supply teaching 01 ZP 90010835 0001 01.01.1800 31.12.9999 EN Training for foremen, teachers and trainers/lecturers 01 ZP 90010836 0001 01.01.1800 31.12.9999 EN Technical equipment for practical training rooms 01 ZP 90010837 0001 01.01.1800 31.12.9999 EN Technical equipment for theoretical training rooms 01 ZP 90010838 0001 01.01.1800 31.12.9999 EN Content of study-abroad programmes 01 ZP 90010839 0001 01.01.1800 31.12.9999 EN Theory classes and practical training 01 ZP 90010840 0001 01.01.1800 31.12.9999 EN Theory classes for Apprenticeship Centre (SOU) students 01 ZP 90010841 0001 01.01.1800 31.12.9999 EN Form teacher position incl. cooperation with parents 01 ZP 90010843",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-121-441f8dd8",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "ZP 90010840 0001 01.01.1800 31.12.9999 EN Theory classes for Apprenticeship Centre (SOU) students 01 ZP 90010841 0001 01.01.1800 31.12.9999 EN Form teacher position incl. cooperation with parents 01 ZP 90010843 0001 01.01.1800 31.12.9999 EN Producing and adapting secondary education programmes and curricula 01 ZP 90010847 0001 01.01.1800 31.12.9999 EN Students participation in competitions 01 ZP 90010848 0001 01.01.1800 31.12.9999 EN Teaching documents 01 ZP 90010849 0001 01.01.1800 31.12.9999 EN Teaching aids and other equipment 01 ZP 90010855 0001 01.01.1800 31.12.9999 EN Teacher selection 01 ZP 90010856 0001 01.01.1800 31.12.9999 EN Selection of students for study-abroad programmes 01 ZP 90010862 0001 01.01.1800 31.12.9999 EN Pedagogical and educational work 01 ZP 90010863 0001 01.01.1800 31.12.9999 EN Education and practical training of students",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-122-a2ffa12c",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Selection of students for study-abroad programmes 01 ZP 90010862 0001 01.01.1800 31.12.9999 EN Pedagogical and educational work 01 ZP 90010863 0001 01.01.1800 31.12.9999 EN Education and practical training of students 01 ZP 90010864 0001 01.01.1800 31.12.9999 EN Education and theoretical training of students 01 ZP 90010866 0001 01.01.1800 31.12.9999 EN SOU student expulsions 01 ZP 90010868 0001 01.01.1800 31.12.9999 EN Classroom inspection results 01 ZP 90010870 0001 01.01.1800 31.12.9999 EN Student teaching results 01 ZP 90010871 0001 01.01.1800 31.12.9999 EN Teaching programmes 01 ZP 90010872 0001 01.01.1800 31.12.9999 EN Classrooms 01 ZP 90010873 0001 01.01.1800 31.12.9999 EN Teaching work 01 ZP 90010874 0001 01.01.1800 31.12.9999 EN Teaching documentation 01 ZP 90010878 0001 01.01.1800 31.12.9999 EN Teacher training 01 ZP 90010888",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-123-bfaf19cd",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90010873 0001 01.01.1800 31.12.9999 EN Teaching work 01 ZP 90010874 0001 01.01.1800 31.12.9999 EN Teaching documentation 01 ZP 90010878 0001 01.01.1800 31.12.9999 EN Teacher training 01 ZP 90010888 0001 01.01.1800 31.12.9999 EN Test questions for continuous, final and matriculation exams 01 ZP 90010890 0001 01.01.1800 31.12.9999 EN Producing draft learning plans and syllabuses 01 ZP 90010893 0001 01.01.1800 31.12.9999 EN IT security 01 ZP 90010913 0001 01.01.1800 31.12.9999 EN Environmental commissioner responsibilities 01 ZP 90010915 0001 01.01.1800 31.12.9999 EN Useless stock disposal method 01 ZP 90010918 0001 01.01.1800 31.12.9999 EN Compliance with environmental legislation 01 ZP 90010930 0001 01.01.1800 31.12.9999 EN Parts/material disposal 01 ZP 90010932 0001 01.01.1800 31.12.9999 EN Useless stock disposal 01 ZP 90010969 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-124-50b714f1",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Compliance with environmental legislation 01 ZP 90010930 0001 01.01.1800 31.12.9999 EN Parts/material disposal 01 ZP 90010932 0001 01.01.1800 31.12.9999 EN Useless stock disposal 01 ZP 90010969 0001 01.01.1800 31.12.9999 EN Scrapping 01 ZP 90010983 0001 01.01.1800 31.12.9999 EN Occupational health and safety 01 ZP 90010984 0001 01.01.1800 31.12.9999 EN Safe operation of the welding gas cylinder rack 01 ZP 90010985 0001 01.01.1800 31.12.9999 EN Student injury records 01 ZP 90010987 0001 01.01.1800 31.12.9999 EN OHS and fire protection compliance 01 ZP 90010996 0001 01.01.1800 31.12.9999 EN Measures to improve occupational safety and the working environment 01 ZP 90010997 0001 01.01.1800 31.12.9999 EN Authorisation required for work 01 ZP 90011050 0001 01.01.1800 31.12.9999 EN Fire equipment for buildings and",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-125-28415c96",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "improve occupational safety and the working environment 01 ZP 90010997 0001 01.01.1800 31.12.9999 EN Authorisation required for work 01 ZP 90011050 0001 01.01.1800 31.12.9999 EN Fire equipment for buildings and structures (BaS) 01 ZP 90011093 0001 01.01.1800 31.12.9999 EN Occupational safety, environmental protection and fire protection 01 ZP 90011107 0001 01.01.1800 31.12.9999 EN Site security data 01 ZP 90011142 0001 01.01.1800 31.12.9999 EN Building/site repairs and maintenance 01 ZP 90011197 0001 01.01.1800 31.12.9999 EN Specifications for technical security tendering 01 ZP 90011204 0001 01.01.1800 31.12.9999 EN Technical site protection systems 01 ZP 90011853 0001 01.01.1800 31.12.9999 EN Apprenticeship Centre (SOU) courses 01 ZP 90011877 0001 01.01.1800 31.12.9999 EN Addressing reactive problems in IT services 01 ZP 90011882 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-126-fca0922a",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90011853 0001 01.01.1800 31.12.9999 EN Apprenticeship Centre (SOU) courses 01 ZP 90011877 0001 01.01.1800 31.12.9999 EN Addressing reactive problems in IT services 01 ZP 90011882 0001 01.01.1800 31.12.9999 EN Functionality appraisal 01 ZP 90011909 0001 01.01.1800 31.12.9999 EN Processes and methods 01 ZP 90011938 0001 01.01.1800 31.12.9999 EN Component/part production 01 ZP 90011941 0001 01.01.1800 31.12.9999 EN Quantity of work for individual courses (curricula) 01 ZP 90011975 0001 01.01.1800 31.12.9999 EN User documentation 01 ZP 90011984 0001 01.01.1800 31.12.9999 EN Collective Agreement interpretation 01 ZP 90012022 0001 01.01.1800 31.12.9999 EN Documentation for repairs, maintenance and cleaning of buildings 01 ZP 90012023 0001 01.01.1800 31.12.9999 EN Reports on repairs, maintenance and cleaning of buildings 01 ZP 90012034 0001 01.01.1800",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-127-3735b2b4",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Documentation for repairs, maintenance and cleaning of buildings 01 ZP 90012023 0001 01.01.1800 31.12.9999 EN Reports on repairs, maintenance and cleaning of buildings 01 ZP 90012034 0001 01.01.1800 31.12.9999 EN Machinery Technical Brief 01 ZP 90012036 0001 01.01.1800 31.12.9999 EN Machinery supplier and user support and supervision 01 ZP 90012038 0001 01.01.1800 31.12.9999 EN Implementation of Group machinery standards 01 ZP 90012039 0001 01.01.1800 31.12.9999 EN Machinery components (Freigabeliste) 01 ZP 90012040 0001 01.01.1800 31.12.9999 EN BEMI-components list 01 ZP 90012041 0001 01.01.1800 31.12.9999 EN Machinery HW workshops 01 ZP 90012060 0001 01.01.1800 31.12.9999 EN Process optimisation measures 01 ZP 90012061 0001 01.01.1800 31.12.9999 EN Capacity utilisation 01 ZP 90012063 0001 01.01.1800 31.12.9999 EN HR strategy focus topics",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-128-01d7407d",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "01 ZP 90012060 0001 01.01.1800 31.12.9999 EN Process optimisation measures 01 ZP 90012061 0001 01.01.1800 31.12.9999 EN Capacity utilisation 01 ZP 90012063 0001 01.01.1800 31.12.9999 EN HR strategy focus topics 01 ZP 90012064 0001 01.01.1800 31.12.9999 EN Cooperation between the Mlad Boleslav Town Hall and A 01 ZP 90012074 0001 01.01.1800 31.12.9999 EN Growth strategy implementation 01 ZP 90012225 0001 01.01.1800 31.12.9999 EN Importers requirements 01 ZP 90012249 0001 01.01.1800 31.12.9999 EN Passage of parts through the press line 01 ZP 90012275 0001 01.01.1800 31.12.9999 EN Towing simulation 01 ZP 90012276 0001 01.01.1800 31.12.9999 EN Changes to CAD data for dimensional corrections 01 ZP 90012277 0001 01.01.1800 31.12.9999 EN Methodical pressing plans 01 ZP 90012278 0001 01.01.1800 31.12.9999 EN Planar",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-129-397df328",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90012276 0001 01.01.1800 31.12.9999 EN Changes to CAD data for dimensional corrections 01 ZP 90012277 0001 01.01.1800 31.12.9999 EN Methodical pressing plans 01 ZP 90012278 0001 01.01.1800 31.12.9999 EN Planar modelling 01 ZP 90012279 0001 01.01.1800 31.12.9999 EN Theoretical tool footprint 01 ZP 90012280 0001 01.01.1800 31.12.9999 EN Prep. of process FMEA 01 ZP 90012401 0001 01.01.1800 31.12.9999 EN Group technical standards 01 ZP 90012403 0001 01.01.1800 31.12.9999 EN Advertising plans 01 ZP 90012420 0001 01.01.1800 31.12.9999 EN Technical, homologation and legislative dependencies 01 ZP 90012581 0001 01.01.1800 31.12.9999 EN Advertising overviews and KPI monitoring 01 ZP 90012582 0001 01.01.1800 31.12.9999 EN Media cost compliance 01 ZP 90012587 0001 01.01.1800 31.12.9999 EN Searching the labour market for human resources 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-130-1d085378",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "Advertising overviews and KPI monitoring 01 ZP 90012582 0001 01.01.1800 31.12.9999 EN Media cost compliance 01 ZP 90012587 0001 01.01.1800 31.12.9999 EN Searching the labour market for human resources 01 ZP 90012588 0001 01.01.1800 31.12.9999 EN Designing and implementing online marketing tools 01 ZP 90012589 0001 01.01.1800 31.12.9999 EN Methodologies for premium HR development measures and programmes 01 ZP 90012590 0001 01.01.1800 31.12.9999 EN Strategies and new tools of HR marketing 01 ZP 90012592 0001 01.01.1800 31.12.9999 EN Students and graduates databank 01 ZP 90012593 0001 01.01.1800 31.12.9999 EN Selection of students and graduates for programmes 01 ZP 90012594 0001 01.01.1800 31.12.9999 EN Programme completion agreements 01 ZP 90012595 0001 01.01.1800 31.12.9999 EN Collection of requirements from Divisions 01 ZP",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-131-20cd1bd1",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "of students and graduates for programmes 01 ZP 90012594 0001 01.01.1800 31.12.9999 EN Programme completion agreements 01 ZP 90012595 0001 01.01.1800 31.12.9999 EN Collection of requirements from Divisions 01 ZP 90012596 0001 01.01.1800 31.12.9999 EN Publishing Divisions offers in external media 01 ZP 90012597 0001 01.01.1800 31.12.9999 EN Potential candidates for development and stabilisation measures (scholarships, internships abroad, etc.) 01 ZP 90012598 0001 01.01.1800 31.12.9999 EN Concept programme content production and implementation 01 ZP 90012626 0001 01.01.1800 31.12.9999 EN Selecting internal employees for mgmt positions 01 ZP 90012630 0001 01.01.1800 31.12.9999 EN Analyses and statistics to diagnostics tools 01 ZP 90012631 0001 01.01.1800 31.12.9999 EN Diagnostics tool participants and third-party colleagues 01 ZP 90012635 0001 01.01.1800 31.12.9999 EN HR development",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-132-cdbdc5ac",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "31.12.9999 EN Analyses and statistics to diagnostics tools 01 ZP 90012631 0001 01.01.1800 31.12.9999 EN Diagnostics tool participants and third-party colleagues 01 ZP 90012635 0001 01.01.1800 31.12.9999 EN HR development tendering (Development Centre) 01 ZP 90012639 0001 01.01.1800 31.12.9999 EN Data on diagnostics toll participants and results 01 ZP 90012640 0001 01.01.1800 31.12.9999 EN Feedback from departments 01 ZP 90012641 0001 01.01.1800 31.12.9999 EN Cooperation with individual departments in the AC area 01 ZP 90012857 0001 01.01.1800 31.12.9999 EN Personal bonuses 01 ZP 90012858 0001 01.01.1800 31.12.9999 EN New contrator search 01 ZP 90012868 0001 01.01.1800 31.12.9999 EN Event success rate 01 ZP 90012869 0001 01.01.1800 31.12.9999 EN Measures to implement changes and improvements 01 ZP 90012870 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-133-104a21d0",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "search 01 ZP 90012868 0001 01.01.1800 31.12.9999 EN Event success rate 01 ZP 90012869 0001 01.01.1800 31.12.9999 EN Measures to implement changes and improvements 01 ZP 90012870 0001 01.01.1800 31.12.9999 EN Event plans 01 ZP 90013087 0001 01.01.1800 31.12.9999 EN Consignment takeovers and purchases 01 ZP 90013094 0001 01.01.1800 31.12.9999 EN Talent relationship management concept 01 ZP 90013095 0001 01.01.1800 31.12.9999 EN Candidate databanks management concept 01 ZP 90013096 0001 01.01.1800 31.12.9999 EN Boarding programme proposals and concepts 01 ZP 90013132 0001 01.01.1800 31.12.9999 EN CAD data for production of NC programmes 01 ZP 90013144 0001 01.01.1800 31.12.9999 EN Implementing new technologies and rationalisation measures to reduce production work-intensiveness and the consumption of material and tools 01 ZP 90013215 0001",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-134-1dac76b0",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "NC programmes 01 ZP 90013144 0001 01.01.1800 31.12.9999 EN Implementing new technologies and rationalisation measures to reduce production work-intensiveness and the consumption of material and tools 01 ZP 90013215 0001 01.01.1800 31.12.9999 EN New HR product communication 01 ZP 90013256 0001 01.01.1800 31.12.9999 EN Training for newly hired and transferring staff 01 ZP 90013626 0001 01.01.1800 31.12.9999 EN KVP WS best practice 01 ZP 90013629 0001 01.01.1800 31.12.9999 EN KVP WS final presentation 01 ZP 90013679 0001 01.01.1800 31.12.9999 EN Trademark collisions 01 ZP 90013680 0001 01.01.1800 31.12.9999 EN Trademark proceedings 01 ZP 90013690 0001 01.01.1800 31.12.9999 EN Strategy implementation 01 ZP 90013740 0001 01.01.1800 31.12.9999 EN dispatch?.... instruction? 01 ZP 90013808 0001 01.01.1800 31.12.9999 EN Information to departments 01",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-135-d427b385",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "proceedings 01 ZP 90013690 0001 01.01.1800 31.12.9999 EN Strategy implementation 01 ZP 90013740 0001 01.01.1800 31.12.9999 EN dispatch?.... instruction? 01 ZP 90013808 0001 01.01.1800 31.12.9999 EN Information to departments 01 ZP 90013858 0001 01.01.1800 31.12.9999 EN HW and SW tests 01 ZP 90013869 0001 01.01.1800 31.12.9999 EN Root causes of technological equipment downtimes 01 ZP 90013893 0001 01.01.1800 31.12.9999 EN Workshops 01 ZP 90013897 0001 01.01.1800 31.12.9999 EN Innovation workshop 01 ZP 90013945 0001 01.01.1800 31.12.9999 EN Systems operation and maintenance 01 ZP 90014054 0001 01.01.1800 31.12.9999 EN Ergonomic workplace optimisation measures 01 ZP 90014065 0001 01.01.1800 31.12.9999 EN Methodical inputs and draft sets for report programming 01 ZP 90014096 0001 01.01.1800 31.12.9999 EN Problematic points in production 01 ZP",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-136-f67bf3ce",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "optimisation measures 01 ZP 90014065 0001 01.01.1800 31.12.9999 EN Methodical inputs and draft sets for report programming 01 ZP 90014096 0001 01.01.1800 31.12.9999 EN Problematic points in production 01 ZP 90014097 0001 01.01.1800 31.12.9999 EN Production statistical data 01 ZP 90014098 0001 01.01.1800 31.12.9999 EN Suitability of productive work in line with curricula 01 ZP 90014150 0001 01.01.1800 31.12.9999 EN Developing technical rules, regulations and standards 01 ZP 90014410 0001 01.01.1800 31.12.9999 EN Successor Planning project implementation 01 ZP 90014519 0001 01.01.1800 31.12.9999 EN Development of communication channels 01 ZP 90014736 0001 01.01.1800 31.12.9999 EN Audit and its goals 01 ZP 90014737 0001 01.01.1800 31.12.9999 EN Audit documentation 01 ZP 90014738 0001 01.01.1800 31.12.9999 EN Content of and schedules for",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-137-8369f756",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90014736 0001 01.01.1800 31.12.9999 EN Audit and its goals 01 ZP 90014737 0001 01.01.1800 31.12.9999 EN Audit documentation 01 ZP 90014738 0001 01.01.1800 31.12.9999 EN Content of and schedules for measures/recommendations arising from audits 01 ZP 90014739 0001 01.01.1800 31.12.9999 EN Taking measures/meeting recommendations arising from audits 01 ZP 90014740 0001 01.01.1800 31.12.9999 EN Independent or joint audit 01 ZP 90014741 0001 01.01.1800 31.12.9999 EN Audit focus areas 01 ZP 90014742 0001 01.01.1800 31.12.9999 EN Internal audit reports 01 ZP 90014743 0001 01.01.1800 31.12.9999 EN Legislation and standards 01 ZP 90014745 0001 01.01.1800 31.12.9999 EN Compliance with required methods 01 ZP 90014746 0001 01.01.1800 31.12.9999 EN Processes- and methods-relevant risks 01 ZP 90014782 0001 01.01.1800 31.12.9999 EN Delivery dates 01",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "reporting",
+      "confidence": "0.5"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-138-e1d5fb71",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "90014745 0001 01.01.1800 31.12.9999 EN Compliance with required methods 01 ZP 90014746 0001 01.01.1800 31.12.9999 EN Processes- and methods-relevant risks 01 ZP 90014782 0001 01.01.1800 31.12.9999 EN Delivery dates 01 ZP 90014783 0001 01.01.1800 31.12.9999 EN Delivery dates 01 ZP 90014784 0001 01.01.1800 31.12.9999 EN Returns of defective GP (claimed defective) to suppliers 01 ZP 90014785 0001 01.01.1800 31.12.9999 EN Minimum packing and order quantity 01 ZP 90014786 0001 01.01.1800 31.12.9999 EN Delivery reminder 01 ZP 90014787 0001 01.01.1800 31.12.9999 EN GP for marketing and aftersales campaigns/events 01 ZP 90014791 0001 01.01.1800 31.12.9999 EN Regulating sales of critical parts according to the respective classification 01 ZP 90014792 0001 01.01.1800 31.12.9999 EN Critical identical parts 01 ZP 90014798 0001 01.01.1800 31.12.9999",
+    "tags": {
+      "skill": "ai_productivity",
+      "level": "intermediate",
+      "use_case": "automation",
+      "confidence": "1.0"
+    }
+  },
+  {
+    "id": "250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN-139-3cdb4cc3",
+    "source_path": "/Users/pixo/Documents/Coding/Skoda/data_sample/250828_Export_AI_Skill_Coatch_ZHRPD_DESCR_EXPORT_EN.txt",
+    "text": "0001 01.01.1800 31.12.9999 EN Regulating sales of critical parts according to the respective classification 01 ZP 90014792 0001 01.01.1800 31.12.9999 EN Critical identical parts 01 ZP 90014798 0001 01.01.1800 31.12.9999 EN TPI (Technical Product Information) approval",
+    "tags": {
+      "skill": "general_productivity",
+      "level": "baseline",
+      "use_case": "general",
+      "confidence": "0.5"
+    }
+  }
+]

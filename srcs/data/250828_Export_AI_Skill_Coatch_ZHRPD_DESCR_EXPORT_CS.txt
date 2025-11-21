@@ -1,0 +1,1120 @@
+28.08.2025                                                                               Dynamische Listenausgabe                                                                                       1
+
+Testovací reim
+
+	Var.plánu	Typ obj.	ID objektu	Subtyp	Platí od	Platí do	Jazyk	Øetìzec
+
+	01	ZP	  90003176	0001	01.01.1800	31.12.9999	CS	akce
+	01	ZP	  90003177	0001	01.01.1800	31.12.9999	CS	cíle a priority
+	01	ZP	  90003178	0001	01.01.1800	31.12.9999	CS	organizaèní úpravy
+	01	ZP	  90003180	0001	01.01.1800	31.12.9999	CS	funkèní schema
+	01	ZP	  90003181	0001	01.01.1800	31.12.9999	CS	interní podpisová oprávnìní
+	01	ZP	  90003188	0001	01.01.1800	31.12.9999	CS	organizaèní strukturu
+	01	ZP	  90003193	0001	01.01.1800	31.12.9999	CS	popisy práce FM
+	01	ZP	  90003254	0001	01.01.1800	31.12.9999	CS	styk s externími institucemi a organizacemi
+	01	ZP	  90003266	0001	01.01.1800	31.12.9999	CS	èasovı management
+	01	ZP	  90003272	0001	01.01.1800	31.12.9999	CS	èinnosti v oblasti ochrannıch známek
+	01	ZP	  90003273	0001	01.01.1800	31.12.9999	CS	èleny projektového tımu
+	01	ZP	  90003276	0001	01.01.1800	31.12.9999	CS	informování a motivování zamìstnancù
+	01	ZP	  90003278	0001	01.01.1800	31.12.9999	CS	instruktá zamìstnancù dané oblasti
+	01	ZP	  90003280	0001	01.01.1800	31.12.9999	CS	meziútvarové aktivity a úkoly pro zahranièní projekty
+	01	ZP	  90003281	0001	01.01.1800	31.12.9999	CS	nasazení personálu v mimoøádnıch situacích
+	01	ZP	  90003289	0001	01.01.1800	31.12.9999	CS	plnìní úkolù ze zasedání
+	01	ZP	  90003291	0001	01.01.1800	31.12.9999	CS	podpisová oprávnìní
+	01	ZP	  90003292	0001	01.01.1800	31.12.9999	CS	podøízené zamìstnance
+	01	ZP	  90003293	0001	01.01.1800	31.12.9999	CS	podøízenım zamìstnancùm pracovní úkoly
+	01	ZP	  90003294	0001	01.01.1800	31.12.9999	CS	práci podøízenıch zamìstnancù
+	01	ZP	  90003295	0001	01.01.1800	31.12.9999	CS	pracovní a technologickou kázeò
+	01	ZP	  90003303	0001	01.01.1800	31.12.9999	CS	spolupráci s externími organizacemi
+	01	ZP	  90003305	0001	01.01.1800	31.12.9999	CS	spolupráci s vıvojovımi partnery
+	01	ZP	  90003307	0001	01.01.1800	31.12.9999	CS	strukturu dìlníkù
+	01	ZP	  90003308	0001	01.01.1800	31.12.9999	CS	svìøené pracovní procesy
+	01	ZP	  90003310	0001	01.01.1800	31.12.9999	CS	úkoly
+	01	ZP	  90003311	0001	01.01.1800	31.12.9999	CS	úkoly èlenùm projektového tımu
+	01	ZP	  90003321	0001	01.01.1800	31.12.9999	CS	pracovní dobu zamìstnancù
+	01	ZP	  90003322	0001	01.01.1800	31.12.9999	CS	prodlouené a mimoøádné smìny
+	01	ZP	  90003328	0001	01.01.1800	31.12.9999	CS	administrativní agendu se zøetelem na èinnosti dùvìrné povahy
+	01	ZP	  90003329	0001	01.01.1800	31.12.9999	CS	administrativní práce a inventuru kniního fondu
+	01	ZP	  90003330	0001	01.01.1800	31.12.9999	CS	administrativu vedoucího
+	01	ZP	  90003333	0001	01.01.1800	31.12.9999	CS	agendu jednání
+	01	ZP	  90003334	0001	01.01.1800	31.12.9999	CS	agendu tıkající se dispozic pro další vyhodnocení
+	01	ZP	  90003335	0001	01.01.1800	31.12.9999	CS	agendu zápisù z porad a kontrolu úkolù
+	01	ZP	  90003336	0001	01.01.1800	31.12.9999	CS	aktivity k odsouhlasení pøedloh do pøedstavenstva vè. protokolù
+	01	ZP	  90003338	0001	01.01.1800	31.12.9999	CS	aktualizaci informaèních panelù útvaru
+	01	ZP	  90003339	0001	01.01.1800	31.12.9999	CS	aktualizaci nástìnek
+	01	ZP	  90003342	0001	01.01.1800	31.12.9999	CS	analızy a statistiky vısledkù
+	01	ZP	  90003345	0001	01.01.1800	31.12.9999	CS	asistentské úkoly pro èlena pøedstavenstva
+	01	ZP	  90003346	0001	01.01.1800	31.12.9999	CS	balení a popisování knih
+	01	ZP	  90003347	0001	01.01.1800	31.12.9999	CS	cizojazyènou korespondenci
+	01	ZP	  90003350	0001	01.01.1800	31.12.9999	CS	èinnosti vyplıvající z procesù v dané oblasti se èlenem pøedstavenstva, 
+dozorèí radou, koncernovımi grémii a pøíslušnımi vedoucími OJ
+	01	ZP	  90003352	0001	01.01.1800	31.12.9999	CS	dodávky kanceláøského materiálu, darù a propagaèních pøedmìtù
+	01	ZP	  90003353	0001	01.01.1800	31.12.9999	CS	docházku zamìstnancù a pøehledy o pøesèasech a dovolenıch
+	01	ZP	  90003356	0001	01.01.1800	31.12.9999	CS	exkurze
+	01	ZP	  90003359	0001	01.01.1800	31.12.9999	CS	chod sekretariátu
+	01	ZP	  90003361	0001	01.01.1800	31.12.9999	CS	informace pro zamìstnaneckı portál
+	01	ZP	  90003362	0001	01.01.1800	31.12.9999	CS	interní a externí korespondenci
+	01	ZP	  90003366	0001	01.01.1800	31.12.9999	CS	nástupní a preventivní prohlídky studentù
+	01	ZP	  90003367	0001	01.01.1800	31.12.9999	CS	obèerstvení na pracovní jednání
+	01	ZP	  90003371	0001	01.01.1800	31.12.9999	CS	opatøení ke sníení a vylouèení rizik
+	01	ZP	  90003372	0001	01.01.1800	31.12.9999	CS	organizaci zasedání
+	01	ZP	  90003374	0001	01.01.1800	31.12.9999	CS	osobní agendu studentù
+	01	ZP	  90003375	0001	01.01.1800	31.12.9999	CS	personální údaje zamìstnancù ŠA
+	01	ZP	  90003377	0001	01.01.1800	31.12.9999	CS	platby externím zamìstnancùm
+	01	ZP	  90003378	0001	01.01.1800	31.12.9999	CS	plnìní èinností vyplıvající z procesù oblasti
+	01	ZP	  90003379	0001	01.01.1800	31.12.9999	CS	plnìní dílèích projektù
+	01	ZP	  90003380	0001	01.01.1800	31.12.9999	CS	podklady
+	01	ZP	  90003381	0001	01.01.1800	31.12.9999	CS	podklady a analızy o studiu
+	01	ZP	  90003382	0001	01.01.1800	31.12.9999	CS	podklady a informace pro jednání
+	01	ZP	  90003383	0001	01.01.1800	31.12.9999	CS	podklady a prezentace
+	01	ZP	  90003385	0001	01.01.1800	31.12.9999	CS	podklady a úkoly se zvláštním utajením se znalostí vnitropodnikovıch a 
+koncernovıch souvislostí
+	01	ZP	  90003387	0001	01.01.1800	31.12.9999	CS	podklady k rozhodnutí o investici (BWA) a ON
+	01	ZP	  90003389	0001	01.01.1800	31.12.9999	CS	podklady na jednání
+	01	ZP	  90003390	0001	01.01.1800	31.12.9999	CS	podklady o stavu projednávanıch bodù v tımu pro porady Vıroby a 
+logistiky
+	01	ZP	  90003391	0001	01.01.1800	31.12.9999	CS	podklady odbornıch útvarù pro jednání pøedrozhovorù a jednání
+	01	ZP	  90003396	0001	01.01.1800	31.12.9999	CS	podklady pro jednání s pøedstavenstvem
+	01	ZP	  90003398	0001	01.01.1800	31.12.9999	CS	podklady pro nábor studentù
+	01	ZP	  90003400	0001	01.01.1800	31.12.9999	CS	podklady pro pøedstavenstvo a jiná gremia
+	01	ZP	  90003402	0001	01.01.1800	31.12.9999	CS	podklady pro rozhodovací grémia spoleènosti ŠA
+	01	ZP	  90003404	0001	01.01.1800	31.12.9999	CS	podklady pro schválení úsporovıch potenciálù
+	01	ZP	  90003405	0001	01.01.1800	31.12.9999	CS	podklady pro Školskou radu
+	01	ZP	  90003408	0001	01.01.1800	31.12.9999	CS	polepování knih èárkovım kódem
+	01	ZP	  90003409	0001	01.01.1800	31.12.9999	CS	potvrzení o studiu, MFA karty
+	01	ZP	  90003412	0001	01.01.1800	31.12.9999	CS	prezentace
+	01	ZP	  90003413	0001	01.01.1800	31.12.9999	CS	prezentaèní materiály pro interní a externí pouití
+	01	ZP	  90003417	0001	01.01.1800	31.12.9999	CS	program zasedání pøedstavenstva a dozorèí rady
+	01	ZP	  90003419	0001	01.01.1800	31.12.9999	CS	pøedávání informací rodièùm ákù SOU
+	01	ZP	  90003426	0001	01.01.1800	31.12.9999	CS	nástup a vıstup studentù
+	01	ZP	  90003436	0001	01.01.1800	31.12.9999	CS	pøípravu závìreènıch zkoušek
+	01	ZP	  90003437	0001	01.01.1800	31.12.9999	CS	pøíslušné personální podklady
+	01	ZP	  90003438	0001	01.01.1800	31.12.9999	CS	pùjèování knih
+	01	ZP	  90003440	0001	01.01.1800	31.12.9999	CS	realizaci personálních opatøení
+	01	ZP	  90003442	0001	01.01.1800	31.12.9999	CS	realizaci úkolù v danıch termínech
+	01	ZP	  90003443	0001	01.01.1800	31.12.9999	CS	reklamní informace pro tisk a media, zamìstnaneckı portál
+	01	ZP	  90003447	0001	01.01.1800	31.12.9999	CS	øešení operativních a organizaèních úkolù
+	01	ZP	  90003451	0001	01.01.1800	31.12.9999	CS	skartaci materiálù
+	01	ZP	  90003452	0001	01.01.1800	31.12.9999	CS	smlouvy a dohody pro externí zamìstnance
+	01	ZP	  90003454	0001	01.01.1800	31.12.9999	CS	spoleèné termíny èlenù pøedstavenstva
+	01	ZP	  90003459	0001	01.01.1800	31.12.9999	CS	statistické podklady
+	01	ZP	  90003460	0001	01.01.1800	31.12.9999	CS	stav lékárnièek školy
+	01	ZP	  90003466	0001	01.01.1800	31.12.9999	CS	termíny pro pøedstavení projektù v grémiích
+	01	ZP	  90003470	0001	01.01.1800	31.12.9999	CS	tøídìní a zakládání knih do regálù
+	01	ZP	  90003471	0001	01.01.1800	31.12.9999	CS	tøídìní personálních materiálù, korespondence a došlé pošty
+	01	ZP	  90003472	0001	01.01.1800	31.12.9999	CS	tvorbu podkladù a pøedloh oblasti
+	01	ZP	  90003473	0001	01.01.1800	31.12.9999	CS	tvorbu podkladù pro jednání a prezentace na úrovni zasedání 
+pøedstavenstva a koncernovıch gremií
+	01	ZP	  90003474	0001	01.01.1800	31.12.9999	CS	tvorbu podkladù pro jednání grémií
+	01	ZP	  90003477	0001	01.01.1800	31.12.9999	CS	ubytování a pohoštìní pro hosty a návštìvy
+	01	ZP	  90003481	0001	01.01.1800	31.12.9999	CS	VIP akce
+	01	ZP	  90003483	0001	01.01.1800	31.12.9999	CS	vıpisy ze sluební kreditní karty
+	01	ZP	  90003485	0001	01.01.1800	31.12.9999	CS	vypracování programu pro VIP
+	01	ZP	  90003489	0001	01.01.1800	31.12.9999	CS	vyuití zasedací místnosti
+	01	ZP	  90003490	0001	01.01.1800	31.12.9999	CS	zajištìní podkladù pro integrovanı systém øízení kvality
+	01	ZP	  90003492	0001	01.01.1800	31.12.9999	CS	zápisy z jednání
+	01	ZP	  90003494	0001	01.01.1800	31.12.9999	CS	zkušební protokoly
+	01	ZP	  90003497	0001	01.01.1800	31.12.9999	CS	zprávy o plnìní business plánu
+	01	ZP	  90003504	0001	01.01.1800	31.12.9999	CS	pøíkaz zmìny (PZ) do vıkresové dokumentace
+	01	ZP	  90003516	0001	01.01.1800	31.12.9999	CS	NZ
+	01	ZP	  90003539	0001	01.01.1800	31.12.9999	CS	promítnutí zmìn do ostatních systémù øízení
+	01	ZP	  90003543	0001	01.01.1800	31.12.9999	CS	pøipravované technické zmìny na vırobku
+	01	ZP	  90003546	0001	01.01.1800	31.12.9999	CS	realizaci pøíkazù zmìn ve vırobì, vèetnì úpravy technologické 
+dokumentace
+	01	ZP	  90003560	0001	01.01.1800	31.12.9999	CS	technické zmìny
+	01	ZP	  90003573	0001	01.01.1800	31.12.9999	CS	vznik mnostevních odchylek v odvolávkách
+	01	ZP	  90003579	0001	01.01.1800	31.12.9999	CS	zmìnové øízení a nábìh pøíkazù zmìn
+	01	ZP	  90003585	0001	01.01.1800	31.12.9999	CS	ad-hoc analızy
+	01	ZP	  90003587	0001	01.01.1800	31.12.9999	CS	analızu a prognózu trhu
+	01	ZP	  90003592	0001	01.01.1800	31.12.9999	CS	analızy konkurence
+	01	ZP	  90003595	0001	01.01.1800	31.12.9999	CS	benchmark
+	01	ZP	  90003596	0001	01.01.1800	31.12.9999	CS	benchmark personálních procesù
+	01	ZP	  90003597	0001	01.01.1800	31.12.9999	CS	best-practise a podklady pro benchmark z exportních trhù
+	01	ZP	  90003598	0001	01.01.1800	31.12.9999	CS	business plán
+	01	ZP	  90003619	0001	01.01.1800	31.12.9999	CS	HR trendy
+	01	ZP	  90003621	0001	01.01.1800	31.12.9999	CS	koncepce na prvky modulù, platformy a jejich varianty
+	01	ZP	  90003622	0001	01.01.1800	31.12.9999	CS	koncepce projektù
+	01	ZP	  90003625	0001	01.01.1800	31.12.9999	CS	koncepci ustavujících a upínacích elementù
+	01	ZP	  90003658	0001	01.01.1800	31.12.9999	CS	podklady z benchmarkingu
+	01	ZP	  90003659	0001	01.01.1800	31.12.9999	CS	podnìty k úsporovım potenciálùm
+	01	ZP	  90003675	0001	01.01.1800	31.12.9999	CS	propagaèní a informaèní podklady pro motivaèní akce
+	01	ZP	  90003681	0001	01.01.1800	31.12.9999	CS	prùzkum trhu
+	01	ZP	  90003684	0001	01.01.1800	31.12.9999	CS	pøípravu jednání
+	01	ZP	  90003730	0001	01.01.1800	31.12.9999	CS	vypracování business plánu
+	01	ZP	  90003743	0001	01.01.1800	31.12.9999	CS	analızy konkurence ve vztahu k strategii znaèky
+	01	ZP	  90003745	0001	01.01.1800	31.12.9999	CS	aktivity vedoucí ke splnìní cílù projektu
+	01	ZP	  90003748	0001	01.01.1800	31.12.9999	CS	vıvoj produktu
+	01	ZP	  90003749	0001	01.01.1800	31.12.9999	CS	aktualizaci projektù s poadavkem na zmìny
+	01	ZP	  90003753	0001	01.01.1800	31.12.9999	CS	analızy vztahující se k projektu
+	01	ZP	  90003757	0001	01.01.1800	31.12.9999	CS	HR projekty
+	01	ZP	  90003762	0001	01.01.1800	31.12.9999	CS	kritické faktory projektu
+	01	ZP	  90003782	0001	01.01.1800	31.12.9999	CS	poadavky kvality v projekèních a v nábìhovıch tımech
+	01	ZP	  90003783	0001	01.01.1800	31.12.9999	CS	zprávy o stavu projektù
+	01	ZP	  90003791	0001	01.01.1800	31.12.9999	CS	projekèním tımùm
+	01	ZP	  90003797	0001	01.01.1800	31.12.9999	CS	projekty
+	01	ZP	  90003800	0001	01.01.1800	31.12.9999	CS	projekty modelovıch péèí a facelifty
+	01	ZP	  90003806	0001	01.01.1800	31.12.9999	CS	prùbìh realizace projektù z hlediska obsahu, nákladù, kvality a termínù
+	01	ZP	  90003808	0001	01.01.1800	31.12.9999	CS	pøehled o stavu projektu
+	01	ZP	  90003828	0001	01.01.1800	31.12.9999	CS	strategické projekty personální péèe
+	01	ZP	  90003830	0001	01.01.1800	31.12.9999	CS	svìøené projekty
+	01	ZP	  90003834	0001	01.01.1800	31.12.9999	CS	termínové plány pro projekty
+	01	ZP	  90003835	0001	01.01.1800	31.12.9999	CS	termínové plány projektù
+	01	ZP	  90003836	0001	01.01.1800	31.12.9999	CS	termínové plány vıvoje dílù
+	01	ZP	  90003846	0001	01.01.1800	31.12.9999	CS	vyhledání a realizaci úsporovıch potenciálù
+	01	ZP	  90003849	0001	01.01.1800	31.12.9999	CS	zadání projektu
+	01	ZP	  90003863	0001	01.01.1800	31.12.9999	CS	kvalitativní opatøení pro nábìh novıch vırob
+	01	ZP	  90003865	0001	01.01.1800	31.12.9999	CS	nábìh modelovıch øad
+	01	ZP	  90003867	0001	01.01.1800	31.12.9999	CS	nábìh novıch dílù
+	01	ZP	  90003874	0001	01.01.1800	31.12.9999	CS	nábìhy novıch vozù
+	01	ZP	  90003880	0001	01.01.1800	31.12.9999	CS	nové projekty do sériové vıroby
+	01	ZP	  90003887	0001	01.01.1800	31.12.9999	CS	problémy pøi nábìhu novıch vozù
+	01	ZP	  90003909	0001	01.01.1800	31.12.9999	CS	uvolnìní kvality na základì dvoudenní produkce dodavatele
+	01	ZP	  90003920	0001	01.01.1800	31.12.9999	CS	nábìh novıch vırob
+	01	ZP	  90003924	0001	01.01.1800	31.12.9999	CS	opatøení pro redukci kvalitativních a auditovıch závad pøi nábìhu 
+vıroby
+	01	ZP	  90003934	0001	01.01.1800	31.12.9999	CS	pøípravu vıroby nábìhu novıch vırob
+	01	ZP	  90003935	0001	01.01.1800	31.12.9999	CS	simulaèní studie vıroby
+	01	ZP	  90003961	0001	01.01.1800	31.12.9999	CS	doklady k vozùm pro zamìstnance, zákazníky a VIP
+	01	ZP	  90003979	0001	01.01.1800	31.12.9999	CS	konstrukèní dokumentaci
+	01	ZP	  90004021	0001	01.01.1800	31.12.9999	CS	prezentace ve virtuální realitì
+	01	ZP	  90004027	0001	01.01.1800	31.12.9999	CS	projektovou dokumentaci
+	01	ZP	  90004030	0001	01.01.1800	31.12.9999	CS	protokol z mìøení
+	01	ZP	  90004050	0001	01.01.1800	31.12.9999	CS	specifikaci dílù (technickou, logistickou, kvalitativní)
+	01	ZP	  90004054	0001	01.01.1800	31.12.9999	CS	studii vıroby / projektovou pøípravu stavby
+	01	ZP	  90004065	0001	01.01.1800	31.12.9999	CS	technickou a technologickou dokumentaci
+	01	ZP	  90004066	0001	01.01.1800	31.12.9999	CS	technickou dokumentaci
+	01	ZP	  90004070	0001	01.01.1800	31.12.9999	CS	technologickou dokumentaci
+	01	ZP	  90004086	0001	01.01.1800	31.12.9999	CS	úpravu technologické dokumentace
+	01	ZP	  90004090	0001	01.01.1800	31.12.9999	CS	vedení provozní a technické dokumentace
+	01	ZP	  90004115	0001	01.01.1800	31.12.9999	CS	zmìny technické a technologické dokumentace
+	01	ZP	  90004128	0001	01.01.1800	31.12.9999	CS	dodrování POD
+	01	ZP	  90004129	0001	01.01.1800	31.12.9999	CS	dodrování procesní a organizaèní dokumentace
+	01	ZP	  90004130	0001	01.01.1800	31.12.9999	CS	dokumentaci
+	01	ZP	  90004132	0001	01.01.1800	31.12.9999	CS	instruktá zamìstnancù s platnou POD
+	01	ZP	  90004134	0001	01.01.1800	31.12.9999	CS	odborné, organizaèní a administrativní postupy
+	01	ZP	  90004135	0001	01.01.1800	31.12.9999	CS	POD
+	01	ZP	  90004142	0001	01.01.1800	31.12.9999	CS	tvorbu POD
+	01	ZP	  90004143	0001	01.01.1800	31.12.9999	CS	vlastníky POD
+	01	ZP	  90004151	0001	01.01.1800	31.12.9999	CS	archivaci
+	01	ZP	  90004152	0001	01.01.1800	31.12.9999	CS	archivaci a skartaci dokumentù
+	01	ZP	  90004153	0001	01.01.1800	31.12.9999	CS	archivaci a ukládání dokumentù
+	01	ZP	  90004163	0001	01.01.1800	31.12.9999	CS	dokumenty dle spisového øádu
+	01	ZP	  90004168	0001	01.01.1800	31.12.9999	CS	písemnosti a dokumenty
+	01	ZP	  90004208	0001	01.01.1800	31.12.9999	CS	kusovníky
+	01	ZP	  90004212	0001	01.01.1800	31.12.9999	CS	nové postupy k øešení ve virtuální realitì
+	01	ZP	  90004214	0001	01.01.1800	31.12.9999	CS	odladìní virtuálních modelù do koneèné podoby
+	01	ZP	  90004254	0001	01.01.1800	31.12.9999	CS	logistické procesy
+	01	ZP	  90004255	0001	01.01.1800	31.12.9999	CS	mìøení pracovních procesù
+	01	ZP	  90004256	0001	01.01.1800	31.12.9999	CS	modelování pracovních procesù
+	01	ZP	  90004261	0001	01.01.1800	31.12.9999	CS	optimalizaci technologickıch postupù
+	01	ZP	  90004262	0001	01.01.1800	31.12.9999	CS	optimalizaèní opatøení
+	01	ZP	  90004264	0001	01.01.1800	31.12.9999	CS	personální procesy
+	01	ZP	  90004267	0001	01.01.1800	31.12.9999	CS	pracovní procesy
+	01	ZP	  90004268	0001	01.01.1800	31.12.9999	CS	pracovní procesy v roli vlastníka
+	01	ZP	  90004283	0001	01.01.1800	31.12.9999	CS	WS KVP
+	01	ZP	  90004289	0001	01.01.1800	31.12.9999	CS	nasazení novıch systémù a vırobních metod za úèelem optimalizace 
+nákladù
+	01	ZP	  90004291	0001	01.01.1800	31.12.9999	CS	opatøení k optimalizaci ergonomie a pracnosti
+	01	ZP	  90004298	0001	01.01.1800	31.12.9999	CS	podklady pro vıplatu odmìn za pøínosy z realizovanıch úspor workshopù
+	01	ZP	  90004299	0001	01.01.1800	31.12.9999	CS	praktickou vıuku na technologickıch zaøízení ATC
+	01	ZP	  90004302	0001	01.01.1800	31.12.9999	CS	racionalizaèní opatøení pøi vırobì náøadí a zavedení opatøení KVP
+	01	ZP	  90004303	0001	01.01.1800	31.12.9999	CS	realizaci opatøení z WS KVP
+	01	ZP	  90004309	0001	01.01.1800	31.12.9999	CS	dopady z projekèních tımù na proces realizace úsporovıch potenciálù
+	01	ZP	  90004314	0001	01.01.1800	31.12.9999	CS	námìty v E- a P-tımu
+	01	ZP	  90004315	0001	01.01.1800	31.12.9999	CS	obsah, náklady a termíny projektù
+	01	ZP	  90004316	0001	01.01.1800	31.12.9999	CS	odborné útvary v procesu vyhledání a realizace úsporovıch potenciálù
+	01	ZP	  90004320	0001	01.01.1800	31.12.9999	CS	optimalizaci pracovních procesù
+	01	ZP	  90004322	0001	01.01.1800	31.12.9999	CS	podnìty k úsporovım potenciálùm s dodavateli
+	01	ZP	  90004323	0001	01.01.1800	31.12.9999	CS	postup realizace úsporovıch potenciálù
+	01	ZP	  90004333	0001	01.01.1800	31.12.9999	CS	analızy a rozbory u kvalitativních problémù a pøijímá systémová 
+opatøení pro jejich zlepšení
+	01	ZP	  90004342	0001	01.01.1800	31.12.9999	CS	návrhy ZEBRA
+	01	ZP	  90004348	0001	01.01.1800	31.12.9999	CS	optimalizaèní návrhy
+	01	ZP	  90004366	0001	01.01.1800	31.12.9999	CS	ZN
+	01	ZP	  90004368	0001	01.01.1800	31.12.9999	CS	aktuálnost a pøipravenost vırobních technologií
+	01	ZP	  90004373	0001	01.01.1800	31.12.9999	CS	cíle plánování vıroby
+	01	ZP	  90004374	0001	01.01.1800	31.12.9999	CS	cíle simulaèních projektù procesu vıroby
+	01	ZP	  90004376	0001	01.01.1800	31.12.9999	CS	èinnosti spojené s kapacitními zmìnami ve vırobì (pøetaktování 
+montáních linek)
+	01	ZP	  90004382	0001	01.01.1800	31.12.9999	CS	dílenské pracovní postupy a dokumentaci pro vırobu
+	01	ZP	  90004386	0001	01.01.1800	31.12.9999	CS	dodrování technologické káznì
+	01	ZP	  90004392	0001	01.01.1800	31.12.9999	CS	implementaci novıch metod a trendù do technologie vıroby
+	01	ZP	  90004397	0001	01.01.1800	31.12.9999	CS	kvantitu, sortiment a termíny
+	01	ZP	  90004404	0001	01.01.1800	31.12.9999	CS	nasazení technickıch odchylek
+	01	ZP	  90004408	0001	01.01.1800	31.12.9999	CS	opatøení k nápravì pracovní a technologické káznì
+	01	ZP	  90004410	0001	01.01.1800	31.12.9999	CS	opatøení vyplıvající ze systému kvality
+	01	ZP	  90004413	0001	01.01.1800	31.12.9999	CS	plán materiálního zajištìní
+	01	ZP	  90004414	0001	01.01.1800	31.12.9999	CS	plán rekonstrukce a modernizace DM
+	01	ZP	  90004416	0001	01.01.1800	31.12.9999	CS	plán vıroby polotovarù a souèástek pro vıuku
+	01	ZP	  90004418	0001	01.01.1800	31.12.9999	CS	plánovací aktivity pro projekty
+	01	ZP	  90004428	0001	01.01.1800	31.12.9999	CS	projekèní øešení pracoviš
+	01	ZP	  90004433	0001	01.01.1800	31.12.9999	CS	pøehled zmìn investic, nákladù, vırobních èasù
+	01	ZP	  90004435	0001	01.01.1800	31.12.9999	CS	realizaci (dodávku) technologie, SZ, stavby, opravy nebo rekonstrukce, 
+díly
+	01	ZP	  90004446	0001	01.01.1800	31.12.9999	CS	simulace tváøení vıliskù
+	01	ZP	  90004448	0001	01.01.1800	31.12.9999	CS	simulaèní model procesu vıroby
+	01	ZP	  90004450	0001	01.01.1800	31.12.9999	CS	spotøeby èasu (analıza MTM, snímek pracovníka)
+	01	ZP	  90004454	0001	01.01.1800	31.12.9999	CS	technická zadání (Lastenhefte)
+	01	ZP	  90004457	0001	01.01.1800	31.12.9999	CS	technicko-konstrukèní provìrky
+	01	ZP	  90004460	0001	01.01.1800	31.12.9999	CS	technologická rizika a vyrobitelnost
+	01	ZP	  90004461	0001	01.01.1800	31.12.9999	CS	technologické / vırobní  postupy
+	01	ZP	  90004462	0001	01.01.1800	31.12.9999	CS	technologické a konstrukèní øešení produktivních prací
+	01	ZP	  90004472	0001	01.01.1800	31.12.9999	CS	technologickım / vırobním  postupùm
+	01	ZP	  90004477	0001	01.01.1800	31.12.9999	CS	technologii náøadí
+	01	ZP	  90004480	0001	01.01.1800	31.12.9999	CS	technologii SZ
+	01	ZP	  90004484	0001	01.01.1800	31.12.9999	CS	témata praktickıch èástí závìreènıch zkoušek
+	01	ZP	  90004486	0001	01.01.1800	31.12.9999	CS	termínovém zabezpeèení plnìní produktivní práce dispeèink
+	01	ZP	  90004488	0001	01.01.1800	31.12.9999	CS	trendy ve vıvoji technologií
+	01	ZP	  90004489	0001	01.01.1800	31.12.9999	CS	tvorbu dlouhodobıch koncepcí v projektech digitálního plánování
+	01	ZP	  90004498	0001	01.01.1800	31.12.9999	CS	vozy a poadavky pro analızu rozloenıch vozù
+	01	ZP	  90004500	0001	01.01.1800	31.12.9999	CS	vstupní data do simulací
+	01	ZP	  90004503	0001	01.01.1800	31.12.9999	CS	vıpoèty vırobních kapacit
+	01	ZP	  90004509	0001	01.01.1800	31.12.9999	CS	zadání pro projekty odbornım útvarùm
+	01	ZP	  90004510	0001	01.01.1800	31.12.9999	CS	zajištìní materiálu a polotovarù pro praktickou vıuku
+	01	ZP	  90004514	0001	01.01.1800	31.12.9999	CS	zatøídìní operací technologickıch postupù dle katalogu smìrnıch 
+pøíkladù
+	01	ZP	  90004517	0001	01.01.1800	31.12.9999	CS	zavádìní novıch technologií
+	01	ZP	  90004528	0001	01.01.1800	31.12.9999	CS	ergonomii, spotøebu èasu a normu obsluhy
+	01	ZP	  90004532	0001	01.01.1800	31.12.9999	CS	normu obsluhy
+	01	ZP	  90004540	0001	01.01.1800	31.12.9999	CS	vısledky workshopù
+	01	ZP	  90004541	0001	01.01.1800	31.12.9999	CS	èinnosti skladu a údrby náøadí
+	01	ZP	  90004542	0001	01.01.1800	31.12.9999	CS	díly pro ovìøování
+	01	ZP	  90004543	0001	01.01.1800	31.12.9999	CS	elektronáøadí a mìøidla
+	01	ZP	  90004544	0001	01.01.1800	31.12.9999	CS	ergonomicky vhodné náøadí s ohledem na dodrení poadovanıch 
+utahovacích momentù
+	01	ZP	  90004547	0001	01.01.1800	31.12.9999	CS	opravu náøadí
+	01	ZP	  90004549	0001	01.01.1800	31.12.9999	CS	pouívání a zavádìní nového náøadí
+	01	ZP	  90004550	0001	01.01.1800	31.12.9999	CS	poadavky na obnovu a modernizaci náøadí
+	01	ZP	  90004551	0001	01.01.1800	31.12.9999	CS	procesy údrby, obnovy a spotøeby náøadí s cílem minimalizace nákladù
+	01	ZP	  90004552	0001	01.01.1800	31.12.9999	CS	protokol o opravì náøadí
+	01	ZP	  90004553	0001	01.01.1800	31.12.9999	CS	roèní plány potøeb náøadí, mìøidel a ochrannıch pomùcek
+	01	ZP	  90004559	0001	01.01.1800	31.12.9999	CS	vstupní kontrolu a pøejímku náøadí
+	01	ZP	  90004561	0001	01.01.1800	31.12.9999	CS	vıpùjèky ve vıdejnách
+	01	ZP	  90004575	0001	01.01.1800	31.12.9999	CS	rozpoèet na údrbu zaøízení
+	01	ZP	  90004579	0001	01.01.1800	31.12.9999	CS	správu, provoz a údrbu zaøízení
+	01	ZP	  90004582	0001	01.01.1800	31.12.9999	CS	údrbu a revizi SZ, náøadí a dopravních prostøedkù
+	01	ZP	  90004589	0001	01.01.1800	31.12.9999	CS	závadách, poruchách a haváriích svìøeného majetku
+	01	ZP	  90004590	0001	01.01.1800	31.12.9999	CS	zpùsoby údrby a oprav
+	01	ZP	  90004611	0001	01.01.1800	31.12.9999	CS	pøevzetí budov a staveb uivatelem
+	01	ZP	  90004628	0001	01.01.1800	31.12.9999	CS	dodrování péèe o SZ vırobních linek
+	01	ZP	  90004633	0001	01.01.1800	31.12.9999	CS	odstraòìní závad SZ
+	01	ZP	  90004635	0001	01.01.1800	31.12.9999	CS	opravy a prohlídky SZ
+	01	ZP	  90004636	0001	01.01.1800	31.12.9999	CS	opravy SZ
+	01	ZP	  90004637	0001	01.01.1800	31.12.9999	CS	opravy zaøízení
+	01	ZP	  90004641	0001	01.01.1800	31.12.9999	CS	preventivní a prediktivní prohlídky a opravy
+	01	ZP	  90004642	0001	01.01.1800	31.12.9999	CS	procesy na technologickıch zaøízeních
+	01	ZP	  90004644	0001	01.01.1800	31.12.9999	CS	provádìní oprav SZ
+	01	ZP	  90004648	0001	01.01.1800	31.12.9999	CS	specifikaci pro nákup ND
+	01	ZP	  90004654	0001	01.01.1800	31.12.9999	CS	technickı stav SZ
+	01	ZP	  90004655	0001	01.01.1800	31.12.9999	CS	úkoly pro oblast diagnostiky SZ
+	01	ZP	  90004656	0001	01.01.1800	31.12.9999	CS	vytøiïování, pøípravu, skladování a likvidace nevyuitıch, nepotøebnıch 
+SZ
+	01	ZP	  90004658	0001	01.01.1800	31.12.9999	CS	pøedávání novıch SZ do provozu
+	01	ZP	  90004660	0001	01.01.1800	31.12.9999	CS	pøevzetí SZ
+	01	ZP	  90004662	0001	01.01.1800	31.12.9999	CS	závady,poruchy a havárie SZ
+	01	ZP	  90004663	0001	01.01.1800	31.12.9999	CS	zkoušení  SZ
+	01	ZP	  90004667	0001	01.01.1800	31.12.9999	CS	plán nákladù na opravy a obnovy energetickıch zaøízení
+	01	ZP	  90004669	0001	01.01.1800	31.12.9999	CS	poruchy a havárie SZ
+	01	ZP	  90004671	0001	01.01.1800	31.12.9999	CS	preventivní opatøení
+	01	ZP	  90004672	0001	01.01.1800	31.12.9999	CS	pøejímání SZ/technologie/stavby do trvalého provozu
+	01	ZP	  90004673	0001	01.01.1800	31.12.9999	CS	pøejímky dodávanıch vıkonù a vırobkù
+	01	ZP	  90004674	0001	01.01.1800	31.12.9999	CS	pøejímky náøadí do zkušebního a trvalého provozu
+	01	ZP	  90004677	0001	01.01.1800	31.12.9999	CS	revize a inspekce
+	01	ZP	  90004680	0001	01.01.1800	31.12.9999	CS	øešení problémovıch listù
+	01	ZP	  90004684	0001	01.01.1800	31.12.9999	CS	druh a mnoství náhradních dilù pro opravy øídících systémù 
+technologickıch zaøízení
+	01	ZP	  90004686	0001	01.01.1800	31.12.9999	CS	nové základní prvky simulaèního systému
+	01	ZP	  90004687	0001	01.01.1800	31.12.9999	CS	odborné posudky øídících systémù
+	01	ZP	  90004688	0001	01.01.1800	31.12.9999	CS	odbornou instruktá pracovníkù údrby a externích firem v oblasti SW a 
+HW elektronickıch zaøízení
+	01	ZP	  90004689	0001	01.01.1800	31.12.9999	CS	opravy a údrbu øídících systémù technologickıch zaøízení
+	01	ZP	  90004690	0001	01.01.1800	31.12.9999	CS	poruchy a prostoje technologickıch zaøízení zpùsobené øídícími systémy
+	01	ZP	  90004691	0001	01.01.1800	31.12.9999	CS	preventivní prohlídky øídících systémù technologickıch zaøízení
+	01	ZP	  90004693	0001	01.01.1800	31.12.9999	CS	programy øídících systémù
+	01	ZP	  90004694	0001	01.01.1800	31.12.9999	CS	øídící systémy technologickıch zaøízení
+	01	ZP	  90004695	0001	01.01.1800	31.12.9999	CS	SW vybavení robotù
+	01	ZP	  90004696	0001	01.01.1800	31.12.9999	CS	typy a konfigurace øídících systémù
+	01	ZP	  90004697	0001	01.01.1800	31.12.9999	CS	uivatelské úpravy aplikaèního HW a SW øídících systémù technologickıch 
+zaøízení
+	01	ZP	  90004701	0001	01.01.1800	31.12.9999	CS	koncepty energeticky úsporné vıroby
+	01	ZP	  90004716	0001	01.01.1800	31.12.9999	CS	spotøebu energií, provozních látek, materiálù a kanceláøskıch potøeb
+	01	ZP	  90004720	0001	01.01.1800	31.12.9999	CS	údrbu a opravy energetickıch zaøízení a rozvodù
+	01	ZP	  90004744	0001	01.01.1800	31.12.9999	CS	návrhùm na úpravy náøadí
+	01	ZP	  90004748	0001	01.01.1800	31.12.9999	CS	pøedání vyrobeného náøadí
+	01	ZP	  90004766	0001	01.01.1800	31.12.9999	CS	poadavky na náhradní díly
+	01	ZP	  90004779	0001	01.01.1800	31.12.9999	CS	vırobu
+	01	ZP	  90004782	0001	01.01.1800	31.12.9999	CS	vırobu vozù
+	01	ZP	  90004803	0001	01.01.1800	31.12.9999	CS	objemy vozù
+	01	ZP	  90004815	0001	01.01.1800	31.12.9999	CS	kapacitní, operativní a termínové plánování
+	01	ZP	  90004823	0001	01.01.1800	31.12.9999	CS	mimoøádnı postup v pøípadì nezajištìné vıroby
+	01	ZP	  90004833	0001	01.01.1800	31.12.9999	CS	operativní plán vıroby
+	01	ZP	  90004838	0001	01.01.1800	31.12.9999	CS	plnìní prùbìhu vırobních zakázek
+	01	ZP	  90004842	0001	01.01.1800	31.12.9999	CS	podklady pro vyèleòování vırob
+	01	ZP	  90004854	0001	01.01.1800	31.12.9999	CS	pøedseriové programy
+	01	ZP	  90004860	0001	01.01.1800	31.12.9999	CS	realizaci skluzovıch dílù
+	01	ZP	  90004873	0001	01.01.1800	31.12.9999	CS	tok materiálu
+	01	ZP	  90004879	0001	01.01.1800	31.12.9999	CS	vıhledy spotøeby a pøehled urèeného sortimentu
+	01	ZP	  90004910	0001	01.01.1800	31.12.9999	CS	kritickıch místech logistického toku øízení
+	01	ZP	  90004914	0001	01.01.1800	31.12.9999	CS	plnìní cílù plánování vıroby
+	01	ZP	  90004926	0001	01.01.1800	31.12.9999	CS	tok informací o nakládkách materiálu, obalového materiálu
+	01	ZP	  90004931	0001	01.01.1800	31.12.9999	CS	zajištìní domácích a nakupovanıch dílù pro stavbu vozù
+	01	ZP	  90004954	0001	01.01.1800	31.12.9999	CS	podklady pro reklamaèní øízení
+	01	ZP	  90004962	0001	01.01.1800	31.12.9999	CS	reklamace
+	01	ZP	  90004969	0001	01.01.1800	31.12.9999	CS	reklamace materiálu
+	01	ZP	  90004971	0001	01.01.1800	31.12.9999	CS	reklamace norem spotøeby èasu práce
+	01	ZP	  90004985	0001	01.01.1800	31.12.9999	CS	reklamaèní øízení
+	01	ZP	  90005001	0001	01.01.1800	31.12.9999	CS	škodové nebo šrotovací protokoly
+	01	ZP	  90005014	0001	01.01.1800	31.12.9999	CS	technickou oprávnìnost reklamace
+	01	ZP	  90005043	0001	01.01.1800	31.12.9999	CS	dispozice a odvolávky
+	01	ZP	  90005051	0001	01.01.1800	31.12.9999	CS	dispozièní operativnost dodavatelù
+	01	ZP	  90005053	0001	01.01.1800	31.12.9999	CS	dodavatele z pohledu dispozièního zajištìní
+	01	ZP	  90005065	0001	01.01.1800	31.12.9999	CS	dodrování stanovené obrátky zásob
+	01	ZP	  90005069	0001	01.01.1800	31.12.9999	CS	kapacitních problémech
+	01	ZP	  90005070	0001	01.01.1800	31.12.9999	CS	náhradní zpùsob pøepravy dílù a materiálu
+	01	ZP	  90005072	0001	01.01.1800	31.12.9999	CS	objednávky
+	01	ZP	  90005075	0001	01.01.1800	31.12.9999	CS	objemy dodávek dle dispozic
+	01	ZP	  90005080	0001	01.01.1800	31.12.9999	CS	odvolávky generované dispozièními systémy na dodavatele
+	01	ZP	  90005083	0001	01.01.1800	31.12.9999	CS	odvolávky podle vyreklamovaného mnoství dílù
+	01	ZP	  90005084	0001	01.01.1800	31.12.9999	CS	odvolávky zboí  a slueb
+	01	ZP	  90005093	0001	01.01.1800	31.12.9999	CS	sankce za neplnìní dodávek
+	01	ZP	  90005103	0001	01.01.1800	31.12.9999	CS	vytøídìní nepotøebnıch zásob
+	01	ZP	  90005105	0001	01.01.1800	31.12.9999	CS	zajištìní materiálu pro vıcvik a zkoušky sváøeèù
+	01	ZP	  90005107	0001	01.01.1800	31.12.9999	CS	zákaz plateb za pøeplnìní dohodnutého mnoství
+	01	ZP	  90005122	0001	01.01.1800	31.12.9999	CS	dodávky materiálu na místo urèení
+	01	ZP	  90005136	0001	01.01.1800	31.12.9999	CS	dopravu materiálu
+	01	ZP	  90005162	0001	01.01.1800	31.12.9999	CS	organizaci mimoøádnıch dodávek do montáních závodù
+	01	ZP	  90005178	0001	01.01.1800	31.12.9999	CS	pøepravu
+	01	ZP	  90005238	0001	01.01.1800	31.12.9999	CS	poèty obalù a manipulaèní techniky
+	01	ZP	  90005250	0001	01.01.1800	31.12.9999	CS	vhodné paletizace materiálu
+	01	ZP	  90005267	0001	01.01.1800	31.12.9999	CS	pøíjem a vıdej materiálu
+	01	ZP	  90005276	0001	01.01.1800	31.12.9999	CS	dodávky materiálu CKD/SKD do zahranièních závodù
+	01	ZP	  90005282	0001	01.01.1800	31.12.9999	CS	evidenci dílù
+	01	ZP	  90005283	0001	01.01.1800	31.12.9999	CS	expedice dílù/vozù
+	01	ZP	  90005290	0001	01.01.1800	31.12.9999	CS	katalog skladu
+	01	ZP	  90005298	0001	01.01.1800	31.12.9999	CS	manipulaèní plochy
+	01	ZP	  90005299	0001	01.01.1800	31.12.9999	CS	manipulaèní techniku
+	01	ZP	  90005300	0001	01.01.1800	31.12.9999	CS	materiál na skladì
+	01	ZP	  90005313	0001	01.01.1800	31.12.9999	CS	obsahovou správnost dodacích listù se skuteènım obsahem dodávek
+	01	ZP	  90005324	0001	01.01.1800	31.12.9999	CS	plnìní plánu vıroby a expedice
+	01	ZP	  90005330	0001	01.01.1800	31.12.9999	CS	pøehledy vıvoje zásob a analız skladového hospodáøství
+	01	ZP	  90005332	0001	01.01.1800	31.12.9999	CS	pøepravu materiálu
+	01	ZP	  90005338	0001	01.01.1800	31.12.9999	CS	pøíjem a vıdej materiálu a jeho zaskladnìní na urèené místo
+	01	ZP	  90005343	0001	01.01.1800	31.12.9999	CS	pøíjmové a vıdajové doklady
+	01	ZP	  90005352	0001	01.01.1800	31.12.9999	CS	rozvoz materiálu
+	01	ZP	  90005353	0001	01.01.1800	31.12.9999	CS	rozvoz materiálu skladu
+	01	ZP	  90005364	0001	01.01.1800	31.12.9999	CS	skladové zásoby vozù v prodejní síti
+	01	ZP	  90005366	0001	01.01.1800	31.12.9999	CS	sklady
+	01	ZP	  90005372	0001	01.01.1800	31.12.9999	CS	stav hospodárného pøedzásobení
+	01	ZP	  90005390	0001	01.01.1800	31.12.9999	CS	umístìní a uloení materiálu
+	01	ZP	  90005399	0001	01.01.1800	31.12.9999	CS	vybavení skladu
+	01	ZP	  90005424	0001	01.01.1800	31.12.9999	CS	nakládku vozù s ohledem na typ rozloného vozu
+	01	ZP	  90005463	0001	01.01.1800	31.12.9999	CS	objednané vozy
+	01	ZP	  90005471	0001	01.01.1800	31.12.9999	CS	objednávání vozù pro zamìstnance, VIP
+	01	ZP	  90005568	0001	01.01.1800	31.12.9999	CS	správnost cenovıch hlášení
+	01	ZP	  90005627	0001	01.01.1800	31.12.9999	CS	denní, tıdenní a mìsíèní programy pøedávání vozù
+	01	ZP	  90005661	0001	01.01.1800	31.12.9999	CS	odborné a technické informace o vozech a cenách zákazníkùm
+	01	ZP	  90005663	0001	01.01.1800	31.12.9999	CS	opatøení k dodrení termínu pøedání vozu zákazníkovi
+	01	ZP	  90005705	0001	01.01.1800	31.12.9999	CS	pøedávání vozù zamìstnancùm a zákazníkùm
+	01	ZP	  90005708	0001	01.01.1800	31.12.9999	CS	pøedvádìcí jízdy pro všechny skupiny zákazníkù
+	01	ZP	  90005711	0001	01.01.1800	31.12.9999	CS	pøihlášení vozù na dopravním odboru magistrátu MB
+	01	ZP	  90005714	0001	01.01.1800	31.12.9999	CS	pøíjmové a vıdejové doklady
+	01	ZP	  90005717	0001	01.01.1800	31.12.9999	CS	pøípravu dokladù k vozùm
+	01	ZP	  90005731	0001	01.01.1800	31.12.9999	CS	reporting prodeje
+	01	ZP	  90005737	0001	01.01.1800	31.12.9999	CS	slubu na recepci
+	01	ZP	  90005743	0001	01.01.1800	31.12.9999	CS	statistiky vozù
+	01	ZP	  90005751	0001	01.01.1800	31.12.9999	CS	technickou a optickou pøípravu vozu na prodej
+	01	ZP	  90005772	0001	01.01.1800	31.12.9999	CS	zveøejnìní nabídky vozù
+	01	ZP	  90005803	0001	01.01.1800	31.12.9999	CS	poradenství pro servisní partnery
+	01	ZP	  90005873	0001	01.01.1800	31.12.9999	CS	opatøení ke zkvalitòování slueb v servisní síti
+	01	ZP	  90005885	0001	01.01.1800	31.12.9999	CS	postupy øešení technickıch problémù
+	01	ZP	  90005912	0001	01.01.1800	31.12.9999	CS	technické informace o vırobku
+	01	ZP	  90006156	0001	01.01.1800	31.12.9999	CS	technické poradenství
+	01	ZP	  90006214	0001	01.01.1800	31.12.9999	CS	vytváøení smluv a dodatkù
+	01	ZP	  90006265	0001	01.01.1800	31.12.9999	CS	marketingové koncepty pro vırobky a vıbavy a ceny
+	01	ZP	  90006295	0001	01.01.1800	31.12.9999	CS	optimalizaci produktu
+	01	ZP	  90006356	0001	01.01.1800	31.12.9999	CS	sledování marketingovıch aktivit a akcí konkurenèních modelù
+	01	ZP	  90006738	0001	01.01.1800	31.12.9999	CS	komunikaèní materiály
+	01	ZP	  90006740	0001	01.01.1800	31.12.9999	CS	koncepty akcí
+	01	ZP	  90006747	0001	01.01.1800	31.12.9999	CS	kulturní akce
+	01	ZP	  90006761	0001	01.01.1800	31.12.9999	CS	motivaèní programy loajality zákazníkù
+	01	ZP	  90006794	0001	01.01.1800	31.12.9999	CS	prezentaèní akce
+	01	ZP	  90006805	0001	01.01.1800	31.12.9999	CS	propagaèní akce
+	01	ZP	  90006816	0001	01.01.1800	31.12.9999	CS	pøípravu novıch prezentaèních materiálù pro interní a externí pouití 
+CI prvkù
+	01	ZP	  90006868	0001	01.01.1800	31.12.9999	CS	vısledcích v oblasti loajality zákazníkù ke znaèce ŠA
+	01	ZP	  90006895	0001	01.01.1800	31.12.9999	CS	aktualizaci obsahu portálu
+	01	ZP	  90006901	0001	01.01.1800	31.12.9999	CS	informace podøízenım zamìstnancùm a vedoucímu OJ
+	01	ZP	  90006905	0001	01.01.1800	31.12.9999	CS	konzultaèní a poradenskou èinnost
+	01	ZP	  90006913	0001	01.01.1800	31.12.9999	CS	pøedrozhovory a jednání
+	01	ZP	  90006917	0001	01.01.1800	31.12.9999	CS	stavu projektu èleny projektového tımu a zadavatele projektu
+	01	ZP	  90006932	0001	01.01.1800	31.12.9999	CS	èinnost externích firem
+	01	ZP	  90006945	0001	01.01.1800	31.12.9999	CS	interní a externí jednání
+	01	ZP	  90007009	0001	01.01.1800	31.12.9999	CS	spolupráci s externími dodavateli
+	01	ZP	  90007010	0001	01.01.1800	31.12.9999	CS	spolupráci s koncernem a ostatními znaèkami
+	01	ZP	  90007061	0001	01.01.1800	31.12.9999	CS	prohlídky ve ŠKODA Muzeu a ve vırobních provozech
+	01	ZP	  90007082	0001	01.01.1800	31.12.9999	CS	kvalifikaèní programy pro nové projekty u dodavatele
+	01	ZP	  90007083	0001	01.01.1800	31.12.9999	CS	lokalizaci nakupovanıch dílù
+	01	ZP	  90007086	0001	01.01.1800	31.12.9999	CS	nákup materiálu
+	01	ZP	  90007107	0001	01.01.1800	31.12.9999	CS	cenové diference pro objednávky na pøedsérii a sérii, OD a pro domácí 
+vırobu OD
+	01	ZP	  90007112	0001	01.01.1800	31.12.9999	CS	externí ubytování
+	01	ZP	  90007114	0001	01.01.1800	31.12.9999	CS	hodnocení dodavatelù
+	01	ZP	  90007119	0001	01.01.1800	31.12.9999	CS	nabídky dodavatelù
+	01	ZP	  90007120	0001	01.01.1800	31.12.9999	CS	nabídky dodavatelù po technické stránce
+	01	ZP	  90007123	0001	01.01.1800	31.12.9999	CS	nákupní a platební podmínky
+	01	ZP	  90007124	0001	01.01.1800	31.12.9999	CS	objednací návrhy
+	01	ZP	  90007130	0001	01.01.1800	31.12.9999	CS	podklady na cenová jednání
+	01	ZP	  90007134	0001	01.01.1800	31.12.9999	CS	poptávková øízení a uzavírání rámcovıch smluv s dodavateli
+	01	ZP	  90007135	0001	01.01.1800	31.12.9999	CS	poptávkové øízení
+	01	ZP	  90007136	0001	01.01.1800	31.12.9999	CS	poptávky na dodavatele
+	01	ZP	  90007139	0001	01.01.1800	31.12.9999	CS	prezentování nabídek v grémiích
+	01	ZP	  90007141	0001	01.01.1800	31.12.9999	CS	pøehled potøeby nakupovaného materiálu
+	01	ZP	  90007147	0001	01.01.1800	31.12.9999	CS	trh dodavatelù
+	01	ZP	  90007151	0001	01.01.1800	31.12.9999	CS	zabezpeèení vıbavy pro vıuku
+	01	ZP	  90007154	0001	01.01.1800	31.12.9999	CS	zaøazení dílù do procesu FS/GS
+	01	ZP	  90007159	0001	01.01.1800	31.12.9999	CS	objednávky a smlouvy
+	01	ZP	  90007160	0001	01.01.1800	31.12.9999	CS	kooperaèní smlouvy
+	01	ZP	  90007166	0001	01.01.1800	31.12.9999	CS	objednací návrhy na nákup náøadí
+	01	ZP	  90007167	0001	01.01.1800	31.12.9999	CS	objednání kanceláøského materiálu, darù a propagaèních pøedmìtù
+	01	ZP	  90007180	0001	01.01.1800	31.12.9999	CS	podklady pro sankce za neplnìní smluvních podmínek
+	01	ZP	  90007182	0001	01.01.1800	31.12.9999	CS	podklady pro uzavøení rámcovıch smluv
+	01	ZP	  90007190	0001	01.01.1800	31.12.9999	CS	smlouvy na údrbu a správu budov
+	01	ZP	  90007208	0001	01.01.1800	31.12.9999	CS	dodavatele
+	01	ZP	  90007212	0001	01.01.1800	31.12.9999	CS	dodavatelské zdroje ve vymezenıch regionech
+	01	ZP	  90007213	0001	01.01.1800	31.12.9999	CS	doporuèení pro vıbìr dodavatele
+	01	ZP	  90007219	0001	01.01.1800	31.12.9999	CS	podklady pro vıbìr dodavatele
+	01	ZP	  90007223	0001	01.01.1800	31.12.9999	CS	situaci na trhu dodavatelù
+	01	ZP	  90007227	0001	01.01.1800	31.12.9999	CS	údaje o dodavatelích
+	01	ZP	  90007229	0001	01.01.1800	31.12.9999	CS	vıbìr dodavatelù
+	01	ZP	  90007230	0001	01.01.1800	31.12.9999	CS	vıbìr dodavatelù z odborného pohledu
+	01	ZP	  90007246	0001	01.01.1800	31.12.9999	CS	CAD data designérskıch modelù
+	01	ZP	  90007248	0001	01.01.1800	31.12.9999	CS	designové návrhy
+	01	ZP	  90007271	0001	01.01.1800	31.12.9999	CS	CAD data z konstrukce a designu
+	01	ZP	  90007274	0001	01.01.1800	31.12.9999	CS	dodrení finanèních limitù (targetù)
+	01	ZP	  90007275	0001	01.01.1800	31.12.9999	CS	hmotnosti jednotlivıch skupin vozu
+	01	ZP	  90007276	0001	01.01.1800	31.12.9999	CS	kolize dílù
+	01	ZP	  90007277	0001	01.01.1800	31.12.9999	CS	konstrukci dílù
+	01	ZP	  90007278	0001	01.01.1800	31.12.9999	CS	konstrukci koncernovıch vırobkù
+	01	ZP	  90007279	0001	01.01.1800	31.12.9999	CS	konstrukèní a technologická øešení
+	01	ZP	  90007280	0001	01.01.1800	31.12.9999	CS	konstrukèní data
+	01	ZP	  90007281	0001	01.01.1800	31.12.9999	CS	konstrukèní návrhy na základì zkoušek
+	01	ZP	  90007282	0001	01.01.1800	31.12.9999	CS	konstrukèní øešení
+	01	ZP	  90007288	0001	01.01.1800	31.12.9999	CS	materiály, technická øešení a technologie
+	01	ZP	  90007294	0001	01.01.1800	31.12.9999	CS	nové trendy ve zpracování CAID datech pro relizaci ve vırobì
+	01	ZP	  90007296	0001	01.01.1800	31.12.9999	CS	opatøení po zkouškách
+	01	ZP	  90007297	0001	01.01.1800	31.12.9999	CS	P-, B- uvolnìní dílù
+	01	ZP	  90007300	0001	01.01.1800	31.12.9999	CS	projekty z hlediska obsahu, nákladù, kvality a termínù
+	01	ZP	  90007304	0001	01.01.1800	31.12.9999	CS	skladbu dílù dle konceptu
+	01	ZP	  90007306	0001	01.01.1800	31.12.9999	CS	spolupráci s int./ext.dodavateli
+	01	ZP	  90007308	0001	01.01.1800	31.12.9999	CS	technická øešení
+	01	ZP	  90007315	0001	01.01.1800	31.12.9999	CS	technické popisy vırobku
+	01	ZP	  90007317	0001	01.01.1800	31.12.9999	CS	technické zadání pro externí vıvoj
+	01	ZP	  90007318	0001	01.01.1800	31.12.9999	CS	technologiènost vıroby
+	01	ZP	  90007322	0001	01.01.1800	31.12.9999	CS	uvolnìní zástavbového vzorku
+	01	ZP	  90007324	0001	01.01.1800	31.12.9999	CS	vyuití modulù
+	01	ZP	  90007340	0001	01.01.1800	31.12.9999	CS	zmìny CAD-dat ve vztahu k charakteristikám konceptù
+	01	ZP	  90007341	0001	01.01.1800	31.12.9999	CS	konstrukci náøadí a pøípravkù
+	01	ZP	  90007357	0001	01.01.1800	31.12.9999	CS	pevnostní vıpoèty
+	01	ZP	  90007371	0001	01.01.1800	31.12.9999	CS	vısledky FEM vıpoètù
+	01	ZP	  90007378	0001	01.01.1800	31.12.9999	CS	CAD data pro konstrukci
+	01	ZP	  90007400	0001	01.01.1800	31.12.9999	CS	funkci metrologa
+	01	ZP	  90007430	0001	01.01.1800	31.12.9999	CS	mìøení
+	01	ZP	  90007445	0001	01.01.1800	31.12.9999	CS	metodiku mìøení a zkoušek
+	01	ZP	  90007456	0001	01.01.1800	31.12.9999	CS	metrologické provádìcí pokyny
+	01	ZP	  90007550	0001	01.01.1800	31.12.9999	CS	vısledky a analızy mìrového støediska
+	01	ZP	  90007567	0001	01.01.1800	31.12.9999	CS	laboratorní zkoušky
+	01	ZP	  90007577	0001	01.01.1800	31.12.9999	CS	vzorkování dílù
+	01	ZP	  90007583	0001	01.01.1800	31.12.9999	CS	analızy zkoušek a mìøení
+	01	ZP	  90007585	0001	01.01.1800	31.12.9999	CS	analızy zkouškovıch vozù
+	01	ZP	  90007587	0001	01.01.1800	31.12.9999	CS	cíle zkoušek
+	01	ZP	  90007589	0001	01.01.1800	31.12.9999	CS	data ze zkoušek
+	01	ZP	  90007596	0001	01.01.1800	31.12.9999	CS	funkèní zkoušky
+	01	ZP	  90007602	0001	01.01.1800	31.12.9999	CS	koncepci a metodiku zkoušek
+	01	ZP	  90007604	0001	01.01.1800	31.12.9999	CS	koncernové pøejímací jízdy
+	01	ZP	  90007605	0001	01.01.1800	31.12.9999	CS	kontrolní zkoušky sériové vıroby
+	01	ZP	  90007609	0001	01.01.1800	31.12.9999	CS	technická zadání (Lastenhefty) k provedení zkoušek
+	01	ZP	  90007611	0001	01.01.1800	31.12.9999	CS	mìøení a zkoušky dílù
+	01	ZP	  90007619	0001	01.01.1800	31.12.9999	CS	nápravná opatøení po provedení zkoušek
+	01	ZP	  90007620	0001	01.01.1800	31.12.9999	CS	nasazení dílù do zvláštních zkoušek
+	01	ZP	  90007624	0001	01.01.1800	31.12.9999	CS	nové zkušební metody
+	01	ZP	  90007626	0001	01.01.1800	31.12.9999	CS	organizování srovnávacích jízd s konkurenèními modely
+	01	ZP	  90007634	0001	01.01.1800	31.12.9999	CS	problémech ze zkoušek
+	01	ZP	  90007646	0001	01.01.1800	31.12.9999	CS	provoz zkouškovıch vozù
+	01	ZP	  90007650	0001	01.01.1800	31.12.9999	CS	prùbìh a provádìní zkoušek
+	01	ZP	  90007653	0001	01.01.1800	31.12.9999	CS	pøejímky komponentù / vozù
+	01	ZP	  90007659	0001	01.01.1800	31.12.9999	CS	realizaci zkoušek dílù, skupin dílù, vozù
+	01	ZP	  90007670	0001	01.01.1800	31.12.9999	CS	srovnávací a testovací jízdy
+	01	ZP	  90007674	0001	01.01.1800	31.12.9999	CS	stav komponentù/vozù
+	01	ZP	  90007682	0001	01.01.1800	31.12.9999	CS	technologické zkoušky
+	01	ZP	  90007684	0001	01.01.1800	31.12.9999	CS	termíny zkoušek
+	01	ZP	  90007688	0001	01.01.1800	31.12.9999	CS	vozy pro jízdní zkoušky
+	01	ZP	  90007689	0001	01.01.1800	31.12.9999	CS	vozy z dlouhodobıch zkoušek
+	01	ZP	  90007694	0001	01.01.1800	31.12.9999	CS	vısledcích zkoušek
+	01	ZP	  90007706	0001	01.01.1800	31.12.9999	CS	vısledky zkoušek
+	01	ZP	  90007713	0001	01.01.1800	31.12.9999	CS	zapojení a diagnostiku mìøících pøístrojù
+	01	ZP	  90007720	0001	01.01.1800	31.12.9999	CS	zkoušky
+	01	ZP	  90007725	0001	01.01.1800	31.12.9999	CS	zmìny na provádìní mìøení a zástavbovıch zkoušek
+	01	ZP	  90007726	0001	01.01.1800	31.12.9999	CS	zmìny v procesu zkoušek
+	01	ZP	  90007730	0001	01.01.1800	31.12.9999	CS	zvláštní zkoušky vybranıch dílù
+	01	ZP	  90007740	0001	01.01.1800	31.12.9999	CS	plány zkoušek a mìøení dílù
+	01	ZP	  90007743	0001	01.01.1800	31.12.9999	CS	poadavky na zkoušky
+	01	ZP	  90007745	0001	01.01.1800	31.12.9999	CS	pøípravu a organizaci zkoušek
+	01	ZP	  90007747	0001	01.01.1800	31.12.9999	CS	pøípravu vozu na zkoušky
+	01	ZP	  90007797	0001	01.01.1800	31.12.9999	CS	flashování/úpravu SW/øídících jednotek
+	01	ZP	  90007798	0001	01.01.1800	31.12.9999	CS	funkce vozu
+	01	ZP	  90007816	0001	01.01.1800	31.12.9999	CS	kontrolní kartu vozu
+	01	ZP	  90007834	0001	01.01.1800	31.12.9999	CS	kvalitativní odchylky na vyrábìnıch a dodávanıch dílech
+	01	ZP	  90007839	0001	01.01.1800	31.12.9999	CS	kvalitu dodávanıch slueb
+	01	ZP	  90007851	0001	01.01.1800	31.12.9999	CS	kvalitu vırobku a procesu
+	01	ZP	  90007875	0001	01.01.1800	31.12.9999	CS	nové díly pøi nábìhu vıroby
+	01	ZP	  90007876	0001	01.01.1800	31.12.9999	CS	nové metody a postupy diagnostiky závad
+	01	ZP	  90007903	0001	01.01.1800	31.12.9999	CS	poadavky kvality (SET, FMEA)
+	01	ZP	  90007925	0001	01.01.1800	31.12.9999	CS	rozbory CAD dat pøi analızách kvalitativních odchylek
+	01	ZP	  90008000	0001	01.01.1800	31.12.9999	CS	kvalitu provádìnıch oprav (funkèních a lakovıch)
+	01	ZP	  90008005	0001	01.01.1800	31.12.9999	CS	nápravná opatøení
+	01	ZP	  90008007	0001	01.01.1800	31.12.9999	CS	nápravná opatøení k závadám
+	01	ZP	  90008018	0001	01.01.1800	31.12.9999	CS	nesoulad mezi doklady a vlastním vozem
+	01	ZP	  90008036	0001	01.01.1800	31.12.9999	CS	opatøení ke zlepšení auditu
+	01	ZP	  90008037	0001	01.01.1800	31.12.9999	CS	opatøení ke zlepšení kvality novıch modelù
+	01	ZP	  90008074	0001	01.01.1800	31.12.9999	CS	shodu produkce s dokumentací
+	01	ZP	  90008075	0001	01.01.1800	31.12.9999	CS	slícovanost dílù
+	01	ZP	  90008124	0001	01.01.1800	31.12.9999	CS	audit
+	01	ZP	  90008130	0001	01.01.1800	31.12.9999	CS	pravidelné revize technického vybavení
+	01	ZP	  90008188	0001	01.01.1800	31.12.9999	CS	systém kvality
+	01	ZP	  90008223	0001	01.01.1800	31.12.9999	CS	audity metrologie
+	01	ZP	  90008265	0001	01.01.1800	31.12.9999	CS	realizaci auditù dle plánu auditù ostatních OJ
+	01	ZP	  90008288	0001	01.01.1800	31.12.9999	CS	auditové závady
+	01	ZP	  90008300	0001	01.01.1800	31.12.9999	CS	kvalitativní závady
+	01	ZP	  90008315	0001	01.01.1800	31.12.9999	CS	opatøení k odstranìní závad
+	01	ZP	  90008333	0001	01.01.1800	31.12.9999	CS	problémy z auditu
+	01	ZP	  90008346	0001	01.01.1800	31.12.9999	CS	øešení závad
+	01	ZP	  90008357	0001	01.01.1800	31.12.9999	CS	vıvoj závadovosti
+	01	ZP	  90008367	0001	01.01.1800	31.12.9999	CS	dobropisy a vrubopisy
+	01	ZP	  90008387	0001	01.01.1800	31.12.9999	CS	podklady pro auditory
+	01	ZP	  90008406	0001	01.01.1800	31.12.9999	CS	reklamace úèetních dokladù
+	01	ZP	  90008410	0001	01.01.1800	31.12.9999	CS	správnost úèetních dokladù
+	01	ZP	  90008420	0001	01.01.1800	31.12.9999	CS	úèetní doklady
+	01	ZP	  90008473	0001	01.01.1800	31.12.9999	CS	BWA (povolení investice) a objednací návrhy
+	01	ZP	  90008482	0001	01.01.1800	31.12.9999	CS	inventuru majetku
+	01	ZP	  90008484	0001	01.01.1800	31.12.9999	CS	investice
+	01	ZP	  90008495	0001	01.01.1800	31.12.9999	CS	plán investic
+	01	ZP	  90008496	0001	01.01.1800	31.12.9999	CS	plán investic a reijních nákladù
+	01	ZP	  90008500	0001	01.01.1800	31.12.9999	CS	podklady pro BWA vèetnì specifikací
+	01	ZP	  90008512	0001	01.01.1800	31.12.9999	CS	prùbìh povolování investic
+	01	ZP	  90008521	0001	01.01.1800	31.12.9999	CS	realizaci technologie, SZ nebo stavby
+	01	ZP	  90008531	0001	01.01.1800	31.12.9999	CS	zajištìní investièních akcí hospodáøského inventáøe vzdìlávání
+	01	ZP	  90008579	0001	01.01.1800	31.12.9999	CS	inventuru
+	01	ZP	  90008587	0001	01.01.1800	31.12.9999	CS	krátkodobı vıhled likvidity spoleènosti ŠA
+	01	ZP	  90008588	0001	01.01.1800	31.12.9999	CS	lokalizaci dílù
+	01	ZP	  90008589	0001	01.01.1800	31.12.9999	CS	mìsíèní úèetní uzávìrku
+	01	ZP	  90008604	0001	01.01.1800	31.12.9999	CS	opatøení business plánu z finanèního hlediska pro dosaení rozpoètu
+	01	ZP	  90008612	0001	01.01.1800	31.12.9999	CS	opatøení pøi odchylkách mezi plánem a skuteèností
+	01	ZP	  90008623	0001	01.01.1800	31.12.9999	CS	plnìní rozpoètu
+	01	ZP	  90008627	0001	01.01.1800	31.12.9999	CS	podklady pro inventarizaci
+	01	ZP	  90008629	0001	01.01.1800	31.12.9999	CS	podklady pro sestavení business plánu
+	01	ZP	  90008633	0001	01.01.1800	31.12.9999	CS	podklady pro úèetní uzávìrku
+	01	ZP	  90008636	0001	01.01.1800	31.12.9999	CS	porovnání nákladù a vınosù
+	01	ZP	  90008644	0001	01.01.1800	31.12.9999	CS	provádìní inventury
+	01	ZP	  90008657	0001	01.01.1800	31.12.9999	CS	vyhodnocování a øízení rizik
+	01	ZP	  90008662	0001	01.01.1800	31.12.9999	CS	rozpis plánu práce a nákladù
+	01	ZP	  90008667	0001	01.01.1800	31.12.9999	CS	sbìr dat pro statistická hlášení
+	01	ZP	  90008701	0001	01.01.1800	31.12.9999	CS	vıroèní zprávu
+	01	ZP	  90008722	0001	01.01.1800	31.12.9999	CS	èasová a osobní data
+	01	ZP	  90008725	0001	01.01.1800	31.12.9999	CS	docházku
+	01	ZP	  90008765	0001	01.01.1800	31.12.9999	CS	aktualizaci pracnosti v kalkulaci
+	01	ZP	  90008775	0001	01.01.1800	31.12.9999	CS	ceny nakupovanıch dílù
+	01	ZP	  90008783	0001	01.01.1800	31.12.9999	CS	fakturaèní plány
+	01	ZP	  90008790	0001	01.01.1800	31.12.9999	CS	interní a externí ceny za vıkony poskytované OJ
+	01	ZP	  90008815	0001	01.01.1800	31.12.9999	CS	podklady pro cenové kalkulace dílù
+	01	ZP	  90008830	0001	01.01.1800	31.12.9999	CS	roèní ceny nakupovanıch dílù
+	01	ZP	  90008855	0001	01.01.1800	31.12.9999	CS	vıvoj cen u konkurenèních vırobcù
+	01	ZP	  90008861	0001	01.01.1800	31.12.9999	CS	zmìny cen nakupovanıch dílù
+	01	ZP	  90008866	0001	01.01.1800	31.12.9999	CS	èerpání nákladù
+	01	ZP	  90008868	0001	01.01.1800	31.12.9999	CS	reijní a investièní plány
+	01	ZP	  90008872	0001	01.01.1800	31.12.9999	CS	èerpání nákladù dle jednotlivıch poloek a hospodáøskıch støedisek
+	01	ZP	  90008878	0001	01.01.1800	31.12.9999	CS	èerpání rozpoètu
+	01	ZP	  90008882	0001	01.01.1800	31.12.9999	CS	dílèí rozpoètové zmìny a úpravy
+	01	ZP	  90008895	0001	01.01.1800	31.12.9999	CS	konsolidaci rozpoètu
+	01	ZP	  90008896	0001	01.01.1800	31.12.9999	CS	logistické náklady
+	01	ZP	  90008899	0001	01.01.1800	31.12.9999	CS	materiálové náklady nakupovanıch dílù
+	01	ZP	  90008903	0001	01.01.1800	31.12.9999	CS	nákladové poloky
+	01	ZP	  90008922	0001	01.01.1800	31.12.9999	CS	náklady na vznik produktu
+	01	ZP	  90008935	0001	01.01.1800	31.12.9999	CS	odhady nákladù a potøebnıch investic u novıch dílù
+	01	ZP	  90008941	0001	01.01.1800	31.12.9999	CS	optimalizaci nákladù a cen nakupovanıch dílù
+	01	ZP	  90008946	0001	01.01.1800	31.12.9999	CS	plán nákladù
+	01	ZP	  90008969	0001	01.01.1800	31.12.9999	CS	pravidla pro nakládání s rozpoètem
+	01	ZP	  90008972	0001	01.01.1800	31.12.9999	CS	provozní náklady budov
+	01	ZP	  90008974	0001	01.01.1800	31.12.9999	CS	pøehledy èerpání rozpoètù
+	01	ZP	  90008975	0001	01.01.1800	31.12.9999	CS	pøehledy prùbìnıch stavù èerpání rozpoètu
+	01	ZP	  90008980	0001	01.01.1800	31.12.9999	CS	rozpoèet
+	01	ZP	  90008984	0001	01.01.1800	31.12.9999	CS	rozpoèet na náøadí
+	01	ZP	  90008987	0001	01.01.1800	31.12.9999	CS	rozpoèet nákladù
+	01	ZP	  90008988	0001	01.01.1800	31.12.9999	CS	rozpoèet OJ a pouití finanèních prostøedkù
+	01	ZP	  90009001	0001	01.01.1800	31.12.9999	CS	rozpoètu
+	01	ZP	  90009002	0001	01.01.1800	31.12.9999	CS	rozpoèty
+	01	ZP	  90009006	0001	01.01.1800	31.12.9999	CS	spotøebu reijního materiálu
+	01	ZP	  90009007	0001	01.01.1800	31.12.9999	CS	správu stálé a mimoøádné zálohy pro provoz
+	01	ZP	  90009008	0001	01.01.1800	31.12.9999	CS	targety nákladù, investic a vırobních èasù
+	01	ZP	  90009012	0001	01.01.1800	31.12.9999	CS	úpravy rozpoètu v pøípadì odchylek od schválené verze
+	01	ZP	  90009044	0001	01.01.1800	31.12.9999	CS	daòovou uznatelnost z pohledu DPH a danì z pøíjmu
+	01	ZP	  90009053	0001	01.01.1800	31.12.9999	CS	inventura skladovıch zásob
+	01	ZP	  90009056	0001	01.01.1800	31.12.9999	CS	inventuru skladovıch zásob
+	01	ZP	  90009060	0001	01.01.1800	31.12.9999	CS	nápravná opatøení pøi rozdílech zásob
+	01	ZP	  90009062	0001	01.01.1800	31.12.9999	CS	normy zásob
+	01	ZP	  90009066	0001	01.01.1800	31.12.9999	CS	optimalizaci zásob
+	01	ZP	  90009067	0001	01.01.1800	31.12.9999	CS	optimální mnoství zásob
+	01	ZP	  90009068	0001	01.01.1800	31.12.9999	CS	plány MTZ
+	01	ZP	  90009072	0001	01.01.1800	31.12.9999	CS	pøehledy a pohyby zásob
+	01	ZP	  90009076	0001	01.01.1800	31.12.9999	CS	skladové zásoby
+	01	ZP	  90009084	0001	01.01.1800	31.12.9999	CS	stav zásob dle druhù materiálu
+	01	ZP	  90009086	0001	01.01.1800	31.12.9999	CS	vıdeje z vırobních skladù
+	01	ZP	  90009123	0001	01.01.1800	31.12.9999	CS	vìcnou správnost a profesionální prezentaci business plánu
+	01	ZP	  90009125	0001	01.01.1800	31.12.9999	CS	vytvoøení struktury, rozsahu business plánu
+	01	ZP	  90009129	0001	01.01.1800	31.12.9999	CS	zpùsob financování
+	01	ZP	  90009138	0001	01.01.1800	31.12.9999	CS	finanèní dispozice na koncernové Treasury
+	01	ZP	  90009149	0001	01.01.1800	31.12.9999	CS	plán financování
+	01	ZP	  90009150	0001	01.01.1800	31.12.9999	CS	plán vınosù
+	01	ZP	  90009160	0001	01.01.1800	31.12.9999	CS	zajištìní rizik pohybu smìnnıch kurzù a úrokovıch sazeb
+	01	ZP	  90009163	0001	01.01.1800	31.12.9999	CS	bankovní vıpisy
+	01	ZP	  90009164	0001	01.01.1800	31.12.9999	CS	bankovní vıpisy a zùstatky s finanèními plány
+	01	ZP	  90009170	0001	01.01.1800	31.12.9999	CS	podpisové vzory pro bankovní konta
+	01	ZP	  90009171	0001	01.01.1800	31.12.9999	CS	reklamace platebních tokù s bankami
+	01	ZP	  90009198	0001	01.01.1800	31.12.9999	CS	platební styk
+	01	ZP	  90009207	0001	01.01.1800	31.12.9999	CS	pøíjmové a vıdajové transakce
+	01	ZP	  90009208	0001	01.01.1800	31.12.9999	CS	pøíjmové a vıdajové transakce koncernové treasury
+	01	ZP	  90009211	0001	01.01.1800	31.12.9999	CS	ruèní platební pøíkazy
+	01	ZP	  90009212	0001	01.01.1800	31.12.9999	CS	trvalé platební pøíkazy a inkasa
+	01	ZP	  90009216	0001	01.01.1800	31.12.9999	CS	úroky, sráky a poplatky na bankovních kontech
+	01	ZP	  90009269	0001	01.01.1800	31.12.9999	CS	pøípravu vıroèní zprávy
+	01	ZP	  90009286	0001	01.01.1800	31.12.9999	CS	celní odbavení zásilek
+	01	ZP	  90009336	0001	01.01.1800	31.12.9999	CS	podklady pro celní deklaraci
+	01	ZP	  90009392	0001	01.01.1800	31.12.9999	CS	faktury
+	01	ZP	  90009401	0001	01.01.1800	31.12.9999	CS	podklady pro fakturaci
+	01	ZP	  90009406	0001	01.01.1800	31.12.9999	CS	posouzení vìcné správnosti došlıch faktur
+	01	ZP	  90009413	0001	01.01.1800	31.12.9999	CS	správnost údajù pøi likvidaci faktur
+	01	ZP	  90009415	0001	01.01.1800	31.12.9999	CS	uznání správnosti faktur
+	01	ZP	  90009465	0001	01.01.1800	31.12.9999	CS	aplikaci legislativy do školské dokumentace
+	01	ZP	  90009485	0001	01.01.1800	31.12.9999	CS	pracovní smlouvy
+	01	ZP	  90009514	0001	01.01.1800	31.12.9999	CS	vyuití školních zaøízení
+	01	ZP	  90009523	0001	01.01.1800	31.12.9999	CS	opravy, údrby a úklid a technickı stav budov
+	01	ZP	  90009536	0001	01.01.1800	31.12.9999	CS	škodovou komisi
+	01	ZP	  90009540	0001	01.01.1800	31.12.9999	CS	vybavení a inventáø
+	01	ZP	  90009543	0001	01.01.1800	31.12.9999	CS	vyuití a pronájem nebytovıch prostor
+	01	ZP	  90009638	0001	01.01.1800	31.12.9999	CS	èistotu na pracovišti
+	01	ZP	  90009643	0001	01.01.1800	31.12.9999	CS	postupy a metody pro úklid
+	01	ZP	  90009646	0001	01.01.1800	31.12.9999	CS	úklid a èištìní svìøenıch prostor
+	01	ZP	  90009650	0001	01.01.1800	31.12.9999	CS	zajištìní pracovních cest
+	01	ZP	  90009662	0001	01.01.1800	31.12.9999	CS	tuzemské a zahranièní pracovní cesty vèetnì organizace a vyúètování
+	01	ZP	  90009679	0001	01.01.1800	31.12.9999	CS	agendu licencí, ochr.známek,patentù
+	01	ZP	  90009680	0001	01.01.1800	31.12.9999	CS	agendu ochrannıch známek
+	01	ZP	  90009682	0001	01.01.1800	31.12.9999	CS	návrhy na pouití ochrannıch známek, patentù, licencí
+	01	ZP	  90009683	0001	01.01.1800	31.12.9999	CS	nezávadnost z pohledu ochrannıch známek, patentù, licencí
+	01	ZP	  90009684	0001	01.01.1800	31.12.9999	CS	plnìní licenèních smluv
+	01	ZP	  90009685	0001	01.01.1800	31.12.9999	CS	podané patenty na dané øešení v konstrukci, technologii, vırobì
+	01	ZP	  90009686	0001	01.01.1800	31.12.9999	CS	pøihlašování novıch oznaèení ochrannıch známek
+	01	ZP	  90009687	0001	01.01.1800	31.12.9999	CS	rešerše ochrannıch známek v databázi
+	01	ZP	  90009690	0001	01.01.1800	31.12.9999	CS	správu vlastnickıch ochrannıch práv
+	01	ZP	  90009693	0001	01.01.1800	31.12.9999	CS	implementaci aplikací
+	01	ZP	  90009694	0001	01.01.1800	31.12.9999	CS	náhradní øešení pøi vıpadku IS
+	01	ZP	  90009695	0001	01.01.1800	31.12.9999	CS	nasazování IT slueb za uivatele
+	01	ZP	  90009696	0001	01.01.1800	31.12.9999	CS	návody pro operování aplikace
+	01	ZP	  90009697	0001	01.01.1800	31.12.9999	CS	návrhy architektury aplikace
+	01	ZP	  90009700	0001	01.01.1800	31.12.9999	CS	plány a politiky vıvoje aplikací
+	01	ZP	  90009701	0001	01.01.1800	31.12.9999	CS	plány nasazení aplikace
+	01	ZP	  90009702	0001	01.01.1800	31.12.9999	CS	plány rozvoje aplikace
+	01	ZP	  90009703	0001	01.01.1800	31.12.9999	CS	politiky a standardy pro implementaci aplikace
+	01	ZP	  90009705	0001	01.01.1800	31.12.9999	CS	popis vıvoje, implementace a operování aplikace
+	01	ZP	  90009706	0001	01.01.1800	31.12.9999	CS	poadavky na ICT Infrastrukturu aplikace
+	01	ZP	  90009708	0001	01.01.1800	31.12.9999	CS	procedury pro operování aplikace
+	01	ZP	  90009713	0001	01.01.1800	31.12.9999	CS	provozní testy aplikace
+	01	ZP	  90009715	0001	01.01.1800	31.12.9999	CS	rutinní operace pro zajištìní kadodenního provozu aplikace
+	01	ZP	  90009719	0001	01.01.1800	31.12.9999	CS	správu uivatelskıch úètù (user ID, hesla, odblokování)
+	01	ZP	  90009721	0001	01.01.1800	31.12.9999	CS	testování IT systémù/slueb u zákazníkù
+	01	ZP	  90009723	0001	01.01.1800	31.12.9999	CS	vıvoj aplikace
+	01	ZP	  90009770	0001	01.01.1800	31.12.9999	CS	poadavky na zmìnu IT slueb
+	01	ZP	  90009839	0001	01.01.1800	31.12.9999	CS	optimalizace IS
+	01	ZP	  90009842	0001	01.01.1800	31.12.9999	CS	nasazování IT systémù/slueb z pohledu uivatele
+	01	ZP	  90009843	0001	01.01.1800	31.12.9999	CS	nasazování IT systémù/slueb za uivatele
+	01	ZP	  90009844	0001	01.01.1800	31.12.9999	CS	nasazování, nastavení a údrbu systémù z pohledu uivatele
+	01	ZP	  90009845	0001	01.01.1800	31.12.9999	CS	odstraòování chyb v datech
+	01	ZP	  90009846	0001	01.01.1800	31.12.9999	CS	parametry IT slueb
+	01	ZP	  90009847	0001	01.01.1800	31.12.9999	CS	poradenství pro IT sluby
+	01	ZP	  90009848	0001	01.01.1800	31.12.9999	CS	pouívání IT systémù/ slueb
+	01	ZP	  90009849	0001	01.01.1800	31.12.9999	CS	poadavky zákazníkù na IT sluby
+	01	ZP	  90009850	0001	01.01.1800	31.12.9999	CS	pøístupy a práva do IS (uivatelské ID, hesla, odblokování)
+	01	ZP	  90009851	0001	01.01.1800	31.12.9999	CS	øešení problémù uivatelù s IT systémy/slubami
+	01	ZP	  90009852	0001	01.01.1800	31.12.9999	CS	testování IT systémù/slueb z pohledu uivatele
+	01	ZP	  90009853	0001	01.01.1800	31.12.9999	CS	data do systému
+	01	ZP	  90009872	0001	01.01.1800	31.12.9999	CS	správnost a kvalitu dat v IS
+	01	ZP	  90009873	0001	01.01.1800	31.12.9999	CS	správnost dat
+	01	ZP	  90009881	0001	01.01.1800	31.12.9999	CS	vstupní data
+	01	ZP	  90009884	0001	01.01.1800	31.12.9999	CS	zadávání dat do systému
+	01	ZP	  90009894	0001	01.01.1800	31.12.9999	CS	dotazníky pro personální marketing
+	01	ZP	  90009897	0001	01.01.1800	31.12.9999	CS	feedback od diplomantù/stáistù/trainees/stipendistù/doktorandù
+	01	ZP	  90009903	0001	01.01.1800	31.12.9999	CS	media plány
+	01	ZP	  90009908	0001	01.01.1800	31.12.9999	CS	nábor ákù
+	01	ZP	  90009909	0001	01.01.1800	31.12.9999	CS	náborová opatøení
+	01	ZP	  90009918	0001	01.01.1800	31.12.9999	CS	opatøení na základì analızy trhu práce
+	01	ZP	  90009929	0001	01.01.1800	31.12.9999	CS	podklady pro personální marketing
+	01	ZP	  90009937	0001	01.01.1800	31.12.9999	CS	poadavky na obsazení volnıch míst
+	01	ZP	  90009938	0001	01.01.1800	31.12.9999	CS	poadavky na tuzemské i zahranièní stáisty a studenty
+	01	ZP	  90009939	0001	01.01.1800	31.12.9999	CS	poadavky v oblasti náboru zamìstnancù
+	01	ZP	  90009940	0001	01.01.1800	31.12.9999	CS	prezentace programù pro studenty a absolventy
+	01	ZP	  90009941	0001	01.01.1800	31.12.9999	CS	prezentaèní akce personálního marketingu
+	01	ZP	  90009945	0001	01.01.1800	31.12.9999	CS	setkání úèastníkù adaptaèního programu
+	01	ZP	  90009958	0001	01.01.1800	31.12.9999	CS	absolventy na ocenìní Best Apprentice Award (nejlepší absolvent 
+koncernu)
+	01	ZP	  90009962	0001	01.01.1800	31.12.9999	CS	agenturní personál na pracovištích
+	01	ZP	  90009968	0001	01.01.1800	31.12.9999	CS	analızu stavu managementu
+	01	ZP	  90009972	0001	01.01.1800	31.12.9999	CS	besedy pro studenty
+	01	ZP	  90009982	0001	01.01.1800	31.12.9999	CS	èinnosti související s pracovními odìvy a obuví
+	01	ZP	  90009990	0001	01.01.1800	31.12.9999	CS	docházku agenturního personálu
+	01	ZP	  90010001	0001	01.01.1800	31.12.9999	CS	koncepci péèe o lidské zdroje
+	01	ZP	  90010008	0001	01.01.1800	31.12.9999	CS	metodiku personálního rozvoje pro studenty a absolventy (rozvojové a 
+stabilizaèní programy)
+	01	ZP	  90010013	0001	01.01.1800	31.12.9999	CS	mzdové dopisy
+	01	ZP	  90010025	0001	01.01.1800	31.12.9999	CS	odpracované hodiny agenturního personálu
+	01	ZP	  90010028	0001	01.01.1800	31.12.9999	CS	optimalizaci a inovaci programù pro talenty
+	01	ZP	  90010029	0001	01.01.1800	31.12.9999	CS	osobní agendu studentù uèilištì
+	01	ZP	  90010030	0001	01.01.1800	31.12.9999	CS	osobní rozvoj managementu
+	01	ZP	  90010032	0001	01.01.1800	31.12.9999	CS	péèi o bıvalé zamìstnance spoleènosti
+	01	ZP	  90010041	0001	01.01.1800	31.12.9999	CS	personální agendu
+	01	ZP	  90010047	0001	01.01.1800	31.12.9999	CS	personální rozvoj zamìstnancù
+	01	ZP	  90010049	0001	01.01.1800	31.12.9999	CS	personální sluby pro management
+	01	ZP	  90010051	0001	01.01.1800	31.12.9999	CS	personální záleitosti
+	01	ZP	  90010053	0001	01.01.1800	31.12.9999	CS	personálních procesech
+	01	ZP	  90010059	0001	01.01.1800	31.12.9999	CS	plnìní personálních cílù
+	01	ZP	  90010063	0001	01.01.1800	31.12.9999	CS	podklady pro bonusovou rundu managementu
+	01	ZP	  90010070	0001	01.01.1800	31.12.9999	CS	podklady pro plánovací rundy managementu
+	01	ZP	  90010071	0001	01.01.1800	31.12.9999	CS	podklady pro povolání do managementu
+	01	ZP	  90010078	0001	01.01.1800	31.12.9999	CS	posuzování stíností a vyøizování sociálních záleitostí zamìstnancù
+	01	ZP	  90010079	0001	01.01.1800	31.12.9999	CS	potøebu agenturního personálu
+	01	ZP	  90010085	0001	01.01.1800	31.12.9999	CS	poadavky na inzerci
+	01	ZP	  90010094	0001	01.01.1800	31.12.9999	CS	provoz rekreaèních zaøízení
+	01	ZP	  90010100	0001	01.01.1800	31.12.9999	CS	pøípravu a realizaci konceptù studentskıch a absolventskıch talentbank
+	01	ZP	  90010102	0001	01.01.1800	31.12.9999	CS	pøípravu nasazení zamìstnancù ŠA v zahranièí
+	01	ZP	  90010107	0001	01.01.1800	31.12.9999	CS	rámcové smìry v sociální péèi
+	01	ZP	  90010108	0001	01.01.1800	31.12.9999	CS	realizaci HR strategie s interními a externími partnery
+	01	ZP	  90010129	0001	01.01.1800	31.12.9999	CS	smlouvy o projektech a pracích
+	01	ZP	  90010134	0001	01.01.1800	31.12.9999	CS	sociální péèi pro zamìstnance
+	01	ZP	  90010143	0001	01.01.1800	31.12.9999	CS	spolupráci s personálními servery
+	01	ZP	  90010144	0001	01.01.1800	31.12.9999	CS	sportovnì turistické kurzy, lyaøské vıcvikové zájezdy
+	01	ZP	  90010156	0001	01.01.1800	31.12.9999	CS	údaje dùvìrného charakteru
+	01	ZP	  90010164	0001	01.01.1800	31.12.9999	CS	vstupy agenturního personálu
+	01	ZP	  90010170	0001	01.01.1800	31.12.9999	CS	vıbìr tuzemskıch/zahranièních diplomantù, stáistù a absolventù
+	01	ZP	  90010172	0001	01.01.1800	31.12.9999	CS	vıbìr, pøijímání a propouštìní zamìstnancù
+	01	ZP	  90010173	0001	01.01.1800	31.12.9999	CS	vıbìrové øízení pro marketingové instrumenty
+	01	ZP	  90010175	0001	01.01.1800	31.12.9999	CS	vımìnné stáe studentù
+	01	ZP	  90010186	0001	01.01.1800	31.12.9999	CS	zaøazení zamìstnancù k útvarùm
+	01	ZP	  90010187	0001	01.01.1800	31.12.9999	CS	zaøazování studentù do opatøení off the job a events
+	01	ZP	  90010194	0001	01.01.1800	31.12.9999	CS	zavedení koncernového projektu KUBI
+	01	ZP	  90010196	0001	01.01.1800	31.12.9999	CS	zmìny v systému "reporting"
+	01	ZP	  90010201	0001	01.01.1800	31.12.9999	CS	zvyšování odborné úrovnì zamìstnancù
+	01	ZP	  90010204	0001	01.01.1800	31.12.9999	CS	absolvování vzdìlávacích akcí zamìstnancù
+	01	ZP	  90010206	0001	01.01.1800	31.12.9999	CS	administraci úèastníkù školení
+	01	ZP	  90010211	0001	01.01.1800	31.12.9999	CS	aktualizaci programovıch obsahù elektronického vzdìlávání
+	01	ZP	  90010214	0001	01.01.1800	31.12.9999	CS	aplikaci koncernové metodiky personálního rozvoje pro podmínky 
+spoleènosti ŠA
+	01	ZP	  90010217	0001	01.01.1800	31.12.9999	CS	benchmark vzdìlávácích procesù
+	01	ZP	  90010225	0001	01.01.1800	31.12.9999	CS	èerpání finanèních úèelovıch dotací od MŠMT ÈR
+	01	ZP	  90010226	0001	01.01.1800	31.12.9999	CS	èinnost externích lektorù
+	01	ZP	  90010228	0001	01.01.1800	31.12.9999	CS	èinnost lektorskıch tımù
+	01	ZP	  90010229	0001	01.01.1800	31.12.9999	CS	data a podklady e-learningovıch projektù
+	01	ZP	  90010232	0001	01.01.1800	31.12.9999	CS	databázi jazykovıch kurzù
+	01	ZP	  90010236	0001	01.01.1800	31.12.9999	CS	externí kurzy
+	01	ZP	  90010240	0001	01.01.1800	31.12.9999	CS	finanèní a kapacitní plán vzdìlávacích aktivit
+	01	ZP	  90010245	0001	01.01.1800	31.12.9999	CS	implementaci vıukovıch e-learningovıch programù
+	01	ZP	  90010248	0001	01.01.1800	31.12.9999	CS	inovaci a rozvoj plánù studijních oborù
+	01	ZP	  90010251	0001	01.01.1800	31.12.9999	CS	jazykové kurzy
+	01	ZP	  90010254	0001	01.01.1800	31.12.9999	CS	koncepce nadodborné pøípravy
+	01	ZP	  90010255	0001	01.01.1800	31.12.9999	CS	koncepce odborné pøípravy
+	01	ZP	  90010256	0001	01.01.1800	31.12.9999	CS	koncepce rozvoje vıuky
+	01	ZP	  90010260	0001	01.01.1800	31.12.9999	CS	koncepci jazykové pøípravy
+	01	ZP	  90010261	0001	01.01.1800	31.12.9999	CS	koncepci rozvoje vıuky
+	01	ZP	  90010263	0001	01.01.1800	31.12.9999	CS	koncepci vzdìlávání
+	01	ZP	  90010264	0001	01.01.1800	31.12.9999	CS	koncepty personálního rozvoje
+	01	ZP	  90010265	0001	01.01.1800	31.12.9999	CS	kouèing mentorù
+	01	ZP	  90010266	0001	01.01.1800	31.12.9999	CS	kouèink managementu
+	01	ZP	  90010267	0001	01.01.1800	31.12.9999	CS	kouèink zamìstnancù
+	01	ZP	  90010269	0001	01.01.1800	31.12.9999	CS	lektorskou èinnost
+	01	ZP	  90010272	0001	01.01.1800	31.12.9999	CS	mentoring ve spoleènosti
+	01	ZP	  90010277	0001	01.01.1800	31.12.9999	CS	moderaci v rámci analızy potenciálu
+	01	ZP	  90010278	0001	01.01.1800	31.12.9999	CS	moderaèní a lektorskou èinnost
+	01	ZP	  90010279	0001	01.01.1800	31.12.9999	CS	nabídkách, programech, opatøeních personálního rozvoje managementu
+	01	ZP	  90010283	0001	01.01.1800	31.12.9999	CS	nástupní školení
+	01	ZP	  90010295	0001	01.01.1800	31.12.9999	CS	opatøení v jazykové pøípravì
+	01	ZP	  90010298	0001	01.01.1800	31.12.9999	CS	optimalizaci a inovaci v jazykové pøípravì
+	01	ZP	  90010299	0001	01.01.1800	31.12.9999	CS	organizaci vıuky jazykové pøípravy
+	01	ZP	  90010300	0001	01.01.1800	31.12.9999	CS	osnovy kurzù
+	01	ZP	  90010302	0001	01.01.1800	31.12.9999	CS	plán nadodborného vzdìlávání
+	01	ZP	  90010304	0001	01.01.1800	31.12.9999	CS	plán vzdìlávacích aktivit
+	01	ZP	  90010311	0001	01.01.1800	31.12.9999	CS	podklady pro certifikaci dle ISO
+	01	ZP	  90010312	0001	01.01.1800	31.12.9999	CS	podklady pro pøípravu vzdìlávacích aktivit
+	01	ZP	  90010313	0001	01.01.1800	31.12.9999	CS	podklady pro školení moderátorù
+	01	ZP	  90010315	0001	01.01.1800	31.12.9999	CS	podklady pro zpracování plánu vzdìlávání a finanèního plánu
+	01	ZP	  90010318	0001	01.01.1800	31.12.9999	CS	poradenské sluby
+	01	ZP	  90010324	0001	01.01.1800	31.12.9999	CS	posouzení dodavatelù vzdìlávacích programù
+	01	ZP	  90010332	0001	01.01.1800	31.12.9999	CS	praktická inovaèní opatøení pro oblast vıuky
+	01	ZP	  90010339	0001	01.01.1800	31.12.9999	CS	projekty personálního rozvoje
+	01	ZP	  90010342	0001	01.01.1800	31.12.9999	CS	pøehledy o úèasti zamìstnancù na vıuce a o èerpání jejich finanèních 
+limitù
+	01	ZP	  90010346	0001	01.01.1800	31.12.9999	CS	pøípravu školení BOZP a PO
+	01	ZP	  90010350	0001	01.01.1800	31.12.9999	CS	pùsobení externích firem a interních lektorù ve vzdìlávacích aktivitách
+	01	ZP	  90010351	0001	01.01.1800	31.12.9999	CS	realizaci školení QMS/IMS
+	01	ZP	  90010352	0001	01.01.1800	31.12.9999	CS	rekvalifikace stávajících zamìstnancù
+	01	ZP	  90010359	0001	01.01.1800	31.12.9999	CS	rozvoji vıuky a novıch trendù
+	01	ZP	  90010360	0001	01.01.1800	31.12.9999	CS	rozvrh vzdìlávacích aktivit
+	01	ZP	  90010361	0001	01.01.1800	31.12.9999	CS	øešení a postupy v rámci poradenské èinnosti
+	01	ZP	  90010362	0001	01.01.1800	31.12.9999	CS	semináøe, konference a workshopy
+	01	ZP	  90010367	0001	01.01.1800	31.12.9999	CS	smìry rozvoje ve své odbornosti
+	01	ZP	  90010370	0001	01.01.1800	31.12.9999	CS	spolupráci s externími firmami, vzdìlávacími institucemi a školami
+	01	ZP	  90010372	0001	01.01.1800	31.12.9999	CS	stanoviska pro povolávání do Managementu
+	01	ZP	  90010373	0001	01.01.1800	31.12.9999	CS	strategii a koncepci vzdìlávání
+	01	ZP	  90010374	0001	01.01.1800	31.12.9999	CS	støih videa, zvuku, tvorbu grafiky, animací
+	01	ZP	  90010376	0001	01.01.1800	31.12.9999	CS	sváøeèské práce dle potøeby odbornıch útvarù
+	01	ZP	  90010377	0001	01.01.1800	31.12.9999	CS	sváøeèskou školu
+	01	ZP	  90010380	0001	01.01.1800	31.12.9999	CS	školení a odbornou pøípravu zamìstnancù
+	01	ZP	  90010382	0001	01.01.1800	31.12.9999	CS	školení a trénink metod a principù štíhlého podniku
+	01	ZP	  90010390	0001	01.01.1800	31.12.9999	CS	školení elementù VSŠ a metod a principù štíhlého podniku
+	01	ZP	  90010413	0001	01.01.1800	31.12.9999	CS	školení uivatelù IT systémù/slueb
+	01	ZP	  90010415	0001	01.01.1800	31.12.9999	CS	školení zamìstnancù
+	01	ZP	  90010427	0001	01.01.1800	31.12.9999	CS	školící podklady
+	01	ZP	  90010429	0001	01.01.1800	31.12.9999	CS	školní øád, rozvh vyuèovací doby, rozdìlení uèitelù teoretické vıuky a 
+odborného vıcviku
+	01	ZP	  90010432	0001	01.01.1800	31.12.9999	CS	technologické vybavení pracoviš pro vıvoj e-learningovıch a 
+prezentaèních programù
+	01	ZP	  90010435	0001	01.01.1800	31.12.9999	CS	témata kvalifikaèních prací
+	01	ZP	  90010436	0001	01.01.1800	31.12.9999	CS	testování e-learningovıch kurzù
+	01	ZP	  90010438	0001	01.01.1800	31.12.9999	CS	testy závìreèné odborné a teoretické pøípravy
+	01	ZP	  90010440	0001	01.01.1800	31.12.9999	CS	trendy v oblasti personálního rozvoje v koncernu a ve svìtì
+	01	ZP	  90010443	0001	01.01.1800	31.12.9999	CS	trénink pozorovatelù AC
+	01	ZP	  90010444	0001	01.01.1800	31.12.9999	CS	tvorbu a dodrování rozpoètu útvaru
+	01	ZP	  90010445	0001	01.01.1800	31.12.9999	CS	tvorbu e-learningovıch vzdìlávacích programù
+	01	ZP	  90010451	0001	01.01.1800	31.12.9999	CS	tvorbu vıukovıch programù jazykovıch kurzù
+	01	ZP	  90010463	0001	01.01.1800	31.12.9999	CS	vıbìrové øízení dodavatelù nadodborné pøípravy
+	01	ZP	  90010464	0001	01.01.1800	31.12.9999	CS	vyhodnocení dotazníkù z jazykovıch kurzù
+	01	ZP	  90010471	0001	01.01.1800	31.12.9999	CS	vıvoj, nasazení a provoz vıukovıch e-learningovıch programù
+	01	ZP	  90010474	0001	01.01.1800	31.12.9999	CS	vzdìlávací projekty
+	01	ZP	  90010477	0001	01.01.1800	31.12.9999	CS	vzdìlávání dospìlıch
+	01	ZP	  90010479	0001	01.01.1800	31.12.9999	CS	vzdìlávání pro nové technologie a nábìhy novıch vırob
+	01	ZP	  90010481	0001	01.01.1800	31.12.9999	CS	vzdìlávání v oblasti nadodborné pøípravy
+	01	ZP	  90010483	0001	01.01.1800	31.12.9999	CS	vzdìlávání zamìstnancù
+	01	ZP	  90010490	0001	01.01.1800	31.12.9999	CS	zakázky v rámci vıuky jinou OJ spoleènosti
+	01	ZP	  90010496	0001	01.01.1800	31.12.9999	CS	zpìtnou vazbu od úèastníkù vzdìlávacích aktivit
+	01	ZP	  90010497	0001	01.01.1800	31.12.9999	CS	zpìtnou vazbu v oblasti jazykové pøípravy
+	01	ZP	  90010499	0001	01.01.1800	31.12.9999	CS	zpracování analızy potøeb vzdìlávání v jednotlivıch OJ
+	01	ZP	  90010500	0001	01.01.1800	31.12.9999	CS	zpracování programù pro Workshopy
+	01	ZP	  90010534	0001	01.01.1800	31.12.9999	CS	nová pracovištì a technologie s ohledem na vliv zdraví
+	01	ZP	  90010637	0001	01.01.1800	31.12.9999	CS	personální záleitosti s odbory
+	01	ZP	  90010649	0001	01.01.1800	31.12.9999	CS	bonusové dopisy zamìstnancù
+	01	ZP	  90010666	0001	01.01.1800	31.12.9999	CS	odmìòování zamìstnancù dle platnıch pravidel
+	01	ZP	  90010667	0001	01.01.1800	31.12.9999	CS	odmìny ákù
+	01	ZP	  90010673	0001	01.01.1800	31.12.9999	CS	podklady pro stanovení odmìn ákù
+	01	ZP	  90010676	0001	01.01.1800	31.12.9999	CS	prvotní personální agendu a podklady pro odmìòování zamìstnancù
+	01	ZP	  90010690	0001	01.01.1800	31.12.9999	CS	analızu agenturního personálu
+	01	ZP	  90010692	0001	01.01.1800	31.12.9999	CS	analızu personálních údajù
+	01	ZP	  90010694	0001	01.01.1800	31.12.9999	CS	analızy a podklady k prezentaci personální strategie a koncepce
+	01	ZP	  90010696	0001	01.01.1800	31.12.9999	CS	analızy HR statistiky
+	01	ZP	  90010699	0001	01.01.1800	31.12.9999	CS	analızy personálních procesù
+	01	ZP	  90010708	0001	01.01.1800	31.12.9999	CS	personální data studentù
+	01	ZP	  90010709	0001	01.01.1800	31.12.9999	CS	personální statistiku
+	01	ZP	  90010719	0001	01.01.1800	31.12.9999	CS	pracovní nasazení a vıkon podøízenıch zamìstnancù
+	01	ZP	  90010724	0001	01.01.1800	31.12.9999	CS	spokojenost zákazníkù z pohledu personální péèe, benefitù, apod
+	01	ZP	  90010725	0001	01.01.1800	31.12.9999	CS	správu personálních údajù
+	01	ZP	  90010727	0001	01.01.1800	31.12.9999	CS	statistiky personálu
+	01	ZP	  90010730	0001	01.01.1800	31.12.9999	CS	údaje o vzdìlání zamìstnancù ŠA
+	01	ZP	  90010747	0001	01.01.1800	31.12.9999	CS	zpracování zpráv a reportù jednotlivıch HR BP
+	01	ZP	  90010748	0001	01.01.1800	31.12.9999	CS	zpracování zpráv a reportù vedoucích a koordinátorù útvaru
+	01	ZP	  90010749	0001	01.01.1800	31.12.9999	CS	agendu pro studenty
+	01	ZP	  90010751	0001	01.01.1800	31.12.9999	CS	vısledky pøijímacího øízení
+	01	ZP	  90010754	0001	01.01.1800	31.12.9999	CS	èinnost metodickıch komisí v praktickém vyuèování SOUs
+	01	ZP	  90010755	0001	01.01.1800	31.12.9999	CS	èinnost pedagogickıch rad školy
+	01	ZP	  90010756	0001	01.01.1800	31.12.9999	CS	èinnost státní správy a samosprávy ve školním zaøízení dle školského 
+zákona
+	01	ZP	  90010760	0001	01.01.1800	31.12.9999	CS	didaktické postupy pro vıuku
+	01	ZP	  90010763	0001	01.01.1800	31.12.9999	CS	dozor v urèenıch prostorách školy
+	01	ZP	  90010764	0001	01.01.1800	31.12.9999	CS	hodnocení škol
+	01	ZP	  90010765	0001	01.01.1800	31.12.9999	CS	hodnocení znalostí studentù
+	01	ZP	  90010766	0001	01.01.1800	31.12.9999	CS	hospitaci
+	01	ZP	  90010767	0001	01.01.1800	31.12.9999	CS	inspekci ve vıuce
+	01	ZP	  90010768	0001	01.01.1800	31.12.9999	CS	klasifikaci u maturitní a závìreèné zkoušky
+	01	ZP	  90010771	0001	01.01.1800	31.12.9999	CS	konzultaèní èinnost pro studenty
+	01	ZP	  90010772	0001	01.01.1800	31.12.9999	CS	kvalifikaèní a rekvalifikaèní kurzy v SOU
+	01	ZP	  90010773	0001	01.01.1800	31.12.9999	CS	metodické a pedagogické vedení uèitelù odborného vıcviku
+	01	ZP	  90010774	0001	01.01.1800	31.12.9999	CS	metodické postupy praktického vyuèování
+	01	ZP	  90010775	0001	01.01.1800	31.12.9999	CS	metodiku vıuky
+	01	ZP	  90010776	0001	01.01.1800	31.12.9999	CS	monostech studia na SOU
+	01	ZP	  90010777	0001	01.01.1800	31.12.9999	CS	obsah a metodiku vıuky v odborné sekci
+	01	ZP	  90010778	0001	01.01.1800	31.12.9999	CS	obsah pøíjmacích, maturitních a závìreènıch zkoušek
+	01	ZP	  90010780	0001	01.01.1800	31.12.9999	CS	obsahové a organizaèní zajištìní zkoušek
+	01	ZP	  90010782	0001	01.01.1800	31.12.9999	CS	odbornou pøípravu uèitelù
+	01	ZP	  90010783	0001	01.01.1800	31.12.9999	CS	odbornı vıcvik ákù
+	01	ZP	  90010787	0001	01.01.1800	31.12.9999	CS	osnovy vıuky
+	01	ZP	  90010789	0001	01.01.1800	31.12.9999	CS	pedagogickou dokumentaci
+	01	ZP	  90010790	0001	01.01.1800	31.12.9999	CS	personální data a závìreèné zhodnocení vısledkù studia studentù
+	01	ZP	  90010796	0001	01.01.1800	31.12.9999	CS	poradu uèitelského sboru
+	01	ZP	  90010797	0001	01.01.1800	31.12.9999	CS	poradu úseku praktické vıuky
+	01	ZP	  90010798	0001	01.01.1800	31.12.9999	CS	posudky ákù speciálních tøíd
+	01	ZP	  90010800	0001	01.01.1800	31.12.9999	CS	pracovištì pro prohlubování návykù a dovedností ákù
+	01	ZP	  90010803	0001	01.01.1800	31.12.9999	CS	stáisty v rámci zapojení v dlouhodobıch projektech
+	01	ZP	  90010809	0001	01.01.1800	31.12.9999	CS	prùbìh pøijímacího øízení
+	01	ZP	  90010813	0001	01.01.1800	31.12.9999	CS	pøijímání a vıbìr ákù do SOU z hlediska znalostí
+	01	ZP	  90010816	0001	01.01.1800	31.12.9999	CS	pøípravu na vıuku
+	01	ZP	  90010822	0001	01.01.1800	31.12.9999	CS	rozvrh vyuèovacích hodin
+	01	ZP	  90010825	0001	01.01.1800	31.12.9999	CS	soutìe ákù v oblasti praktického vyuèování
+	01	ZP	  90010826	0001	01.01.1800	31.12.9999	CS	spolupráci pøi vytváøení vzdìlávacích projektù
+	01	ZP	  90010828	0001	01.01.1800	31.12.9999	CS	støídání ákù na provozních pracovištích dle pøeøazovacích plánù
+	01	ZP	  90010830	0001	01.01.1800	31.12.9999	CS	studijní plán a osnovy
+	01	ZP	  90010832	0001	01.01.1800	31.12.9999	CS	studiu
+	01	ZP	  90010834	0001	01.01.1800	31.12.9999	CS	suplování nepøitomného uèitele
+	01	ZP	  90010835	0001	01.01.1800	31.12.9999	CS	školení mistrù, uèitelù a lektorù
+	01	ZP	  90010836	0001	01.01.1800	31.12.9999	CS	technické vybavení odbornıch uèeben
+	01	ZP	  90010837	0001	01.01.1800	31.12.9999	CS	technického vybavení uèeben pro vıuku
+	01	ZP	  90010838	0001	01.01.1800	31.12.9999	CS	tématickı obsah studijních pobytù v zahranièí
+	01	ZP	  90010839	0001	01.01.1800	31.12.9999	CS	teoretickou vıuku a praktickı vıcvik
+	01	ZP	  90010840	0001	01.01.1800	31.12.9999	CS	teoretickou vıuku ákù SOU
+	01	ZP	  90010841	0001	01.01.1800	31.12.9999	CS	tøídnictví vèetnì spolupráce s rodièi
+	01	ZP	  90010843	0001	01.01.1800	31.12.9999	CS	tvorbu a úpravy oborù støedního vdìlávání a jejich osnov
+	01	ZP	  90010847	0001	01.01.1800	31.12.9999	CS	úèast ákù na soutìích, olympiádách
+	01	ZP	  90010848	0001	01.01.1800	31.12.9999	CS	uèební dokumenty
+	01	ZP	  90010849	0001	01.01.1800	31.12.9999	CS	uèební pomùcky a ostatní zaøízení
+	01	ZP	  90010855	0001	01.01.1800	31.12.9999	CS	vıbìr uèitelù
+	01	ZP	  90010856	0001	01.01.1800	31.12.9999	CS	vıbìr ákù na studijní pobyty v zahranièí
+	01	ZP	  90010862	0001	01.01.1800	31.12.9999	CS	vıchovnì vzdìlávací práce
+	01	ZP	  90010863	0001	01.01.1800	31.12.9999	CS	vıchovu a praktickou vıuku ákù
+	01	ZP	  90010864	0001	01.01.1800	31.12.9999	CS	vıchovu a teoretickou vıuku ákù
+	01	ZP	  90010866	0001	01.01.1800	31.12.9999	CS	vylouèení ákù SOU
+	01	ZP	  90010868	0001	01.01.1800	31.12.9999	CS	vısledky hospitací
+	01	ZP	  90010870	0001	01.01.1800	31.12.9999	CS	vısledky vıuky ákù
+	01	ZP	  90010871	0001	01.01.1800	31.12.9999	CS	vıukové programy
+	01	ZP	  90010872	0001	01.01.1800	31.12.9999	CS	vıukové uèebny
+	01	ZP	  90010873	0001	01.01.1800	31.12.9999	CS	vıukovou èinnost
+	01	ZP	  90010874	0001	01.01.1800	31.12.9999	CS	vıukovou dokumentaci
+	01	ZP	  90010878	0001	01.01.1800	31.12.9999	CS	vzdìlávání uèitelù
+	01	ZP	  90010888	0001	01.01.1800	31.12.9999	CS	zkušební otázky pro prùbìné, závìreèné a maturitní zkoušky
+	01	ZP	  90010890	0001	01.01.1800	31.12.9999	CS	zpracování návrhù uèebních plánù a osnov
+	01	ZP	  90010893	0001	01.01.1800	31.12.9999	CS	bezpeènost IT
+	01	ZP	  90010913	0001	01.01.1800	31.12.9999	CS	èinnosti zmocnìnce pro ivotní prostøedí
+	01	ZP	  90010915	0001	01.01.1800	31.12.9999	CS	zpùsob likvidace nepotøebnıch zásob
+	01	ZP	  90010918	0001	01.01.1800	31.12.9999	CS	dodrování ekologickıch pøedpisù
+	01	ZP	  90010930	0001	01.01.1800	31.12.9999	CS	likvidace dílù / materiálù
+	01	ZP	  90010932	0001	01.01.1800	31.12.9999	CS	likvidaci nepotøebnıch zásob
+	01	ZP	  90010969	0001	01.01.1800	31.12.9999	CS	šrotaci
+	01	ZP	  90010983	0001	01.01.1800	31.12.9999	CS	bezpeènost práce a ochranu zdraví pøi práci
+	01	ZP	  90010984	0001	01.01.1800	31.12.9999	CS	bezpeènı provoz baterie lahví pro sváøeèské plyny
+	01	ZP	  90010985	0001	01.01.1800	31.12.9999	CS	záznamy o úrazech studentù
+	01	ZP	  90010987	0001	01.01.1800	31.12.9999	CS	dodrování BOZP a PO
+	01	ZP	  90010996	0001	01.01.1800	31.12.9999	CS	opatøení ke zlepšení bezpeènosti práce a pracovního prostøedí
+	01	ZP	  90010997	0001	01.01.1800	31.12.9999	CS	oprávnìní nutná pro práci
+	01	ZP	  90011050	0001	01.01.1800	31.12.9999	CS	protipoární techniku BaS
+	01	ZP	  90011093	0001	01.01.1800	31.12.9999	CS	bezpeènost práce, ochranu ivotního prostøedí a poární ochrany
+	01	ZP	  90011107	0001	01.01.1800	31.12.9999	CS	data ohlednì zabezpeèení objektù
+	01	ZP	  90011142	0001	01.01.1800	31.12.9999	CS	opravy a údrbu objektù
+	01	ZP	  90011197	0001	01.01.1800	31.12.9999	CS	specifikaci pro vıbìrová øízení technického zabezpeèení
+	01	ZP	  90011204	0001	01.01.1800	31.12.9999	CS	systémy k technickému zabezpeèení objektù
+	01	ZP	  90011853	0001	01.01.1800	31.12.9999	CS	uèebních oborech SOU
+	01	ZP	  90011877	0001	01.01.1800	31.12.9999	CS	øešení reaktivních problémù v IT slubách
+	01	ZP	  90011882	0001	01.01.1800	31.12.9999	CS	funkèní ohodnocení
+	01	ZP	  90011909	0001	01.01.1800	31.12.9999	CS	procesy a postupy
+	01	ZP	  90011938	0001	01.01.1800	31.12.9999	CS	vırobu dílù
+	01	ZP	  90011941	0001	01.01.1800	31.12.9999	CS	mnoství práce pro vıuku jednotlivıch oborù
+	01	ZP	  90011975	0001	01.01.1800	31.12.9999	CS	uivatelskou dokumentaci
+	01	ZP	  90011984	0001	01.01.1800	31.12.9999	CS	vıklad kolektivní smlouvy
+	01	ZP	  90012022	0001	01.01.1800	31.12.9999	CS	dokumentaci pro opravy, údrby a úklid budov
+	01	ZP	  90012023	0001	01.01.1800	31.12.9999	CS	zápisy o opravách, údrbách a úklidech budov
+	01	ZP	  90012034	0001	01.01.1800	31.12.9999	CS	technickım zadáním na SZ
+	01	ZP	  90012036	0001	01.01.1800	31.12.9999	CS	podporu a kontrolu dodavatelù a uivatelù SZ
+	01	ZP	  90012038	0001	01.01.1800	31.12.9999	CS	zavádìní koncernovıch standardù SZ
+	01	ZP	  90012039	0001	01.01.1800	31.12.9999	CS	komponenty SZ (Freigabeliste)
+	01	ZP	  90012040	0001	01.01.1800	31.12.9999	CS	seznam BEMI-komponentù
+	01	ZP	  90012041	0001	01.01.1800	31.12.9999	CS	HW workshopy SZ
+	01	ZP	  90012060	0001	01.01.1800	31.12.9999	CS	opatøení k optimalizaci procesù
+	01	ZP	  90012061	0001	01.01.1800	31.12.9999	CS	kapacitní vytíení
+	01	ZP	  90012063	0001	01.01.1800	31.12.9999	CS	fokusní témata HR strategie
+	01	ZP	  90012064	0001	01.01.1800	31.12.9999	CS	spolupráci mìsta Mladá Boleslav a spoleènosti ŠA
+	01	ZP	  90012074	0001	01.01.1800	31.12.9999	CS	implementaci Rùstové strategie
+	01	ZP	  90012225	0001	01.01.1800	31.12.9999	CS	poadavky importérù
+	01	ZP	  90012249	0001	01.01.1800	31.12.9999	CS	prùchod dílu lisovací linkou
+	01	ZP	  90012275	0001	01.01.1800	31.12.9999	CS	simulace taení
+	01	ZP	  90012276	0001	01.01.1800	31.12.9999	CS	zmìny CAD-dat pro rozmìrové korekce
+	01	ZP	  90012277	0001	01.01.1800	31.12.9999	CS	metodické plány lisování
+	01	ZP	  90012278	0001	01.01.1800	31.12.9999	CS	plošné modelování
+	01	ZP	  90012279	0001	01.01.1800	31.12.9999	CS	teoretickı otisk nástroje
+	01	ZP	  90012280	0001	01.01.1800	31.12.9999	CS	pøípravu procesní FMEA
+	01	ZP	  90012401	0001	01.01.1800	31.12.9999	CS	koncernové technické standardy
+	01	ZP	  90012403	0001	01.01.1800	31.12.9999	CS	plány inzercí
+	01	ZP	  90012420	0001	01.01.1800	31.12.9999	CS	technické, homologaèní a zákonné závislosti
+	01	ZP	  90012581	0001	01.01.1800	31.12.9999	CS	pøehledy inzerce a sledování KPI´s
+	01	ZP	  90012582	0001	01.01.1800	31.12.9999	CS	dodrování nákladù za média
+	01	ZP	  90012587	0001	01.01.1800	31.12.9999	CS	vyhledávání personálních zdrojù z trhu práce
+	01	ZP	  90012588	0001	01.01.1800	31.12.9999	CS	koncepty a realizaci online marketingovıch nástrojù
+	01	ZP	  90012589	0001	01.01.1800	31.12.9999	CS	metodiky vıbìrovıch opatøení a programù personálního rozvoje
+	01	ZP	  90012590	0001	01.01.1800	31.12.9999	CS	strategie a nové nástroje personálního marketingu
+	01	ZP	  90012592	0001	01.01.1800	31.12.9999	CS	databanku studentù a absolventù
+	01	ZP	  90012593	0001	01.01.1800	31.12.9999	CS	vıbìr studentù a absolventù do programù
+	01	ZP	  90012594	0001	01.01.1800	31.12.9999	CS	dohody o absolvování programu
+	01	ZP	  90012595	0001	01.01.1800	31.12.9999	CS	sbìr poadavkù z odbornıch oblastí
+	01	ZP	  90012596	0001	01.01.1800	31.12.9999	CS	zveøejnìní nabídek odbornıch oblastí na externích médiích
+	01	ZP	  90012597	0001	01.01.1800	31.12.9999	CS	potenciální kandidáty na rozvojové a stabilizaèní opatøení (stipendia, 
+zahranièní stáe apod.)
+	01	ZP	  90012598	0001	01.01.1800	31.12.9999	CS	programové zajištìní a plnìní konceptù programù
+	01	ZP	  90012626	0001	01.01.1800	31.12.9999	CS	vıbìr interních zamìstnancù do øídících pozic
+	01	ZP	  90012630	0001	01.01.1800	31.12.9999	CS	analızy a statistiky k diagnostickım nástrojùm
+	01	ZP	  90012631	0001	01.01.1800	31.12.9999	CS	úèastníky diagnostickıch nástrojù a externí spolupracovníky
+	01	ZP	  90012635	0001	01.01.1800	31.12.9999	CS	vıbìrové øízení pro personální rozvoj (Development center)
+	01	ZP	  90012639	0001	01.01.1800	31.12.9999	CS	údaje o úèastnících a vısledcích diagnostickıch nástrojù
+	01	ZP	  90012640	0001	01.01.1800	31.12.9999	CS	zpìtnou vazbu z odbornıch útvarù
+	01	ZP	  90012641	0001	01.01.1800	31.12.9999	CS	spolupráci s odbornımi útvary v oblasti AC
+	01	ZP	  90012857	0001	01.01.1800	31.12.9999	CS	osobní ohodnocení
+	01	ZP	  90012858	0001	01.01.1800	31.12.9999	CS	vyhledávání novıch dodavatelù
+	01	ZP	  90012868	0001	01.01.1800	31.12.9999	CS	úspìšnost akcí
+	01	ZP	  90012869	0001	01.01.1800	31.12.9999	CS	opatøení pro zmìny a zlepšení
+	01	ZP	  90012870	0001	01.01.1800	31.12.9999	CS	plány akcí
+	01	ZP	  90013087	0001	01.01.1800	31.12.9999	CS	pøejímku a odbìr zásilek
+	01	ZP	  90013094	0001	01.01.1800	31.12.9999	CS	koncept talent relationship management
+	01	ZP	  90013095	0001	01.01.1800	31.12.9999	CS	koncept péèe o databanky uchazeèù
+	01	ZP	  90013096	0001	01.01.1800	31.12.9999	CS	návrhy a koncepty boarding programù
+	01	ZP	  90013132	0001	01.01.1800	31.12.9999	CS	CAD pro tvorbu NC programù
+	01	ZP	  90013144	0001	01.01.1800	31.12.9999	CS	zavedení novıch technologií, racionalizaèních opatøení s cílem sníení 
+pracnosti vıroby, spotøeby materiálu a náøadí
+	01	ZP	  90013215	0001	01.01.1800	31.12.9999	CS	komunikaci novıch HR produktù
+	01	ZP	  90013256	0001	01.01.1800	31.12.9999	CS	školení novì nastupujících a pøestupujících zamìstnancù
+	01	ZP	  90013626	0001	01.01.1800	31.12.9999	CS	nejlepší øešení (Best Practice) z WS KVP
+	01	ZP	  90013629	0001	01.01.1800	31.12.9999	CS	závìreènou prezentaci WS KVP
+	01	ZP	  90013679	0001	01.01.1800	31.12.9999	CS	známkoprávní kolize
+	01	ZP	  90013680	0001	01.01.1800	31.12.9999	CS	známkoprávní øízení
+	01	ZP	  90013690	0001	01.01.1800	31.12.9999	CS	implementaci realizace strategie
+	01	ZP	  90013740	0001	01.01.1800	31.12.9999	CS	dispozici
+	01	ZP	  90013808	0001	01.01.1800	31.12.9999	CS	informace odbornım útvarùm
+	01	ZP	  90013858	0001	01.01.1800	31.12.9999	CS	testy HW a SW
+	01	ZP	  90013869	0001	01.01.1800	31.12.9999	CS	viníky prostojù technologickıch zaøízení
+	01	ZP	  90013893	0001	01.01.1800	31.12.9999	CS	workshopy
+	01	ZP	  90013897	0001	01.01.1800	31.12.9999	CS	inovaèní workshop
+	01	ZP	  90013945	0001	01.01.1800	31.12.9999	CS	provoz a údrbu systémù
+	01	ZP	  90014054	0001	01.01.1800	31.12.9999	CS	opatøení z ergonomie k optimalizaci pracovištì
+	01	ZP	  90014065	0001	01.01.1800	31.12.9999	CS	metodické podklady a návrhy sestav pro programování reportù
+	01	ZP	  90014096	0001	01.01.1800	31.12.9999	CS	problémová místa vıroby
+	01	ZP	  90014097	0001	01.01.1800	31.12.9999	CS	statistická data o vırobì
+	01	ZP	  90014098	0001	01.01.1800	31.12.9999	CS	vhodnost produktivní práce v souladu s osnovami
+	01	ZP	  90014150	0001	01.01.1800	31.12.9999	CS	tvorbu technickıch pøedpisù, standardù a norem
+	01	ZP	  90014410	0001	01.01.1800	31.12.9999	CS	zavedení projektu Plánování následovníkù
+	01	ZP	  90014519	0001	01.01.1800	31.12.9999	CS	rozvoj komunikaèních kanálù
+	01	ZP	  90014736	0001	01.01.1800	31.12.9999	CS	audit a jeho cíle
+	01	ZP	  90014737	0001	01.01.1800	31.12.9999	CS	dokumentaci k auditùm
+	01	ZP	  90014738	0001	01.01.1800	31.12.9999	CS	obsah a termíny opatøení/doporuèení k zjištìní v rámci auditù
+	01	ZP	  90014739	0001	01.01.1800	31.12.9999	CS	plnìní opatøení/doporuèení ke zjištìní v rámci auditù
+	01	ZP	  90014740	0001	01.01.1800	31.12.9999	CS	samostatnı nebo spoleènı audit
+	01	ZP	  90014741	0001	01.01.1800	31.12.9999	CS	témata auditù
+	01	ZP	  90014742	0001	01.01.1800	31.12.9999	CS	zprávy z interního auditu
+	01	ZP	  90014743	0001	01.01.1800	31.12.9999	CS	zákonné pøedpisy a normy
+	01	ZP	  90014745	0001	01.01.1800	31.12.9999	CS	dodrování pøedepsanıch postupù
+	01	ZP	  90014746	0001	01.01.1800	31.12.9999	CS	rizika v procesech a postupech
+	01	ZP	  90014782	0001	01.01.1800	31.12.9999	CS	termíny dodání
+	01	ZP	  90014783	0001	01.01.1800	31.12.9999	CS	termínech dodání
+	01	ZP	  90014784	0001	01.01.1800	31.12.9999	CS	vracení OD dodavatelùm v pøípadì reklamací
+	01	ZP	  90014785	0001	01.01.1800	31.12.9999	CS	minimální balící a objednací mnoství
+	01	ZP	  90014786	0001	01.01.1800	31.12.9999	CS	urgence dodání
+	01	ZP	  90014787	0001	01.01.1800	31.12.9999	CS	OD urèenı pro marketingové a servisní akce
+	01	ZP	  90014791	0001	01.01.1800	31.12.9999	CS	regulaci prodeje kritickıch dílù dle klasifikace
+	01	ZP	  90014792	0001	01.01.1800	31.12.9999	CS	kritické shodné díly
+	01	ZP	  90014798	0001	01.01.1800	31.12.9999	CS	schválení TPI (Technické produktové informace)
