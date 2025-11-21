@@ -1,2 +1,18 @@
-*.env
-.DS_Store
+# Data
+*.xlsx
+*.csv
+*.json
+data/
+
+# Environment
+.env
+venv/
+__pycache__/
+
+
+# IDE
+.vscode/
+.idea/
+
+.DS_Store 
+./src/.DS_Store

@@ -1,72 +1,89 @@
-# 42Prague Škoda Auto Hackathon
+<div align="center">
+  <img src="imgs/skoda.png" width="310px" alt="skoda">
+  <img src="imgs/azure.png" width="320px" alt="azure">
+</div>
 
-> Welcome! This is the main repository for submitting your team's solution for the Škoda Auto Hackathon at 42Prague.
+<br>
 
-## ⚠️ First Steps: Read the Guidelines & Get Data
+<div align="center">
 
-Before you start, please **carefully read all documents** in the `resources/` folder. They contain the rules, guidelines, data samples, and the template you must fill out.
+[![Platforms](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Platforms&message=macOS%20|%20Linux|%20Windows&color=D32F2F&logo=device-desktop)](https://www.skoda-auto.cz/ "Platforms")
+[![Languages](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Languages&message=Python%203.13&color=748ADB&logo=file-code)](https://www.skoda-auto.cz/ "Languages")
+[![Ai](https://custom-icon-badges.demolab.com/static/v1?logoColor=white&labelColor=2C2C2C&label=Ai&message=Azure&color=F47F42&logo=graphql)](https://www.skoda-auto.cz/ "Ai")
 
-* `resources/AI_SkillCoach_IT_Guidlines.pdf`: Contains all rules, guidelines and tips.
-* `resources/AI_Skill_Coach_Hackathon_42Prague_KickOff_18.11.2025_EN.pdf`: Contains a brief description of the project, evaluation criteria.
-
-The **Data source** will be provided by Skoda thorugh email to all participants along with **api keys** for your environments which will be deleted at the end of the Hackathon.\
-⚠️ Make sure you got the email. If not, reach out to any of the Skoda staff. Thanks!
+</div>
 
 ---
 
-## 🚀 How to Submit Your Solution
+# 🤖 AI Skill Coach
 
-We use the standard GitHub **Fork & Pull Request** workflow. This is the only way to submit your project. Follow these steps carefully.
+AI Skill Coach is an intelligent talent development assistant built with Python and Streamlit, powered by Azure AI for advanced data analysis. Running locally on localhost, it helps organizations turn raw HR and performance data into actionable insights for growth.
+
+* Runs as a Streamlit web app on localhost.
+* Uses Azure AI to analyze skill and performance datasets.
+* Automatically detects skill gaps at both individual and team levels.
+* Suggests personalized courses and learning paths for self-improvement.
+* Helps managers see strengths and weaknesses across their teams.
+* Supports employees in discovering career growth and promotion opportunities.
 
 
+Transform your workforce data into a smart AI coach that guides continuous learning and career development.
 
-### Step 1: Fork This Repository
+---
 
-Click the **"Fork"** button at the top-right corner of this page. This will create a complete copy of this repository under your personal GitHub account.
+## 🖼️ Preview
 
-### Step 2: Create Your Branch
+<div align="center">
+  <img src="imgs/preview.png" alt="Preview">
+</div>
 
-On **your forked repository**, create a new branch to hold your work. **Please name this branch after your team.**
+---
 
-You can do this locally on your computer after cloning your fork:
+## 🛠️ Usage and Installation
 
-```bash
-# Clone your fork (replace YOUR-USERNAME)
-git clone [https://github.com/YOUR-USERNAME/42Prague_skoda_hackathon_2025.git](https://github.com/YOUR-USERNAME/42Prague_skoda_hackathon_2025.git)
-cd 42Prague_skoda_hackathon_2025
-
-# Create and switch to your new branch (replace with your team name)
-git checkout -b your-team-name
+1. **Add Required Datasets to the `data` Directory**
+```
+Required files:
+  Degreed_Content_Catalog.xlsx
+  Degreed.xlsx
+  ERP_SK1.Start_month - SE.xlsx
+  RLS.sa_org_hierarchy - SE.xlsx
+  Skill_mapping.xlsx
+  ZHRPD_VZD_STA_007.xlsx
+  ZHRPD_VZD_STA_016_RE_RHRHAZ00.xlsx
+  ZPE_KOM_KVAL.xlsx
 ```
 
-### Step 3: Add Your Project Files
-
-Now it's time to build! Add all your project components to your branch:
-
-1.  **Your Solution:** Add all your source code, folders, dependencies (e.g., `requirements.txt`, `package.json`), and any files needed to run your solution. You can use the `srcs/` folder or create your own structure.
-2.  **Pitch presentation:** Add your final pitch (PDF or PPTX format) to the `pitch/` folder.
-
-### Step 4: Commit & Push Your Work
-
-As you work, commit your changes and push them to your fork on GitHub.
-
-```bash
-# After making your changes
-git add .
-git commit -m "Add project files and pitch"
-
-# Push your branch to your fork (replace with your team name)
-git push origin your-team-name
+2. **Configure Environment Variables in `.env`**
+```
+AZURE_OPENAI_API_KEY=`your_api_key_here`
+AZURE_OPENAI_ENDPOINT=`your_endpoint_url`
+AZURE_OPENAI_DEPLOYMENT_NAME=hackathon-gpt-4.1
+AZURE_OPENAI_API_VERSION=2025-01-01-preview
 ```
 
-### Step 5: Open a Pull Request
+3. **Set Up the Virtual Environment**
+```bash
+python3 -m venv venv
+```
 
-When your submission is complete, it's time to create the Pull Request.
+4. **Activate the Virtual Environment**
+```bash
+source venv/bin/activate
+```
 
-1.  Go to your forked repository on GitHub.
-2.  You will see a green button that says **"Compare & pull request"**. Click it.
-3.  **Important:** Make sure the "base repository" is `42Prague/42Prague_skoda_hackathon_2025` and the "head repository" is `YOUR-USERNAME/42Prague_skoda_hackathon` (from your team branch).
-4.  Use your **Team Name** as the title for the Pull Request.
-5.  Click **"Create pull request"**.
+5. **Install Project Dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-That's it! Your submission is now in the queue for review.
+6. **Run the Application**
+```bash
+streamlit run app.py
+```
+
+---
+
+## ⭐ Support
+
+Hope you like it!
