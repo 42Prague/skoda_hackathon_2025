@@ -1,0 +1,31 @@
+Completed Date,Employee ID,Content ID,Content Title,Content Type,Completion Points
+15.03.2024,EMP001,C101,Python Programování,Programming,100
+22.03.2024,EMP001,C102,Strojové učení - Základy,Machine Learning,95
+10.04.2024,EMP002,C103,CAD Design pokročilý,CAD Software,90
+18.04.2024,EMP002,C104,AutoCAD 2024,CAD Software,88
+25.04.2024,EMP003,C105,React Frontend vývoj,Web Development,92
+02.05.2024,EMP003,C106,TypeScript pro React,Programming,94
+10.05.2024,EMP004,C107,Bateriové systémy - Elektromobily,E-Mobility,98
+15.05.2024,EMP004,C108,Nabíjecí infrastruktura,E-Mobility,96
+20.05.2024,EMP005,C109,Docker a Kubernetes,Cloud Computing,91
+28.05.2024,EMP005,C110,AWS Certifikace,Cloud Computing,93
+05.06.2024,EMP006,C111,CATIA V6 pokročilý,CAD Software,87
+12.06.2024,EMP006,C112,Mechanický design,Mechanical Engineering,89
+18.06.2024,EMP007,C113,TensorFlow a PyTorch,Machine Learning,97
+25.06.2024,EMP007,C114,LLM integrace,AI/ML,99
+01.07.2024,EMP008,C115,CNC Programování,Manufacturing,85
+08.07.2024,EMP008,C116,Průmyslová automatizace,Manufacturing,86
+15.07.2024,EMP009,C117,Azure Cloud fundamentals,Cloud Computing,90
+22.07.2024,EMP009,C118,Node.js Backend,Web Development,88
+29.07.2024,EMP010,C119,Elektrický pohon,E-Mobility,95
+05.08.2024,EMP010,C120,ADAS systémy,E-Mobility,94
+12.08.2024,EMP001,C121,Java Enterprise,Programming,87
+19.08.2024,EMP002,C122,SolidWorks advanced,CAD Software,89
+26.08.2024,EMP003,C123,Next.js 14,Web Development,93
+02.09.2024,EMP004,C124,Lithium-ion baterie,E-Mobility,96
+09.09.2024,EMP005,C125,Kubernetes produkce,Cloud Computing,92
+16.09.2024,EMP006,C126,Konstrukční výkresy,Mechanical Engineering,84
+23.09.2024,EMP007,C127,Deep Learning neural sítě,Machine Learning,98
+30.09.2024,EMP008,C128,Robotická automatizace,Manufacturing,91
+07.10.2024,EMP009,C129,MongoDB databáze,Database,89
+14.10.2024,EMP010,C130,Charging infrastructure V2G,E-Mobility,97

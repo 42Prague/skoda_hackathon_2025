@@ -1,0 +1,173 @@
+# Skill DNA Source Mappings (Canonical Schema Integration)
+# Generated: 2025-11-20T22:31:47Z
+# Canonical target fields:
+# employee_id, hire_date, department, position,
+# skill_name, category, event_type, event_date, source,
+# confidence, raw_source_row
+# Each source defines header matching + field mapping + transforms.
+
+sources:
+  format1_hr_system:
+    description: "Czech HR system with start/end dates and variant fields"
+    match_headers:
+      - VP
+      - TO
+      - ID obj.
+      - ITyp
+      - STyp
+      - Zaèátek
+      - Konec
+    match_threshold: 0.6
+    column_aliases:
+      Zaèátek: ["Začátek", "Zacatek"]
+      ID obj.: ["ID obj.", "ID obj"]
+    mappings:
+      employee_id: "ID obj."            # Fallback generated if missing
+      skill_name: "ITyp"                 # Skill / type code
+      department: "S"                    # Dept code
+      position: "TO"                     # Position code
+      event_date: "Zaèátek"              # Acquisition date
+      source: "HR_SYSTEM"
+      event_type: "acquired"
+    transforms:
+      employee_id:
+        if_missing: "EMP_{row_index}"   # Auto-generate
+      event_date:
+        parse_date_formats: ["%d.%m.%Y", "%Y-%m-%d", "%d-%m-%Y"]
+      skill_name:
+        trim: true
+      confidence:
+        default: 0.95
+    validation:
+      required: [employee_id, skill_name, event_date]
+      date_not_future_days: 30
+
+  format2_planning:
+    description: "Planning system validity periods"
+    match_headers:
+      - Var.plánu
+      - Typ obj.
+      - ID objektu
+      - Subtyp
+      - Platí od
+      - Platí do
+      - Øetìzec
+    match_threshold: 0.6
+    mappings:
+      employee_id: "ID objektu"
+      skill_name: "Øetìzec"
+      position: "Subtyp"
+      department: "Typ obj."
+      event_date: "Platí od"
+      source: "PLANNING"
+      event_type: "acquired"
+    transforms:
+      employee_id:
+        if_missing: "EMP_{row_index}"
+      event_date:
+        parse_date_formats: ["%d.%m.%Y", "%Y-%m-%d", "%d-%m-%Y"]
+      skill_name:
+        trim: true
+      confidence:
+        default: 0.9
+    validation:
+      required: [employee_id, skill_name, event_date]
+
+  format3_lms:
+    description: "Learning Management System completions"
+    match_headers:
+      - Completed Date
+      - Employee ID
+      - Content Title
+      - Content Type
+    match_threshold: 0.6
+    mappings:
+      employee_id: "Employee ID"
+      skill_name: ["Content Title", "Content Type"]  # Combine both if distinct
+      category: "Content Type"
+      event_date: "Completed Date"
+      source: "LMS"
+      event_type: "completed"
+    transforms:
+      skill_name:
+        combine_distinct: true
+        separator: " | "
+        min_length: 3
+      event_date:
+        parse_date_formats: ["%Y-%m-%d", "%d.%m.%Y", "%m/%d/%Y"]
+      confidence:
+        default: 0.97
+    validation:
+      required: [employee_id, skill_name, event_date]
+
+  format4_projects:
+    description: "Project / qualification linkage"
+    match_headers:
+      - ID P
+      - Počát.datum
+      - Koncové datum
+      - ID Q
+      - Název Q
+    match_threshold: 0.6
+    mappings:
+      employee_id: "ID Q"          # If missing, fallback to ID P
+      skill_name: "Název Q"
+      event_date: "Počát.datum"
+      source: "PROJECTS"
+      event_type: "used"           # Project usage implies application
+    transforms:
+      employee_id:
+        fallback: "ID P"
+        if_missing: "EMP_{row_index}"
+      event_date:
+        parse_date_formats: ["%d.%m.%Y", "%Y-%m-%d"]
+      confidence:
+        default: 0.85
+    validation:
+      required: [employee_id, skill_name, event_date]
+
+  format5_qualifications:
+    description: "Direct qualifications list"
+    match_headers:
+      - ID kvalifikace
+      - Kvalifikace
+      - Číslo FM
+    match_threshold: 0.6
+    mappings:
+      employee_id: "ID kvalifikace"
+      skill_name: "Kvalifikace"
+      source: "QUALIFICATIONS"
+      event_type: "acquired"
+      event_date: NOW                # Use current date as proxy
+    transforms:
+      skill_name:
+        trim: true
+      confidence:
+        default: 0.8
+    validation:
+      required: [employee_id, skill_name]
+
+normalization_rules:
+  # Generic cleanup applied post-mapping
+  skill_name:
+    collapse_whitespace: true
+    to_title_case: true
+  employee_id:
+    strip_leading_zeros: true
+  category:
+    default_if_missing: "Unclassified"
+
+quality_checks:
+  duplicate_event_window_days: 1
+  max_future_days: 30
+  min_skill_name_length: 2
+  anomaly_threshold_multiplier: 3  # Volume spike threshold
+
+post_ingestion:
+  recompute:
+    timeseries_if_skill_events_changed: true
+    clusters_if_skill_ratio_changed_gt: 0.25
+    mutation_risk_recompute: impacted_only
+  taxonomy:
+    create_version_on_cluster_change: true
+

@@ -1,0 +1,501 @@
+employee_id,department,hire_date,skills,position
+EMP_00001,Production,2017-02-17,"['AWS', 'Electric Powertrain', 'Mechanical Design']",Senior
+EMP_00002,Engineering,2019-07-19,"['CNC Programming', 'Quality Control']",Lead
+EMP_00003,Engineering,2023-12-09,"['CAD', 'PyTorch']",Senior
+EMP_00004,Digital,2024-04-01,"['Mechanical Design', 'React', 'Thermal Management']",Mid
+EMP_00005,Production,2018-05-09,"['Python', 'Kubernetes', 'Microservices', 'CI/CD']",Senior
+EMP_00006,Digital,2015-03-11,"['Azure', 'Mechanical Design', 'Microservices', 'AWS']",Lead
+EMP_00007,Quality,2017-10-17,"['Microservices', 'Battery Systems', 'CAD']",Junior
+EMP_00008,Quality,2019-09-27,"['JavaScript', 'Battery Systems', 'CI/CD', 'CNC Programming']",Lead
+EMP_00009,Engineering,2017-03-02,"['Computer Vision', 'CNC Programming']",Junior
+EMP_00010,Production,2018-07-26,"['React', 'Kubernetes', 'Python']",Mid
+EMP_00011,Production,2024-12-04,"['Battery Systems', 'Thermal Management']",Junior
+EMP_00012,IT,2021-05-22,"['NLP', 'TensorFlow', 'Charging Infrastructure']",Mid
+EMP_00013,E-Mobility,2013-09-19,"['Mechanical Design', 'LLM Integration']",Mid
+EMP_00014,Digital,2013-05-30,"['AutoCAD', 'Mechanical Design']",Junior
+EMP_00015,IT,2013-03-13,"['Kubernetes', 'CATIA', 'Azure', 'Microservices']",Junior
+EMP_00016,Engineering,2017-10-26,"['CATIA', 'AWS']",Senior
+EMP_00017,Production,2017-01-25,"['Charging Infrastructure', 'PyTorch', 'Kubernetes', 'Azure']",Lead
+EMP_00018,E-Mobility,2013-06-17,"['JavaScript', 'Quality Control']",Senior
+EMP_00019,Engineering,2014-01-10,"['CATIA', 'TensorFlow', 'Mechanical Design']",Senior
+EMP_00020,Quality,2024-06-19,"['Energy Management', 'CATIA']",Senior
+EMP_00021,IT,2013-04-29,"['Mechanical Design', 'Quality Control', 'Microservices', 'Kubernetes']",Lead
+EMP_00022,Digital,2024-06-24,"['Battery Systems', 'Machine Learning', 'Computer Vision', 'Microservices']",Junior
+EMP_00023,E-Mobility,2024-09-10,"['Electric Powertrain', 'CATIA', 'PyTorch']",Mid
+EMP_00024,Production,2021-05-11,"['Azure', 'Electric Powertrain', 'Quality Control', 'AWS', 'Mechanical Design']",Senior
+EMP_00025,Production,2019-02-27,"['Mechanical Design', 'Python', 'Energy Management', 'AWS']",Mid
+EMP_00026,Quality,2017-03-07,"['Python', 'CNC Programming', 'CAD']",Mid
+EMP_00027,Engineering,2014-06-09,"['Azure', 'Battery Systems', 'Energy Management']",Senior
+EMP_00028,E-Mobility,2018-11-25,"['CNC Programming', 'Microservices', 'CAD', 'Quality Control', 'Computer Vision']",Senior
+EMP_00029,Digital,2015-06-16,"['Mechanical Design', 'Microservices', 'CNC Programming']",Junior
+EMP_00030,Engineering,2013-10-01,"['Electric Powertrain', 'CAD', 'CATIA']",Mid
+EMP_00031,IT,2018-12-10,"['Kubernetes', 'Docker', 'Battery Systems', 'CAD', 'AutoCAD']",Senior
+EMP_00032,Digital,2021-03-19,"['JavaScript', 'CATIA', 'Energy Management', 'Microservices']",Lead
+EMP_00033,Engineering,2014-06-29,['Mechanical Design'],Lead
+EMP_00034,Production,2024-10-08,"['Electric Powertrain', 'React']",Senior
+EMP_00035,Digital,2015-05-03,"['Azure', 'CAD', 'Quality Control', 'Mechanical Design']",Senior
+EMP_00036,Engineering,2014-04-17,"['LLM Integration', 'Mechanical Design', 'JavaScript', 'AutoCAD']",Junior
+EMP_00037,Digital,2017-12-01,"['Battery Systems', 'Charging Infrastructure']",Lead
+EMP_00038,IT,2020-02-04,"['Thermal Management', 'CNC Programming']",Senior
+EMP_00039,E-Mobility,2015-04-04,"['Kubernetes', 'Mechanical Design', 'AutoCAD', 'CAD']",Junior
+EMP_00040,Quality,2015-02-02,"['CI/CD', 'React']",Mid
+EMP_00041,Digital,2023-02-08,"['Microservices', 'Kubernetes', 'Python', 'PyTorch']",Junior
+EMP_00042,Digital,2021-05-19,"['CAD', 'TensorFlow', 'Battery Systems', 'Electric Powertrain', 'Microservices']",Lead
+EMP_00043,Digital,2025-03-15,"['Azure', 'Python']",Senior
+EMP_00044,Production,2015-08-01,"['Energy Management', 'CATIA']",Senior
+EMP_00045,Engineering,2023-12-04,"['Python', 'PyTorch', 'Energy Management', 'NLP']",Mid
+EMP_00046,E-Mobility,2024-09-25,"['Thermal Management', 'Charging Infrastructure', 'Electric Powertrain', 'Machine Learning', 'CAD']",Junior
+EMP_00047,E-Mobility,2014-05-03,"['Energy Management', 'CATIA', 'CAD', 'CI/CD', 'Computer Vision']",Mid
+EMP_00048,IT,2023-02-17,"['Microservices', 'Docker', 'Machine Learning']",Lead
+EMP_00049,E-Mobility,2016-02-18,"['CAD', 'CI/CD', 'TensorFlow']",Lead
+EMP_00050,Digital,2015-01-25,"['Thermal Management', 'CI/CD', 'AutoCAD', 'Mechanical Design', 'AWS']",Mid
+EMP_00051,Engineering,2023-03-02,"['Energy Management', 'Kubernetes']",Junior
+EMP_00052,Quality,2021-02-03,"['Azure', 'Kubernetes']",Junior
+EMP_00053,Quality,2024-07-24,"['Python', 'Battery Systems', 'CI/CD', 'Charging Infrastructure']",Lead
+EMP_00054,Quality,2020-01-21,"['CATIA', 'Python', 'CAD', 'Energy Management']",Senior
+EMP_00055,Production,2017-08-19,"['Docker', 'React', 'CATIA', 'Electric Powertrain']",Senior
+EMP_00056,E-Mobility,2016-04-28,"['AutoCAD', 'Electric Powertrain', 'LLM Integration']",Junior
+EMP_00057,Digital,2023-06-22,"['AutoCAD', 'Charging Infrastructure']",Senior
+EMP_00058,Engineering,2022-07-01,"['Python', 'Electric Powertrain']",Mid
+EMP_00059,Engineering,2020-02-11,"['Kubernetes', 'LLM Integration', 'Battery Systems', 'Thermal Management']",Mid
+EMP_00060,Digital,2017-11-02,"['Mechanical Design', 'CAD', 'CATIA', 'Thermal Management']",Junior
+EMP_00061,Production,2023-07-19,"['NLP', 'CI/CD', 'Battery Systems', 'Docker', 'CNC Programming']",Mid
+EMP_00062,Digital,2015-04-08,"['CATIA', 'AutoCAD', 'Electric Powertrain']",Lead
+EMP_00063,IT,2017-01-28,"['Microservices', 'CAD', 'CNC Programming', 'JavaScript', 'Energy Management']",Mid
+EMP_00064,Digital,2023-08-12,"['Battery Systems', 'Machine Learning', 'Energy Management', 'CAD', 'LLM Integration']",Mid
+EMP_00065,Quality,2019-03-16,"['Python', 'AWS', 'Thermal Management', 'JavaScript']",Junior
+EMP_00066,E-Mobility,2024-07-26,"['Microservices', 'Mechanical Design']",Senior
+EMP_00067,IT,2024-07-17,"['JavaScript', 'Docker', 'Computer Vision']",Senior
+EMP_00068,Quality,2018-05-28,"['Energy Management', 'AutoCAD', 'Kubernetes', 'Charging Infrastructure']",Senior
+EMP_00069,E-Mobility,2023-03-20,"['TensorFlow', 'LLM Integration']",Junior
+EMP_00070,E-Mobility,2013-11-23,"['Microservices', 'CI/CD', 'Kubernetes', 'AWS']",Mid
+EMP_00071,Production,2014-09-11,"['AutoCAD', 'Quality Control', 'Kubernetes', 'Charging Infrastructure']",Junior
+EMP_00072,Digital,2022-01-16,"['Quality Control', 'JavaScript', 'Docker']",Senior
+EMP_00073,E-Mobility,2019-03-30,"['CAD', 'CI/CD']",Senior
+EMP_00074,Production,2024-02-07,"['Battery Systems', 'Computer Vision', 'Charging Infrastructure', 'Machine Learning']",Mid
+EMP_00075,Digital,2021-04-03,"['Microservices', 'Azure', 'LLM Integration', 'Charging Infrastructure']",Lead
+EMP_00076,Production,2025-05-15,"['TensorFlow', 'Electric Powertrain', 'Azure', 'LLM Integration']",Lead
+EMP_00077,Digital,2018-12-30,"['React', 'Docker', 'CI/CD']",Senior
+EMP_00078,Production,2013-04-23,"['Mechanical Design', 'NLP']",Junior
+EMP_00079,Quality,2017-03-08,"['NLP', 'CATIA', 'CAD']",Senior
+EMP_00080,Production,2021-09-30,"['Docker', 'Machine Learning', 'Energy Management', 'Quality Control']",Lead
+EMP_00081,Engineering,2021-04-20,"['Python', 'CNC Programming', 'CI/CD']",Senior
+EMP_00082,Digital,2020-07-20,"['Battery Systems', 'React', 'PyTorch', 'Energy Management']",Lead
+EMP_00083,Engineering,2019-01-18,"['Microservices', 'Electric Powertrain', 'Charging Infrastructure']",Lead
+EMP_00084,IT,2018-08-21,"['JavaScript', 'Python']",Senior
+EMP_00085,Quality,2023-10-11,"['Kubernetes', 'LLM Integration', 'Energy Management', 'Thermal Management', 'Docker']",Junior
+EMP_00086,E-Mobility,2020-08-10,"['Azure', 'Computer Vision', 'CAD', 'Docker']",Lead
+EMP_00087,Engineering,2015-05-11,"['Docker', 'CAD']",Junior
+EMP_00088,Quality,2019-02-19,"['Charging Infrastructure', 'Machine Learning']",Mid
+EMP_00089,IT,2021-11-04,"['Microservices', 'Docker']",Mid
+EMP_00090,Digital,2022-12-27,"['AWS', 'Battery Systems', 'Kubernetes', 'Python']",Mid
+EMP_00091,IT,2015-09-22,"['CATIA', 'Quality Control', 'Azure', 'AutoCAD']",Senior
+EMP_00092,Production,2021-08-04,"['Charging Infrastructure', 'LLM Integration', 'JavaScript', 'Mechanical Design', 'Azure']",Lead
+EMP_00093,Quality,2014-11-22,"['CI/CD', 'Quality Control']",Mid
+EMP_00094,Digital,2019-06-16,"['Azure', 'JavaScript', 'Battery Systems']",Lead
+EMP_00095,Digital,2024-10-24,"['PyTorch', 'LLM Integration', 'Docker', 'Microservices', 'AWS']",Senior
+EMP_00096,Quality,2016-02-19,"['Thermal Management', 'Kubernetes', 'Mechanical Design', 'Electric Powertrain', 'CAD']",Senior
+EMP_00097,IT,2019-11-24,"['Mechanical Design', 'Docker', 'Kubernetes', 'Charging Infrastructure']",Lead
+EMP_00098,Production,2023-06-13,"['CNC Programming', 'Thermal Management', 'CAD']",Senior
+EMP_00099,IT,2023-03-14,"['Mechanical Design', 'CNC Programming', 'Thermal Management', 'TensorFlow']",Mid
+EMP_00100,Quality,2021-12-26,"['Microservices', 'Charging Infrastructure']",Lead
+EMP_00101,E-Mobility,2017-02-08,"['NLP', 'React', 'Mechanical Design', 'AutoCAD', 'Docker']",Senior
+EMP_00102,Engineering,2020-10-15,"['React', 'JavaScript', 'Microservices', 'AWS', 'LLM Integration']",Lead
+EMP_00103,Digital,2022-02-09,"['PyTorch', 'Python', 'Docker', 'Energy Management']",Junior
+EMP_00104,Production,2016-06-18,"['JavaScript', 'Computer Vision']",Mid
+EMP_00105,IT,2021-08-22,"['Energy Management', 'TensorFlow', 'CATIA', 'AWS']",Junior
+EMP_00106,Quality,2019-01-04,"['Quality Control', 'CATIA']",Lead
+EMP_00107,Digital,2018-03-01,"['Machine Learning', 'Energy Management', 'Kubernetes']",Junior
+EMP_00108,Quality,2018-08-09,"['Charging Infrastructure', 'Machine Learning', 'Quality Control', 'AutoCAD']",Lead
+EMP_00109,Engineering,2018-07-12,"['Energy Management', 'Docker', 'React', 'Azure', 'Microservices']",Lead
+EMP_00110,Quality,2022-09-01,"['Kubernetes', 'Docker', 'Thermal Management']",Junior
+EMP_00111,IT,2022-01-25,"['CAD', 'Computer Vision', 'Charging Infrastructure', 'Azure', 'Mechanical Design']",Junior
+EMP_00112,Production,2024-07-05,"['Electric Powertrain', 'Python', 'Charging Infrastructure', 'Energy Management']",Senior
+EMP_00113,Quality,2014-06-25,"['CI/CD', 'PyTorch', 'React']",Mid
+EMP_00114,Digital,2024-08-20,"['Energy Management', 'AWS', 'Computer Vision', 'React', 'NLP']",Lead
+EMP_00115,Engineering,2023-08-01,"['Kubernetes', 'Energy Management']",Mid
+EMP_00116,IT,2015-05-31,"['CATIA', 'Mechanical Design']",Lead
+EMP_00117,Digital,2024-12-25,"['Charging Infrastructure', 'Kubernetes']",Senior
+EMP_00118,Production,2013-01-02,"['PyTorch', 'Electric Powertrain', 'CATIA']",Junior
+EMP_00119,Digital,2021-04-16,"['Kubernetes', 'CATIA', 'Computer Vision', 'Azure']",Senior
+EMP_00120,Digital,2016-08-05,"['Charging Infrastructure', 'NLP', 'PyTorch', 'CNC Programming', 'Battery Systems']",Mid
+EMP_00121,IT,2016-11-30,"['CAD', 'CNC Programming', 'Kubernetes', 'CATIA', 'CI/CD']",Junior
+EMP_00122,E-Mobility,2022-09-30,"['AWS', 'Azure']",Senior
+EMP_00123,Engineering,2013-01-13,"['Docker', 'Mechanical Design', 'CAD', 'CNC Programming']",Junior
+EMP_00124,E-Mobility,2018-05-14,"['JavaScript', 'Kubernetes', 'Energy Management', 'Mechanical Design', 'Electric Powertrain']",Junior
+EMP_00125,Quality,2016-01-19,"['Azure', 'Quality Control', 'Mechanical Design', 'AWS']",Lead
+EMP_00126,Digital,2013-05-08,"['Docker', 'AutoCAD', 'LLM Integration']",Junior
+EMP_00127,E-Mobility,2019-07-29,"['Quality Control', 'CATIA', 'AutoCAD']",Lead
+EMP_00128,Engineering,2019-01-28,"['CATIA', 'React']",Junior
+EMP_00129,Quality,2022-02-09,"['NLP', 'Mechanical Design']",Senior
+EMP_00130,E-Mobility,2019-01-25,"['JavaScript', 'React', 'Computer Vision', 'CATIA', 'Kubernetes']",Lead
+EMP_00131,Engineering,2014-11-11,"['CI/CD', 'Docker', 'Quality Control']",Lead
+EMP_00132,Digital,2019-04-23,"['Charging Infrastructure', 'NLP', 'JavaScript', 'CATIA', 'CI/CD']",Lead
+EMP_00133,IT,2014-10-31,"['Battery Systems', 'Mechanical Design', 'CNC Programming', 'Electric Powertrain', 'Energy Management']",Senior
+EMP_00134,Engineering,2013-12-30,"['AWS', 'NLP', 'Quality Control']",Senior
+EMP_00135,E-Mobility,2020-07-21,"['Energy Management', 'PyTorch', 'NLP']",Lead
+EMP_00136,Engineering,2020-06-30,"['JavaScript', 'Quality Control']",Lead
+EMP_00137,IT,2025-05-18,"['Battery Systems', 'LLM Integration', 'AWS', 'Mechanical Design']",Mid
+EMP_00138,IT,2016-10-03,"['Mechanical Design', 'CNC Programming', 'Docker', 'CATIA']",Junior
+EMP_00139,Digital,2021-05-26,"['Battery Systems', 'PyTorch', 'NLP']",Lead
+EMP_00140,E-Mobility,2023-10-15,"['Thermal Management', 'Microservices', 'Machine Learning', 'NLP', 'Electric Powertrain']",Junior
+EMP_00141,Quality,2023-07-26,"['Docker', 'LLM Integration', 'Quality Control', 'Kubernetes']",Mid
+EMP_00142,Engineering,2019-02-21,"['Battery Systems', 'Docker', 'AWS']",Mid
+EMP_00143,IT,2023-01-07,"['NLP', 'Kubernetes', 'Charging Infrastructure', 'Computer Vision']",Mid
+EMP_00144,Digital,2017-07-23,"['Python', 'LLM Integration']",Lead
+EMP_00145,Digital,2019-06-05,"['Microservices', 'AutoCAD', 'CNC Programming', 'Azure']",Mid
+EMP_00146,Engineering,2016-07-30,"['CNC Programming', 'Mechanical Design', 'Energy Management']",Mid
+EMP_00147,Engineering,2022-01-18,"['Microservices', 'CATIA']",Lead
+EMP_00148,Digital,2022-03-28,"['Electric Powertrain', 'CI/CD']",Junior
+EMP_00149,Production,2015-06-23,"['Python', 'CAD']",Lead
+EMP_00150,IT,2023-01-23,"['Thermal Management', 'PyTorch']",Senior
+EMP_00151,IT,2025-01-01,"['Quality Control', 'CNC Programming', 'NLP']",Lead
+EMP_00152,Engineering,2016-08-03,"['Energy Management', 'Computer Vision']",Senior
+EMP_00153,E-Mobility,2016-09-24,"['Mechanical Design', 'Battery Systems', 'CAD']",Junior
+EMP_00154,Production,2024-07-15,"['Docker', 'PyTorch', 'Battery Systems', 'LLM Integration', 'Machine Learning']",Lead
+EMP_00155,IT,2025-05-11,"['Machine Learning', 'NLP']",Junior
+EMP_00156,E-Mobility,2013-10-19,"['Charging Infrastructure', 'Azure']",Senior
+EMP_00157,Quality,2017-08-01,"['Python', 'Computer Vision', 'Kubernetes']",Senior
+EMP_00158,Quality,2017-06-07,"['Microservices', 'Thermal Management']",Senior
+EMP_00159,Engineering,2016-02-21,"['Docker', 'Quality Control', 'CATIA', 'Mechanical Design', 'TensorFlow']",Junior
+EMP_00160,IT,2021-03-23,"['Docker', 'React', 'Thermal Management', 'Charging Infrastructure']",Lead
+EMP_00161,Engineering,2023-04-23,"['Quality Control', 'Microservices', 'React', 'Machine Learning', 'PyTorch']",Junior
+EMP_00162,Engineering,2016-08-13,"['Machine Learning', 'CAD', 'CNC Programming']",Mid
+EMP_00163,Quality,2013-06-01,"['AutoCAD', 'Quality Control', 'Kubernetes', 'AWS']",Senior
+EMP_00164,E-Mobility,2023-01-02,"['CI/CD', 'Battery Systems', 'CAD', 'Microservices']",Junior
+EMP_00165,IT,2019-09-06,"['Kubernetes', 'AWS', 'Machine Learning', 'CNC Programming']",Lead
+EMP_00166,Production,2025-01-24,"['Electric Powertrain', 'React']",Lead
+EMP_00167,Quality,2015-12-11,"['CATIA', 'Azure', 'NLP', 'CAD']",Senior
+EMP_00168,IT,2017-04-08,"['Mechanical Design', 'Machine Learning', 'Thermal Management', 'CAD']",Lead
+EMP_00169,E-Mobility,2015-10-27,"['CI/CD', 'Kubernetes']",Lead
+EMP_00170,Production,2025-02-24,"['Thermal Management', 'Electric Powertrain', 'Docker', 'PyTorch', 'JavaScript']",Senior
+EMP_00171,Production,2015-03-01,"['LLM Integration', 'Docker']",Mid
+EMP_00172,IT,2019-10-09,"['Docker', 'CATIA']",Lead
+EMP_00173,Digital,2019-09-15,"['LLM Integration', 'Kubernetes', 'Mechanical Design', 'CAD']",Senior
+EMP_00174,Production,2021-03-04,"['Azure', 'CI/CD', 'Thermal Management']",Senior
+EMP_00175,Production,2015-07-28,"['CATIA', 'CNC Programming']",Lead
+EMP_00176,Quality,2024-07-28,"['NLP', 'TensorFlow', 'Electric Powertrain', 'Kubernetes', 'Thermal Management']",Senior
+EMP_00177,Engineering,2020-08-11,"['Electric Powertrain', 'Battery Systems', 'Energy Management', 'Charging Infrastructure', 'Microservices']",Mid
+EMP_00178,Quality,2018-03-27,"['Mechanical Design', 'CI/CD', 'Quality Control', 'Thermal Management', 'Charging Infrastructure']",Senior
+EMP_00179,Digital,2024-03-09,"['Python', 'AutoCAD']",Junior
+EMP_00180,Digital,2018-11-26,"['CATIA', 'Quality Control', 'Computer Vision']",Junior
+EMP_00181,Production,2016-07-27,"['AWS', 'CAD', 'CATIA']",Junior
+EMP_00182,Production,2016-05-02,"['CATIA', 'CAD']",Lead
+EMP_00183,E-Mobility,2023-09-15,"['Quality Control', 'Computer Vision', 'Battery Systems']",Senior
+EMP_00184,Engineering,2015-11-26,"['AWS', 'CATIA', 'AutoCAD']",Mid
+EMP_00185,Quality,2020-01-04,"['Energy Management', 'Python', 'CAD', 'Docker']",Senior
+EMP_00186,E-Mobility,2024-07-16,"['Computer Vision', 'Energy Management', 'Battery Systems', 'AutoCAD']",Junior
+EMP_00187,Digital,2022-02-06,"['Electric Powertrain', 'Energy Management', 'CAD', 'Quality Control', 'Mechanical Design']",Lead
+EMP_00188,Quality,2023-02-17,"['NLP', 'CAD', 'Mechanical Design', 'Azure']",Senior
+EMP_00189,E-Mobility,2017-05-02,"['Kubernetes', 'AutoCAD', 'CATIA', 'Battery Systems', 'Quality Control']",Lead
+EMP_00190,Quality,2017-10-28,"['CATIA', 'CAD', 'Kubernetes', 'AWS']",Junior
+EMP_00191,Quality,2023-10-08,"['React', 'LLM Integration', 'Mechanical Design', 'Charging Infrastructure']",Lead
+EMP_00192,IT,2017-07-14,"['Kubernetes', 'CAD']",Lead
+EMP_00193,Engineering,2016-09-29,"['CNC Programming', 'AutoCAD']",Mid
+EMP_00194,E-Mobility,2015-05-11,"['CATIA', 'Mechanical Design']",Mid
+EMP_00195,E-Mobility,2016-06-23,"['CATIA', 'Quality Control']",Senior
+EMP_00196,IT,2024-02-27,"['Docker', 'LLM Integration', 'TensorFlow', 'Energy Management']",Mid
+EMP_00197,Production,2016-02-02,"['JavaScript', 'Mechanical Design', 'CATIA']",Lead
+EMP_00198,E-Mobility,2025-04-08,"['LLM Integration', 'TensorFlow']",Junior
+EMP_00199,Engineering,2020-04-04,"['Microservices', 'React']",Junior
+EMP_00200,Production,2021-09-05,"['NLP', 'Mechanical Design', 'CATIA', 'Quality Control']",Lead
+EMP_00201,Digital,2019-10-29,"['Charging Infrastructure', 'Kubernetes', 'CAD', 'Electric Powertrain']",Senior
+EMP_00202,E-Mobility,2015-11-07,"['PyTorch', 'Mechanical Design', 'Docker', 'Quality Control']",Senior
+EMP_00203,Production,2019-05-26,"['Docker', 'AutoCAD', 'Energy Management']",Junior
+EMP_00204,Production,2014-04-16,"['Docker', 'Kubernetes', 'Charging Infrastructure']",Junior
+EMP_00205,IT,2017-10-21,"['Computer Vision', 'Electric Powertrain', 'CNC Programming', 'JavaScript', 'Quality Control']",Junior
+EMP_00206,Engineering,2017-08-13,"['CATIA', 'Mechanical Design']",Senior
+EMP_00207,Production,2016-12-13,"['CATIA', 'Mechanical Design', 'NLP']",Mid
+EMP_00208,Engineering,2018-03-08,"['AutoCAD', 'Energy Management', 'TensorFlow', 'Azure']",Junior
+EMP_00209,IT,2013-11-25,"['CATIA', 'CAD', 'Thermal Management']",Junior
+EMP_00210,E-Mobility,2022-05-12,"['Microservices', 'Battery Systems', 'CI/CD', 'React']",Lead
+EMP_00211,Quality,2013-09-28,"['Quality Control', 'PyTorch', 'Energy Management']",Senior
+EMP_00212,IT,2013-12-29,"['CNC Programming', 'Kubernetes', 'AutoCAD']",Senior
+EMP_00213,Production,2022-09-08,"['Energy Management', 'Thermal Management', 'Charging Infrastructure', 'CNC Programming', 'Battery Systems']",Junior
+EMP_00214,Digital,2018-04-22,"['LLM Integration', 'Docker', 'Azure', 'Charging Infrastructure']",Junior
+EMP_00215,IT,2015-12-13,"['Quality Control', 'CI/CD']",Senior
+EMP_00216,E-Mobility,2021-08-31,"['Charging Infrastructure', 'Battery Systems', 'TensorFlow', 'Microservices']",Lead
+EMP_00217,E-Mobility,2016-05-28,"['Mechanical Design', 'JavaScript']",Lead
+EMP_00218,Production,2019-07-28,"['AWS', 'Docker']",Senior
+EMP_00219,Digital,2023-03-09,"['PyTorch', 'Electric Powertrain', 'CATIA']",Mid
+EMP_00220,Digital,2019-09-20,"['Quality Control', 'AutoCAD', 'JavaScript', 'Docker', 'Microservices']",Senior
+EMP_00221,Quality,2016-05-05,"['Microservices', 'CAD', 'Quality Control']",Junior
+EMP_00222,Engineering,2019-12-30,"['Thermal Management', 'Microservices', 'Docker']",Lead
+EMP_00223,Quality,2016-06-01,"['AutoCAD', 'NLP']",Lead
+EMP_00224,Production,2013-05-12,"['CATIA', 'CAD', 'Docker', 'Thermal Management']",Mid
+EMP_00225,IT,2019-05-27,"['Charging Infrastructure', 'Computer Vision']",Mid
+EMP_00226,IT,2013-12-19,"['Kubernetes', 'JavaScript', 'Mechanical Design', 'Charging Infrastructure']",Junior
+EMP_00227,Digital,2022-07-11,"['Mechanical Design', 'Microservices', 'Docker', 'Charging Infrastructure']",Mid
+EMP_00228,IT,2023-10-13,"['Energy Management', 'Azure', 'AWS', 'Mechanical Design', 'PyTorch']",Senior
+EMP_00229,Digital,2024-06-07,"['AWS', 'Thermal Management', 'CI/CD']",Mid
+EMP_00230,E-Mobility,2021-01-24,"['Azure', 'Charging Infrastructure', 'CAD', 'Battery Systems']",Senior
+EMP_00231,IT,2022-10-23,"['Electric Powertrain', 'Machine Learning', 'Energy Management', 'Battery Systems']",Junior
+EMP_00232,E-Mobility,2016-12-29,"['Mechanical Design', 'CNC Programming', 'Docker']",Mid
+EMP_00233,Quality,2021-05-25,"['Docker', 'LLM Integration', 'Python', 'PyTorch']",Mid
+EMP_00234,E-Mobility,2023-03-04,"['CI/CD', 'Energy Management', 'Docker']",Senior
+EMP_00235,E-Mobility,2019-03-04,"['Thermal Management', 'Energy Management', 'CAD']",Junior
+EMP_00236,Quality,2019-10-03,"['Thermal Management', 'Battery Systems']",Senior
+EMP_00237,Quality,2022-07-01,"['Charging Infrastructure', 'Python', 'Energy Management']",Mid
+EMP_00238,Digital,2024-02-06,"['CI/CD', 'Mechanical Design', 'NLP', 'React']",Mid
+EMP_00239,Engineering,2018-02-16,"['LLM Integration', 'Energy Management', 'Machine Learning', 'AutoCAD', 'Azure']",Senior
+EMP_00240,Digital,2024-02-26,"['CNC Programming', 'LLM Integration', 'Microservices', 'CATIA']",Mid
+EMP_00241,Engineering,2023-10-17,"['Machine Learning', 'AutoCAD']",Senior
+EMP_00242,IT,2022-04-02,"['Microservices', 'LLM Integration', 'JavaScript']",Junior
+EMP_00243,Engineering,2015-01-04,"['Microservices', 'Kubernetes', 'Azure']",Senior
+EMP_00244,IT,2018-11-04,"['CNC Programming', 'Electric Powertrain', 'Microservices', 'Charging Infrastructure']",Junior
+EMP_00245,Quality,2017-01-17,"['Quality Control', 'Battery Systems', 'Mechanical Design', 'Docker', 'React']",Lead
+EMP_00246,Engineering,2018-06-15,"['CNC Programming', 'JavaScript', 'Docker']",Senior
+EMP_00247,IT,2016-10-18,"['Energy Management', 'Quality Control', 'CAD', 'LLM Integration']",Lead
+EMP_00248,E-Mobility,2020-05-16,"['AWS', 'CI/CD', 'Quality Control', 'Azure']",Junior
+EMP_00249,E-Mobility,2023-04-27,"['AWS', 'PyTorch', 'CAD', 'Charging Infrastructure']",Junior
+EMP_00250,Digital,2023-11-12,"['React', 'CNC Programming', 'Computer Vision', 'Kubernetes']",Senior
+EMP_00251,Quality,2013-09-07,"['Charging Infrastructure', 'LLM Integration']",Senior
+EMP_00252,Production,2018-05-08,"['Computer Vision', 'CNC Programming']",Senior
+EMP_00253,Digital,2016-09-07,"['CNC Programming', 'Mechanical Design', 'Charging Infrastructure']",Junior
+EMP_00254,Digital,2015-08-18,"['AWS', 'Mechanical Design']",Mid
+EMP_00255,Engineering,2016-11-28,"['CNC Programming', 'CI/CD', 'LLM Integration']",Lead
+EMP_00256,E-Mobility,2022-02-19,"['Quality Control', 'JavaScript', 'Kubernetes']",Mid
+EMP_00257,Engineering,2014-02-25,"['CAD', 'Kubernetes', 'CI/CD', 'AWS', 'Docker']",Mid
+EMP_00258,IT,2023-04-13,"['Python', 'Quality Control', 'CAD']",Junior
+EMP_00259,Digital,2022-07-17,"['Azure', 'Mechanical Design']",Senior
+EMP_00260,Digital,2021-02-14,"['AWS', 'Computer Vision', 'Kubernetes', 'React', 'Quality Control']",Junior
+EMP_00261,Production,2025-07-13,"['NLP', 'Docker', 'AWS']",Senior
+EMP_00262,IT,2019-03-30,"['CATIA', 'Azure', 'Mechanical Design', 'Battery Systems', 'Machine Learning']",Senior
+EMP_00263,Quality,2017-01-15,"['Electric Powertrain', 'Thermal Management', 'Azure']",Lead
+EMP_00264,Engineering,2018-07-07,"['CAD', 'CNC Programming', 'Docker', 'Mechanical Design', 'CI/CD']",Junior
+EMP_00265,E-Mobility,2021-02-12,"['Electric Powertrain', 'Azure']",Senior
+EMP_00266,Production,2022-06-08,"['Machine Learning', 'Electric Powertrain', 'CNC Programming', 'React']",Senior
+EMP_00267,Quality,2017-03-07,"['Quality Control', 'Electric Powertrain', 'CI/CD', 'LLM Integration', 'Python']",Mid
+EMP_00268,Engineering,2016-04-04,"['CATIA', 'Charging Infrastructure', 'Kubernetes', 'CAD']",Lead
+EMP_00269,Quality,2017-03-31,"['Docker', 'Machine Learning', 'CAD']",Senior
+EMP_00270,Engineering,2019-08-09,"['CATIA', 'CI/CD']",Mid
+EMP_00271,Quality,2014-04-07,"['Mechanical Design', 'CNC Programming', 'Charging Infrastructure']",Junior
+EMP_00272,Production,2019-11-03,"['AWS', 'CAD', 'Energy Management', 'Charging Infrastructure']",Mid
+EMP_00273,Production,2024-09-22,"['Thermal Management', 'React', 'NLP']",Mid
+EMP_00274,IT,2013-10-19,"['Quality Control', 'Docker', 'CNC Programming', 'CAD']",Junior
+EMP_00275,Production,2019-07-31,"['Microservices', 'Docker', 'Quality Control', 'Thermal Management', 'Mechanical Design']",Senior
+EMP_00276,Production,2024-04-25,"['PyTorch', 'Energy Management', 'Computer Vision', 'Docker', 'Electric Powertrain']",Mid
+EMP_00277,Production,2014-08-04,"['CATIA', 'Python']",Lead
+EMP_00278,Engineering,2021-01-17,"['Machine Learning', 'Docker']",Lead
+EMP_00279,IT,2025-01-08,"['Docker', 'Charging Infrastructure', 'React', 'Energy Management']",Lead
+EMP_00280,Production,2023-12-21,"['Mechanical Design', 'Docker', 'Computer Vision']",Mid
+EMP_00281,Quality,2022-12-06,"['Charging Infrastructure', 'AWS', 'JavaScript', 'CNC Programming']",Mid
+EMP_00282,Engineering,2019-04-09,"['Python', 'Mechanical Design', 'CAD']",Junior
+EMP_00283,Production,2021-02-28,"['Mechanical Design', 'CI/CD', 'NLP', 'Kubernetes', 'Charging Infrastructure']",Lead
+EMP_00284,IT,2020-05-13,"['AutoCAD', 'Machine Learning', 'AWS']",Lead
+EMP_00285,Digital,2014-10-17,"['CATIA', 'Energy Management', 'CI/CD', 'AutoCAD']",Lead
+EMP_00286,Engineering,2021-06-18,"['AutoCAD', 'CATIA']",Mid
+EMP_00287,Production,2025-03-28,"['React', 'Docker']",Lead
+EMP_00288,IT,2013-03-12,"['Thermal Management', 'AutoCAD']",Senior
+EMP_00289,Engineering,2020-12-14,"['Machine Learning', 'CI/CD', 'Mechanical Design']",Senior
+EMP_00290,Production,2023-11-26,"['Mechanical Design', 'Quality Control', 'Charging Infrastructure']",Mid
+EMP_00291,Production,2015-05-22,"['Quality Control', 'PyTorch', 'Mechanical Design']",Junior
+EMP_00292,Digital,2013-08-20,"['AutoCAD', 'CAD', 'CNC Programming']",Senior
+EMP_00293,Quality,2018-12-16,"['PyTorch', 'CATIA', 'Microservices']",Senior
+EMP_00294,Production,2018-06-13,"['Charging Infrastructure', 'React']",Lead
+EMP_00295,Production,2019-08-15,"['Charging Infrastructure', 'AWS', 'Machine Learning', 'Docker']",Mid
+EMP_00296,E-Mobility,2023-06-28,"['Thermal Management', 'CATIA', 'Microservices']",Junior
+EMP_00297,E-Mobility,2016-06-18,"['Kubernetes', 'CATIA', 'CAD', 'CNC Programming', 'Quality Control']",Lead
+EMP_00298,Engineering,2024-06-02,"['TensorFlow', 'Kubernetes', 'Computer Vision', 'Energy Management']",Junior
+EMP_00299,E-Mobility,2017-02-04,"['CI/CD', 'AWS', 'AutoCAD']",Lead
+EMP_00300,E-Mobility,2020-05-14,"['CAD', 'Computer Vision', 'Docker', 'JavaScript']",Mid
+EMP_00301,Engineering,2020-06-11,"['Machine Learning', 'AWS']",Junior
+EMP_00302,Quality,2019-02-05,"['AWS', 'Python']",Lead
+EMP_00303,IT,2015-03-25,"['Energy Management', 'CNC Programming', 'CAD', 'AWS']",Mid
+EMP_00304,Engineering,2013-07-05,"['CAD', 'CATIA', 'Kubernetes', 'LLM Integration']",Senior
+EMP_00305,Quality,2025-07-27,"['Electric Powertrain', 'LLM Integration', 'TensorFlow', 'Energy Management']",Mid
+EMP_00306,Engineering,2016-09-30,"['Docker', 'LLM Integration', 'React', 'CNC Programming']",Mid
+EMP_00307,Digital,2018-12-27,"['CNC Programming', 'Battery Systems', 'Azure', 'NLP', 'Microservices']",Mid
+EMP_00308,Production,2023-02-20,"['Thermal Management', 'Computer Vision', 'LLM Integration', 'Charging Infrastructure']",Junior
+EMP_00309,Digital,2015-07-26,"['Python', 'CATIA', 'Mechanical Design']",Junior
+EMP_00310,Production,2013-01-02,"['CNC Programming', 'Charging Infrastructure', 'Energy Management']",Lead
+EMP_00311,IT,2023-06-24,"['JavaScript', 'AWS', 'CNC Programming']",Junior
+EMP_00312,Engineering,2024-12-22,"['CNC Programming', 'AutoCAD', 'Mechanical Design', 'JavaScript']",Senior
+EMP_00313,Engineering,2022-08-13,"['React', 'AWS', 'Battery Systems']",Lead
+EMP_00314,Production,2014-08-04,"['AWS', 'CNC Programming', 'Quality Control', 'JavaScript']",Mid
+EMP_00315,Digital,2023-07-10,"['Thermal Management', 'Charging Infrastructure', 'CAD']",Mid
+EMP_00316,Quality,2022-11-21,"['Microservices', 'PyTorch', 'LLM Integration', 'CI/CD', 'React']",Senior
+EMP_00317,Engineering,2020-11-30,"['Python', 'React', 'Thermal Management', 'JavaScript']",Lead
+EMP_00318,Digital,2020-05-07,"['Battery Systems', 'Mechanical Design', 'LLM Integration', 'TensorFlow']",Mid
+EMP_00319,Digital,2014-05-06,"['Azure', 'CNC Programming']",Mid
+EMP_00320,Engineering,2014-05-07,"['CAD', 'Microservices']",Junior
+EMP_00321,Engineering,2018-05-01,"['Charging Infrastructure', 'CATIA', 'Microservices', 'Electric Powertrain']",Senior
+EMP_00322,Digital,2017-09-11,"['Thermal Management', 'CAD', 'Energy Management', 'Microservices']",Junior
+EMP_00323,Production,2019-02-28,"['CNC Programming', 'Docker', 'Energy Management']",Mid
+EMP_00324,Quality,2021-01-04,"['AWS', 'CATIA']",Mid
+EMP_00325,E-Mobility,2020-11-16,"['AWS', 'Azure', 'Mechanical Design', 'NLP']",Junior
+EMP_00326,Engineering,2021-05-04,"['TensorFlow', 'Battery Systems', 'JavaScript']",Mid
+EMP_00327,IT,2017-12-07,"['CNC Programming', 'Python', 'React', 'Docker', 'Microservices']",Senior
+EMP_00328,IT,2016-01-05,"['Charging Infrastructure', 'CAD', 'Mechanical Design', 'Electric Powertrain']",Junior
+EMP_00329,Engineering,2023-05-18,"['CI/CD', 'Electric Powertrain', 'Computer Vision', 'JavaScript']",Junior
+EMP_00330,Digital,2014-11-12,['CI/CD'],Senior
+EMP_00331,Digital,2013-01-29,"['AWS', 'Thermal Management', 'Machine Learning', 'Mechanical Design']",Mid
+EMP_00332,E-Mobility,2023-08-02,"['Machine Learning', 'AWS', 'Python']",Mid
+EMP_00333,Digital,2024-01-13,"['Machine Learning', 'Computer Vision', 'Azure']",Junior
+EMP_00334,Engineering,2015-02-27,"['AutoCAD', 'Mechanical Design', 'AWS']",Senior
+EMP_00335,E-Mobility,2013-09-08,"['CI/CD', 'AutoCAD', 'Docker', 'LLM Integration', 'CNC Programming']",Lead
+EMP_00336,IT,2022-12-29,"['Microservices', 'Computer Vision', 'React']",Junior
+EMP_00337,E-Mobility,2014-01-12,"['CAD', 'TensorFlow']",Lead
+EMP_00338,Digital,2019-11-22,['Azure'],Senior
+EMP_00339,Engineering,2017-04-12,"['Docker', 'Microservices', 'CNC Programming', 'JavaScript', 'Battery Systems']",Junior
+EMP_00340,Engineering,2016-02-03,"['LLM Integration', 'Docker', 'CAD', 'Charging Infrastructure']",Lead
+EMP_00341,IT,2013-01-23,"['AutoCAD', 'Quality Control', 'JavaScript', 'CATIA', 'Mechanical Design']",Junior
+EMP_00342,Quality,2017-02-10,"['Python', 'JavaScript', 'Azure']",Senior
+EMP_00343,Quality,2013-12-26,"['Mechanical Design', 'CAD', 'PyTorch']",Lead
+EMP_00344,IT,2020-07-24,"['PyTorch', 'NLP', 'Energy Management']",Junior
+EMP_00345,Production,2016-01-03,"['React', 'AutoCAD', 'CNC Programming']",Junior
+EMP_00346,Digital,2013-08-14,"['CATIA', 'CAD']",Senior
+EMP_00347,Quality,2013-10-25,"['CATIA', 'JavaScript', 'Quality Control']",Lead
+EMP_00348,Digital,2019-06-28,"['CAD', 'Python', 'Electric Powertrain', 'Azure']",Junior
+EMP_00349,E-Mobility,2015-07-29,"['Mechanical Design', 'Quality Control']",Senior
+EMP_00350,Digital,2025-04-03,"['Thermal Management', 'Kubernetes', 'PyTorch']",Lead
+EMP_00351,Digital,2023-04-26,"['AWS', 'LLM Integration', 'Kubernetes']",Junior
+EMP_00352,Production,2013-10-14,"['CI/CD', 'Machine Learning', 'Electric Powertrain', 'Thermal Management', 'CAD']",Senior
+EMP_00353,IT,2013-01-26,"['Quality Control', 'Machine Learning', 'Mechanical Design', 'PyTorch']",Lead
+EMP_00354,Engineering,2015-02-08,"['Kubernetes', 'AutoCAD', 'React', 'Python']",Mid
+EMP_00355,IT,2021-11-16,"['Microservices', 'TensorFlow']",Mid
+EMP_00356,Production,2025-07-21,"['Battery Systems', 'Energy Management', 'CI/CD']",Junior
+EMP_00357,Digital,2020-01-08,"['Docker', 'Thermal Management', 'Python', 'AutoCAD']",Lead
+EMP_00358,E-Mobility,2020-04-20,"['React', 'Thermal Management']",Mid
+EMP_00359,Engineering,2021-03-24,"['Machine Learning', 'Computer Vision', 'PyTorch', 'Thermal Management']",Lead
+EMP_00360,IT,2015-07-06,"['Mechanical Design', 'Kubernetes', 'Quality Control']",Lead
+EMP_00361,E-Mobility,2019-06-03,"['TensorFlow', 'React', 'NLP']",Senior
+EMP_00362,Engineering,2019-12-11,"['Charging Infrastructure', 'Docker', 'Azure']",Mid
+EMP_00363,E-Mobility,2014-01-20,"['Mechanical Design', 'Kubernetes']",Senior
+EMP_00364,Production,2022-06-20,"['Battery Systems', 'LLM Integration']",Junior
+EMP_00365,Digital,2018-07-12,"['CNC Programming', 'Energy Management', 'Kubernetes', 'Python']",Mid
+EMP_00366,Production,2013-10-07,"['Docker', 'Battery Systems', 'CATIA', 'Electric Powertrain', 'AutoCAD']",Junior
+EMP_00367,Digital,2022-12-01,"['Charging Infrastructure', 'LLM Integration', 'CNC Programming', 'NLP']",Junior
+EMP_00368,Quality,2016-11-10,"['CI/CD', 'Azure']",Lead
+EMP_00369,Engineering,2023-04-25,"['Battery Systems', 'Electric Powertrain', 'PyTorch', 'Energy Management', 'React']",Senior
+EMP_00370,E-Mobility,2015-09-27,"['CAD', 'Python']",Junior
+EMP_00371,E-Mobility,2021-11-23,"['Azure', 'Thermal Management']",Senior
+EMP_00372,E-Mobility,2015-12-11,"['AutoCAD', 'Docker', 'Microservices', 'Mechanical Design', 'AWS']",Senior
+EMP_00373,Digital,2020-10-02,"['Kubernetes', 'Energy Management', 'CAD', 'Thermal Management', 'Python']",Senior
+EMP_00374,IT,2018-05-06,"['NLP', 'Battery Systems', 'Thermal Management']",Lead
+EMP_00375,Quality,2022-04-26,"['Thermal Management', 'Quality Control']",Senior
+EMP_00376,Digital,2016-09-11,"['CAD', 'AWS', 'Mechanical Design']",Lead
+EMP_00377,E-Mobility,2018-02-09,"['CNC Programming', 'Computer Vision', 'Docker']",Senior
+EMP_00378,Production,2020-07-06,"['Thermal Management', 'Quality Control', 'AWS', 'AutoCAD', 'Mechanical Design']",Mid
+EMP_00379,IT,2024-06-29,"['Charging Infrastructure', 'Docker', 'Energy Management', 'Mechanical Design']",Junior
+EMP_00380,Engineering,2023-08-04,"['Docker', 'TensorFlow', 'Electric Powertrain']",Lead
+EMP_00381,Digital,2017-04-04,"['Mechanical Design', 'NLP', 'Charging Infrastructure']",Mid
+EMP_00382,E-Mobility,2019-12-03,"['JavaScript', 'CATIA', 'Mechanical Design']",Junior
+EMP_00383,Quality,2013-05-30,"['JavaScript', 'AutoCAD', 'TensorFlow']",Mid
+EMP_00384,IT,2020-09-28,"['Charging Infrastructure', 'TensorFlow']",Lead
+EMP_00385,IT,2013-04-18,"['NLP', 'AutoCAD', 'CATIA']",Mid
+EMP_00386,Production,2018-06-02,"['Mechanical Design', 'Thermal Management', 'Charging Infrastructure', 'React']",Junior
+EMP_00387,Engineering,2023-09-07,"['Battery Systems', 'React', 'Energy Management', 'Python', 'Electric Powertrain']",Junior
+EMP_00388,E-Mobility,2016-04-09,"['Thermal Management', 'Quality Control', 'CATIA']",Junior
+EMP_00389,IT,2024-02-12,"['Machine Learning', 'Python']",Senior
+EMP_00390,Engineering,2024-07-04,"['React', 'Energy Management', 'Azure']",Mid
+EMP_00391,Digital,2025-06-19,"['JavaScript', 'Azure', 'NLP']",Mid
+EMP_00392,Quality,2013-03-26,"['CATIA', 'Docker']",Mid
+EMP_00393,Engineering,2016-11-26,"['Microservices', 'CAD', 'CNC Programming']",Junior
+EMP_00394,E-Mobility,2014-12-10,"['React', 'Quality Control']",Mid
+EMP_00395,Digital,2016-05-31,"['Mechanical Design', 'CNC Programming', 'Computer Vision']",Lead
+EMP_00396,Digital,2023-08-27,"['LLM Integration', 'Machine Learning', 'Charging Infrastructure', 'Computer Vision']",Mid
+EMP_00397,E-Mobility,2013-04-06,"['AWS', 'Microservices', 'LLM Integration']",Lead
+EMP_00398,Production,2017-12-23,"['Thermal Management', 'Docker', 'TensorFlow', 'React']",Junior
+EMP_00399,Engineering,2019-10-15,"['Battery Systems', 'Electric Powertrain']",Lead
+EMP_00400,Digital,2020-06-09,"['CI/CD', 'AWS']",Senior
+EMP_00401,Digital,2015-04-09,"['Docker', 'Mechanical Design', 'CATIA', 'JavaScript']",Lead
+EMP_00402,Digital,2015-04-01,"['CNC Programming', 'CI/CD', 'CATIA']",Junior
+EMP_00403,Engineering,2023-01-10,"['CI/CD', 'Electric Powertrain', 'NLP', 'PyTorch']",Junior
+EMP_00404,Production,2023-12-10,"['Charging Infrastructure', 'LLM Integration', 'Electric Powertrain', 'Energy Management']",Senior
+EMP_00405,Production,2024-12-08,"['LLM Integration', 'CI/CD', 'Azure', 'PyTorch']",Mid
+EMP_00406,Engineering,2021-03-17,"['CNC Programming', 'AWS', 'Battery Systems']",Lead
+EMP_00407,Engineering,2020-10-29,"['Thermal Management', 'Quality Control', 'PyTorch', 'NLP', 'TensorFlow']",Mid
+EMP_00408,Engineering,2021-11-24,"['AWS', 'Machine Learning', 'CNC Programming', 'Computer Vision']",Junior
+EMP_00409,Engineering,2013-12-16,"['React', 'AutoCAD', 'AWS']",Senior
+EMP_00410,E-Mobility,2021-05-21,"['Battery Systems', 'PyTorch']",Lead
+EMP_00411,Digital,2013-07-17,"['AWS', 'Quality Control', 'CI/CD', 'CAD']",Mid
+EMP_00412,E-Mobility,2018-10-07,"['React', 'Machine Learning', 'PyTorch', 'Energy Management']",Mid
+EMP_00413,Quality,2024-01-27,"['Energy Management', 'Thermal Management', 'AutoCAD']",Junior
+EMP_00414,E-Mobility,2013-07-06,"['Mechanical Design', 'Azure']",Lead
+EMP_00415,Quality,2017-08-22,"['AutoCAD', 'Mechanical Design', 'LLM Integration']",Lead
+EMP_00416,IT,2014-11-01,"['CNC Programming', 'Quality Control', 'NLP', 'Mechanical Design']",Mid
+EMP_00417,Production,2018-09-01,"['JavaScript', 'Python', 'Docker', 'Charging Infrastructure', 'NLP']",Senior
+EMP_00418,Quality,2018-12-19,"['Microservices', 'Docker']",Junior
+EMP_00419,Engineering,2019-02-15,['React'],Senior
+EMP_00420,Engineering,2023-08-26,"['PyTorch', 'Thermal Management', 'Charging Infrastructure', 'CATIA']",Senior
+EMP_00421,Production,2024-05-07,"['Thermal Management', 'Computer Vision']",Lead
+EMP_00422,Engineering,2019-02-12,"['AWS', 'Docker', 'Thermal Management', 'CAD', 'Kubernetes']",Lead
+EMP_00423,Quality,2024-04-08,"['React', 'Computer Vision', 'Microservices']",Junior
+EMP_00424,IT,2018-10-08,"['PyTorch', 'Energy Management', 'TensorFlow']",Senior
+EMP_00425,Digital,2018-09-14,"['React', 'AutoCAD', 'Quality Control']",Senior
+EMP_00426,IT,2017-12-06,"['CNC Programming', 'Python', 'Quality Control', 'Electric Powertrain']",Junior
+EMP_00427,Production,2020-09-21,"['LLM Integration', 'AWS']",Lead
+EMP_00428,Digital,2025-01-19,"['Electric Powertrain', 'Battery Systems', 'Machine Learning', 'React', 'CI/CD']",Lead
+EMP_00429,Quality,2013-02-03,"['Computer Vision', 'Kubernetes', 'Docker', 'Microservices']",Senior
+EMP_00430,E-Mobility,2024-11-26,"['CATIA', 'Azure', 'Charging Infrastructure']",Senior
+EMP_00431,Production,2025-06-05,"['AutoCAD', 'Charging Infrastructure', 'Energy Management', 'PyTorch', 'React']",Mid
+EMP_00432,Digital,2015-01-29,"['CNC Programming', 'CI/CD', 'Kubernetes']",Lead
+EMP_00433,Digital,2017-06-13,"['CAD', 'JavaScript', 'AutoCAD', 'Kubernetes']",Mid
+EMP_00434,Digital,2020-03-25,"['Battery Systems', 'CATIA', 'Microservices', 'PyTorch']",Mid
+EMP_00435,E-Mobility,2019-11-09,"['Charging Infrastructure', 'CATIA']",Senior
+EMP_00436,Digital,2021-06-21,"['JavaScript', 'Python', 'Mechanical Design', 'CI/CD', 'React']",Lead
+EMP_00437,IT,2016-08-11,"['Kubernetes', 'JavaScript']",Junior
+EMP_00438,Quality,2018-08-01,"['Python', 'CNC Programming', 'Thermal Management', 'Azure']",Junior
+EMP_00439,Engineering,2015-08-19,"['Energy Management', 'PyTorch', 'CATIA', 'AutoCAD']",Lead
+EMP_00440,Production,2016-05-21,"['CAD', 'CNC Programming', 'Quality Control']",Junior
+EMP_00441,Production,2015-08-18,"['JavaScript', 'Docker']",Lead
+EMP_00442,IT,2019-12-08,"['CI/CD', 'PyTorch', 'Electric Powertrain']",Senior
+EMP_00443,Production,2017-08-08,"['AutoCAD', 'Kubernetes']",Mid
+EMP_00444,Quality,2016-07-14,"['Mechanical Design', 'Kubernetes', 'CAD']",Lead
+EMP_00445,Quality,2019-11-17,"['Charging Infrastructure', 'Docker', 'Mechanical Design', 'Kubernetes']",Senior
+EMP_00446,Engineering,2023-03-25,"['Docker', 'AWS', 'JavaScript', 'CI/CD']",Mid
+EMP_00447,Quality,2019-11-13,"['Quality Control', 'Python']",Senior
+EMP_00448,Digital,2017-10-25,"['Mechanical Design', 'CAD', 'Docker', 'TensorFlow']",Senior
+EMP_00449,Engineering,2017-02-24,"['Microservices', 'Azure']",Junior
+EMP_00450,Production,2020-03-05,"['JavaScript', 'React']",Lead
+EMP_00451,Quality,2024-01-14,"['AutoCAD', 'Docker', 'PyTorch', 'Thermal Management']",Mid
+EMP_00452,E-Mobility,2024-09-12,"['Energy Management', 'Mechanical Design', 'Quality Control', 'JavaScript']",Junior
+EMP_00453,Digital,2018-07-30,"['Mechanical Design', 'CATIA', 'Docker']",Junior
+EMP_00454,IT,2019-03-18,"['AutoCAD', 'AWS', 'Thermal Management', 'Azure']",Mid
+EMP_00455,Production,2015-04-03,"['Computer Vision', 'Microservices', 'Mechanical Design']",Mid
+EMP_00456,IT,2022-05-20,"['NLP', 'CAD', 'CATIA']",Lead
+EMP_00457,Engineering,2024-02-03,"['Quality Control', 'Charging Infrastructure', 'Battery Systems']",Senior
+EMP_00458,IT,2020-09-14,"['Quality Control', 'Thermal Management', 'Microservices', 'Charging Infrastructure']",Lead
+EMP_00459,IT,2022-12-03,"['Electric Powertrain', 'Quality Control', 'Python', 'Mechanical Design']",Junior
+EMP_00460,Digital,2017-09-30,"['Docker', 'Battery Systems']",Senior
+EMP_00461,Production,2014-09-12,"['Mechanical Design', 'AutoCAD', 'CI/CD']",Senior
+EMP_00462,Production,2021-08-20,"['Charging Infrastructure', 'CATIA']",Senior
+EMP_00463,Engineering,2018-04-23,"['Python', 'Docker', 'CAD', 'Charging Infrastructure']",Mid
+EMP_00464,Digital,2021-04-03,"['Battery Systems', 'AWS', 'CI/CD']",Senior
+EMP_00465,Engineering,2013-08-26,"['LLM Integration', 'Azure']",Junior
+EMP_00466,Quality,2014-10-13,"['Kubernetes', 'Electric Powertrain']",Senior
+EMP_00467,E-Mobility,2021-12-07,"['Mechanical Design', 'PyTorch', 'Thermal Management']",Lead
+EMP_00468,IT,2014-01-14,"['Mechanical Design', 'Docker', 'CI/CD', 'CATIA']",Mid
+EMP_00469,Engineering,2014-08-17,"['Mechanical Design', 'JavaScript', 'CNC Programming']",Lead
+EMP_00470,Production,2019-09-20,"['React', 'Mechanical Design']",Senior
+EMP_00471,Quality,2016-11-03,"['CATIA', 'CAD']",Lead
+EMP_00472,Digital,2016-11-12,"['Azure', 'TensorFlow', 'Docker', 'CAD']",Junior
+EMP_00473,E-Mobility,2014-12-13,"['Energy Management', 'Microservices', 'CNC Programming']",Mid
+EMP_00474,E-Mobility,2021-07-21,"['Charging Infrastructure', 'Energy Management', 'Azure', 'Thermal Management']",Junior
+EMP_00475,Quality,2021-11-24,"['Battery Systems', 'CAD', 'Thermal Management']",Senior
+EMP_00476,IT,2021-05-04,"['TensorFlow', 'Electric Powertrain', 'Charging Infrastructure', 'PyTorch', 'CATIA']",Senior
+EMP_00477,E-Mobility,2017-12-16,"['TensorFlow', 'Docker']",Lead
+EMP_00478,Digital,2014-03-27,"['CATIA', 'LLM Integration', 'CAD', 'React']",Mid
+EMP_00479,E-Mobility,2015-01-01,"['CATIA', 'CAD']",Mid
+EMP_00480,Engineering,2018-12-09,"['PyTorch', 'CNC Programming', 'CI/CD', 'JavaScript']",Lead
+EMP_00481,Digital,2016-08-14,"['CAD', 'Charging Infrastructure', 'CATIA']",Senior
+EMP_00482,Engineering,2014-12-25,"['AWS', 'Electric Powertrain', 'CNC Programming', 'CATIA']",Mid
+EMP_00483,Digital,2020-02-15,"['PyTorch', 'CI/CD', 'Thermal Management']",Mid
+EMP_00484,Production,2017-04-11,"['Energy Management', 'Electric Powertrain']",Lead
+EMP_00485,Quality,2016-03-06,"['TensorFlow', 'Quality Control']",Senior
+EMP_00486,Quality,2019-02-22,"['CI/CD', 'Microservices', 'CNC Programming']",Junior
+EMP_00487,Digital,2025-07-03,"['NLP', 'AutoCAD', 'Mechanical Design', 'Electric Powertrain']",Mid
+EMP_00488,Quality,2023-10-18,"['Battery Systems', 'Machine Learning']",Senior
+EMP_00489,E-Mobility,2024-03-09,"['Azure', 'Microservices']",Junior
+EMP_00490,Production,2018-05-24,"['Azure', 'Battery Systems', 'Kubernetes']",Mid
+EMP_00491,Quality,2015-05-06,"['CI/CD', 'AutoCAD', 'CNC Programming', 'Mechanical Design']",Senior
+EMP_00492,Production,2013-07-10,"['CNC Programming', 'Kubernetes', 'React', 'Quality Control']",Mid
+EMP_00493,E-Mobility,2016-04-14,"['Charging Infrastructure', 'Azure']",Senior
+EMP_00494,IT,2025-05-15,"['JavaScript', 'React']",Senior
+EMP_00495,IT,2023-04-20,"['Electric Powertrain', 'Thermal Management', 'CI/CD', 'Quality Control']",Senior
+EMP_00496,Quality,2025-06-23,"['Computer Vision', 'Python', 'LLM Integration', 'NLP']",Junior
+EMP_00497,Digital,2024-07-20,"['Computer Vision', 'PyTorch']",Mid
+EMP_00498,Production,2025-07-01,"['Battery Systems', 'LLM Integration', 'Electric Powertrain', 'CATIA']",Junior
+EMP_00499,E-Mobility,2013-05-11,"['AutoCAD', 'Electric Powertrain']",Lead
+EMP_00500,Digital,2018-09-09,"['CAD', 'Mechanical Design', 'JavaScript', 'Thermal Management']",Junior

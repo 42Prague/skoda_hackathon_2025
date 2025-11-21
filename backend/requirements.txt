@@ -1,0 +1,20 @@
+# Skill DNA Backend - Dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pandas==2.2.3
+numpy==2.2.0
+scikit-learn==1.5.2
+umap-learn==0.5.7
+networkx==3.4.2
+python-dotenv==1.0.1
+openai==1.54.5
+pydantic==2.10.3
+python-multipart==0.0.17
+psycopg2-binary==2.9.9
+redis==5.0.1
+openpyxl==3.1.5
+python-pptx==0.6.23
+PyPDF2==3.0.1
+psutil==5.9.8
+reportlab==4.2.5
+PyYAML==6.0.1
