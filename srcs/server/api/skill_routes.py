@@ -7,6 +7,7 @@ from flask import Blueprint, request, jsonify
 from services.skill_service import SkillService
 from services.skill_clustering_service import skill_clustering_service
 from services.skill_mapping_service import skill_mapping_service
+from services.career_advisor_service import career_advisor_service
 from utils.response_helpers import success_response, error_response
 from data.data_accesser import g_data_accesser
 
@@ -110,5 +111,17 @@ def skill_mapping_status():
     try:
         return success_response(data=skill_mapping_service.get_status())
     except Exception as e:
+        return error_response(str(e), 500)
+
+@skill_bp.route('/advisory/report/<employee_id>', methods=['GET'])
+def advisory_report(employee_id):
+    """Return career advisory report (skills, gaps, mentors, narrative)."""
+    try:
+        report = career_advisor_service.generate_report(employee_id)
+        if 'error' in report:
+            return error_response(report['error'], 404)
+        return success_response(data=report, message='Advisory report generated')
+    except Exception as e:
+        print('Error in advisory_report:', e)
         return error_response(str(e), 500)
 
