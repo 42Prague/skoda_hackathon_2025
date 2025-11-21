@@ -28,8 +28,8 @@ services:
 
   backend:
     build:
-      context: backend
-      dockerfile: backend/Dockerfile
+      context: ./backend
+      dockerfile: Dockerfile
     container_name: skoda-skill-coach-backend
     # Load ALL environment variables from .env file - no hardcoding
     env_file:
@@ -61,7 +61,7 @@ services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile
+      dockerfile: DockerFile
       target: development
     container_name: skoda-skill-coach-frontend
     env_file:
