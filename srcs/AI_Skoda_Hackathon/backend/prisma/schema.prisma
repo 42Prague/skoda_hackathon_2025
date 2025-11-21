@@ -1,0 +1,418 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String              @id @default(cuid())
+  email              String              @unique
+  password           String
+  firstName          String
+  lastName           String
+  employeeId         String?             @unique
+  role               UserRole            @default(EMPLOYEE)
+  department         String?
+  managerId          String?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  assessments        Assessment[]
+  assignments        Assignment[]
+  assignmentAIs      AssignmentAI[]      @relation("AssignmentAIUser")
+  certificates       Certificate[]
+  employeeSkillRisks EmployeeSkillRisk[] @relation("EmployeeSkillRiskUser")
+  enrollments        Enrollment[]
+  progress           ModuleProgress[]
+  manager            User?               @relation("ManagerToEmployee", fields: [managerId], references: [id])
+  employees          User[]              @relation("ManagerToEmployee")
+  userSkills         UserSkill[]
+  jobApplications    JobApplication[]    @relation("JobApplicationUser")
+
+  @@index([managerId])
+  @@index([email])
+  @@index([employeeId])
+}
+
+model Skill {
+  id                 String              @id @default(cuid())
+  name               String              @unique
+  category           String
+  description        String?
+  marketRelevance    Float?              @default(0)
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  assignmentAIs      AssignmentAI[]      @relation("AssignmentAISkill")
+  careerPathSkills   CareerPathSkill[]
+  courseSkills       CourseSkill[]
+  employeeSkillRisks EmployeeSkillRisk[] @relation("EmployeeSkillRiskSkill")
+  userSkills         UserSkill[]
+  jobPositionSkills  JobPositionSkill[]  @relation("JobPositionSkill")
+
+  @@index([category])
+}
+
+model UserSkill {
+  id         String   @id @default(cuid())
+  userId     String
+  skillId    String
+  level      Float    @default(0)
+  assessedAt DateTime @default(now())
+  assessedBy String?
+  notes      String?
+  skill      Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, skillId])
+  @@index([userId])
+  @@index([skillId])
+}
+
+model Course {
+  id            String         @id @default(cuid())
+  title         String
+  description   String?
+  duration      String?
+  difficulty    String?
+  prerequisites String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  certificates  Certificate[]
+  modules       CourseModule[]
+  courseSkills  CourseSkill[]
+  enrollments   Enrollment[]
+
+  @@index([title])
+}
+
+model CourseModule {
+  id              String           @id @default(cuid())
+  courseId        String
+  type            CourseModuleType
+  title           String
+  description     String?
+  content         String?
+  order           Int              @default(0)
+  isRequired      Boolean          @default(true)
+  unlockCondition String?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  assignments     Assignment[]
+  course          Course           @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  progress        ModuleProgress[]
+  quizQuestions   QuizQuestion[]
+
+  @@index([courseId])
+  @@index([courseId, order])
+}
+
+model QuizQuestion {
+  id            String       @id @default(cuid())
+  moduleId      String
+  question      String
+  options       String
+  correctAnswer String
+  explanation   String?
+  skillLevel    String?      @default("Medium")
+  order         Int          @default(0)
+  createdAt     DateTime     @default(now())
+  module        CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@index([moduleId])
+}
+
+model CourseSkill {
+  id       String @id @default(cuid())
+  courseId String
+  skillId  String
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  skill    Skill  @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([courseId, skillId])
+  @@index([courseId])
+}
+
+model Enrollment {
+  id          String    @id @default(cuid())
+  userId      String
+  courseId    String
+  enrolledAt  DateTime  @default(now())
+  completedAt DateTime?
+  progress    Float     @default(0)
+  course      Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+  @@index([userId])
+  @@index([courseId])
+}
+
+model ModuleProgress {
+  id           String       @id @default(cuid())
+  userId       String
+  moduleId     String
+  status       ModuleStatus @default(LOCKED)
+  progress     Float        @default(0)
+  completedAt  DateTime?
+  lastAccessed DateTime?
+  timeSpent    Int?         @default(0)
+  module       CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, moduleId])
+  @@index([userId])
+  @@index([moduleId])
+}
+
+model Assessment {
+  id          String           @id @default(cuid())
+  userId      String
+  moduleId    String?
+  courseId    String?
+  name        String
+  status      AssessmentStatus @default(PENDING)
+  score       Float?
+  maxScore    Float?
+  completedAt DateTime?
+  aiFeedback  String?
+  createdAt   DateTime         @default(now())
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([moduleId])
+  @@index([courseId])
+}
+
+model Assignment {
+  id          String       @id @default(cuid())
+  userId      String
+  moduleId    String
+  title       String
+  submission  String?
+  files       String?
+  grade       Float?
+  aiFeedback  String?
+  submittedAt DateTime?
+  gradedAt    DateTime?
+  createdAt   DateTime     @default(now())
+  module      CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([moduleId])
+}
+
+model CareerPath {
+  id          String            @id @default(cuid())
+  title       String
+  description String?
+  currentRole String?
+  targetRole  String
+  fitScore    Float?
+  reason      String?
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  skills      CareerPathSkill[]
+
+  @@index([title])
+}
+
+model CareerPathSkill {
+  id            String     @id @default(cuid())
+  careerPathId  String
+  skillId       String
+  requiredLevel Float?     @default(0)
+  careerPath    CareerPath @relation(fields: [careerPathId], references: [id], onDelete: Cascade)
+  skill         Skill      @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([careerPathId, skillId])
+  @@index([careerPathId])
+}
+
+model Certificate {
+  id             String   @id @default(cuid())
+  userId         String
+  courseId       String
+  issuedAt       DateTime @default(now())
+  certificateUrl String?
+  course         Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+  @@index([userId])
+  @@index([courseId])
+}
+
+model EmployeeSkillRisk {
+  id                  String         @id @default(cuid())
+  employeeId          String
+  userId              String?
+  department          String?
+  skillName           String?
+  skillId             String?
+  avgFutureDemand     Float          @default(0)
+  automationExposure  Float          @default(0)
+  riskScore           Float          @default(0)
+  riskLabel           RiskLevel      @default(LOW)
+  aiInsights          String?
+  insightsGeneratedAt DateTime?
+  predictedAt         DateTime       @default(now())
+  updatedAt           DateTime       @updatedAt
+  assignmentAIs       AssignmentAI[]
+  skill               Skill?         @relation("EmployeeSkillRiskSkill", fields: [skillId], references: [id])
+  user                User?          @relation("EmployeeSkillRiskUser", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([employeeId])
+  @@index([userId])
+  @@index([department])
+  @@index([riskLabel])
+  @@index([skillId])
+}
+
+model AssignmentAI {
+  id                  String             @id @default(cuid())
+  employeeId          String
+  userId              String?
+  department          String?
+  skillName           String?
+  skillId             String?
+  employeeSkillRiskId String?
+  avgFutureDemand     Float?             @default(0)
+  automationExposure  Float?             @default(0)
+  riskScore           Float?             @default(0)
+  riskLabel           RiskLevel?         @default(LOW)
+  assignmentType      String?
+  createdAt           DateTime           @default(now())
+  updatedAt           DateTime           @updatedAt
+  employeeSkillRisk   EmployeeSkillRisk? @relation(fields: [employeeSkillRiskId], references: [id])
+  skill               Skill?             @relation("AssignmentAISkill", fields: [skillId], references: [id])
+  user                User?              @relation("AssignmentAIUser", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([employeeId])
+  @@index([userId])
+  @@index([department])
+  @@index([riskLabel])
+  @@index([skillId])
+  @@index([employeeSkillRiskId])
+}
+
+model JobPosition {
+  id                  String              @id @default(cuid())
+  title               String
+  description         String?
+  department          String?
+  location            String?
+  employmentType      String?             // e.g., "Full-time", "Part-time", "Contract"
+  status              JobPositionStatus   @default(OPEN)
+  requiredExperience  String?
+  postedAt            DateTime            @default(now())
+  closingDate         DateTime?
+  createdAt           DateTime            @default(now())
+  updatedAt           DateTime            @updatedAt
+  skills              JobPositionSkill[]
+  applications        JobApplication[]
+
+  @@index([status])
+  @@index([department])
+  @@index([title])
+}
+
+model JobPositionSkill {
+  id            String      @id @default(cuid())
+  jobPositionId String
+  skillId       String
+  requiredLevel Float       @default(70)  // 0-100 scale
+  weight        Float       @default(1.0) // Importance weight for matching
+  isRequired    Boolean     @default(true)
+  jobPosition   JobPosition @relation(fields: [jobPositionId], references: [id], onDelete: Cascade)
+  skill         Skill       @relation("JobPositionSkill", fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([jobPositionId, skillId])
+  @@index([jobPositionId])
+  @@index([skillId])
+}
+
+model JobApplication {
+  id                  String           @id @default(cuid())
+  jobPositionId       String
+  userId              String?
+  employeeId          String
+  fitnessScore        Float?           @default(0)  // 0-100 fitness percentage
+  matchTier           MatchTier?       // HIGH, MIDDLE, LOW
+  status              ApplicationStatus @default(PENDING)
+  recommendedAction   String?          // "INTERVIEW", "COURSES", "ROADMAP"
+  skillGaps           String?          // JSON array of skill gaps
+  recommendedCourses  String?          // JSON array of course IDs
+  roadmapGenerated    Boolean          @default(false)
+  appliedAt           DateTime         @default(now())
+  reviewedAt          DateTime?
+  interviewedAt       DateTime?
+  createdAt           DateTime         @default(now())
+  updatedAt           DateTime         @updatedAt
+  jobPosition         JobPosition      @relation(fields: [jobPositionId], references: [id], onDelete: Cascade)
+  user                User?            @relation("JobApplicationUser", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([jobPositionId, employeeId])
+  @@index([jobPositionId])
+  @@index([userId])
+  @@index([employeeId])
+  @@index([status])
+  @@index([matchTier])
+  @@index([fitnessScore])
+}
+
+enum UserRole {
+  EMPLOYEE
+  MANAGER
+  ADMIN
+}
+
+enum AssessmentStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum CourseModuleType {
+  LESSON
+  QUIZ
+  ASSIGNMENT
+  SUMMARY
+}
+
+enum ModuleStatus {
+  LOCKED
+  UNLOCKED
+  COMPLETED
+}
+
+enum RiskLevel {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum JobPositionStatus {
+  OPEN
+  CLOSED
+  DRAFT
+  FILLED
+}
+
+enum MatchTier {
+  HIGH      // >80% fitness - Ready for interview
+  MIDDLE    // 40-80% fitness - Needs courses
+  LOW       // <40% fitness - Needs roadmap
+}
+
+enum ApplicationStatus {
+  PENDING
+  REVIEWED
+  INTERVIEW_SCHEDULED
+  INTERVIEWED
+  SELECTED
+  REJECTED
+  WITHDRAWN
+}

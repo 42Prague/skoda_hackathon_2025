@@ -1,0 +1,338 @@
+[
+  {
+    "employeeId": "100870",
+    "currentPosition": "PedagogickÃ½/Ã¡ pracovnÃ­k/-vnice",
+    "courses": [
+      {
+        "code": "61022027",
+        "name": "ISMS SystÃ©m ÅÃ­zenÃ­ bezpeÄnosti informacÃ­",
+        "startDate": "44202",
+        "endDate": "44202"
+      },
+      {
+        "code": "61022025",
+        "name": "EMS - SystÃ©m environmentÃ¡lnÃ­ho ÅÃ­zenÃ­",
+        "startDate": "42534",
+        "endDate": "42534"
+      },
+      {
+        "code": "61022027",
+        "name": "ISMS SystÃ©m ÅÃ­zenÃ­ bezpeÄnosti informacÃ­",
+        "startDate": "44477",
+        "endDate": "44477"
+      },
+      {
+        "code": "61022025",
+        "name": "EMS - SystÃ©m environmentÃ¡lnÃ­ho ÅÃ­zenÃ­",
+        "startDate": "43626",
+        "endDate": "43626"
+      },
+      {
+        "code": "61020682",
+        "name": "MS Outlook 2010: Ãºvod",
+        "startDate": "41943",
+        "endDate": "41943"
+      },
+      {
+        "code": "61027830",
+        "name": "AI2_6 KvÃ­z",
+        "startDate": "43419",
+        "endDate": "43419"
+      },
+      {
+        "code": "61022027",
+        "name": "ISMS SystÃ©m ÅÃ­zenÃ­ bezpeÄnosti informacÃ­",
+        "startDate": "43838",
+        "endDate": "43838"
+      },
+      {
+        "code": "61019835",
+        "name": "PoÅ¾Ã¡rnÃ­ ochrana na pracoviÅ¡ti",
+        "startDate": "42268",
+        "endDate": "42268"
+      },
+      {
+        "code": "61037125",
+        "name": "PrÃ¡vo hospodÃ¡ÅskÃ© soutÄÅ¾e",
+        "startDate": "45447",
+        "endDate": "45447"
+      },
+      {
+        "code": "61035900",
+        "name": "C12 - ProtikorupÄnÃ­ Å¡kolenÃ­",
+        "startDate": "45170",
+        "endDate": "45170"
+      }
+    ],
+    "skills": {
+      "Technical Skills": 100,
+      "Digital": 100,
+      "Communication": 100,
+      "Innovation": 100,
+      "Time Management": 44,
+      "Teamwork": 8,
+      "Adaptability": 9
+    },
+    "relevanceScore": 16,
+    "riskLevel": "High",
+    "goalPosition": "IT Specialist (m/w)"
+  },
+  {
+    "employeeId": "110153",
+    "currentPosition": "DPP/DPÄ",
+    "courses": [
+      {
+        "code": "61021626",
+        "name": "Pravidla IT 2013",
+        "startDate": "41563",
+        "endDate": "41563"
+      }
+    ],
+    "skills": {
+      "Technical Skills": 8,
+      "Digital": 9,
+      "Innovation": 0,
+      "Adaptability": 0,
+      "Communication": 0,
+      "Teamwork": 0,
+      "Time Management": 0
+    },
+    "relevanceScore": 0,
+    "riskLevel": "High",
+    "goalPosition": "IT Specialist (m/w)"
+  },
+  {
+    "employeeId": "110190",
+    "currentPosition": "PedagogickÃ½/Ã¡ pracovnÃ­k/-vnice",
+    "courses": [
+      {
+        "code": "61019307",
+        "name": "ÅidiÄ vozidel sluÅ¾ebnÃ­ potÅeby",
+        "startDate": "41303",
+        "endDate": "41303"
+      },
+      {
+        "code": "61036754",
+        "name": "Compliance 13 â LidskÃ¡ prÃ¡va",
+        "startDate": "45407",
+        "endDate": "45407"
+      },
+      {
+        "code": "61019838",
+        "name": "BezpeÄnost prÃ¡ce - kategorie THZ",
+        "startDate": "45173",
+        "endDate": "45173"
+      },
+      {
+        "code": "61023076",
+        "name": "EPLAN electric P8 SERVIS",
+        "startDate": "42065",
+        "endDate": "42067"
+      },
+      {
+        "code": "61019838",
+        "name": "BezpeÄnost prÃ¡ce - kategorie THZ",
+        "startDate": "42846",
+        "endDate": "42846"
+      },
+      {
+        "code": "61028402",
+        "name": "ZÃ¡sady prÃ¡ce pod napÄtÃ­m pro E-Mobilitu",
+        "startDate": "44375",
+        "endDate": "44375"
+      },
+      {
+        "code": "61037275",
+        "name": "Kodex pro sdÃ­lenÃ­ dat",
+        "startDate": "45553",
+        "endDate": "45553"
+      },
+      {
+        "code": "61019307",
+        "name": "ÅidiÄ vozidel sluÅ¾ebnÃ­ potÅeby",
+        "startDate": "44232",
+        "endDate": "44232"
+      },
+      {
+        "code": "61019835",
+        "name": "PoÅ¾Ã¡rnÃ­ ochrana na pracoviÅ¡ti",
+        "startDate": "44529",
+        "endDate": "44529"
+      },
+      {
+        "code": "61019307",
+        "name": "ÅidiÄ vozidel sluÅ¾ebnÃ­ potÅeby",
+        "startDate": "44071",
+        "endDate": "44071"
+      }
+    ],
+    "skills": {
+      "Communication": 27,
+      "Time Management": 32,
+      "Technical Skills": 100,
+      "Digital": 100,
+      "Innovation": 80,
+      "Adaptability": 0,
+      "Teamwork": 0
+    },
+    "relevanceScore": 13,
+    "riskLevel": "High",
+    "goalPosition": "IT Specialist (m/w)"
+  },
+  {
+    "employeeId": "110464",
+    "currentPosition": "KoordinÃ¡tor/ka",
+    "courses": [
+      {
+        "code": "61027256",
+        "name": "Agile Leadership Fundamentals",
+        "startDate": "43364",
+        "endDate": "43364"
+      },
+      {
+        "code": "61028501",
+        "name": "Ochrana osobnÃ­ch ÃºdajÅ¯",
+        "startDate": "43717",
+        "endDate": "43717"
+      },
+      {
+        "code": "61022026",
+        "name": "QMS - SystÃ©m ÅÃ­zenÃ­ kvality",
+        "startDate": "45218",
+        "endDate": "45218"
+      },
+      {
+        "code": "61030725",
+        "name": "Kyber. bezp. vozidel Ãºvod - THZ",
+        "startDate": "44218",
+        "endDate": "44218"
+      },
+      {
+        "code": "61029375",
+        "name": "SystÃ©m ÅÃ­zenÃ­ rizik - PovinnÃ©",
+        "startDate": "43839",
+        "endDate": "43839"
+      },
+      {
+        "code": "61031426",
+        "name": "Sebediagnostika",
+        "startDate": "44803",
+        "endDate": "44803"
+      },
+      {
+        "code": "61019835",
+        "name": "PoÅ¾Ã¡rnÃ­ ochrana na pracoviÅ¡ti",
+        "startDate": "45301",
+        "endDate": "45301"
+      },
+      {
+        "code": "61033551",
+        "name": "Office 365 Crash kurz - ÄÃ¡st 2.",
+        "startDate": "44909",
+        "endDate": "44909"
+      },
+      {
+        "code": "61000417",
+        "name": "Ext. tuz. - personalistika",
+        "startDate": "44865",
+        "endDate": "44866"
+      },
+      {
+        "code": "61031575",
+        "name": "Office 365 tÃ½movÃ½ workshop",
+        "startDate": "44321",
+        "endDate": "44321"
+      }
+    ],
+    "skills": {
+      "Teamwork": 49,
+      "Communication": 94,
+      "Adaptability": 9,
+      "Innovation": 38,
+      "Technical Skills": 100,
+      "Digital": 100,
+      "Time Management": 37
+    },
+    "relevanceScore": 11,
+    "riskLevel": "High",
+    "goalPosition": "IT Specialist (m/w)"
+  },
+  {
+    "employeeId": "110542",
+    "currentPosition": "PedagogickÃ½/Ã¡ pracovnÃ­k/-vnice",
+    "courses": [
+      {
+        "code": "61022910",
+        "name": "Malta skupinovÃ½ 1 tÃ½den",
+        "startDate": "43745",
+        "endDate": "43749"
+      },
+      {
+        "code": "61022025",
+        "name": "EMS - SystÃ©m environmentÃ¡lnÃ­ho ÅÃ­zenÃ­",
+        "startDate": "41459",
+        "endDate": "41459"
+      },
+      {
+        "code": "61019307",
+        "name": "ÅidiÄ vozidel sluÅ¾ebnÃ­ potÅeby",
+        "startDate": "41334",
+        "endDate": "41334"
+      },
+      {
+        "code": "61019305",
+        "name": "EnMS pro THZ",
+        "startDate": "43784",
+        "endDate": "43784"
+      },
+      {
+        "code": "61000415",
+        "name": "Ext. tuz. - technickÃ©",
+        "startDate": "42114",
+        "endDate": "42117"
+      },
+      {
+        "code": "61035900",
+        "name": "C12 - ProtikorupÄnÃ­ Å¡kolenÃ­",
+        "startDate": "45170",
+        "endDate": "45170"
+      },
+      {
+        "code": "61028501",
+        "name": "Ochrana osobnÃ­ch ÃºdajÅ¯",
+        "startDate": "45502",
+        "endDate": "45502"
+      },
+      {
+        "code": "61028501",
+        "name": "Ochrana osobnÃ­ch ÃºdajÅ¯",
+        "startDate": "44838",
+        "endDate": "44838"
+      },
+      {
+        "code": "61022026",
+        "name": "QMS - SystÃ©m ÅÃ­zenÃ­ kvality",
+        "startDate": "44847",
+        "endDate": "44847"
+      },
+      {
+        "code": "61037125",
+        "name": "PrÃ¡vo hospodÃ¡ÅskÃ© soutÄÅ¾e",
+        "startDate": "45460",
+        "endDate": "45460"
+      }
+    ],
+    "skills": {
+      "Technical Skills": 100,
+      "Digital": 100,
+      "Innovation": 100,
+      "Communication": 47,
+      "Time Management": 42,
+      "Adaptability": 0,
+      "Teamwork": 0
+    },
+    "relevanceScore": 14,
+    "riskLevel": "High",
+    "goalPosition": "IT Specialist (m/w)"
+  }
+]

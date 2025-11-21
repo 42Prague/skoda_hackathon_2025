@@ -1,0 +1,22 @@
+# Environment files - NEVER commit these!
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+backend/.env.local
+skillbridge-ai/.env
+skillbridge-ai/.env.local
+fitness_prediction/.env
+
+# Python virtual environment
+.venv/
+dataset1/
+
+# Data folder - keep locally only, not pushed to GitHub
+data/
+!data/.gitkeep
+
+# Old data folders (deprecated)
+skoda_data/

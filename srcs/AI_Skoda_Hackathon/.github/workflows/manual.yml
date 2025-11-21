@@ -1,0 +1,44 @@
+name: Manual Workflow Trigger
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'development'
+        type: choice
+        options:
+          - development
+          - staging
+          - production
+      run_tests:
+        description: 'Run tests before deployment'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  manual-deploy:
+    name: Manual Deployment
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Display inputs
+        run: |
+          echo "🎯 Target Environment: ${{ github.event.inputs.environment }}"
+          echo "🧪 Run Tests: ${{ github.event.inputs.run_tests }}"
+      
+      - name: Run tests (if enabled)
+        if: ${{ github.event.inputs.run_tests == 'true' }}
+        run: |
+          echo "Running tests..."
+          # Add your test commands here
+      
+      - name: Deploy
+        run: |
+          echo "🚀 Deploying to ${{ github.event.inputs.environment }}..."
+          echo "✅ Deployment simulated successfully!"

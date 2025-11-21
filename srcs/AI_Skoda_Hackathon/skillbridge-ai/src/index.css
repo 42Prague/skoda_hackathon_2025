@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+
+    /* Škoda green as primary brand color */
+    --primary: 100 56% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 100 56% 52%;
+    --primary-dark: 100 56% 32%;
+
+    /* Dark blue for contrast and professionalism */
+    --secondary: 210 70% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 100 45% 85%;
+    --accent-foreground: 0 0% 15%;
+
+    /* Risk indicators */
+    --risk-low: 145 63% 49%;
+    --risk-medium: 38 92% 50%;
+    --risk-high: 0 84% 60%;
+
+    /* Entity-type color coding for data model */
+    --entity-employee: 180 60% 45%;        /* Teal */
+    --entity-position: 240 50% 50%;        /* Indigo */
+    --entity-qualification: 40 95% 50%;    /* Amber */
+    --entity-course: 210 80% 55%;          /* Blue */
+    --entity-skill: 270 60% 55%;           /* Purple */
+    --entity-growth: 145 63% 49%;          /* Green */
+    --entity-risk: 0 84% 60%;              /* Red */
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 100 56% 42%;
+
+    --radius: 0.75rem;
+
+    /* Gradients for visual appeal */
+    --gradient-primary: linear-gradient(135deg, hsl(100, 56%, 42%), hsl(100, 56%, 52%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210, 70%, 25%), hsl(210, 70%, 35%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(0, 0%, 98%));
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom utilities for the dynamic landing page */
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+  }
+
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary-dark));
+}
