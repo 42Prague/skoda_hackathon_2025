@@ -1,0 +1,36 @@
+# Test Dockerfile for running tests in container
+FROM python:3.10-slim
+
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+WORKDIR /app/
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    postgresql-client \
+    && rm -rf /var/lib/apt/lists/*
+
+# Use UV package manager
+COPY --from=ghcr.io/astral-sh/uv:0.5.11 /uv /uvx /bin/
+
+# Copy dependency files
+COPY pyproject.toml /app/
+
+# Install dependencies including test dependencies
+RUN uv venv .venv && \
+    uv sync --no-install-project && \
+    uv pip install --system pytest pytest-asyncio httpx psutil coverage pytest-cov pytest-xdist
+
+# Copy application code
+COPY . /app/
+
+# Install application
+RUN uv pip install --system -e .
+
+# Set PATH
+ENV PATH="/app/.venv/bin:$PATH"
+
+# Default command: run tests
+CMD ["pytest", "tests/", "-v", "--tb=short"]
+

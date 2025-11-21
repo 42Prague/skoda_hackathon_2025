@@ -1,0 +1,46 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CzechFabric Air Quality",
+  "name_for_model": "czechfabric_air_quality",
+  "description_for_human": "Prague air quality monitoring — real-time pollution levels and health recommendations 🌫️",
+  "description_for_model": "Air quality monitoring tools for Prague using CzechFabric MCP. Supports Czech and English queries. Use for: getting air quality near a location, checking district-level pollution, viewing historical trends, and listing available pollutants. Returns AQI (Air Quality Index), pollutant concentrations, health recommendations, and station data. All parameters must be in English.",
+  "auth": {
+    "type": "bearer",
+    "authorization_type": "user_http",
+    "verification_tokens": {}
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://mcp.czechfabric.cz/.well-known/openapi-air-quality.json",
+    "is_user_authenticated": true
+  },
+  "logo_url": "https://czechfabric.cz/assets/images/logos/czfb_logo.svg",
+  "contact_email": "support@czechfabric.cz",
+  "legal_info_url": "https://czechfabric.cz/pages/privacy",
+  "x-czechfabric": {
+    "llm_guidance": "This plugin supports Czech 🇨🇿 and English 🇬🇧 natural language queries. All actual tool parameters must be passed in English. Provides real-time and historical air quality data from official Prague monitoring stations. Supports TONE format for token-efficient responses.",
+    "query_languages": ["cs", "en"],
+    "response_language": "en",
+    "domain": "air_quality",
+    "tool_count": 4,
+    "features": [
+      "real_time_aqi",
+      "location_based_search",
+      "district_aggregation",
+      "historical_trends",
+      "health_recommendations",
+      "pollutant_info"
+    ],
+    "coverage": {
+      "region": "Prague",
+      "country": "Czech Republic"
+    },
+    "data_sources": [
+      "CHMI (Czech Hydrometeorological Institute)",
+      "Prague Municipality Air Quality Monitoring"
+    ],
+    "server_url": "https://mcp.czechfabric.cz",
+    "version": "3.0.0"
+  }
+}
+

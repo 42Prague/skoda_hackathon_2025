@@ -1,0 +1,677 @@
+[
+  {
+    "employee_id": "JSON000",
+    "department": "Sales",
+    "skills": [
+      "Java",
+      "Project Management",
+      "SQL",
+      "CI/CD",
+      "Git"
+    ],
+    "email": "json000@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON001",
+    "department": "Marketing",
+    "skills": [
+      "C++",
+      "CI/CD",
+      "MongoDB"
+    ],
+    "email": "json001@example.com",
+    "years_experience": 8
+  },
+  {
+    "employee_id": "JSON002",
+    "department": "Sales",
+    "skills": [
+      "Go",
+      "Redis",
+      "Docker",
+      "Vue.js"
+    ],
+    "email": "json002@example.com",
+    "years_experience": 6
+  },
+  {
+    "employee_id": "JSON003",
+    "department": "Engineering",
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "Scrum",
+      "Git",
+      "CI/CD"
+    ],
+    "email": "json003@example.com",
+    "years_experience": 6
+  },
+  {
+    "employee_id": "JSON004",
+    "department": "Sales",
+    "skills": [
+      "Microservices",
+      "C++",
+      "NLP",
+      "Java",
+      "Agile"
+    ],
+    "email": "json004@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON005",
+    "department": "HR",
+    "skills": [
+      "C++",
+      "PostgreSQL",
+      "Node.js",
+      "Azure",
+      "TypeScript",
+      "MongoDB"
+    ],
+    "email": "json005@example.com",
+    "years_experience": 7
+  },
+  {
+    "employee_id": "JSON006",
+    "department": "HR",
+    "skills": [
+      "C++",
+      "NLP",
+      "Java",
+      "Rust"
+    ],
+    "email": "json006@example.com",
+    "years_experience": 11
+  },
+  {
+    "employee_id": "JSON007",
+    "department": "IT",
+    "skills": [
+      "Rust",
+      "Java",
+      "Data Analysis",
+      "Scrum",
+      "Go",
+      "Node.js"
+    ],
+    "email": "json007@example.com",
+    "years_experience": 9
+  },
+  {
+    "employee_id": "JSON008",
+    "department": "Operations",
+    "skills": [
+      "CI/CD",
+      "Linux",
+      "Vue.js",
+      "Angular",
+      "Kafka"
+    ],
+    "email": "json008@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON009",
+    "department": "IT",
+    "skills": [
+      "Linux",
+      "Data Analysis",
+      "Docker"
+    ],
+    "email": "json009@example.com",
+    "years_experience": 11
+  },
+  {
+    "employee_id": "JSON010",
+    "department": "Marketing",
+    "skills": [
+      "Git",
+      "GraphQL",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker",
+      "Angular",
+      "Kubernetes"
+    ],
+    "email": "json010@example.com",
+    "years_experience": 15
+  },
+  {
+    "employee_id": "JSON011",
+    "department": "Engineering",
+    "skills": [
+      "Rust",
+      "Angular",
+      "Git",
+      "Redis",
+      "Java"
+    ],
+    "email": "json011@example.com",
+    "years_experience": 2
+  },
+  {
+    "employee_id": "JSON012",
+    "department": "IT",
+    "skills": [
+      "Project Management",
+      "Statistics",
+      "SQL",
+      "Deep Learning",
+      "Rust",
+      "Angular",
+      "React"
+    ],
+    "email": "json012@example.com",
+    "years_experience": 11
+  },
+  {
+    "employee_id": "JSON013",
+    "department": "Marketing",
+    "skills": [
+      "Deep Learning",
+      "JavaScript",
+      "Data Analysis",
+      "Kafka",
+      "Docker"
+    ],
+    "email": "json013@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON014",
+    "department": "Sales",
+    "skills": [
+      "Computer Vision",
+      "Angular",
+      "Kafka",
+      "NLP",
+      "Microservices",
+      "JavaScript"
+    ],
+    "email": "json014@example.com",
+    "years_experience": 5
+  },
+  {
+    "employee_id": "JSON015",
+    "department": "Operations",
+    "skills": [
+      "Data Analysis",
+      "MongoDB",
+      "C++",
+      "Machine Learning",
+      "Python",
+      "Docker"
+    ],
+    "email": "json015@example.com",
+    "years_experience": 9
+  },
+  {
+    "employee_id": "JSON016",
+    "department": "Finance",
+    "skills": [
+      "REST API",
+      "Git",
+      "Microservices"
+    ],
+    "email": "json016@example.com",
+    "years_experience": 8
+  },
+  {
+    "employee_id": "JSON017",
+    "department": "Finance",
+    "skills": [
+      "Docker",
+      "JavaScript",
+      "Go",
+      "AWS"
+    ],
+    "email": "json017@example.com",
+    "years_experience": 5
+  },
+  {
+    "employee_id": "JSON018",
+    "department": "HR",
+    "skills": [
+      "CI/CD",
+      "Machine Learning",
+      "Kubernetes",
+      "Go",
+      "TypeScript",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "email": "json018@example.com",
+    "years_experience": 1
+  },
+  {
+    "employee_id": "JSON019",
+    "department": "Operations",
+    "skills": [
+      "Linux",
+      "Scrum",
+      "NLP",
+      "Python",
+      "Rust",
+      "CI/CD",
+      "MongoDB"
+    ],
+    "email": "json019@example.com",
+    "years_experience": 5
+  },
+  {
+    "employee_id": "JSON020",
+    "department": "Operations",
+    "skills": [
+      "SQL",
+      "Project Management",
+      "Machine Learning",
+      "PostgreSQL",
+      "Docker",
+      "React",
+      "Vue.js",
+      "Scrum"
+    ],
+    "email": "json020@example.com",
+    "years_experience": 5
+  },
+  {
+    "employee_id": "JSON021",
+    "department": "Sales",
+    "skills": [
+      "Git",
+      "Microservices",
+      "Docker",
+      "Computer Vision",
+      "C++"
+    ],
+    "email": "json021@example.com",
+    "years_experience": 2
+  },
+  {
+    "employee_id": "JSON022",
+    "department": "IT",
+    "skills": [
+      "REST API",
+      "Kafka",
+      "Go",
+      "Docker",
+      "Statistics"
+    ],
+    "email": "json022@example.com",
+    "years_experience": 9
+  },
+  {
+    "employee_id": "JSON023",
+    "department": "Operations",
+    "skills": [
+      "Vue.js",
+      "Kubernetes",
+      "AWS",
+      "Linux",
+      "Java",
+      "Computer Vision"
+    ],
+    "email": "json023@example.com",
+    "years_experience": 12
+  },
+  {
+    "employee_id": "JSON024",
+    "department": "Sales",
+    "skills": [
+      "Microservices",
+      "Docker",
+      "Azure"
+    ],
+    "email": "json024@example.com",
+    "years_experience": 9
+  },
+  {
+    "employee_id": "JSON025",
+    "department": "Sales",
+    "skills": [
+      "SQL",
+      "Rust",
+      "GraphQL"
+    ],
+    "email": "json025@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON026",
+    "department": "IT",
+    "skills": [
+      "JavaScript",
+      "Microservices",
+      "PostgreSQL",
+      "C++",
+      "Scrum"
+    ],
+    "email": "json026@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON027",
+    "department": "HR",
+    "skills": [
+      "Angular",
+      "CI/CD",
+      "AWS"
+    ],
+    "email": "json027@example.com",
+    "years_experience": 10
+  },
+  {
+    "employee_id": "JSON028",
+    "department": "Operations",
+    "skills": [
+      "Scrum",
+      "Git",
+      "JavaScript",
+      "REST API",
+      "Kubernetes",
+      "TypeScript",
+      "Python"
+    ],
+    "email": "json028@example.com",
+    "years_experience": 12
+  },
+  {
+    "employee_id": "JSON029",
+    "department": "Operations",
+    "skills": [
+      "Computer Vision",
+      "JavaScript",
+      "SQL"
+    ],
+    "email": "json029@example.com",
+    "years_experience": 15
+  },
+  {
+    "employee_id": "JSON030",
+    "department": "Finance",
+    "skills": [
+      "JavaScript",
+      "Linux",
+      "Machine Learning",
+      "Java",
+      "Agile",
+      "Git"
+    ],
+    "email": "json030@example.com",
+    "years_experience": 6
+  },
+  {
+    "employee_id": "JSON031",
+    "department": "Operations",
+    "skills": [
+      "Rust",
+      "Python",
+      "C++",
+      "Kafka",
+      "Go",
+      "PostgreSQL",
+      "JavaScript",
+      "Git"
+    ],
+    "email": "json031@example.com",
+    "years_experience": 2
+  },
+  {
+    "employee_id": "JSON032",
+    "department": "HR",
+    "skills": [
+      "TypeScript",
+      "Project Management",
+      "CI/CD",
+      "Python",
+      "Go"
+    ],
+    "email": "json032@example.com",
+    "years_experience": 6
+  },
+  {
+    "employee_id": "JSON033",
+    "department": "Marketing",
+    "skills": [
+      "Machine Learning",
+      "Microservices",
+      "SQL",
+      "Computer Vision",
+      "JavaScript",
+      "Redis"
+    ],
+    "email": "json033@example.com",
+    "years_experience": 2
+  },
+  {
+    "employee_id": "JSON034",
+    "department": "IT",
+    "skills": [
+      "SQL",
+      "Node.js",
+      "Azure",
+      "Microservices",
+      "Agile"
+    ],
+    "email": "json034@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON035",
+    "department": "Marketing",
+    "skills": [
+      "REST API",
+      "Redis",
+      "Git",
+      "PostgreSQL",
+      "Rust",
+      "Docker",
+      "GraphQL",
+      "Data Analysis"
+    ],
+    "email": "json035@example.com",
+    "years_experience": 14
+  },
+  {
+    "employee_id": "JSON036",
+    "department": "IT",
+    "skills": [
+      "Microservices",
+      "Kafka",
+      "Linux",
+      "Python",
+      "Redis",
+      "Computer Vision",
+      "REST API",
+      "Docker"
+    ],
+    "email": "json036@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON037",
+    "department": "Finance",
+    "skills": [
+      "Rust",
+      "Azure",
+      "Go",
+      "Deep Learning",
+      "Computer Vision",
+      "CI/CD",
+      "Python"
+    ],
+    "email": "json037@example.com",
+    "years_experience": 14
+  },
+  {
+    "employee_id": "JSON038",
+    "department": "Sales",
+    "skills": [
+      "AWS",
+      "C++",
+      "Linux",
+      "Deep Learning",
+      "MongoDB",
+      "Computer Vision",
+      "Docker"
+    ],
+    "email": "json038@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON039",
+    "department": "HR",
+    "skills": [
+      "Data Analysis",
+      "Project Management",
+      "TypeScript",
+      "CI/CD",
+      "Kafka",
+      "Microservices",
+      "Linux",
+      "C++"
+    ],
+    "email": "json039@example.com",
+    "years_experience": 13
+  },
+  {
+    "employee_id": "JSON040",
+    "department": "Marketing",
+    "skills": [
+      "Angular",
+      "Project Management",
+      "Microservices",
+      "PostgreSQL",
+      "GraphQL",
+      "Linux",
+      "MongoDB",
+      "Data Analysis"
+    ],
+    "email": "json040@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON041",
+    "department": "Sales",
+    "skills": [
+      "SQL",
+      "JavaScript",
+      "Agile",
+      "Git",
+      "Redis"
+    ],
+    "email": "json041@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON042",
+    "department": "Sales",
+    "skills": [
+      "REST API",
+      "MongoDB",
+      "Microservices",
+      "Linux",
+      "SQL",
+      "Java"
+    ],
+    "email": "json042@example.com",
+    "years_experience": 12
+  },
+  {
+    "employee_id": "JSON043",
+    "department": "Operations",
+    "skills": [
+      "React",
+      "Statistics",
+      "Scrum"
+    ],
+    "email": "json043@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON044",
+    "department": "IT",
+    "skills": [
+      "Data Analysis",
+      "Machine Learning",
+      "TypeScript",
+      "Python",
+      "Git",
+      "Rust"
+    ],
+    "email": "json044@example.com",
+    "years_experience": 4
+  },
+  {
+    "employee_id": "JSON045",
+    "department": "IT",
+    "skills": [
+      "Python",
+      "REST API",
+      "Scrum",
+      "Deep Learning",
+      "NLP"
+    ],
+    "email": "json045@example.com",
+    "years_experience": 12
+  },
+  {
+    "employee_id": "JSON046",
+    "department": "Finance",
+    "skills": [
+      "CI/CD",
+      "Computer Vision",
+      "Statistics",
+      "Linux",
+      "NLP",
+      "GraphQL"
+    ],
+    "email": "json046@example.com",
+    "years_experience": 2
+  },
+  {
+    "employee_id": "JSON047",
+    "department": "Operations",
+    "skills": [
+      "TypeScript",
+      "Project Management",
+      "GraphQL",
+      "Docker",
+      "Statistics"
+    ],
+    "email": "json047@example.com",
+    "years_experience": 3
+  },
+  {
+    "employee_id": "JSON048",
+    "department": "Sales",
+    "skills": [
+      "JavaScript",
+      "Redis",
+      "PostgreSQL",
+      "NLP",
+      "GraphQL"
+    ],
+    "email": "json048@example.com",
+    "years_experience": 6
+  },
+  {
+    "employee_id": "JSON049",
+    "department": "Operations",
+    "skills": [
+      "Linux",
+      "Data Analysis",
+      "GraphQL",
+      "JavaScript",
+      "Node.js",
+      "Git",
+      "Redis"
+    ],
+    "email": "json049@example.com",
+    "years_experience": 3
+  }
+]

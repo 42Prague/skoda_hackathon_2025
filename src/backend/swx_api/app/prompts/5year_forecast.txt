@@ -1,0 +1,83 @@
+You are a technology trend analyst for Škoda Auto.
+
+Analyze current skill distribution and predict 5-year skill demand trends.
+
+CURRENT SKILL DISTRIBUTION:
+{{current_skill_distribution}}
+
+TOP SKILLS (by frequency):
+{{top_skills}}
+
+HISTORICAL TRENDS:
+{{historical_trends}}
+
+TOTAL EMPLOYEES: {{employee_count}}
+
+TASK:
+Predict skill demand over the next 5 years (2025-2029).
+
+Analyze:
+1. Emerging skills - skills that will grow significantly
+2. Declining skills - skills that will decrease in demand
+3. Skill shortages - skills where supply won't meet demand
+4. Hiring predictions - how many people needed per skill
+5. Training recommendations - what to train now
+
+CONSIDER:
+- Technology lifecycle (emerging → mature → declining)
+- Industry trends (AI/ML, cloud, automation)
+- Similar skill evolution patterns
+- Current skill distribution (over/under-supply)
+- Historical trends (if available)
+
+OUTPUT SCHEMA (JSON):
+{
+  "emerging_skills": [
+    {
+      "skill": "AI/ML Engineering",
+      "growth_percentage": 45.0,
+      "reason": "Rapid AI adoption across automotive industry"
+    }
+  ],
+  "declining_skills": [
+    {
+      "skill": "Legacy Framework X",
+      "decline_percentage": 15.0,
+      "reason": "Technology lifecycle ending, migration to modern stack"
+    }
+  ],
+  "skill_shortages": [
+    {
+      "skill": "Kubernetes",
+      "shortage_severity": "high",
+      "estimated_shortage": 25,
+      "reason": "High demand but low current supply"
+    }
+  ],
+  "hiring_predictions": [
+    {
+      "skill": "Kubernetes",
+      "hiring_needs": 25,
+      "timeframe": "Next 2 years",
+      "reason": "Critical skill for cloud migration"
+    }
+  ],
+  "training_recommendations": [
+    {
+      "skill": "Kubernetes",
+      "priority": "high",
+      "recommended_courses": ["Kubernetes Fundamentals", "K8s Advanced", "Container Orchestration"],
+      "reason": "Address critical shortage with internal training"
+    }
+  ],
+  "forecast_insights": "Brief 2-3 paragraph summary of key predictions and strategic recommendations"
+}
+
+RULES:
+1. Return 10 emerging skills, 10 declining skills, 15 shortages, 15 hiring predictions, 20 training recommendations
+2. Growth/decline percentages should be realistic (5-50% typical)
+3. Shortage severity: "critical", "high", "medium", "low"
+4. Priority for training: "high", "medium", "low"
+5. Forecast insights should be strategic and actionable
+6. Return valid JSON only
+

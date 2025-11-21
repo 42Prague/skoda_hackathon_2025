@@ -1,0 +1,201 @@
+employee_id,department,skills,email,years_experience,location
+EMP000,Finance,Java,MongoDB,GraphQL,TypeScript,Docker,Angular,Kafka,Go,Statistics,PostgreSQL,emp000@example.com,7,Ostrava
+EMP001,Operations,C++,js,Rust,Scrum,Data Analysis,SQL,Vue.js,Linux,Docker,Node.js,emp001@example.com,10,Brno
+EMP002,HR,PostgreSQL,Microservices,Git,Go,Redis,NLP,Kafka,,3,Prague
+EMP003,HR,Go,react.js,Rust,C++,MongoDB,GraphQL,python,Deep Learning,Scrum,Redis,emp003@example.com,6,Ostrava
+EMP004,Operations,NLP,SQL,MongoDB,Project Management,Linux,Machine Learning,Computer Vision,JS,Data Analysis,Docker,emp004@example.com,6,
+EMP005,Marketing,Machine Learning,REST API,Computer Vision,Agile,AWS,Rust,Project Management,Deep Learning,emp005@example.com,8,Prague
+EMP006,Operations,Angular,Azure,Project Management,AWS,Deep Learning,Scrum,emp006@example.com,6,Brno
+EMP007,HR,Linux,REST API,Git,Microservices,Computer Vision,emp007@example.com,10,Brno
+EMP008,Sales,Node.js,Computer Vision,Deep Learning,Kafka,SQL,Git,TypeScript,C++,emp008@example.com,9,Brno
+EMP009,IT,Kafka,MongoDB,AWS,Deep Learning,Python3,C++,Azure,Kubernetes,SQL,Vue.js,,9,Ostrava
+EMP010,IT,Node.js,PYTHON,TypeScript,emp010@example.com,14,Prague
+EMP011,Engineering,C++,Python3,Kafka,Node.js,Go,javascript,SQL,Machine Learning,NLP,Redis,emp011@example.com,,Brno
+EMP012,Finance,MongoDB,Node.js,Deep Learning,NLP,TypeScript,GraphQL,Statistics,Computer Vision,CI/CD,react.js,emp012@example.com,15,Brno
+EMP013,Engineering,Azure,Machine Learning,Statistics,Deep Learning,PostgreSQL,Agile,Kafka,Microservices,Redis,Rust,,4,
+EMP014,Operations,Azure,Project Management,Machine Learning,Kubernetes,CI/CD,emp014@example.com,4,Prague
+EMP015,Finance,javascript,REST API,Java,Statistics,C++,Deep Learning,emp015@example.com,13,Prague
+EMP016,Sales,Angular,GraphQL,Scrum,TypeScript,python,react,Java,CI/CD,emp016@example.com,,Brno
+EMP017,IT,SQL,Data Analysis,Microservices,Redis,Node.js,Azure,Project Management,emp017@example.com,1,Ostrava
+EMP018,HR,NLP,Statistics,Redis,emp018@example.com,4,Prague
+EMP019,Operations,MongoDB,TypeScript,Node.js,Git,Scrum,emp019@example.com,6,Prague
+EMP020,HR,REST API,Git,NLP,Project Management,Redis,Statistics,Vue.js,Java,emp020@example.com,11,Prague
+EMP021,Engineering,Machine Learning,Linux,Git,Rust,Java,Scrum,emp021@example.com,9,Ostrava
+EMP022,Marketing,Azure,Go,Java,emp022@example.com,,Brno
+EMP023,Sales,REST API,Computer Vision,SQL,emp023@example.com,4,Prague
+EMP024,Finance,Kubernetes,Linux,Rust,emp024@example.com,10,Brno
+EMP025,IT,Vue.js,TypeScript,NLP,REST API,Docker,Azure,C++,Rust,emp025@example.com,3,Prague
+EMP026,Finance,Deep Learning,Kubernetes,Microservices,GraphQL,Git,Docker,Vue.js,Statistics,NLP,PostgreSQL,emp026@example.com,7,Brno
+EMP027,HR,Go,TypeScript,MongoDB,emp027@example.com,11,Brno
+EMP028,Sales,ReactJS,Agile,REST API,emp028@example.com,2,Prague
+EMP029,IT,Python,SQL,ReactJS,Kafka,emp029@example.com,7,Ostrava
+EMP030,IT,Redis,Git,TypeScript,Deep Learning,React,CI/CD,emp030@example.com,12,Brno
+EMP031,Operations,Agile,Data Analysis,Go,Java,javascript,Docker,Rust,emp031@example.com,5,Prague
+EMP032,Finance,Kubernetes,Microservices,Linux,Redis,Angular,Project Management,TypeScript,GraphQL,,4,Brno
+EMP033,Marketing,Azure,Docker,Deep Learning,Linux,Microservices,Project Management,emp033@example.com,15,Ostrava
+EMP034,Operations,GraphQL,Project Management,Kafka,React,Go,Rust,REST API,emp034@example.com,2,Ostrava
+EMP035,HR,Git,NLP,Machine Learning,emp035@example.com,10,Brno
+EMP036,Finance,Git,MongoDB,NLP,emp036@example.com,13,Prague
+EMP037,Engineering,Deep Learning,AWS,Azure,emp037@example.com,10,Prague
+EMP038,Sales,Angular,TypeScript,Computer Vision,Microservices,Git,NLP,C++,MongoDB,Azure,SQL,emp038@example.com,7,Prague
+EMP039,Finance,Data Analysis,Go,CI/CD,emp039@example.com,10,Ostrava
+EMP040,Operations,JavaScript,Vue.js,Rust,Project Management,Machine Learning,Linux,emp040@example.com,9,
+EMP041,Sales,JavaScript,Docker,Node.js,emp041@example.com,14,Ostrava
+EMP042,Sales,Java,Azure,CI/CD,MongoDB,Data Analysis,SQL,PostgreSQL,emp042@example.com,5,Brno
+EMP043,Sales,Vue.js,SQL,Kafka,Go,emp043@example.com,13,Brno
+EMP044,Operations,NLP,Node.js,Vue.js,emp044@example.com,1,Ostrava
+EMP045,Marketing,Kafka,Linux,Rust,Data Analysis,Microservices,JavaScript,Git,Node.js,Agile,emp045@example.com,1,Prague
+EMP046,IT,Scrum,react.js,PostgreSQL,Microservices,JavaScript,Rust,Java,emp046@example.com,13,Prague
+EMP047,Finance,PYTHON,Rust,Vue.js,Git,Linux,AWS,emp047@example.com,8,Prague
+EMP048,HR,Statistics,Kafka,Node.js,Rust,REST API,C++,Go,,3,Brno
+EMP049,IT,Statistics,Scrum,Docker,Python3,NLP,PostgreSQL,Deep Learning,Angular,emp049@example.com,13,Prague
+EMP050,HR,Angular,Microservices,Scrum,MongoDB,Linux,,14,Prague
+EMP051,Engineering,Scrum,Angular,Vue.js,Go,ReactJS,NLP,Computer Vision,Java,Agile,Linux,emp051@example.com,15,Ostrava
+EMP052,HR,Redis,Git,Rust,React,Node.js,NLP,Agile,Docker,Go,Data Analysis,emp052@example.com,6,
+EMP053,IT,C++,NLP,GraphQL,Docker,AWS,Java,Angular,Agile,MongoDB,Statistics,emp053@example.com,8,Brno
+EMP054,Operations,AWS,NLP,CI/CD,PostgreSQL,react.js,Redis,Rust,Kafka,Statistics,,3,Brno
+EMP055,HR,Computer Vision,Kubernetes,MongoDB,Git,Data Analysis,Go,react.js,AWS,REST API,emp055@example.com,5,Ostrava
+EMP056,Engineering,Project Management,Node.js,Angular,emp056@example.com,14,Prague
+EMP057,IT,Agile,Linux,MongoDB,REST API,AWS,Python,Vue.js,Computer Vision,Rust,Azure,emp057@example.com,11,
+EMP058,HR,SQL,Data Analysis,Node.js,Docker,CI/CD,Scrum,Vue.js,AWS,emp058@example.com,10,
+EMP059,Sales,Go,Linux,Java,Vue.js,JavaScript,emp059@example.com,13,Brno
+EMP060,Engineering,NLP,Java,Project Management,PostgreSQL,Data Analysis,Azure,Machine Learning,emp060@example.com,1,Ostrava
+EMP061,Finance,Docker,Statistics,js,emp061@example.com,9,Prague
+EMP062,Marketing,Data Analysis,TypeScript,Kafka,NLP,Microservices,Redis,Kubernetes,CI/CD,emp062@example.com,1,Prague
+EMP063,Finance,PostgreSQL,Scrum,Git,Computer Vision,Go,AWS,Rust,Kafka,Python,Vue.js,emp063@example.com,4,Prague
+EMP064,IT,Angular,Kubernetes,Vue.js,REST API,TypeScript,PostgreSQL,Node.js,Machine Learning,,15,Brno
+EMP065,Sales,TypeScript,Linux,Computer Vision,Deep Learning,emp065@example.com,7,Prague
+EMP066,IT,CI/CD,javascript,REST API,Angular,Docker,TypeScript,emp066@example.com,2,Ostrava
+EMP067,Finance,Java,Python3,NLP,SQL,Rust,Data Analysis,emp067@example.com,9,Ostrava
+EMP068,Finance,Kubernetes,Statistics,Go,Java,js,CI/CD,Deep Learning,emp068@example.com,8,Brno
+EMP069,IT,Statistics,Deep Learning,Angular,AWS,SQL,Scrum,NLP,Python3,Azure,MongoDB,emp069@example.com,7,Brno
+EMP070,HR,SQL,ReactJS,Project Management,Statistics,Rust,emp070@example.com,1,Prague
+EMP071,Operations,Kubernetes,JavaScript,GraphQL,Docker,PostgreSQL,Java,emp071@example.com,2,
+EMP072,IT,Kubernetes,REST API,Angular,Kafka,Scrum,Statistics,Agile,Azure,Data Analysis,CI/CD,emp072@example.com,13,Prague
+EMP073,IT,Agile,CI/CD,Vue.js,Node.js,emp073@example.com,7,Brno
+EMP074,Finance,Java,Agile,GraphQL,Go,Scrum,Docker,emp074@example.com,5,Ostrava
+EMP075,Engineering,javascript,Redis,Kubernetes,Data Analysis,Rust,Project Management,PostgreSQL,Microservices,emp075@example.com,14,Brno
+EMP076,Marketing,Kafka,SQL,C++,React,CI/CD,Docker,Redis,TypeScript,,14,Prague
+EMP077,Finance,Microservices,js,Angular,emp077@example.com,3,Ostrava
+EMP078,Engineering,Java,Linux,React,Redis,Computer Vision,Statistics,GraphQL,Git,Machine Learning,PostgreSQL,emp078@example.com,4,
+EMP079,IT,Redis,Go,Git,Data Analysis,Microservices,emp079@example.com,9,Prague
+EMP080,Finance,Angular,MongoDB,Statistics,Kubernetes,C++,emp080@example.com,3,Brno
+EMP081,Marketing,Kubernetes,NLP,Java,Redis,Computer Vision,emp081@example.com,7,Prague
+EMP082,IT,AWS,React,Agile,Kafka,emp082@example.com,14,
+EMP083,IT,MongoDB,PostgreSQL,Statistics,AWS,Azure,emp083@example.com,6,Prague
+EMP084,Marketing,Rust,Go,Microservices,PostgreSQL,Machine Learning,emp084@example.com,2,Prague
+EMP085,Operations,Kafka,Kubernetes,Project Management,Redis,C++,,3,Brno
+EMP086,IT,Data Analysis,NLP,TypeScript,Microservices,Deep Learning,Project Management,Git,emp086@example.com,11,Brno
+EMP087,Operations,Agile,GraphQL,Project Management,CI/CD,Microservices,emp087@example.com,3,Prague
+EMP088,Marketing,Angular,Data Analysis,Java,Deep Learning,Computer Vision,Git,Linux,Microservices,emp088@example.com,12,Ostrava
+EMP089,HR,MongoDB,Angular,AWS,,6,Ostrava
+EMP090,HR,Git,NLP,Agile,Kubernetes,SQL,Project Management,Linux,Node.js,emp090@example.com,9,Prague
+EMP091,HR,Git,Kafka,TypeScript,Statistics,Project Management,Computer Vision,AWS,emp091@example.com,9,Brno
+EMP092,Finance,Vue.js,Docker,SQL,AWS,emp092@example.com,10,Prague
+EMP093,Engineering,C++,Project Management,GraphQL,AWS,NLP,Docker,Angular,Scrum,emp093@example.com,1,Ostrava
+EMP094,Sales,Scrum,Agile,Deep Learning,JS,Computer Vision,Docker,emp094@example.com,6,Brno
+EMP095,Operations,Redis,Scrum,Agile,React,,10,
+EMP096,Sales,Kubernetes,Microservices,SQL,NLP,Agile,emp096@example.com,4,Ostrava
+EMP097,Marketing,Node.js,GraphQL,TypeScript,Azure,Kubernetes,C++,MongoDB,emp097@example.com,4,
+EMP098,HR,Redis,TypeScript,js,Docker,AWS,Machine Learning,emp098@example.com,4,Brno
+EMP099,Operations,SQL,Data Analysis,GraphQL,Node.js,emp099@example.com,3,Brno
+EMP100,Sales,NLP,Agile,js,Project Management,TypeScript,Kafka,Python3,Data Analysis,react.js,Rust,emp100@example.com,5,
+EMP101,HR,Docker,ReactJS,Redis,AWS,Machine Learning,TypeScript,GraphQL,Data Analysis,emp101@example.com,7,Brno
+EMP102,Sales,Angular,Rust,TypeScript,Vue.js,emp102@example.com,8,Prague
+EMP103,IT,REST API,Linux,MongoDB,emp103@example.com,11,Prague
+EMP104,Marketing,C++,Node.js,PostgreSQL,Python,Computer Vision,Angular,NLP,Project Management,Machine Learning,emp104@example.com,13,Brno
+EMP105,Marketing,Scrum,Git,Deep Learning,Linux,Kubernetes,Vue.js,emp105@example.com,2,Prague
+EMP106,Marketing,Azure,Vue.js,SQL,js,PostgreSQL,,2,
+EMP107,Sales,Node.js,Redis,Deep Learning,ReactJS,Computer Vision,NLP,emp107@example.com,5,Brno
+EMP108,Finance,Machine Learning,react,Project Management,Go,Node.js,JavaScript,Deep Learning,Computer Vision,emp108@example.com,5,Prague
+EMP109,Operations,Scrum,Data Analysis,js,Git,emp109@example.com,,Brno
+EMP110,Operations,Microservices,PostgreSQL,Node.js,Scrum,Kubernetes,Angular,NLP,ReactJS,Data Analysis,emp110@example.com,11,Prague
+EMP111,HR,Deep Learning,Linux,Microservices,JS,SQL,emp111@example.com,13,
+EMP112,Engineering,GraphQL,JS,Redis,Scrum,Angular,Data Analysis,Rust,Vue.js,,13,Prague
+EMP113,Marketing,Vue.js,TypeScript,Redis,PYTHON,Kubernetes,Java,Microservices,Azure,Linux,emp113@example.com,13,
+EMP114,IT,NLP,Scrum,Machine Learning,Angular,ReactJS,CI/CD,Computer Vision,Kafka,C++,Go,emp114@example.com,7,Ostrava
+EMP115,IT,Statistics,react,Docker,Kubernetes,Node.js,Computer Vision,Agile,TypeScript,emp115@example.com,7,Brno
+EMP116,IT,Scrum,Project Management,PostgreSQL,MongoDB,Git,emp116@example.com,11,
+EMP117,Marketing,C++,js,Machine Learning,emp117@example.com,3,Brno
+EMP118,IT,Go,Azure,Java,Computer Vision,emp118@example.com,15,Brno
+EMP119,IT,Project Management,Redis,JS,MongoDB,Deep Learning,emp119@example.com,15,
+EMP120,Operations,Project Management,Node.js,Rust,Vue.js,emp120@example.com,,Brno
+EMP121,IT,Machine Learning,SQL,Agile,REST API,Azure,Scrum,Go,Redis,,15,Ostrava
+EMP122,HR,GraphQL,TypeScript,Java,NLP,Go,Project Management,Vue.js,Machine Learning,emp122@example.com,13,Brno
+EMP123,Sales,AWS,Node.js,GraphQL,Git,Redis,emp123@example.com,9,
+EMP124,HR,MongoDB,GraphQL,Agile,Data Analysis,Azure,Microservices,Project Management,AWS,Deep Learning,emp124@example.com,3,Brno
+EMP125,HR,Project Management,SQL,Docker,emp125@example.com,11,Prague
+EMP126,Engineering,AWS,Go,Rust,Microservices,Redis,Java,Machine Learning,Node.js,emp126@example.com,15,Prague
+EMP127,Marketing,TypeScript,Go,Statistics,SQL,Data Analysis,Node.js,Docker,Machine Learning,emp127@example.com,1,Prague
+EMP128,IT,Computer Vision,AWS,Project Management,Rust,emp128@example.com,12,
+EMP129,Finance,NLP,Node.js,Kafka,GraphQL,emp129@example.com,,Prague
+EMP130,HR,AWS,Docker,Azure,Node.js,emp130@example.com,2,Prague
+EMP131,IT,C++,Scrum,Docker,emp131@example.com,15,Ostrava
+EMP132,Sales,Computer Vision,Kafka,TypeScript,Git,emp132@example.com,,Ostrava
+EMP133,Operations,Git,Go,Statistics,TypeScript,REST API,emp133@example.com,9,Brno
+EMP134,Operations,Java,GraphQL,Microservices,Scrum,AWS,Angular,Deep Learning,CI/CD,JavaScript,emp134@example.com,11,Prague
+EMP135,Engineering,GraphQL,REST API,Java,Vue.js,react,Python,Data Analysis,emp135@example.com,3,Brno
+EMP136,Sales,SQL,Java,Statistics,Vue.js,AWS,GraphQL,emp136@example.com,9,Brno
+EMP137,Sales,GraphQL,Go,CI/CD,Linux,Machine Learning,emp137@example.com,1,Ostrava
+EMP138,Marketing,Machine Learning,Computer Vision,Scrum,Deep Learning,Azure,emp138@example.com,13,Ostrava
+EMP139,IT,NLP,Git,Redis,Microservices,C++,Java,TypeScript,Scrum,Python,emp139@example.com,9,Brno
+EMP140,Engineering,Scrum,C++,Angular,Kafka,emp140@example.com,5,
+EMP141,IT,Deep Learning,Git,Python,C++,Machine Learning,Project Management,Rust,Kafka,emp141@example.com,14,Prague
+EMP142,Marketing,GraphQL,Git,JS,Node.js,Angular,emp142@example.com,5,Brno
+EMP143,HR,ReactJS,Kafka,Java,PostgreSQL,Data Analysis,emp143@example.com,6,
+EMP144,Engineering,Deep Learning,Machine Learning,Agile,Python3,Microservices,AWS,Project Management,ReactJS,Angular,emp144@example.com,3,Prague
+EMP145,Finance,Deep Learning,Project Management,Vue.js,Kubernetes,Git,Computer Vision,emp145@example.com,12,
+EMP146,Engineering,TypeScript,Kafka,Scrum,Go,CI/CD,React,Azure,Node.js,emp146@example.com,15,Brno
+EMP147,Engineering,Statistics,Angular,Vue.js,SQL,Azure,Python3,C++,PostgreSQL,Node.js,emp147@example.com,6,Brno
+EMP148,IT,MongoDB,Git,Computer Vision,AWS,JavaScript,Data Analysis,Rust,GraphQL,Scrum,NLP,emp148@example.com,4,Prague
+EMP149,Engineering,Java,Kafka,SQL,emp149@example.com,5,Prague
+EMP150,Sales,Azure,Java,AWS,Statistics,Data Analysis,Kafka,emp150@example.com,10,Ostrava
+EMP151,Sales,Vue.js,AWS,Machine Learning,python,MongoDB,Angular,emp151@example.com,2,Prague
+EMP152,Sales,Machine Learning,MongoDB,Azure,Kubernetes,emp152@example.com,7,Brno
+EMP153,HR,Java,Computer Vision,Rust,js,NLP,GraphQL,PYTHON,emp153@example.com,6,Prague
+EMP154,Finance,NLP,Azure,Kafka,C++,Rust,ReactJS,emp154@example.com,7,Prague
+EMP155,Operations,Git,Project Management,AWS,Machine Learning,emp155@example.com,,Brno
+EMP156,Sales,Vue.js,Computer Vision,Java,REST API,Docker,Machine Learning,C++,Azure,Data Analysis,Linux,emp156@example.com,6,Brno
+EMP157,IT,CI/CD,Vue.js,Statistics,NLP,Redis,GraphQL,JS,C++,Linux,emp157@example.com,2,Prague
+EMP158,HR,Linux,Data Analysis,GraphQL,Python,emp158@example.com,9,Prague
+EMP159,IT,GraphQL,MongoDB,Statistics,C++,Data Analysis,emp159@example.com,2,Brno
+EMP160,Marketing,Git,Rust,MongoDB,Data Analysis,Statistics,emp160@example.com,6,Prague
+EMP161,IT,Statistics,Node.js,Angular,emp161@example.com,5,Prague
+EMP162,Sales,Azure,CI/CD,Node.js,Redis,Scrum,Git,Data Analysis,emp162@example.com,4,Brno
+EMP163,Operations,Data Analysis,Deep Learning,Redis,Azure,GraphQL,Docker,Kafka,javascript,Computer Vision,emp163@example.com,9,Prague
+EMP164,Marketing,python,Linux,REST API,Project Management,emp164@example.com,5,
+EMP165,Marketing,Linux,Java,SQL,Statistics,Kubernetes,C++,Scrum,emp165@example.com,7,Brno
+EMP166,IT,Rust,Project Management,Agile,Computer Vision,AWS,REST API,MongoDB,emp166@example.com,13,Brno
+EMP167,Sales,Node.js,Kafka,javascript,Kubernetes,Microservices,Machine Learning,REST API,Deep Learning,CI/CD,,12,Prague
+EMP168,Operations,Deep Learning,Computer Vision,AWS,REST API,Project Management,Rust,Agile,emp168@example.com,15,
+EMP169,Operations,Computer Vision,Angular,SQL,Machine Learning,Deep Learning,Go,Kubernetes,REST API,emp169@example.com,2,Ostrava
+EMP170,HR,C++,Computer Vision,Docker,Vue.js,Scrum,Statistics,SQL,Java,NLP,emp170@example.com,8,
+EMP171,HR,Agile,Rust,Kafka,react.js,C++,Statistics,Node.js,Linux,NLP,emp171@example.com,6,Ostrava
+EMP172,Operations,Go,Git,JS,NLP,emp172@example.com,15,Prague
+EMP173,Operations,Vue.js,Data Analysis,Machine Learning,Deep Learning,Node.js,emp173@example.com,1,Prague
+EMP174,HR,Angular,Docker,Java,Deep Learning,Linux,Project Management,,2,
+EMP175,Marketing,Statistics,AWS,Vue.js,GraphQL,emp175@example.com,12,Prague
+EMP176,IT,Linux,Project Management,Kafka,TypeScript,emp176@example.com,11,Ostrava
+EMP177,HR,Java,NLP,Kafka,Agile,Node.js,emp177@example.com,14,Brno
+EMP178,HR,Deep Learning,Project Management,PostgreSQL,Python3,CI/CD,JavaScript,Computer Vision,Git,emp178@example.com,1,Prague
+EMP179,Sales,Kubernetes,Deep Learning,JS,Statistics,Vue.js,Redis,TypeScript,CI/CD,Docker,emp179@example.com,8,Brno
+EMP180,IT,Project Management,PostgreSQL,Node.js,AWS,Linux,Scrum,REST API,Kafka,Computer Vision,emp180@example.com,9,Brno
+EMP181,HR,AWS,Scrum,MongoDB,Deep Learning,GraphQL,Kafka,REST API,Linux,Docker,emp181@example.com,14,
+EMP182,Marketing,Azure,REST API,CI/CD,emp182@example.com,1,Prague
+EMP183,Finance,Statistics,Docker,TypeScript,GraphQL,Redis,emp183@example.com,4,Brno
+EMP184,Engineering,Statistics,Node.js,Docker,Java,Azure,Go,Project Management,TypeScript,,12,Brno
+EMP185,Engineering,Statistics,Computer Vision,Data Analysis,GraphQL,TypeScript,Deep Learning,javascript,Azure,emp185@example.com,11,Ostrava
+EMP186,Operations,Docker,Rust,Kubernetes,,11,Prague
+EMP187,Engineering,TypeScript,Scrum,AWS,emp187@example.com,5,
+EMP188,HR,Docker,Node.js,Vue.js,MongoDB,Project Management,python,Scrum,emp188@example.com,1,Prague
+EMP189,Operations,Computer Vision,react.js,Linux,Docker,emp189@example.com,8,
+EMP190,Sales,REST API,Scrum,MongoDB,AWS,emp190@example.com,1,Brno
+EMP191,HR,react,Project Management,C++,PostgreSQL,Agile,Microservices,JavaScript,NLP,Vue.js,emp191@example.com,3,Prague
+EMP192,Finance,GraphQL,Scrum,Node.js,PostgreSQL,React,Machine Learning,Statistics,Kafka,Rust,emp192@example.com,,Brno
+EMP193,IT,AWS,Project Management,GraphQL,emp193@example.com,14,Brno
+EMP194,Sales,Vue.js,AWS,JavaScript,Project Management,emp194@example.com,4,Ostrava
+EMP195,Sales,C++,MongoDB,Scrum,Linux,Statistics,Rust,SQL,,14,Ostrava
+EMP196,Operations,MongoDB,Git,C++,Kubernetes,Computer Vision,emp196@example.com,14,Brno
+EMP197,HR,Go,Machine Learning,Node.js,Kafka,emp197@example.com,13,Prague
+EMP198,Engineering,C++,Azure,Kubernetes,emp198@example.com,4,Ostrava
+EMP199,HR,Statistics,Azure,js,React,Java,emp199@example.com,9,Brno
