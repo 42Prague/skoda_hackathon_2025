@@ -1,0 +1,41 @@
+version: '3.9'
+services:
+  backend:
+    build: ./backend
+    container_name: skilldna-backend
+    environment:
+      - ALLOWED_ORIGINS=http://localhost:3000
+      - DATABASE_URL=postgresql://skilldna:skilldna@db:5432/skilldna
+      - REDIS_URL=redis://redis:6379/0
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+  frontend:
+    build: .
+    container_name: skilldna-frontend
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+  db:
+    image: postgres:16-alpine
+    container_name: skilldna-postgres
+    environment:
+      - POSTGRES_USER=skilldna
+      - POSTGRES_PASSWORD=skilldna
+      - POSTGRES_DB=skilldna
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  redis:
+    image: redis:7-alpine
+    container_name: skilldna-redis
+    command: ["redis-server","--save","","--appendonly","no"]
+    volumes:
+      - redisdata:/data
+volumes:
+  pgdata:
+  redisdata:
